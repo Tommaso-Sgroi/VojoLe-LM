@@ -1,2 +1,5 @@
 .venv
 data/fineweb2
+.git
+.gitignore
+**/*.pyc
