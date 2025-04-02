@@ -126,7 +126,7 @@ celerybeat.pid
 
 # SageMath parsed files
 *.sage.py
-data/fineweb2
+data/fineweb-2/*/*.jsonl
 proxychains.conf
 # Environments
 .env

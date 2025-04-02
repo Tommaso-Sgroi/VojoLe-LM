@@ -1,5 +1,5 @@
 .venv
-data/fineweb2
+data/fineweb-2
 .git
 .gitignore
 **/*.pyc
