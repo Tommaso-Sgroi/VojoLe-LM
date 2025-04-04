@@ -1,0 +1,188 @@
+"""
+This module simply serve multiple processes of the next text to translate.
+It simply keeps track of the next sentence.
+"""
+import mysql.connector
+from mysql.connector import IntegrityError
+from tqdm import tqdm
+
+from dataset_maker.dataset import load_dataset
+hostName = "localhost"
+serverPort = 8080
+dataset_path = './data/fineweb-2/data/ita_Latn'
+sorianese_dataset_path = './data/fineweb-2/data/sor_Latn'
+
+NOT_DONE = -1
+WORK_IN_PROGRESS = 0
+DONE = 1
+
+
+
+class Database:
+    def __init__(self):
+        self.conn = self.open_connection()
+
+
+    def open_connection(self):
+        return mysql.connector.connect(
+            host="er-sorianese",
+            port="3306",
+            user="root",
+            password="root",
+            database = "sentence_db",
+            charset='utf8mb4',  # <-- important
+            use_unicode=True,
+            autocommit=False,
+        )
+
+    def get_cursor(self):
+        return self.conn.cursor()
+
+    def create_database(self):
+        """
+        Crea un database sqlite3 a partire da uno schema di tabelle,
+        eseguendo i comandi SQL necessari.
+        """
+        schema_sql = """        
+        CREATE TABLE IF NOT EXISTS ItaSentence (
+            sentence_id CHAR(47) PRIMARY KEY,
+            sentence_text MEDIUMTEXT,
+            status int(4) DEFAULT -1,
+            time_created TIMESTAMP DEFAULT CURRENT_TIMESTAMP() 
+        );        
+        CREATE TABLE IF NOT EXISTS SorSentence (
+            sentence_id CHAR(47) PRIMARY KEY,
+            sentence_text MEDIUMTEXT
+        );
+        """
+
+        job_sql = f"""
+            CREATE EVENT IF NOT EXISTS restore_status
+            ON SCHEDULE EVERY 1 MINUTE
+            STARTS '2025-04-04 19:19:37'
+            ENABLE
+            DO
+            UPDATE ItaSentence
+            SET status = {NOT_DONE}
+            WHERE status = {WORK_IN_PROGRESS} AND time_created < DATE_SUB(NOW(), INTERVAL 1 MINUTE);
+        """
+        trigger_sql = """
+                CREATE TRIGGER IF NOT EXISTS update_items_trigger
+                BEFORE UPDATE ON ItaSentence
+                FOR EACH ROW
+                UPDATE ItaSentence SET time_created=CURRENT_TIMESTAMP()
+                WHERE NEW.sentence_id=sentence_id;"""
+        cursor = self.get_cursor()
+        try:
+            cursor.execute(schema_sql)
+            # cursor.execute(job_sql)
+            # cursor.execute(trigger_sql)
+            self.conn.commit()
+        finally:
+            cursor.close()
+            self.conn.close()
+
+        self.conn = self.open_connection()
+        # Esegui le istruzioni SQL (può contenerne più di una)
+        return self.conn
+
+    def populate_database(self, phrases: list[dict]):
+        self.conn = self.open_connection()
+        cursor = self.get_cursor()
+
+        try:
+            for p in tqdm(phrases):
+                sid, stext = p['id'], p['text']
+                cursor.execute(f"INSERT INTO ItaSentence (sentence_id, sentence_text, status) VALUES (%s, %s, {NOT_DONE})", (sid, stext))
+        except IntegrityError as e:
+            pass
+        self.conn.commit()
+
+    def get_next_item(self):
+        cursor = self.get_cursor()
+        try:
+            cursor.execute(f"SELECT sentence_id, sentence_text FROM ItaSentence WHERE status={NOT_DONE} LIMIT 1 FOR UPDATE")
+            results = cursor.fetchall()
+
+            if len(results) == 0:
+                return None
+            results = results.pop()
+
+            cursor.execute("UPDATE ItaSentence SET status=%s, time_created=CURRENT_TIMESTAMP() WHERE sentence_id=%s", (WORK_IN_PROGRESS, results[0]) )
+            self.conn.commit()
+
+            return results
+
+        except Exception as e:
+            print("Error:", e)
+            self.conn.rollback()  # rollback on error
+        finally:
+            cursor.close()
+
+    def insert_translation(self, id:str, sorianese_translation:str):
+        cursor = self.get_cursor()
+        try:
+            cursor.execute("INSERT INTO SorSentence (sentence_id, sentence_text) VALUES (%s, %s)",
+                           (id, sorianese_translation)
+                           )
+            cursor.execute(f"UPDATE ItaSentence SET status={DONE} WHERE sentence_id=%s", (id,))
+            self.conn.commit()
+        except Exception as e:
+            print("Error inserting new translation: ", e)
+        finally:
+            cursor.close()
+
+
+def schedule_item_status_reset(i: int = 1):
+    """
+    Every i minutes set all sentences that has not reached the
+    :param i:
+    :return:
+    """
+    from time import sleep
+    db = Database()
+    while True:
+        # sleep(1)
+        sleep(60*5)
+        print('5 minutes elapsed')
+        c = db.get_cursor()
+        c.execute(f"""
+                    UPDATE ItaSentence
+                    SET status={NOT_DONE}, time_created=CURRENT_TIMESTAMP()
+                    WHERE status={WORK_IN_PROGRESS} AND time_created < DATE_SUB(NOW(), INTERVAL {i} MINUTE);
+                    """)
+        db.conn.commit()
+
+
+
+if __name__ == "__main__":
+
+    import argparse
+    parser = argparse.ArgumentParser(
+        prog='db-server',
+        )
+    parser.add_argument('--create', action='store_true', help='Create the database and populate it with the dataset.')
+    parser.add_argument('--schedule', action='store_true', help='Run the module in schedule mod, every 5 minute set to NOT_DONE every job who is in WIP by 5 1 minute.')
+
+    args = parser.parse_args()
+
+    if args.schedule:
+        schedule_item_status_reset()
+
+    if args.create:
+        phrases_train, phrases_test = load_dataset(dataset_path)
+
+        phrases = phrases_test + phrases_train
+        del phrases_train, phrases_test
+
+        db = Database()
+        print("Populating DB")
+        db.create_database()
+        db.populate_database(phrases)
+
+
+
+
+
+
+
