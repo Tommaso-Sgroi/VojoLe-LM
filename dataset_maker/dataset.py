@@ -47,7 +47,7 @@ def split_dataset_train_test(dataset: list[dict[str, str]], write_dir_path: str 
 
     return dataset_train_split, dataset_test_split
 
-def load_dataset(dir_path) -> tuple[list[dict[str, str]], list[dict[str, str]]]:
+def load_dataset(dir_path: str = './data/fineweb-2/data/ita_Latn') -> tuple[list[dict[str, str]], list[dict[str, str]]]:
     """
     :param dir_path: directory path where train.jsonl and test.jsonl files are located
     :return: train and test datasets in form of list[dict[str, str]]
