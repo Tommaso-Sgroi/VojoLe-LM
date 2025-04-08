@@ -57,6 +57,11 @@ def stemming_distribution(dataset: list[str], use_tqdm=False) -> FreqDist:
 #
 #     return distribution
 
+def parse_distribution(path: str = './data/fineweb2-test-distribution.json'):
+    with open(path, 'r', encoding='utf-8') as f:
+        return json.load(f)
+
+
 
 if __name__ == '__main__':
     import argparse, json
@@ -67,7 +72,14 @@ if __name__ == '__main__':
     parser.add_argument('--delete_data', action='store_true', help='Remove all NLTK data previously downloaded and exit.')
     parser.add_argument('--skip_train_set', action='store_true', default=True, help='Skip the train set for the words frequency count.')
     parser.add_argument('--parallel', '-p', nargs='?', type=int, help='Calculate distributions in parallel.', default=0)
+    parser.add_argument('--show_n_common', '-n', nargs='?', type=int, help='Show the n most common words.', default=0)
     args = parser.parse_args()
+
+    if args.show_n_common:
+        fd = FreqDist(parse_distribution())
+        for n in fd.most_common(args.show_n_common):
+            print(n)
+        exit(0)
 
     if args.setup:
         nltk.download('punkt_tab')
