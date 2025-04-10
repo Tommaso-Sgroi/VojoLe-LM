@@ -29,38 +29,79 @@ def stemming_distribution(dataset: list[str], use_tqdm=False) -> FreqDist:
 
     # tokenized_dataset = tokenizer.tokenize_sents(dataset)
     stemmer = nltk.stem.SnowballStemmer(language='italian')
-    for sentence in tqdm(dataset) if use_tqdm else dataset:
+    for sentence in tqdm(dataset, desc='Calculating stems distribution') if use_tqdm else dataset:
         # sentence = id_sentence
         sentence = clean_text(sentence)
         word_tokens = word_tokenize(sentence, language='italian')
-        for i in range(len(word_tokens)):
-            token_stem = stemmer.stem(word_tokens[i])
-            word_tokens[i] = token_stem
-            # increment the found token of 1
+
+        word_tokens = [stemmer.stem(wt) for wt in word_tokens]
         frequency_distribution.update(word_tokens)
     return frequency_distribution
 
-# def lemmas_distribution(dataset: list[str], use_tqdm=False):
-#     distribution = dict()
-#     for sentence in tqdm(dataset) if use_tqdm else dataset:
-#         # sentence = id_sentence
-#         sentence = clean_text(sentence)
-#         tokenized_text = word_tokenize(sentence, language='italian')
-#         tokens_tag = pos_tag(tokenized_text, lang='ita')
-#         pass
-#         for i in range(len(word_tokens)):
-#             token_stem = stemmer.stem(word_tokens[i])
-#             word_tokens[i] = token_stem
-#
-#             distribution[token_stem] = 1 + distribution.get(token_stem, 0)
-#             # increment the found token of 1
-#
-#     return distribution
+def lemmas_distribution(dataset: list[str], use_tqdm=False):
+    import spacy
+    frequency_distribution = FreqDist()
+    lemmatizer = spacy.load("it_core_news_lg")
+    for sentence in tqdm(dataset, desc='Calculating lemmas distribution') if use_tqdm else dataset:
+        # sentence = clean_text(sentence)
+        sentence = sentence.lower()
+        doc = lemmatizer(sentence)
+        tokens = [clean_text(token.lemma_) for token in doc
+                  if token.pos_ != 'PUNCT'
+                  and token.text not in italian_stopwords
+                  and ' ' not in token.lemma_
+                  and clean_text(token.lemma_) != ''
+                  ]
+        # for token in doc:
+        #     if token.pos_ != 'PUNCT' and token.text not in italian_stopwords:
+        #         tokens.append(token.lemma_)
+        #         # print(token.text, token.lemma_, token.pos_)
+        frequency_distribution.update(tokens)
+    return frequency_distribution
 
 def parse_distribution(path: str = './data/fineweb2-test-distribution.json'):
     with open(path, 'r', encoding='utf-8') as f:
         return json.load(f)
 
+
+def _calculate_distribution(distribution_function, dataset, args) -> FreqDist:
+    frequency_dist = FreqDist()
+    if args.parallel >= 1:
+        # for some reason is slower than single core
+        m_results = process_map(distribution_function, dataset, max_workers=args.parallel, miniters=1000)
+
+        # merge results
+        print('Merging test results')
+
+        for d in tqdm(m_results):
+            frequency_dist.update(d)
+    else:
+        frequency_dist = distribution_function(dataset, True)
+
+        if not args.skip_train_set:
+            stream = get_dataset_stream(TRAIN_SPLIT)
+
+            dataset.clear()
+            chunk_size = 50_000
+            i = 1
+            for entry in tqdm(stream, desc='Preparing chunk...', miniters=1):
+                dataset.append(entry['text'])
+                if not (i % chunk_size):  # chunk size reached
+                    f = distribution_function(dataset, True)
+                    frequency_dist.update(f)
+                i += 1
+            else:
+                # if for loop ends without reaching the chunk size
+                f = distribution_function(dataset, True)
+                frequency_dist.update(f)
+    return frequency_dist
+
+
+def stemming(dataset, args):
+    return _calculate_distribution(stemming_distribution, dataset, args)
+
+def lemmatize(dataset, args):
+    return _calculate_distribution(lemmas_distribution, dataset, args)
 
 
 if __name__ == '__main__':
@@ -71,6 +112,8 @@ if __name__ == '__main__':
     parser.add_argument('--setup', action='store_true', help='Run nltk.download(\'all\' and exit.')
     parser.add_argument('--delete_data', action='store_true', help='Remove all NLTK data previously downloaded and exit.')
     parser.add_argument('--skip_train_set', action='store_true', default=True, help='Skip the train set for the words frequency count.')
+    parser.add_argument('--stem_distribution', action='store_true', default=False, help='Calculate the stems distribution and save it to disk.')
+    parser.add_argument('--lemma_distribution', action='store_true', default=False, help='Calculate the lemmas distribution and save it to disk.')
     parser.add_argument('--parallel', '-p', nargs='?', type=int, help='Calculate distributions in parallel.', default=0)
     parser.add_argument('--show_n_common', '-n', nargs='?', type=int, help='Show the n most common words.', default=0)
     args = parser.parse_args()
@@ -82,6 +125,7 @@ if __name__ == '__main__':
         exit(0)
 
     if args.setup:
+        # run python -m spacy download it_core_news_lg # TODO
         nltk.download('punkt_tab')
         nltk.download('stopwords')
         print('Additional resources downloaded')
@@ -101,44 +145,22 @@ if __name__ == '__main__':
 
     # del d
     print('processing')
-    frequency_dist = FreqDist()
-    if args.parallel >= 1:
-        # for some reason is slower than single core
-        m_results = process_map(stemming_distribution, dataset, max_workers=args.parallel, miniters=1000)
+    if args.stem_distribution:
+        stemming_frequency = stemming(dataset, args)
+        with open('./data/stemming-fineweb2-test-distribution.json', 'w', encoding='utf-8') as f:
+            json.dump({k:v for k, v in stemming_frequency.items()}, f) # convert in raw dict and store results
+        # print top 10 tokens
+        print('_'*10, 'TOP 10 STEMS', '_'*10)
+        print(stemming_frequency.most_common(10))
 
-        # merge results
-        print('Merging test results')
+    if args.lemma_distribution:
+        lemmatize_frequency = lemmatize(dataset, args)
+        with open('./data/lemmatize-fineweb2-test-distribution.json', 'w', encoding='utf-8') as f:
+            json.dump({k: v for k, v in lemmatize_frequency.items()}, f)  # convert in raw dict and store results
+        # print top 10 tokens
+        print('_'*10, 'TOP 10 LEMMAS', '_'*10)
+        print(lemmatize_frequency.most_common(10))
 
-        for d in tqdm(m_results):
-            frequency_dist.update(d)
-    else:
-        frequency_dist = stemming_distribution(dataset, True)
-
-        if not args.skip_train_set:
-            stream = get_dataset_stream(TRAIN_SPLIT)
-
-            dataset.clear()
-            chunk_size = 50_000
-            i = 1
-            for entry in tqdm(stream, desc='Preparing chunk...', miniters=1):
-                dataset.append(entry['text'])
-                if not (i % chunk_size): # chunk size reached
-                    f = stemming_distribution(dataset, True)
-                    frequency_dist.update(f)
-                    dataset.clear()
-                i += 1
-            else:
-                # if for loop ends without reaching the chunk size
-                f = stemming_distribution(dataset, True)
-                frequency_dist.update(f)
-                dataset.clear()
-
-
-    with open('./data/fineweb2-test-distribution.json', 'w', encoding='utf-8') as f:
-        json.dump({k:v for k, v in frequency_dist.items()}, f) # convert in raw dict and store results
-
-    # print top 10 tokens
-    print(frequency_dist.most_common(10))
 
 
 
