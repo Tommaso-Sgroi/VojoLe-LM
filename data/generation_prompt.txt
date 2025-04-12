@@ -1,5 +1,49 @@
-In seguito vi è il dizionario delle parole del dialetto sorianese, un dialetto italiano.
-Il tuo compito è quello di tradurre le frasi che ti proporrò da italiano a dialetto sorianese.
+> Agisci come un traduttore specializzato. Il tuo compito consiste nel tradurre ogni frase dall'italiano alla lingua indicata (dialetto o idioma specifico), utilizzando **esclusivamente le risorse fornite**: un **dizionario terminologico** e una **raccolta di esempi poetici/testuali**.
+>
+> Per ciascuna frase, restituisci **unicamente** un oggetto JSON con questa struttura:
+>
+> ```json
+> {"translation": "testo tradotto qui"}
+> ```
+>
+> ### Regole da seguire con assoluta precisione:
+> 1. **Utilizza solo i termini e le espressioni presenti nel dizionario e negli esempi**, senza introdurre neologismi o interpretazioni personali.
+> 2. **Mantieni inalterato il significato, il tono e lo stile** del testo originale italiano.
+> 3. **Non fornire spiegazioni, note, commenti o testo aggiuntivo** al di fuori dell'oggetto JSON richiesto.
+> 4. **Rispondi esclusivamente con l'oggetto JSON** avente la sola chiave `"translation"`.
+> 5. Se una parola non è presente nel dizionario, cerca di parafrasarla (o usare sinonimi) usando termini **documentati** negli esempi testuali.
+> 6. Modifica la forma della frase se necessario, per adattarla alla sintassi e alla morfologia della lingua in questione.
+>
+> Hai a disposizione:
+> - Un dizionario dettagliato di termini dialettali/locali.
+> - Esempi di poesie e racconti in lingua tradotta, da usare come riferimento stilistico.
+>
+> **Esempio operativo**:
+>
+> - Input:
+> ```
+> I cookie sono piccole porzioni di dati che vengono memorizzate e utilizzate per migliorare l’esperienza di utilizzo di un sito.
+> Ad esempio possono ricordare temporaneamente le tue preferenze di navigazione per evitarti di selezionare tutte le volte la lingua, rendendo quindi le visite successive più comode e intuitive.
+> Oppure possono servire per fare dei “sondaggi anonimi” su come gli utenti navigano attraverso il sito, in modo da poterlo poi migliorare partendo da dati reali.
+> Se si desidera disabilitare l’uso dei cookie è necessario personalizzare le impostazioni del proprio computer impostando la cancellazione di tutti i cookie o attivando un messaggio di avviso quando i cookie vengono memorizzati. Per procedere senza modificare l’applicazione dei cookie è sufficiente continuare con la navigazione.
+> I cookie sono dati salvati in forma testuale nella forma “variabile=valore” (esempio: “dataAccessoSito=2014-01-20,14:23:15″). Questi dati possono essere letti solamente dal sito che li ha generati, e in molti casi hanno una data di scadenza, oltre la quale il browser li cancellerà automaticamente.
+> Non tutti i cookie vengono utilizzati per lo stesso scopo: di seguito verranno specificate le diverse tipologie di cookie utilizzati da questo sito web.
+> Questi cookie sono essenziali al fine di consentire di spostarsi in tutto il sito ed utilizzare a pieno le sue caratteristiche. Senza questi cookie alcuni servizi non potranno funzionare correttamente.
+> Questi cookie raccolgono informazioni su come gli utenti utilizzano un sito web, ma non memorizzano informazioni che identificano un visitatore. Questi cookie vengono utilizzati solo per migliorare il funzionamento del sito web.
+> Utilizzando il sito l’utente accetta che tali cookie possono essere memorizzati sul proprio dispositivo.
+> I cookie consentono al sito di ricordare le scelte fatte dall’utente (come la lingua o altre impostazioni speciali eventualmente disponibili) e forniscono funzionalità avanzate personalizzate, e possono anche essere utilizzati per fornire i servizi richiesti. Utilizzando il sito l’utente accetta che tali cookie possono essere memorizzati sul proprio dispositivo.
+> Il consenso per l’utilizzo dei vari cookie tecnici elencati s’intende accordato anche in modo implicito se l’utente prosegue la sua navigazione su questo sito web come anche i cookie di statistica.
+> La maggior parte dei browser accetta automaticamente i cookie, ma l’utente può modificare le impostazioni per disabilitare tale funzione. È possibile bloccare tutte le tipologie di cookie, oppure accettare di riceverne soltanto alcuni e disabilitarne altri. La sezione “Opzioni” o “Preferenze” nel menu del browser permettono di evitare di ricevere cookie o altre tecnologie di tracciamento utente e come ottenere notifica dal browser dell’attivazione di queste tecnologie.
+> Ricordiamo però che la disabilitazione dei cookie tecnici potrebbe limitare la possibilità di usare questo sito web e impedire di beneficiare in pieno delle funzionalità e dei servizi presenti.
+> Provvedimento del Garante per la Privacy dell’8 maggio 2014, pubblicato sulla Gazzetta Ufficiale n. 126 del 3 giugno consultabile all’indirizzo: www.garanteprivacy.it
+> ```
+> - Output:
+> ```json
+> {"translation": "I cookie so' piccole porzioni de dati che s'arimano e s'usanno pe' fà mejo l'esperienza de usà 'n sito. Pe' esempio, ponno aricordà pe' 'n po' le preferenze tue de navigà, evitanno de scegne ogni vorda la lingua, facenno le visite appresso più comode. O pure ponno servì pe' fà 'domande senza nomi' su comme la ggente naviga, pe' migliurà 'sto sito partenno da dati veri. Si te vole disabbilità l'uso de li cookie, te tocca personalizzà le impostazioni d'u computer tojo, mettenno de scancellà tutti li cookie o attivà 'n messaggio quanno se mettono. Pe' seguità senza cangià nente, basta seguità a navigà. Li cookie so' dati salvati in forma testuale comme 'variabbile=valore' (tipo 'dataAccessoSito=2014-01-20,14:23:15'). Ste dati ponno leggerli solo 'sto sito che l'ha fatti, e spesso c'hanno 'na data de scadenza, doppo che 'l browser li scancella da sé. Nun tutti li cookie servono pe' lo stesso scopo: ccqua sotto se spiegano le varie sorte. Sti cookie so' necessari pe' poté navigà dappertutto e usà tutte le funzioni. Senza, certi servizi nun fonzionano. Sti cookie ariccojono info su comme la ggente usa 'sto sito, ma nun registrano nomi. Serveno solo pe' migliurà 'l sito. Usannolo, l'utente accetta che ste cookie se mettino. Li cookie permettono ar sito de aricordà le scelte tue (lingua o impostazioni) e danno funzioni personalizzate. Usannolo, l'utente accetta. 'U consenso pe' li cookie tecnici se dà automatico si te seguiti a navigà, pure pe' quelli de statistica. A majjà parte de li browser accetta li cookie da sé, ma te poi cangià le impostazioni pe' disabbilitalli. Te blocchi tutti o solo certi. Nelle 'opzioni' o 'preferenze' d'u browser trovi comme fà. Ma attento: disabbilità li cookie tecnici te po' limità l'uso d'sto sito e nun te lassa godé tutte le funzioni. Provvedimento d'u Garante pe' la Privacy d'u 8 maggio 2014, pubbrecato sulla Gazzetta Ufficiale n. 126 d'u 3 giugno, leggetelo a 'www.garanteprivacy.it'."}
+> ```
+
+DIZIONARIO:
+
 ```
 A BEA! : A bere! (Quasi a dire: ti ho impressionato, ti sei spaventato. Bevi che ti passa la paura).
 A PO' : Ormai. (A po' che ce semo = dal momento che chi siamo); anche DA PO'.
@@ -1307,10 +1351,376 @@ ZOMPA' : Saltare (Nu'zzompassi = Non saltare).
 ZUCCAROTTO : Zuccone (v. anche CAPOCCIONE).
 ```
 
+POESIE/RACCONTI:
 
-Di seguito trovi degli esempi di come deve essere strutturata la tua risposta, e devi seguire precisamente questo schema:
 ```
-{"original": "Andiamo in campagna velocemente!", "translation": "Imo jo de la vigna sverti!"}
+NUI
+
+Pennazza ll' ha co' Ercole e co' Ggiano;
+i' zzor Achille parla d' i Rromani:
+jè 'no 'mbrojo la Storia de Suriano,
+' pure, ajo letto libbaruni sani!...
+
+Ma che 'mportanza ci'à la discendenza?
+I' zzito è bello ... i' ll' aria d' i' Ccimino
+j'è la carezza de la Pruvidenza...
+Liggera è i' ll' acqua ... generoso i' vvino!...
+
+Nui sì, semo 'nvidiusi, chiacchiaruni,
+ce sà bbono lo spasso, i' mmagnà e bbèa;
+nun ce va jò la parte d' i ffrignuni.
+
+Si quistionamo, èmo da èssa 'ntisi;
+più ch' amprestà, ta nnui ce piace chjèa...
+Semo fatti accussì nui zurianisi!...
+
+ANGELO REALI
+
+SOTT'ILL'ERGE DE S.UTIZIO
+
+A ffresco soott'i'll'erge,verso sera,
+m'affisso a rimirà Suriano mia.
+Quante memorie,quanta poesia
+'ste quattro case, cò la rocca fiera!...
+
+Nun te pare 'na locca, che la schiera
+d'i ppucini protegge?.... Caccio via
+ogni addro sogno de la fantasia!...
+guardo d'i'zole la lucente sfera
+
+che,quann'è ì'll'ora "che volge il disio"
+scegne comme 'na ruzzola de foco
+sotto Monte Turello e Rocchiddio.
+
+Me stregne i'ccore la malincunìa!
+de sant'utizio vene un sono fioco:
+e' i'ttocco dorge d'i'll'avemmaria.
+
+Angelo Reali
+
+PAPACQUA
+
+Vecchia Papacqua mia, nun zì più quella
+che, lontano, ho sognato pe' tand' anni;
+dò, da ciuco, giocavo a squizzarella
+e me cci' arfracicavo tutt' i ppanni
+
+Speravo de trovatte tale e quale,
+quanno, a mmerenna, cento bianche fette,
+co' i ppummedori cervi, a pepe e sale,
+stavin' a mmollo rendo le vaschjette.
+
+Caravino vinniva la gazzosa;
+sporgenno un luffo, p' appoggià la brocca,
+'che mmunella faciva la smorfiosa ...
+
+Si s' arenviscitasse un' ora sola,
+poro nonno Peppone, sa' che bbocca
+farèbbe a ved' a ffresco i' ... Coca-Cola!...
+
+(Angelo Reali)
+
+INVERNO
+Tutta la notte pè le via ha fioccato,
+Suriano è corgo sott'un gran mantello
+e tira un vento freddo, 'ndiavolato:
+'n c'e' caso de vede' volà un uccello
+
+l'ggelo de stamane ha 'mbrillantato
+la corona de merli d'i'ccastello;
+de pizzarulli, a mazzi,ha smerlettato
+le fontane da frio: je proprio bello!....
+
+dèrèto la finestra,ch'arecamo
+co'i'ffiato che s'aggela,guardo fora:
+veggo i'll'arbiri 'gnudi,'ntisichiti.
+
+de fo' gni tanto vene su un richiamo,
+un trillo disperato che addolora:
+so' i'll'ucelli affamati e spauriti.
+
+(Angelo Reali)
+
+I’ QUATTRO CANTUNI
+
+Arevajo distì, jò pe la via
+do’ le sere ‘ill’ estate, nui munelli,
+giocamma i’ ggioco di’ quattro cantuni.
+Chill’ occhi birbi e chi’ rriflessi prundi
+currèmma svirdi pe’ cambiacce i’ pposti,
+senza facce fregàe
+da chi i’ ccantone s’ év’e’ procuràe
+e rièmma più forte si chiduno
+‘gniva a picchià chi’ ccapo addoss’ i’ mmuro.
+… po’, su i’ ppiù bbello, addevendava scuro …
+e trista ce paréa la voce i’ cchiamo:
+“E’ or’ e’ cena … oh fi, spiccete, ‘gnamo!”
+
+Lundano è i’ ttembo de la scena cchie!
+Ma nun jè mai finito i’ ggioco stie,
+chè più vai annanse e più si sbadocchiato
+la ppe’ tutt’ i ccantuni.
+E ill’ urdimo cantone è sempre pejo
+de quell’ardro de prima,
+tussì nun vidi ill’ ora de mutàe,
+pure si penzi e’ curra di’ ppiricolo
+de sbatta i’ ccapo forte addoss’ i’ mmuro.
+
+Ma, a la fine, saristi ben contento
+de campà ‘n pace di’ ttu cantuncello
+chi’ rriflessi te se so’ ‘n po’ appannati
+e la forza e’ ‘na vorda jè scemata.
+
+Ma se fa bujo, è sera …
+e, tristo e punduale, arriv’ i’ cchiamo:
+“E’ giunt’ ill’ ora … oh fi’, spiccete, ‘gnamo”
+
+(Ezio Urbani)
+
+LA LENGUA DE LA SOCERA
+
+Stasera mà quanno che s' ito a casa,
+ho trovato l' Arinetta rento 'i letto;
+sta male, cià la frèe, antro ch' annasa
+e cià la panza gonfia insino i petto.
+
+Nu' m'à potuto fa manco la cena,
+me so magnato 'n bocconaccio sciucco,
+che nu' me gnava jò de quant' ò pena!
+eppure ciò 'na fame che 'ntralucco.
+
+Dimane a lavorà nu' je la faccio ...
+ce scrolli 'i capo mà, che nu' t sona?
+vojo mannà le cose ... jo a casaccio.
+
+Ma che stamale, quanto sì cretino!
+sta male si, sta male puttanona
+cià rento i' corpo 'n fiasco e più de vino!
+
+(Pietro Fucci)
+
+(I'ppunto de vista d'i'll'addri)
+
+Fimmina?!...Pussa via!...Signore mio!...
+jè quanto c'e de pejo su 'sta sfera;
+jè sempre 'na ruìna e chi cce spera
+ce sbatte i'mmuso,quand'e vero Ddio!...
+
+Si ci'ài scialato un po', poi paghi i'ffio.
+P'i'llommini è un castigo,...la galera!...
+Mucci,quanno cò grazia e cò maniera
+te stroliga e te 'nganda,amico mio!...
+
+Dimme la verità,a cuscienzatua:
+si nui t'i'mmonno patoscìmo i gguai,
+n'e, de riffe o de raffe,corba sua?...
+
+Trova i'mmodo de datte sempre pene.
+Si nun fusse...la cosa che tu ssai
+pijasse 'n gorbo a chi ji' ddice bene!...
+
+Reali.
+
+ROTTEZZIA
+
+Che sso’ vvinuto a ffà, chi mmà chiamato
+tramezz’ i’ mmuri de sta acchiesa antica,
+do nun c’ è quèlle che che ni’ jè scarcato,
+do nasce solo i’ rroto ch’ i’ ll’ urtica?
+
+La Ternità d’ i ttempi ormai passati,
+c’ era un convento e cc’ era pure ‘n zanto,
+ma mmo, du’ bbuchi fonni scoperchiati
+mostrino i’ ll’ ossi, pare i’ ccamposanto.
+
+Quante capocce a bbocca spalancata!
+Me guardino rienno, gialle ggialle …
+Me sento da’, de bbotto ‘na strattata,
+me sento spegne forte pe’ le spalle.
+
+Rento la macchia … e, ppo’ rento ‘na rotte
+longa, profonda, che nun c’ è la fine
+più bbuja, ancò, d’ i’ bbujo de la notte;
+le nnottole me volino vicine.
+
+Ma mmo, ‘llajò tramezz’ i’ bbujo fonno,
+vedo u’ llustrore che sse smove piano;
+pare e nun pare …Si jè ‘n coso tonno
+che vvedo sempre mejo, ammano ammano:
+
+la locca ch’ i ppucini , tutti d’ oro!!
+I’ ll’ ale arzate, i’ bbecco spalancato,
+principino a strillà , te fanno un coro
+da fatte chê dillì mezz’ intronato
+
+Sempre a strillà ppiù forte … e mmo i’ rrumore
+rentrona cupo, jè na cannonata!
+La rotte trema! Me se fèrma i’ ccore,
+la rotte, tutt’ un botto, s’ è scarcata!
+
+M’ arisbejà de storzo, senza fiato,
+mezzo cùto d’ i’ lletto … àvo sognato
+
+(Domenico Patrizi)
+
+I' LL' OROLOGGIO CH' I' CCUCULO
+
+I' ggiocarello stì jè 'n gran tormento!
+si tte fanno le f...gne, o tte va bbona,
+te segna i' ll' ora e ppo', dopp' u' mmomento
+scappa fora 'n ucèllo e tte c...na.
+
+Te c...na, cumpà, tutto cuntento
+cu 'na vocetta che 'gni tanto stona;
+doppo cantato mucce comm' i' vvento
+p' arefacce ppiù llà. Nun t' abbandona.
+
+Jer' a ssera penzavo, moco moco,
+ta la vita passata e cche vverrà ...
+tante cose sbanite a ppoco a ppoco ...
+
+Sta pe' passà 'n andranno e ... nun c' è ppiù ...
+I' ll' anno novo che mme portarà?
+Sorte i' ll' ucello e ccanta un ber cuccù.
+
+(Domenico Patrizi)
+
+‘Na vorda
+
+M’ aricordo quann’ ero munello,
+che d' i' mmonte gnavo ch’ i’ nnonno,
+e adesso dì nun me pònno
+che i’ mmonno s’è fatto più bello.
+
+Io ciuco, esso vecchio,
+la merenna rento la catana,
+pe’ bèa ill’ acqua de la funtana
+e la vita era ‘no specchio.
+
+De ‘nguattuni de la nonna e la zia
+i’ zzigaro je gnavo a cumprà,
+che, poretto, lo putiva fumà
+solo quanno scappamma via.
+
+Quante bestie da soma e da tiro
+c’ erino i’ ttempo lì a Soriano,
+ma i’ zzomaro de nome Armano …
+si ce penzo ancò suspiro.
+
+Quanno po’ i’ nnonno morètte,
+dunca tanto tempo fa,
+ancò adesso nun ce posso penzà,
+che bell’ epoca me se chiuètte.
+
+Sò passati orammà troppi anni
+e i’ mmonno me se fa foristiero,
+m’ è rimasto solo i’ ppenziero
+e me so cresciuti ill’ affanni.
+
+Prima o po’ ce tocca da tutti
+de passà da quell’ addra parte,
+spero solo de fallo co’ arte
+senza lascià ricordi brutti.
+
+
+(ill’ aquila)
+
+
+LA MANNARA
+
+Sinente li scalini d' i' ll' acchiesa
+arebbolle la folla e ffa cagnara
+comm' i' ll' acqua che manna la pienara.
+
+Sopre lo spiazzo, granne a ttesta ritta,
+('no spiazzo vòto, che tte pare n' ara)
+un bocco roscio, un ceppo, una mannara.
+
+Se spanne 'n zono de campane a mmorto,
+'na pritissione ècchila che vvène
+assieme c' u' rrumore de catene.
+
+S' arza 'na croce sopra 'n corpo corgo,
+e te la luce che ppiù ppoco brilla
+rabbia de core ta 'gni bocca strilla.
+
+Luccica la mannara p' u' mmomento,
+truzzola li scalini 'na capoccia
+i' cceppo spanne sangue, goccia a goccia.
+
+(Domenico Patrizi)
+
+
+PAPACQUA DE UNA VORDA
+
+UNA VORDA SI CHE SE SCIALAVA A PAPACQUA
+C'E' SE FACIVINO LE SCOCOMMERATE
+SE GIOCAVA A GAVETTUNI;
+POI DE CORSA A CASA! A SINTI LI STRILLI DE LA MATE.
+
+MO A VEDELLA A QUELLA MO, MI PIA LA MALINCUNIA
+E QUASE ME CE VENE DA PIAGNE
+TUTTI I RUI, LE FRASCHE,
+I PALAZZO 'CAE A PEZZI,
+DE LE FUNTANE NUN SE RENTA PIU'.
+
+I MUNELLI SO CAMBIATI!!!
+MO PE' GIOCHA' JE BASTA UNA PLAYSTATION,
+E TUTTO E RISORDO'
+MO QUANNO QUISTI DIVENTINO GRANNI
+CHE C'AVRANNO DA RECCONTAIE DI FIJI
+CHE GOKU E PIU' FORTE DE VEGGETA.
+
+PORA PAPACQUA MIA CHI TA CONOSCUTO T'APPREZZA
+PE L'ANDRI E SOLO UN ANTRO RUDERE A SORIANO
+
+SPADACCINISORIANO
+
+SUPPE'LA ROCCA
+
+DA MUNELLO SE GIOCAVA DI PIAZZALETTO DI VICINATO,
+CE' SE NVENTAVA DE TUTTO; SE JOCAVA A LA GUERRA,
+LO SCHIOPETTO ERA FATTO FRECANNO CHE PEZZETTO CA' E LA'
+LA TAVOLETTA DI FALEGNAME,LA MOLLETTA DE LA MATE',
+ILLELASTICHITTI DI FRUTTAROLO
+E PE' FINI LE SEMENZE DI CARZOLARO,
+PO' VIA A CURRISE A PRESSO LAPPE I VICULITTI DE LA ROCCA.
+
+OPPURE QUANNO NUN CERA' FANTASIA DE CURRA
+SE METTEMMA DENANZI SANTUTIZIO A GIOCA' A TAPPITTI,
+TANTO CERA' I BARRE VICINO, E TAPPI NUN MANCAVINO
+QUANTO SE SCIALAVA!!!
+
+MO LA ROCCA E DISSABBITATA CE' SO QUATTRO MICI,
+NUN SE SENTE PIU' LA PIPINARA
+A PENSACCE ME CE SENTO MALE
+E ME DICO SO TEMPI PASSATI CHE NUN VENGINO PIU'
+DE LA ROCCA CE' RIMASTA SOLO LA MONNEZZA.....
+
+SPADACCINISORIANO
+
+
+LA VECCHIA D'I' CCARNAJOLO
+
+franciottola surianese d'i' quinnicesimo secolo parte 1
+
+Lassu' d'i' mmonte,un po piu' jo d'i' ffai
+sfruttanno un zeccatoro pe' ccasetta,
+s'era areddutt'a vviva 'na vecchijetta,
+che t'i' ppaese nu' scigniva mmai.
+
+S'era 'nzervatichita a forz'e guai;
+campava aremedianno checosetta,
+in cambio de ramaja e de tacchietta.
+De ggente l'ancontrava poc'assai,
+
+e quella po',vedennola,mucciva,
+facennuj le corna e li scungiuri:
+buttava i'll'occhiaticcio....se ddiciva!...
+
+Patisciva la vecchja!...e t'i'' zignore,
+che nun j'ava ammannito che duluri,
+chjiva solo d'accurtaje i'll'ore.
 ```
 
-Cominciamo da questa frase:
+Iniziamo da questo testo:

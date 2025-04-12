@@ -38,26 +38,27 @@ def stemming_distribution(dataset: list[str], use_tqdm=False) -> FreqDist:
         frequency_distribution.update(word_tokens)
     return frequency_distribution
 
-def lemmas_distribution(dataset: list[str], use_tqdm=False):
+def lemmas_distribution(dataset: list[str], use_tqdm=False, n_process=1) -> FreqDist:
     import spacy
     frequency_distribution = FreqDist()
     lemmatizer = spacy.load("it_core_news_lg")
-    for sentence in tqdm(dataset, desc='Calculating lemmas distribution') if use_tqdm else dataset:
-        # sentence = clean_text(sentence)
-        sentence = sentence.lower()
-        doc = lemmatizer(sentence)
+
+    iterator = lemmatizer.pipe(dataset, batch_size=64, n_process=n_process)
+
+    if use_tqdm:
+        iterator = tqdm(iterator, desc='Calculating lemmas distribution', total=len(dataset))
+
+    for doc in iterator:
         tokens = [clean_text(token.lemma_) for token in doc
                   if token.pos_ != 'PUNCT'
                   and token.text not in italian_stopwords
                   and ' ' not in token.lemma_
                   and clean_text(token.lemma_) != ''
                   ]
-        # for token in doc:
-        #     if token.pos_ != 'PUNCT' and token.text not in italian_stopwords:
-        #         tokens.append(token.lemma_)
-        #         # print(token.text, token.lemma_, token.pos_)
         frequency_distribution.update(tokens)
+
     return frequency_distribution
+
 
 def parse_distribution(path: str = './data/fineweb2-test-distribution.json'):
     with open(path, 'r', encoding='utf-8') as f:
@@ -76,7 +77,7 @@ def _calculate_distribution(distribution_function, dataset, args) -> FreqDist:
         for d in tqdm(m_results):
             frequency_dist.update(d)
     else:
-        frequency_dist = distribution_function(dataset, True)
+        frequency_dist = distribution_function(dataset, True, n_process=args.parallel)
 
         if not args.skip_train_set:
             stream = get_dataset_stream(TRAIN_SPLIT)
