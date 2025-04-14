@@ -75,7 +75,7 @@ def main():
             else:
                 f.write(f"{word}\t{word}\tO\n")
 
-    with open("../data/italian_vocabulary.txt", "w", encoding="utf-8") as f:
+    with open("../data/output/subset/italian_vocabulary.txt", "w", encoding="utf-8") as f:
         for lemma in sorted(lemmas_set):
             f.write(f"{lemma}\n")
 

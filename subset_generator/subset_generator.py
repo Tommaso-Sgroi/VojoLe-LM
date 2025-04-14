@@ -12,7 +12,7 @@ from sentence_transformers import SentenceTransformer, util
 from tqdm import tqdm
 
 # === Config ===
-SUBSET_SIZE = 2000
+SUBSET_SIZE = 3000
 SIMILARITY_THRESHOLD = 0.85
 LANG = "italian"
 MAX_WORKERS = 8
@@ -21,8 +21,8 @@ dataset = load_dataset("gsarti/clean_mc4_it", name="tiny", split="validation", s
 
 # === Paths ===
 TINT_URL = "http://localhost:8012/tint?pipeline=tint"
-DISTRIBUTION_PATH = "../data/lemma_distribution-clean_mc4_it_tiny_validation.json"
-VOCAB_PATH = "../data/italian_vocabulary.txt"
+DISTRIBUTION_PATH = "../data/output/subset/lemma_distribution-clean_mc4_it_tiny_validation.json"
+VOCAB_PATH = "../data/output/subset/italian_vocabulary.txt"
 OUTPUT_BASE_DIR = "../data/output/subset"
 
 # === Setup ===
