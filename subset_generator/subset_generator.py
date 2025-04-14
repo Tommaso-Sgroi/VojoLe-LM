@@ -53,7 +53,6 @@ def get_lemma_distribution(path):
         return distribution
 
 
-# Funzione unificata per processare il testo: estrazione frasi e lemmatizzazione in un'unica chiamata
 def process_text_with_tint(text):
     try:
         response = requests.post(
@@ -66,14 +65,11 @@ def process_text_with_tint(text):
             raise RuntimeError(f"Status {response.status_code}")
         data = response.json()
 
-        # Estrai le frasi con i loro lemmi
         sentence_data = []
 
         for sentence in data.get("sentences", []):
-            # Estrai il testo della frase
-            sentence_text = " ".join(token["word"] for token in sentence.get("tokens", []))
+            sentence_text = sentence["text"]
 
-            # Estrai i lemmi per questa frase
             lemma_list = []
             for token in sentence.get("tokens", []):
                 word = token["word"].lower()
@@ -90,7 +86,6 @@ def process_text_with_tint(text):
                 ):
                     lemma_list.append((word, lemma, ner))
 
-            # Aggiungi la coppia (frase, lemmi) ai risultati
             sentence_data.append((sentence_text, lemma_list))
 
         return sentence_data
@@ -100,7 +95,6 @@ def process_text_with_tint(text):
         return []
 
 
-# Elaborazione parallela dei testi
 def process_texts_in_parallel(texts):
     all_sentence_data = []
 
@@ -117,7 +111,6 @@ def process_texts_in_parallel(texts):
     return all_sentence_data
 
 
-# Calcola la distribuzione dei lemmi dalle frasi estratte
 def calculate_lemma_distribution():
     print("Calculating lemma distribution...")
 
@@ -144,12 +137,10 @@ def save_lemma_distribution(distribution, path):
     print(f"Lemma distribution saved to {path}")
 
 
-# Funzione aggiornata per salvare il sottoinsieme di frasi
 def save_run_outputs(run_id, selected_sentences, subset_lemmas, all_lemmas, subset_distribution, excluded_lemmas):
     run_dir = os.path.join(OUTPUT_BASE_DIR, f"{run_id}_{SUBSET_SIZE}_{SIMILARITY_THRESHOLD}")
     os.makedirs(run_dir, exist_ok=True)
 
-    # Salva le frasi selezionate in formato JSON
     with open(os.path.join(run_dir, f"subset_{SUBSET_SIZE}_sentences.json"), "w", encoding="utf-8") as f:
         json.dump(selected_sentences, f, ensure_ascii=False, indent=2)
 
@@ -180,7 +171,6 @@ def save_run_outputs(run_id, selected_sentences, subset_lemmas, all_lemmas, subs
     print(f"Total sentences selected: {len(selected_sentences)}")
 
 
-# Funzione aggiornata per selezionare il subset di frasi
 def select_subset():
     run_id = datetime.now().strftime("%Y%m%d_%H%M%S")
 
@@ -195,7 +185,6 @@ def select_subset():
     lemma_distribution = get_lemma_distribution(DISTRIBUTION_PATH)
     all_lemmas_set = set(lemma_distribution.keys())
 
-    print("Preparing data for subset selection...")
     lemmatized_data = []
     excluded_lemmas = set()
 
@@ -223,7 +212,6 @@ def select_subset():
         score = sum(rarity.get(lemma, 1) for lemma in new_lemmas)
         scored_data.append((i, sentence, lemmas, score))
 
-    # Ordiniamo per punteggio decrescente
     scored_data.sort(key=lambda x: x[3], reverse=True)
 
     print("Subset extraction (greedy + rarity + diversity)...")
@@ -238,7 +226,6 @@ def select_subset():
         emb = embedder.encode(sentence, convert_to_tensor=True)
         if selected_embeddings:
             embeddings_tensor = torch.stack(selected_embeddings)
-            # Calcoliamo la similarità coseno
             sims = util.cos_sim(emb, embeddings_tensor)[0]
             if sims.max().item() > SIMILARITY_THRESHOLD:
                 continue
@@ -251,10 +238,8 @@ def select_subset():
     print(f"\nSelected sentences: {len(selected_indices)}")
     print(f"Covered lemmas: {len(covered_lemmas)}")
 
-    # Creiamo l'elenco delle frasi selezionate
     selected_sentences = [lemmatized_data[i][0] for i in selected_indices]
 
-    # Salviamo i risultati
     save_run_outputs(run_id, selected_sentences, covered_lemmas, all_lemmas_set, subset_distribution, excluded_lemmas)
 
 
