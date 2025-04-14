@@ -3,6 +3,7 @@ import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 
+import nltk
 import requests
 import torch
 from datasets import load_dataset
@@ -11,11 +12,13 @@ from nltk.corpus import stopwords
 from sentence_transformers import SentenceTransformer, util
 from tqdm import tqdm
 
+nltk.download('stopwords')
+
 # === Config ===
-SUBSET_SIZE = 3000
+SUBSET_SIZE = 5000
 SIMILARITY_THRESHOLD = 0.85
 LANG = "italian"
-MAX_WORKERS = 8
+MAX_WORKERS = 24
 NER_CATEGORIES = {"PER", "ORG", "GPE", "LOC", "PRODUCT", "EVENT"}
 dataset = load_dataset("gsarti/clean_mc4_it", name="tiny", split="validation", streaming=False)
 
@@ -50,59 +53,8 @@ def get_lemma_distribution(path):
         return distribution
 
 
-def calculate_lemma_distribution():
-    print("Calculating lemma distribution...")
-
-    texts = [entry["text"].lower() for entry in dataset]
-
-    lemmatized_batches = lemmatize_batch(texts)
-
-    distribution = FreqDist()
-    for tokens in lemmatized_batches:
-        for token, lemma, ent in tokens:
-            if lemma in italian_vocab or ent in NER_CATEGORIES:
-                distribution[lemma] += 1
-
-    return dict(distribution)
-
-
-def save_lemma_distribution(distribution, path):
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(distribution, f, ensure_ascii=False)
-    print(f"Lemma distribution saved to {path}")
-
-
-def save_run_outputs(run_id, subset, subset_lemmas, all_lemmas, subset_distribution, excluded_lemmas):
-    run_dir = os.path.join(OUTPUT_BASE_DIR, f"{run_id}_{SUBSET_SIZE}_{SIMILARITY_THRESHOLD}")
-    os.makedirs(run_dir, exist_ok=True)
-
-    subset.to_json(os.path.join(run_dir, "subset_2k.json"), orient="records", lines=True)
-
-    with open(os.path.join(run_dir, "subset_distribution.json"), "w", encoding="utf-8") as f:
-        subset_distribution = dict(sorted(subset_distribution.items(), key=lambda x: x[1], reverse=True))
-        json.dump(subset_distribution, f)
-
-    uncovered_lemmas = sorted(set(all_lemmas) - set(subset_lemmas))
-    with open(os.path.join(run_dir, "uncovered_lemmas.txt"), "w", encoding="utf-8") as f:
-        f.write("\n".join(uncovered_lemmas))
-
-    with open(os.path.join(run_dir, "excluded_lemmas.txt"), "w", encoding="utf-8") as f:
-        f.write("\n".join(sorted(excluded_lemmas)))
-
-    summary = {
-        "total_lemmas_in_full_distribution": len(all_lemmas),
-        "lemmas_covered_in_subset": len(subset_lemmas),
-        "coverage_ratio": len(subset_lemmas) / len(all_lemmas),
-        "uncovered_lemmas_count": len(uncovered_lemmas),
-    }
-    with open(os.path.join(run_dir, "summary.json"), "w", encoding="utf-8") as f:
-        json.dump(summary, f, indent=2)
-
-    print(f"\nRun results: {run_dir}")
-    print(f"Lemmas coverage: {summary['lemmas_covered_in_subset']} / {summary['total_lemmas_in_full_distribution']} ({summary['coverage_ratio']:.2%})")
-
-def lemmatize_with_tint(text):
+# Funzione unificata per processare il testo: estrazione frasi e lemmatizzazione in un'unica chiamata
+def process_text_with_tint(text):
     try:
         response = requests.post(
             TINT_URL,
@@ -114,8 +66,15 @@ def lemmatize_with_tint(text):
             raise RuntimeError(f"Status {response.status_code}")
         data = response.json()
 
-        results = []
+        # Estrai le frasi con i loro lemmi
+        sentence_data = []
+
         for sentence in data.get("sentences", []):
+            # Estrai il testo della frase
+            sentence_text = " ".join(token["word"] for token in sentence.get("tokens", []))
+
+            # Estrai i lemmi per questa frase
+            lemma_list = []
             for token in sentence.get("tokens", []):
                 word = token["word"].lower()
                 lemma = token["lemma"].lower()
@@ -129,50 +88,125 @@ def lemmatize_with_tint(text):
                         " " not in lemma and
                         lemma
                 ):
-                    results.append((word, lemma, ner))
-        return results
+                    lemma_list.append((word, lemma, ner))
+
+            # Aggiungi la coppia (frase, lemmi) ai risultati
+            sentence_data.append((sentence_text, lemma_list))
+
+        return sentence_data
 
     except Exception as e:
         print(f"Errore da Tint su: {text[:30]}... -> {e}")
         return []
 
-def lemmatize_batch(texts):
-    results = [None] * len(texts)
-    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-        futures = {executor.submit(lemmatize_with_tint, text): i for i, text in enumerate(texts)}
-        for future in tqdm(as_completed(futures), total=len(texts), desc="Lemmatizing"):
-            i = futures[future]
-            try:
-                results[i] = future.result()
-            except Exception as e:
-                print(f"Errore su testo {i}: {e}")
-                results[i] = []
-    return results
 
+# Elaborazione parallela dei testi
+def process_texts_in_parallel(texts):
+    all_sentence_data = []
+
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        futures = {executor.submit(process_text_with_tint, text): i for i, text in enumerate(texts)}
+
+        for future in tqdm(as_completed(futures), total=len(texts), desc="Processing texts"):
+            try:
+                sentence_data = future.result()
+                all_sentence_data.extend(sentence_data)
+            except Exception as e:
+                print(f"Errore nell'elaborazione: {e}")
+
+    return all_sentence_data
+
+
+# Calcola la distribuzione dei lemmi dalle frasi estratte
+def calculate_lemma_distribution():
+    print("Calculating lemma distribution...")
+
+    texts = [entry["text"].lower() for entry in dataset]
+
+    print("Processing texts to extract sentences and lemmas...")
+    all_sentence_data = process_texts_in_parallel(texts)
+
+    print(f"Total sentences extracted: {len(all_sentence_data)}")
+
+    distribution = FreqDist()
+    for _, lemma_list in all_sentence_data:
+        for word, lemma, ent in lemma_list:
+            if lemma in italian_vocab or ent in NER_CATEGORIES:
+                distribution[lemma] += 1
+
+    return dict(distribution)
+
+
+def save_lemma_distribution(distribution, path):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(distribution, f, ensure_ascii=False)
+    print(f"Lemma distribution saved to {path}")
+
+
+# Funzione aggiornata per salvare il sottoinsieme di frasi
+def save_run_outputs(run_id, selected_sentences, subset_lemmas, all_lemmas, subset_distribution, excluded_lemmas):
+    run_dir = os.path.join(OUTPUT_BASE_DIR, f"{run_id}_{SUBSET_SIZE}_{SIMILARITY_THRESHOLD}")
+    os.makedirs(run_dir, exist_ok=True)
+
+    # Salva le frasi selezionate in formato JSON
+    with open(os.path.join(run_dir, f"subset_{SUBSET_SIZE}_sentences.json"), "w", encoding="utf-8") as f:
+        json.dump(selected_sentences, f, ensure_ascii=False, indent=2)
+
+    with open(os.path.join(run_dir, "subset_distribution.json"), "w", encoding="utf-8") as f:
+        subset_distribution = dict(sorted(subset_distribution.items(), key=lambda x: x[1], reverse=True))
+        json.dump(subset_distribution, f, ensure_ascii=False)
+
+    uncovered_lemmas = sorted(set(all_lemmas) - set(subset_lemmas))
+    with open(os.path.join(run_dir, "uncovered_lemmas.txt"), "w", encoding="utf-8") as f:
+        f.write("\n".join(uncovered_lemmas))
+
+    with open(os.path.join(run_dir, "excluded_lemmas.txt"), "w", encoding="utf-8") as f:
+        f.write("\n".join(sorted(excluded_lemmas)))
+
+    summary = {
+        "total_lemmas_in_full_distribution": len(all_lemmas),
+        "lemmas_covered_in_subset": len(subset_lemmas),
+        "coverage_ratio": len(subset_lemmas) / len(all_lemmas),
+        "uncovered_lemmas_count": len(uncovered_lemmas),
+        "total_sentences": len(selected_sentences)
+    }
+    with open(os.path.join(run_dir, "summary.json"), "w", encoding="utf-8") as f:
+        json.dump(summary, f, indent=2)
+
+    print(f"\nRun results: {run_dir}")
+    print(
+        f"Lemmas coverage: {summary['lemmas_covered_in_subset']} / {summary['total_lemmas_in_full_distribution']} ({summary['coverage_ratio']:.2%})")
+    print(f"Total sentences selected: {len(selected_sentences)}")
+
+
+# Funzione aggiornata per selezionare il subset di frasi
 def select_subset():
     run_id = datetime.now().strftime("%Y%m%d_%H%M%S")
 
     print("Dataset loading...")
     texts = [entry["text"].lower() for entry in dataset]
 
+    print("Processing texts to extract sentences and lemmas...")
+    all_sentence_data = process_texts_in_parallel(texts)
+    print(f"Total sentences extracted: {len(all_sentence_data)}")
+
     print("Lemma distribution loading...")
     lemma_distribution = get_lemma_distribution(DISTRIBUTION_PATH)
-    all_lemmas = set(lemma_distribution.keys())
+    all_lemmas_set = set(lemma_distribution.keys())
 
-    print("Lemmatization...")
-    lemmatized_batches = lemmatize_batch(texts)
-
+    print("Preparing data for subset selection...")
     lemmatized_data = []
     excluded_lemmas = set()
 
-    for i, (text, tokens) in enumerate(zip(texts, lemmatized_batches)):
+    for sentence, lemma_list in all_sentence_data:
         final_lemmas = set()
-        for token, lemma, ent in tokens:
+        for word, lemma, ent in lemma_list:
             if lemma in italian_vocab or ent in NER_CATEGORIES:
                 final_lemmas.add(lemma)
             else:
                 excluded_lemmas.add(lemma)
-        lemmatized_data.append((i, text, final_lemmas))
+        lemmatized_data.append((sentence, final_lemmas))
 
     print("Scoring all sentences by rarity gain...")
     rarity = {lemma: 1 / (lemma_distribution.get(lemma, 1) + 1) for lemma in lemma_distribution}
@@ -182,17 +216,18 @@ def select_subset():
     selected_embeddings = []
     scored_data = []
 
-    for i, text, lemmas in lemmatized_data:
+    for i, (sentence, lemmas) in enumerate(lemmatized_data):
         new_lemmas = lemmas - covered_lemmas
         if not new_lemmas:
             continue
         score = sum(rarity.get(lemma, 1) for lemma in new_lemmas)
-        scored_data.append((i, text, lemmas, score))
+        scored_data.append((i, sentence, lemmas, score))
 
+    # Ordiniamo per punteggio decrescente
     scored_data.sort(key=lambda x: x[3], reverse=True)
 
     print("Subset extraction (greedy + rarity + diversity)...")
-    for i, text, lemmas, score in tqdm(scored_data):
+    for i, sentence, lemmas, score in tqdm(scored_data):
         if len(selected_indices) >= SUBSET_SIZE:
             break
 
@@ -200,9 +235,10 @@ def select_subset():
         if not new_lemmas:
             continue
 
-        emb = embedder.encode(text, convert_to_tensor=True)
+        emb = embedder.encode(sentence, convert_to_tensor=True)
         if selected_embeddings:
             embeddings_tensor = torch.stack(selected_embeddings)
+            # Calcoliamo la similarità coseno
             sims = util.cos_sim(emb, embeddings_tensor)[0]
             if sims.max().item() > SIMILARITY_THRESHOLD:
                 continue
@@ -215,10 +251,12 @@ def select_subset():
     print(f"\nSelected sentences: {len(selected_indices)}")
     print(f"Covered lemmas: {len(covered_lemmas)}")
 
-    subset = dataset.select(selected_indices)
-    save_run_outputs(run_id, subset, covered_lemmas, all_lemmas, subset_distribution, excluded_lemmas)
+    # Creiamo l'elenco delle frasi selezionate
+    selected_sentences = [lemmatized_data[i][0] for i in selected_indices]
+
+    # Salviamo i risultati
+    save_run_outputs(run_id, selected_sentences, covered_lemmas, all_lemmas_set, subset_distribution, excluded_lemmas)
+
 
 if __name__ == "__main__":
-    import nltk
-    nltk.download('stopwords')
     select_subset()
