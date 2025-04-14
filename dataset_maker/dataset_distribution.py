@@ -161,10 +161,3 @@ if __name__ == '__main__':
         # print top 10 tokens
         print('_'*10, 'TOP 10 LEMMAS', '_'*10)
         print(lemmatize_frequency.most_common(10))
-
-
-
-
-
-
-
