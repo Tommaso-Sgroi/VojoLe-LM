@@ -55,7 +55,6 @@ def lemmatize_batch(texts):
     return results
 
 def main():
-    # Carica le parole dal file
     filename = "../data/660k_italian_words.txt"
     with open(filename, 'r', encoding='utf-8') as file:
         words = set([line.strip() for line in file if line.strip()])
@@ -64,13 +63,21 @@ def main():
 
     results = lemmatize_batch(words)
 
-    with open("../data/italian_vocabulary.tsv", "w", encoding="utf-8") as f:
+    lemmas_set = set()
+
+    with open("../data/vocabulary_generation_summary.tsv", "w", encoding="utf-8") as f:
         for word, lemmas in zip(words, results):
             if lemmas:
+                for original, lemma, ner in lemmas:
+                    lemmas_set.add(lemma)
                 for original, lemma, ner in lemmas:
                     f.write(f"{original}\t{lemma}\t{ner}\n")
             else:
                 f.write(f"{word}\t{word}\tO\n")
+
+    with open("../data/italian_vocabulary.txt", "w", encoding="utf-8") as f:
+        for lemma in sorted(lemmas_set):
+            f.write(f"{lemma}\n")
 
 if __name__ == "__main__":
     main()
