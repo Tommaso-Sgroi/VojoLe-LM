@@ -3,24 +3,27 @@ import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 
-import nltk
-import requests
-import torch
 from datasets import load_dataset
+from nltk import download
+from requests import post
+from torch import stack
+# from dataset_maker.dataset import load_dataset
 from nltk import FreqDist
 from nltk.corpus import stopwords
 from sentence_transformers import SentenceTransformer, util
 from tqdm import tqdm
 
-nltk.download('stopwords')
-
+download('stopwords')
 # === Config ===
 SUBSET_SIZE = 5000
 SIMILARITY_THRESHOLD = 0.85
 LANG = "italian"
-MAX_WORKERS = 24
+MAX_WORKERS = 8
 NER_CATEGORIES = {"PER", "ORG", "GPE", "LOC", "PRODUCT", "EVENT"}
-dataset = load_dataset("gsarti/clean_mc4_it", name="tiny", split="validation", streaming=False)
+CACHE_DIR = '../data/.cache'
+# dataset = load_dataset("gsarti/clean_mc4_it", name="tiny", split="validation", streaming=False, cache_dir=CACHE_DIR)
+with(open('../data/clean_mc4_it/clean_mc4_it.jsonl', "r", encoding="utf-8")) as f:
+    dataset = [json.loads(line) for line in f.readlines()]
 
 # === Paths ===
 TINT_URL = "http://localhost:8012/tint?pipeline=tint"
@@ -55,11 +58,11 @@ def get_lemma_distribution(path):
 
 def process_text_with_tint(text):
     try:
-        response = requests.post(
+        response = post(
             TINT_URL,
             data=text.encode("utf-8"),
             headers={"Content-Type": "text/plain"},
-            timeout=10
+            timeout=20
         )
         if response.status_code != 200:
             raise RuntimeError(f"Status {response.status_code}")
@@ -212,7 +215,10 @@ def select_subset():
         score = sum(rarity.get(lemma, 1) for lemma in new_lemmas)
         scored_data.append((i, sentence, lemmas, score))
 
+        covered_lemmas.update(new_lemmas)
+
     scored_data.sort(key=lambda x: x[3], reverse=True)
+    covered_lemmas.clear()
 
     print("Subset extraction (greedy + rarity + diversity)...")
     for i, sentence, lemmas, score in tqdm(scored_data):
@@ -225,7 +231,7 @@ def select_subset():
 
         emb = embedder.encode(sentence, convert_to_tensor=True)
         if selected_embeddings:
-            embeddings_tensor = torch.stack(selected_embeddings)
+            embeddings_tensor = stack(selected_embeddings)
             sims = util.cos_sim(emb, embeddings_tensor)[0]
             if sims.max().item() > SIMILARITY_THRESHOLD:
                 continue
