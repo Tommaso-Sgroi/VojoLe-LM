@@ -14,7 +14,8 @@ ACCA' : Qua; anche CCA'.
 ACCAJO' : Quaggiù.
 ACCARAVUJASSE : Azzuffarsi.
 ACCASARE : Abitare (do' s'ito accasato? = dove sei andato ad abitare?).
-ACCASSU' - ACCASSUNE : Quassù.
+ACCASSU' : Quassù.
+ACCASSUNE : Quassù.
 ACCAVARGA' : Cavalcare o accavallare.
 ACCENNA : Accendere (ACCIGNIVA = Accendeva).
 ACCHIAPPARELLA : Gioco di ragazzi che si rincorrono.
@@ -25,7 +26,8 @@ ACCIOCCASSE : Accosciarsi, avvilirsi, piegarsi sui talloni.
 ACCIRIGNASSE : Impazzire, intristirsi.
 ACCIRIGNATA : Coccolata. (es. donna che si lascia avvolgere in un abbraccio protettivo).
 ACCOZZICASSE : Appisolarsi; ACCOZZICATO = appisolato.
-ACCUNNI' – ACCUNNÌTO : Condire, condito.
+ACCUNNI' : Condire.
+ACCUNNÌTO : condito.
 ACCURTA' : Accorciare.
 ACCUSSI' : Così, in questo modo (anche ATTUSSI' - CUSSI' - TUSSI').
 ACCUTTIMATO : Lavoratore indefesso (Stakanovista).
@@ -52,26 +54,36 @@ AMANDULI : Mandorle (generalmente fresche).
 AMERICANA : Frattazzo, grande spatola per intonaci (v. anche SFRATAZZO).
 AMMANNATO : Guasto (di frutta).
 AMMANTA' : Avvolgersi, vestire.
-AMMASONA' - 'MMASONA' : Intridere, maneggiare l'impasto per il pane - fare l'AMMASONATA.
+AMMASONA' : Intridere.
+'MMASONA' : maneggiare l'impasto per il pane - fare l'AMMASONATA.
 AMMÀTTISE : Imbattersi.
-AMMAZZA – AMMAPPA : Accipicchia, Accidenti. (Ammazza so' stracco – Ammappite si' bbella; Accidenti come sono stanco – Accipicchia come sei bella).
-AMMEREJA' – AMMEREJASSE : Dicesi di pecore o altri animali fermi sotto il sole, come se dormissero.
+AMMAZZA : Accipicchia. (Ammazza so' stracco – Ammappite si' bbella; Accidenti come sono stanco).
+AMMAPPA : Accidenti. (Accidenti come sono stanco – Accipicchia come sei bella).
+AMMEREJA' : Dicesi di pecore o altri animali fermi sotto il sole, come se dormissero (verbo).
+AMMEREJASSE : Dicesi di pecore o altri animali fermi sotto il sole, come se dormissero (verbo riflessivo).
 AMMOCCA' : Imboccare.
 AMMONTA' : Salire (a cavallo).
 AMMUMINTI : A momenti, quasi (ammuminti gnavo jò = stavo quasi per cadere).
 AMORE AMORE : Metodo di cottura, molto lentamente.
-AMPICCIA' – AMPICCIASSE : Interessarsi dei fatti altrui, ingombrare (Scanzite che m'ampicci = Levati che mi dai fastidio).
+AMPICCIA' : Interessarsi dei fatti altrui, ingombrare (Scanzite che m'ampicci = Levati che mi dai fastidio).
+AMPICCIASSE : Interessarsi dei fatti altrui, ingombrare (Scanzite che m'ampicci = Levati che mi dai fastidio) (forma riflessiva).
 AMPICCIONE : Curioso, pettegolo.
 ANCLUPPASSE : Ripararsi dal freddo.
 ANCO' : Ancora.
-ANCURICCHIA' – ANCURICCHIASSE : Piegarsi, chinarsi sui talloni, rattrappirsi (ANCURICCHIATO = Accovacciato, rattrappito).
-ANDÈNNA - ANTÈNNA : Capire, intendere (Nun andinnia = Non capiva).
-ANDRO - ARTRO – ADDRO : Altro. (C'è aremasso addro? Nissun andro? = C'è rimasto nient'altro? Nessun altro?).
-ANFÓNNISE - ANFUSO : Bagnarsi, bagnato. (v. anche INFONNA o 'NFONNA).
+ANCURICCHIA' : Piegarsi, chinarsi sui talloni, rattrappirsi (ANCURICCHIATO = Accovacciato, rattrappito).
+ANCURICCHIASSE : Piegarsi, chinarsi sui talloni, rattrappirsi (ANCURICCHIATO = Accovacciato, rattrappito) (forma riflessiva).
+ANDÈNNA: Capire.
+ANTÈNNA : intendere (Nun andinnia = Non capiva).
+ANDRO: Altro. (C'è aremasso addro? Nissun andro? = C'è rimasto nient'altro? Nessun altro?).
+ARTRO: Altro. (C'è aremasso addro? Nissun andro? = C'è rimasto nient'altro? Nessun altro?).
+ADDRO : Altro. (C'è aremasso addro? Nissun andro? = C'è rimasto nient'altro? Nessun altro?).
+ANFÓNNISE : Bagnarsi
+ANFUSO :  bagnato. (v. anche INFONNA o 'NFONNA).
 ANGUATTA' : Nascondere (v. 'NGUATTA' o INGUATTA'). I' ffiji giochino a 'nguattarella = I bambini giocano a nascondino.
 ANGUATTARELLA : Nascondino (I' ffiji giochino a 'nguattarella = I bambini giocano a nascondino).
 ANGUMINGIA : Comincia, inizia.
-ANGUMINGIA' - ANCUMINGIA' : Iniziare (N'arengumingiassi = Non ricominciare).
+ANGUMINGIA' : Iniziare (N'arengumingiassi = Non ricominciare).
+ANCUMINGIA' : Iniziare (N'arengumingiassi = Non ricominciare).
 ANISO : Anice.
 ANISTRELLO : Rastrello.
 ANNA' : Andare (v. anche 'NA - GNA' - JI').
@@ -82,9 +94,12 @@ ANTIRICHI’ : Rattrappire; ANTIRICHITO = rattrappito.
 ANTRALUCCA’ : Barcollare; essere instabili (vedi 'NTRALUCCA').
 ANTRAPPAJA' – ANTRAPPAJATO : Confondere, confuso (v. INTRAPPAJASSE – 'NTRAPPAJA').
 ANTRUPPATO : Urtato, intruppato.
-ANTUSA' - ANTUSO – ANTUSATO : Ammaccare, ammaccato (anche INTUSATO – 'NTUSO).
+ANTUSA' : Ammaccare, ammaccato (anche INTUSATO – 'NTUSO).
+ANTUSO : Ammaccare, ammaccato (anche INTUSATO – 'NTUSO).
+ANTUSATO : Ammaccare, ammaccato (anche INTUSATO – 'NTUSO).
 APISE : Matita, lapis.
-APPALLOZZASSE – APPALLOZZATO : Avvinghiarsi, ridurre a palla, colluttarsi.
+APPALLOZZASSE : Avvinghiarsi, ridurre a palla, colluttarsi.
+APPALLOZZATO : Avvinghiarsi, ridurre a palla, colluttarsi.
 APPANICATO : Malaticcio, pallido.
 APPARA’ : porgere qualcosa, anche affrontare, metterci un rimedio (comme l'appari la faccenna?).
 APPARECCHIO : Aeroplano.
@@ -95,7 +110,8 @@ APPICCA' : Appendere, accendere. (Hajo appiccato la giubba = ho appeso la giacca
 APPICCHITE! : Arrangiati!
 APPICCIA' : Accendere.
 APPICCIUME : Ramoscelli, carta e foglie secche che si usano per accendere il fuoco.
-APPINICASSE – APPINICATO : Addormentarsi, insonnolito.
+APPINICASSE : Addormentarsi.
+APPINICATO : insonnolito.
 APPIZZA' : Assaggiare con la punta della lingua, aguzzare (Appizz'i'll'occhj = Aguzza la vista).
 APPIZZUTA APISE : Tempera matite.
 APPIZZUTA' : Fare la punta a qualcosa (Nu' l'appizzutassi = Non lo fare troppo appuntito).
@@ -109,22 +125,31 @@ ARBOLETO : Arboreto.
 ARCHEMUSE : Alchermes.
 AREBBOLLA : Ribollire. (J'arebbulliva i'zzangue - Gli ribolliva il sangue).
 ARECCONTA' : Raccontare (t'arecconto = ti racconto).
-ARECCÒTA – ARECCÒSSO : Raccogliere - raccolto.
+ARECCÒTA : Raccogliere.
+ARECCÒSSO : raccolto.
 ARECORDASSE : Ricordare.
-AREDDUSSE – AREDDUTO : Ridursi - Radunato (il raccolto).
-AREECCO - ARIECCO : Di nuovo, ci risiamo.
+AREDDUSSE : Ridursi (il raccolto).
+AREDDUTO : Radunato (il raccolto).
+AREECCO : Di nuovo.
+ARIECCO : ci risiamo.
 AREFUCINA' : Rovistare (v. anche AREMUCINA' o SMUCINA').
-AREMANE' - AREMASSO - AREMANETTE : Rimanere, rimasto, rimase.
+AREMANE' : Rimanere.
+AREMASSO : rimasto.
+AREMANETTE : rimase.
 AREMBARZA' : Rimbalzare.
 AREMEDIA' : Rimediare.
 AREMICIDA' : Ripararsi (dalla pioggia).
-AREMUCINA' - ARIMUCINA' : Rovistare, cercare, rimuginare. (anche AREFUCINA' o SMUCINA').
+AREMUCINA' : Rovistare, cercare. (anche AREFUCINA' o SMUCINA').
+ARIMUCINA' : Rimuginare.
 ARENGRESCIA : Rincrescere.
-ARENVISCIDA' - ARENVICIDA' : Resuscitare.
-AREPARBASSE - REPARBASSE : Non osare, aver timore.
+ARENVISCIDA' : Resuscitare.
+ARENVICIDA' : Resuscitare.
+AREPARBASSE : Non osare
+REPARBASSE : aver timore.
 ARESCALLASSE : Adirarsi.
 ARESCERNA : Vedere, distinguere, aguzzare la vista.
-AREVIA - ARIVIA : Di nuovo, ancora.
+AREVIA : Di nuovo.
+ARIVIA : Ancora.
 ARICCOMANNO (M'_) : Raccomando (ariccomannite di'zzignore = raccomandati a Dio).
 ARIECCHITELLO : Rieccolo, eccolo nuovamente.
 ARIGNIGNOLASSE : Riprendersi, ringalluzzirsi.
@@ -136,16 +161,20 @@ ARRI LLA' : Vai là (comando usato per indirizzare gli equini).
 ARRICCASSE : Arricchirsi.
 ARRUCATO : Rauco.
 ARVA : Le fico arva (tipo di fico).
-ARZICA' - ARRAZZICA' : Tirare calci (di somari, ecc.). (Anche di persona che reagisce).
+ARZICA' : Tirare calci (di somari, ecc.). (Anche di persona che reagisce).
+ARRAZZICA' : Tirare calci (di somari, ecc.). (Anche di persona che reagisce).
 ASSÈA : Ora, adesso.
-ASSOGNA - ASSUGNA : Sugna, grasso.
+ASSOGNA : Sugna, grasso.
+ASSUGNA : Sugna, grasso.
 ATTANFA’ : Dare cattivo odore es “T’attanfa la surcica – ti puzza l’ascella
 ATTUMELLA' : Mettere, buttare in un angolo.
 ATTUMELLATO : Gettato in un angolo, dimenticato.
 ATTURA' : Tappare.
 ATTUSSI' : Così, in questo modo (anche ACCUSSI’ - CUSSI' - TUSSI').
-AZZECCA' - AZZECCHIME : Azzeccare, colpire nel segno. Colpiscimi.
-AZZICA' - AZZICO (dare ill'_) : Dare il via, stimolare.
+AZZECCA' : Azzeccare.
+AZZECCHIME : Colpiscimi.
+AZZICA'(dare ill'_) : Dare il via.
+AZZICO (dare ill'_) : Stimolare.
 BADANAO : Gran sedere (anche, più genericamente, cosa grossa).
 BACCAJA' : Litigare (se so' baccajati = hanno litigato).
 BACCHIO : Bastone a testa grossa.
@@ -156,7 +185,8 @@ BANNOLO : Bandolo.
 BARBACANE : Supporti in pietra dei travi dei camini, alari.
 BARBACCIA : Rutto forte e rumoroso.
 BARBOZZO : Mento.
-BARLOZZO - BARLOZZETTO : Barile, barilotto.
+BARLOZZO : Barile.
+BARLOZZETTO : barilotto.
 BAROZZA : Carro da buoi.
 BARZINELLA : Cosa né buone né cattiva.
 BARZOTTO : Dicesi di frutto, cibo, animale, né maturo né acerbo, né cotto né crudo. Anche di uomo né ragazzo né adulto o di organo sessuale maschile non completamente eretto.
@@ -166,7 +196,10 @@ BATIZZO : Battesimo.
 BATOCCHIO : Battaglio delle campane, dei bussaporta.
 BATTILONTO : Tavola battilardo.
 BATTIMURO : Gioco che i bambini facevano con le monete.
-BEA - BII - BEETTE - BIUTO : Bere, bevi, bevve, bevuto - (i'bbea = il vino) da cui il detto bii bii i'bbea bà = bevi bevi il vino papà.
+BEA : Bere (i'bbea = il vino) da cui il detto bii bii i'bbea bà = bevi bevi il vino papà.
+BII :  bevi (i'bbea = il vino) da cui il detto bii bii i'bbea bà = bevi bevi il vino papà.
+BEETTE : bevve, bevuto (i'bbea = il vino) da cui il detto bii bii i'bbea bà = bevi bevi il vino papà.
+BIUTO : bevuto - (i'bbea = il vino) da cui il detto bii bii i'bbea bà = bevi bevi il vino papà.
 BEARELLO : Prodotto alimentare. Riveniente dalla lavorazione delle interiora del maiale.
 BECALINO : Orbo, strabico; genericamente detto di chi vede poco.
 BECCAMORTO : Infame, becchino (v. anche CASSAMORTARO).
@@ -183,10 +216,12 @@ BILLO : Tacchino.
 BIOCCA : Chioccia.
 BIRBACCIONE : Birbante, furbacchione.
 BIRBO : Svelto, pronto.
-BIROCCIO - BIROCCINO : Carretto, carro a cavalli per il trasporto di 1 o 2 persone.
+BIROCCIO : Carretto.
+BIROCCINO : carro a cavalli per il trasporto di 1 o 2 persone.
 BITTINA : Recipiente per olio (anche VETTINA).
 BOCCATONE : Schiaffo a mano aperta sulla bocca.
-BOCCIA - BOCCIONE : Bottiglia - Bottiglione, fiasco.
+BOCCIA : Bottiglia, fiasco.
+BOCCIONE : Bottiglione, fiasco.
 BOCCO : Moneta, soldo. (anche MOCCO).
 BOLLETTA : Chiodo corto a testa larga (veniva infisso sulla suola delle scarpe per rallentarne l'usura).
 BONA MORTE : Confraternita religiosa in saio nero.
@@ -213,21 +248,26 @@ CACCHIO : Gemma di vite o pollone.
 CACCIA’ : Riuscire (nun ce la caccio = non ci riesco).
 CACCIO : Estraggo (caccio i' vvino = prendo il vino dalla botte), faccio (nun ce la caccio = non ce la faccio) (v. anche CAVO).
 CACIARA : Confusione.
-CAE' - CAETTE - CAÙTO : Cadere - cadde.
-CAÉTTA - GAÉTTA : Compagni di persone poco di buono.
+CAE' : Cadere.
+CAÙTO : cadde.
+CAETTE : cadde.
+CAÉTTA : Compagni di persone poco di buono.
+GAÉTTA : Compagni di persone poco di buono.
 CAGNANTE : Fungo del genere "boleto" che cambia di colore al taglio; tossico crudo. (detto anche di persone voltagabbana).
 CAJ : Calli.
 CALLAFREDDA : Effetto nocivo sulle colture che produce poca pioggia su terreno caldo.
 CALLAJA : Caldaia (grossa pentola per fare il sapone).
 CALLARA : a tutta callara = di gran corsa.
 CALLARO : Recipiente per cucinare o scaldare acqua.
-CALLARELLA-O : Piccolo recipiente da cucina o secchio da muratore.
+CALLARELLA : Piccolo recipiente da cucina o secchio da muratore.
+CALLARELLO : Piccolo recipiente da cucina o secchio da muratore.
 CALLAROZZO : vedi CALLARO.
 CAMPA ANCO'? : E' ancora vivo? (v. anche E’ MORTO MMAI?).
 CAMPA’ : Vivere.
 CAMPANO : Grosso sonaglio (al collo di animali).
 CANA : Cagna.
-CANALE - CANALETTO : Grosso cucchiaio in legno per prendere farine o cereali.
+CANALE : Grosso cucchiaio in legno per prendere farine o cereali.
+CANALETTO : Grosso cucchiaio in legno per prendere farine o cereali.
 CANIPINA : Appezzamento di terreno molto piccolo, orticello.
 CANIZZA : Discussione animata e rumorosa, litigio.
 CANNELLA : Cavola per botti.
@@ -244,7 +284,8 @@ CAPOCCIUNI : Girini.
 CAPOCOLLO : Lonza.
 CAPOFOCO : Alare del camino.
 CAPOMAZZO : Parte iniziale dell'intestino dell'agnello, utilizzata nella cottura della "Coratella d'abbacchio".
-CAPPANNELLO - CAPANNELLO : Persona col naso grosso "a capanna".
+CAPPANNELLO : Persona col naso grosso "a capanna".
+CAPANNELLO : Persona col naso grosso "a capanna".
 CAPRARECCIA : Ricovero per capre.
 CARABOZZOLO : Bambino vivace.
 CARAPIJA : Parapiglia.
@@ -289,24 +330,33 @@ CEPRO : Dispari (v. anche SCEPRO).
 CERASA : Ciliegie.
 CERQUA : Quercia.
 CERQUETO : Querceto.
-CERVIO - CERVIOTTO : Acerbo - Non del tutto maturo.
+CERVIO : Acerbo.
+CERVIOTTO : Non del tutto maturo.
 CETRUNI : Cetrioli.
-CHÉ - CAÉ - CUTO - CAUTO : Cadere - Caduto.
-CHÈ? - CHENE'? : Che? - Che cosa?
-CHECCOSA - CHECCOSETTA : Qualcosa. Qualche cosetta.
+CHÉ : Cadere.
+CAÉ : Cadere.
+CUTO : Caduto.
+CAUTO : Caduto.
+CHÈ? : Che?
+CHENE'? : Che cosa?
+CHECCOSA : Qualcosa.
+CHECCOSETTA : Qualche cosetta.
 CHI’ : Con il, di chi.
 CHI SSI’ FFIJO? : Di chi sei figlio? come si chiamano i tuoi?
 CHIAPPAPETE : Incapace, inconcludente.
-CHIEMPA - JEMPA : Riempire (Jimpito = Riempito).
+CHIEMPA : Riempire (Jimpito = Riempito).
+JEMPA : Riempire (Jimpito = Riempito).
 CHIOCCHIA’ : Pigolare (cantare di pennuto).
 CHIOÉLLO : Perno che blocca il giogo dei buoi al carro.
 CHIÒO : Chiodo.
 CHITUNO : Qualcuno.
-CHITUNANTRO - CHITUNANDRO : Qualcun altro.
+CHITUNANTRO : Qualcun altro.
+CHITUNANDRO : Qualcun altro.
 CHIU' : Più.
 CHJÈA : Chiedere (Chjìva, chjeètte = chiedeva, chiese).
 CHJÈLLI : Nessuno ('n c'è chjelli = non c'è nessuno).
-CIANCA - CIANCHI : Gamba, gambe.
+CIANCA : Gamba.
+CIANCHI : Gambe.
 CIANCHETTA : Sgambetto.
 CIANFANAIO : Parolaio, imbroglione.
 CICA : Affatto, mica (nun l'ajo visto cica = non l'ho veduto affatto).
@@ -319,9 +369,11 @@ CIFOLOTTO : Stupido, incapace.
 CINICE : Residui del focolare ancora accesi.
 CINQUALE : Schiaffone con le dita aperte.
 CINTURINO : Cinta dei pantaloni (m'ajo da levane i' ccinturino? = devo minacciarti con la cinta dei pantaloni?).
-CIPICCIA – CIPICCIOSO : Secrezione sierosa degli occhi; cisposo.
+CIPICCIA : Secrezione sierosa degli occhi.
+CIPICCIOSO : cisposo.
 CIPIGNOLO : Salvadanaio. In modo figurato testa dura (che c'hai rento i cipignolo? = che ti dice la testa?).
-CIRIGNA - CERIGNA : Grosso canestro con due manici (v. anche MINELLA).
+CIRIGNA : Grosso canestro con due manici (v. anche MINELLA).
+CERIGNA : Grosso canestro con due manici (v. anche MINELLA).
 CIUCCO : Brillo.
 CIUCO : Piccolo.
 CIUÍTTA : Civetta.
@@ -330,7 +382,8 @@ COACCIO : Covo, tana.
 COAGNIGNOLO : Il più piccolo di una nidiata o di una famiglia.
 COARIZZO : Fondoschiena del pollo.
 COATA : Riposata, amalgamata, insaporita. Detto, ad esempio, di una minestra mangiata il giorno dopo la cottura (la magnamo ddimane, intanto se coa; perchè coata jè più bbona).
-COCIA - COCE : Far male; me fa cocia = mi fa male.
+COCIA : Far male inteso come dolore; me fa cocia = mi fa male.
+COCE : Far male inteso come dolore; me fa cocia = mi fa male.
 COETTA : Misura di farina.
 COJONARE : Canzonare.
 COMMANNA! : Grido della fornaia di primo mattino, con cui invitava le massaie a portare il pane a cuocere. (Quasi a dire: sono pronta, accetto ordini.)
@@ -361,7 +414,8 @@ CROMPATO : Comprato.
 CRUCOLO : Mazza di tamburo, fungo. Lat. Lepiota procera.
 CRUTEGNOLO : Bitorzolo, bernoccolo, gonfiore in genere.
 CUCCHIARA : Paletta usata dagli operai edili.
-CUCCUMELLO - CUPPITELLO : Pentolino.
+CUCCUMELLO : Pentolino.
+CUPPITELLO : Pentolino.
 CUJA : Scroto.
 CUJA LENTA : Chi usa pantaloni grandi e un po’ calati.
 CULETTA : Cunetta stradale (v. anche PROVA e FORMA); usato anche per definire una donna chiacchierona, che parla continuamente.
@@ -379,14 +433,18 @@ CUSSI’ (TUSSI’) : Così, in questo modo (anche ACCUSSI' - ATTUSSI').
 CUTICA : Cotenna. Anche rispondendo a una persona permalosa (e che t'ajo ditto cutica? = e che t'avrò mai detto?).
 CUTO A BAFFANNANZI : Caduto di faccia.
 CUTO A CAPOTEFICCO : Caduto a gambe all'aria.
-DA ESSO - DA ISSI : A lui, a loro.
-DA MMI' - DA MMINE : A me.
+DA ESSO : A lui.
+DA ISSI : A loro.
+DA MMI' : A me.
+DA MMINE : A me.
 DA PO' (A PO') : Ormai (Da po' che ce semo = dal momento che chi siamo).
 DA TTI' : A te.
 DA QUANTANE : Da quanto tempo.
 DANARA : Seme di denari (nel gioco delle carte).
-DEDECCA' - DEDECCANE : Di qua.
-DEDICCHI' – DEDICCHINE : Di qui.
+DEDECCA' : Di qua.
+DEDECCANE : Di qua.
+DEDICCHI' : Di qui.
+DEDICCHINE : Di qui.
 DEDISTI' : Lì.
 DENANZI : Davanti.
 DERETO : Didietro.
@@ -404,9 +462,11 @@ DO NE VELLE : Da nessuna parte, in nessun posto.
 DORGE : Dolce.
 DOTTRINA : Catechismo.
 DRENTO : Dentro (v. anche RENTO o RENDO).
-DU' - DUI : Due.
+DUI : Due.
+DU' : Due.
 DU'MMENTRE : Nel mentre, mentre.
-DU'MMEZZO - TU'MMEZZO : Nel mezzo, nel mentre.
+TU'MMEZZO : Nel mentre.
+DU'MMEZZO : Nel mentre.
 DUNCA : Dunque.
 E’ MORTO MMAI? : E’ ancora vivo? (v. anche CAMPA ANCO'?)
 ECCHEDECHE' : Ecco che.
@@ -416,13 +476,17 @@ EJELA : Eccola (v. anche ESSELA - ESTELA).
 ENTI : Denti, es. me s'alleghin'ill'enti = mi si legano i denti (per frutta acerba, che allappa).
 EPRE : Lepre.
 ERGE : Elce (pianta) - (Sott'i'llerge de Sant'Utizzio = Sotto l'elce di Sant'Eutizio).
-ERIMA - ERINO : Eravamo, erano.
-ERTA - JERTA : Ripida (di salita).
-ERTO - JERTO : Spesso, grossolano, maleducato (Si jerto comm'ill'orlo 'i ddomo = Sei talmente grossolano da essere spesso come la base del duomo).
+ERIMA : Eravamo.
+ERINO : Erano.
+ERTA : Ripida (di salita).
+JERTA : Ripida (di salita).
+ERTO : Spesso, grossolano, maleducato (Si erto comm'ill'orlo 'i ddomo = Sei talmente grossolano da essere spesso come la base del duomo).
+JERTO : Spesso, grossolano, maleducato (Si jerto comm'ill'orlo 'i ddomo = Sei talmente grossolano da essere spesso come la base del duomo).
 ESSA : Essere.
 ESSELO : Eccolo lì (v. anche EJELO - ESTELO).
 ESTELA : Eccola (v. anche EJELA - ESSELA).
-ETO - ETA : Dito - dita (v. anche LETO - LETA). Un eto = un po' (v. anche FRICCIOLO, OGNA).
+ETO : Dito (v. anche LETO). Un eto = un po' (v. anche FRICCIOLO, OGNA).
+ETA : Dita (v. anche LETA). Un eto = un po' (v. anche FRICCIOLO, OGNA).
 ETONE : Alluce.
 FA' I'FFIUME : Andar bene.
 FACCENNA : Prestazione sessuale.
@@ -460,9 +524,12 @@ FISCOLI : Filtri per l’olio usati nei frantoi.
 FO' : Campicello, campagna - E' ito fò (o de fò) = E' andato in campagna.
 FOCORE : Bruciore.
 FOJETTA : Unità di misura del vino tipica delle osterie, equivalente a 1/2 litro.
-FONNARDO - FONNO : Profondo.
+FONNARDO : Profondo.
+FONNO : Profondo.
 FONTANILE : Abbeveratoio.
-FORA - DE FORA - DAFORA : Fuori.
+FORA : Fuori.
+DE FORA : Fuori.
+DAFORA : Fuori.
 FORASACCO : Spiga selvatica che si trova in mezzo al fieno (v. anche PUGNASACCO).
 FORCOLA : Insetto della frutta, forcina (ce so' le forcole rento le persiche).
 FORDA : Bacino di raccolta delle acque.
@@ -470,21 +537,31 @@ FORGO : Palmo (come misura), tanto, parecchio.
 FORMA : Avvallamento di terreno (specialmente al lato di strade e viottoli.
 FRA AGGIUSTITE E METTITE BENE… : Tra una cosa e l'altra (fra aggiustite e mettite bene, ce vorrà 'n'antra oretta = per prepararmi ci vorrà ancora un'ora).
 FRACIO : Fradicio (sia bagnato che troppo maturo).
-FRANCIOTTOLA o FRANGIOTTOLA : Favola, bugia. (franciottola d’illume stento = storiella che va troppo per le lunghe).
+FRANCIOTTOLA: Favola, bugia. (franciottola d’illume stento = storiella che va troppo per le lunghe).
+FRANGIOTTOLA : Favola, bugia. (franciottola d’illume stento = storiella che va troppo per le lunghe).
 FRANGETOLE : Erba selvatica a ciuffi (commestibile).
 FRASCARELLI : Tipo di pasta fatta in casa.
-FRASCHINO o FRESCHINO : Odore caratteristico di prosciutto non bene conservato per cattiva salagione.
+FRASCHINO : Odore caratteristico di prosciutto non bene conservato per cattiva salagione.
+FRESCHINO : Odore caratteristico di prosciutto non bene conservato per cattiva salagione.
 FRATTA : Siepe, per di più spinosa, anche per segnare il limite dei campi.
 FRÈE : Febbre.
-FREGHINO o FRIGHINO : Commerciante troppo disinvolto.
+FREGHINO: Commerciante troppo disinvolto.
+FRIGHINO : Commerciante troppo disinvolto.
 FREGNA : Vagina.
 FREGNACCIA : Stupidaggine; anche frittata di acqua, sale e farina altrimenti detta "SUTRINA".
 FREGNO : Qualcuno, qualcosa (dispregiativo).
-FRENGICA o FRENCICA o FREGNA o FRESCA : Accipicchia.
-FRESCHE o FREGNE : Arrabbiature, avere le fresche o fregne = essere arrabbiato, inquieto.
+FRENGICA: Accipicchia.
+FRENCICA : Accipicchia.
+FREGNA : Accipicchia.
+FRESCA : Accipicchia.
+FRESCHE : Arrabbiature, avere le fresche o fregne = essere arrabbiato, inquieto.
+FREGNE : Arrabbiature, avere le fresche o fregne = essere arrabbiato, inquieto.
 FREZZA : Fionda a elastici.
-FRICCIULI - SFRIZZOLI - SFRICCIOLI : Ciccioli.
-FRICCIOLO - FRICCIOLETTO : Piccola quantità, , un po', un pochetto (v. anche ETO, OGNA, 'NTICCHIA).
+FRICCIULI : Ciccioli.
+SFRIZZOLI : Ciccioli.
+SFRICCIOLI : Ciccioli.
+FRICCIOLO : Piccola quantità, , un po', un pochetto (v. anche ETO, OGNA, 'NTICCHIA).
+FRICCIOLETTO : Piccola quantità, , un po', un pochetto (v. anche ETO, OGNA, 'NTICCHIA).
 FRILLICHICCHIA : Pioviggina (v. PIUJCCICA).
 FRONTINO : Schiaffetto sulla fronte.
 FUGATO : Chi va di fretta, veloce (de fugato = di corsa).
@@ -498,7 +575,8 @@ FUSCELLA : Recipiente di confezionamento della ricotta. Ill’arecotta vene comm
 GAETTA : Gruppo di giovinastri.
 GALITTI : Garretti, caviglie (L'ajo preso p'i'ggalitti = L'ho preso per le caviglie).
 GANASSE : Mascelle, denti molari.
-GARAVINA o CARAVINA : Attrezzo edile, piccone a punta e taglio.
+GARAVINA : Attrezzo edile, piccone a punta e taglio.
+CARAVINA : Attrezzo edile, piccone a punta e taglio.
 GARGARIZZI : Gargarismi (v. anche GRAGALIZZI).
 GARGAROZZO : Trachea (v. anche GRAGALOZZO).
 GATTAROLA : Foro in basso alle porte per fare passare il gatto.
@@ -510,17 +588,21 @@ GHIENORO : Genero (v. anche NORO).
 GHIOTTA : Teglia rettangolare a bordo basso.
 GIALLUNI : Genere di fagioli.
 GIONCATA : Derivato del latte, ottenuto dalla separazione del siero dal coagulo, commestibile.
-GIOVENNOTTA/O : Nubile, scapolo.
+GIOVENNOTTA : Nubile.
+GIOVENNOTTO : Scapolo.
 GIRELLI : Fuochi d'artificio.
 GIUBBA : Giacca.
 GIUBBA AREVORDATA : Di persona che ricicla vecchi abiti, non potendo permettersene di nuovi.
 'GNA : Bisogna.
-GNA' - GNATO - GNAMO : Andare, andato, andiamo (v. ANNA' - JI' - 'NA').
+GNA' : Andare (v. ANNA' - JI' - 'NA').
+GNATO : andato (v. ANNA' - JI' - 'NA').
+GNAMO : andiamo (v. ANNA' - JI' - 'NA').
 GNAOLA’ : Miagolare (anche SGNAOLA').
 GNASTICARE : Masticare.
 GNAULÍO : Miagolio.
 GNERTO : Spesso, grossolano; (v. anche JERTO).
-GNESPOLI - GNESPULI : Nespole.
+GNESPOLI : Nespole.
+GNESPULI : Nespole.
 GNESPOLO : Albero di nespole.
 GNESTOLO : Fionda che si ruota per il lancio (non come quella ad elastici detta "MAZZAFIONDA").
 'GNI POCH'E TTANTO : Ogni tanto.
@@ -546,16 +628,20 @@ GRUGNO : Faccia.
 GUADAMBIO : Guadagno.
 GUAZZERA : Rugiada.
 GUINZA : Terreno bagnato e pantanoso.
-IAMMANCO o IMMENO : Almeno.
+IAMMANCO : Almeno.
+IMMENO : Almeno.
 IEPPE : Zolle di terreno, rivoltate dall'aratro.
 IMMASCIATA : Messaggio, ambasceria.
 IMMOTTATORO : Imbuto (v. MOTTATORO).
-INCANNATA - ANCANNATA : Trappola per invischiare volatili.
+INCANNATA : Trappola per invischiare volatili.
+ANCANNATA : Trappola per invischiare volatili.
 INCIAMPICA' : Inciampare (v. 'NCIAMPICA').
 INCIURCINATO : Raggomitolato, raggrinzito (vedi anche ‘NCRIPPILLITO).
 INCRIPPILLITO : Intorpidito (nei muscoli), rattrappito (v anche 'NCRIPPILLITO).
-INCUJATO o INCUJATTO : Implume, imberbe.
-INFONNA - INFUSO : Bagnare - Bagnato (v. anche ANFONNISE o 'NFONNA).
+INCUJATO : Implume.
+INCUJATTO : Imberbe.
+INFONNA : Bagnare (v. anche ANFONNISE o 'NFONNA).
+INFUSO : Bagnato (v. anche ANFONNISE o 'NFONNA).
 INFRANCUJATO : Frammischiato, confuso (v. anche 'NFRANCUJATO).
 INGONIA : Agonia.
 INGRUGNATO : Che tiene il broncio.
@@ -563,7 +649,8 @@ INGUATTA' : Nascondere (v. anche ANGUATTA' o 'NGUATTA').
 INNIMICO : Nemico (Ill'innimico = Il nemico).
 INTIGNA’ : Insistere, intestardirsi, (anche 'NTIGNA').
 INTIRICHITO : Disseccato, intirizzito. Rimanere sbalordito, sorpreso (v. 'NTIRICHITO).
-INTRAPPAJASSE - INTRAPPAJATO : Confondersi - Confuso (v. anche ANTRAPPAJA' - 'NTRAPPAJATO).
+INTRAPPAJASSE : Confondersi (v. anche ANTRAPPAJA' - 'NTRAPPAJATO).
+INTRAPPAJATO : Confuso (v. anche ANTRAPPAJA' - 'NTRAPPAJATO).
 INTRONATO : Intontito, incrinato (in senso figurato: stupido, minato nella salute) (v. 'NTRONATO).
 INTRUJASSE : Sporcarsi (v. 'NTRUJASSE).
 INTURCINATO : Intrecciato, aggrovigliato (v. 'NTURCINATO).
@@ -601,7 +688,8 @@ LEGA : Piccolo invaso d'acqua, prossimo ad una sorgente, delimitato da sassi dis
 LEMME LEMME : Piano piano.
 LENA : Legna da ardere (pl. LE LÉNA o anche 'E LÉNA).
 LETE : Levati, spostati.
-LETO - LETA : Dito - dita (v. anche ETO - ETA).
+LETO : Dito (v. anche ETO - ETA).
+LETA : Dita (v. anche ETO - ETA).
 LETTA : Striscia di terreno coltivabile limitato da due filari di alberi o di piante.
 LIECIO : Insipido, acquoso, insapore (anche SLECIO).
 LINTERNA : Lampada ad olio.
@@ -616,7 +704,8 @@ LORDO : Sporcaccione.
 LOTO : Sudiciume, sporcizia, (v. anche OTO).
 LOTOSO : Sudicio, sporco.
 LUCCHISINA : Sovraccoperta di cotone o imbottita.
-LUCCICA - LUCCICHETTA : Lucciola.
+LUCCICA : Lucciola.
+LUCCICHETTA : Lucciola.
 LUCCICORE : Bagliore.
 LUCCO : Stanco (v. ALLUCCASSE).
 LUCERNARO : Abbaino.
@@ -627,7 +716,8 @@ LUPINO : Specie di callo alle dita dei piedi.
 LUPOLI : Getti primaverili di piante (es. vitalba). Commestibili.
 LUSTRORE : Chiarore, splendore.
 LUVI' : Guarda un po'? (Luvì chi ecco? = guarda un po' chi arriva?).
-MA' - MATE : Madre, mamma (mate mia quanto patiscio = mamma mia quanto si soffre).
+MA' : Madre, mamma (mate mia quanto patiscio = mamma mia quanto si soffre).
+MATE : Madre, mamma (mate mia quanto patiscio = mamma mia quanto si soffre).
 MACHINE : Madia (v. anche MATTERA).
 MACIO : Strafatto, troppo maturo, molliccio, guasto (in senso figurato persona furbastra es. sì macio ma pperò).
 MADONNÉLLE : Acheni, ancora verdi, di olmo, teneri e commestibili; anche bambine in costume nero e col velo, che accompagnano la processione del venerdì santo.
@@ -648,7 +738,8 @@ MARTAJATO : Malfatto (v. MARTUFO).
 MARTINICCHIA : Freno a mano dei carri.
 MARTUFO : Malfatto (v. MARTAJATO).
 MARVEJA : Verme che si riproduce vicino all'osso del prosciutto male conservato (perché poco salato o fatto con tempo umido e caldo).
-MARZI - MARZITTI : Cime di rapa.
+MARZI : Cime di rapa.
+MARZITTI : Cime di rapa.
 MASTELLO : Recipiente con manico da inserire nelle botti per prendere un po' del contenuto.
 MATRIA : "Madre" dell'aceto.
 MATRIÀLE : Rozzo (di persona), materiale.
@@ -659,19 +750,22 @@ MAZZAFIONDA : Fionda ad elastici.
 'MBORZO : Bolso, fiacco.
 'MBRIACO : Ubriaco (stato momentaneo).
 'MBRIACONE : Etilista (dedito al bere).
-'MBROJO - 'MBROJONE : Imbroglio - imbroglione.
+'MBROJO : Imbroglio.
+'MBROJONE : imbroglione.
 ME CE SCORZO TUTTO : Non ho alcuna fretta (quasi a farlo di proposito, come reazione).
 ME SA MIJANNI : Non vedo l'ora.
 MEJO : Meglio, migliore (sì' i'mmejo = sei il migliore).
 MELLA : Mela (pl. le mella).
 MELLAFRICA : Corbezzolo (frutto a maturazione invernale).
 MENCELLA : Brocca di coccio per acqua.
-MENCIO - MENCIAROTTO : Poco scaltro, sempliciotto.
+MENCIO : Poco scaltro.
+MENCIAROTTO : Sempliciotto.
 MESCOLA : Cucchiaio in legno da cucina.
 MESSA PAZZA : Messa pomeridiana del venerdì santo.
 MESTO : Messo. (l'ajo mesto = l'ho messo).
 META : Mietere.
-METTA - MITTI : Mettere, metti (Nun ce mittissi becco = Non impicciarti).
+METTA : Mettere (Nun ce mittissi becco = Non impicciarti).
+MITTI : metti (Nun ce mittissi becco = Non impicciarti).
 MEZZA : Recipiente cilindrico per misurare cereali, olive, ecc..
 MEZZADI' : Mezzogiorno.
 MEZZAROLO : Mezzadro.
@@ -698,19 +792,23 @@ MONTONE : Tanto/i (c'ha un montone de bocchi testo stì = è molto ricca quella 
 MORDACCHIA : Museruola.
 MÓRDO : Molto.
 MORRALE : Palo in legno (generalmente usato nei sottotetti).
-MORRE - MORRALE - MORRALETTO : Scarpata.
+MORRE : Scarpata.
+MORRALE : Scarpata.
+MORRALETTO : Scarpata.
 MORTAJOLO : Porcino (fungo) Boletus edulis.
 MOSCIARELLE : Castagne secche.
 MOSCIO : Flaccido (di frutta e di persona).
 MOSTRARELLA : Atto dello strofinare la buccia dell'anguria sulla faccia.
-MOTTATOIO - MOTTATORO : Imbuto, che imbotta (anche IMMOTTATORE).
+MOTTATOIO : Imbuto.
+MOTTATORO : che imbotta (anche IMMOTTATORE).
 MOVA : Muovere (Mujva = Muoveva).
 'MPOPONITO : Intontito (dopo un colpo ricevuto), insonnolito (appena sveglio).
 MUCCICOSO : Moccioso, .
 MUCCI' : Scappare, fuggire, uscire di casa. (J'è toccato muccì - E' dovuto scappare).
 MUFFA' : Ammuffire (anche ammuffà ill'occhi = fare gli occhi neri con i pugni).
 MUNELLACCIO : Ragazzo dispettoso.
-MUNELLO/A : Bambino/a.
+MUNELLO : Bambino.
+MUNELLA : Bambina.
 MURO MURO : Modo di camminare accanto ai muri, quasi a ripararsi sotto la gronda (v. anche COSTA COSTA).
 MUSETTA : Sacchetti di mangime appesi al collo di animali.
 MUSICA : Banda.
@@ -722,29 +820,34 @@ NA' : Andare (v. anche ANNA' - GNA' - JI').
 NATICA' : Tentennare, smuoversi (es. il sasso naticarello o rupe tremante).
 NATICCHIA : Nottolino in legno per chiudere infissi.
 'NCIAMPICA' : Inciampare (v. INCIAMPICA').
-'NCIANCICA' - 'NCIANCICATO : Masticare, sgualcire - masticato, sgualcito.
+'NCIANCICA': Masticare, sgualcire.
+'NCIANCICATO : masticato, sgualcito.
 'NCIURCINATO : Raggomitolato, avviluppato; (v INCIURCINATO).
 'NCOLLA' : Prendere in braccio (fijarè te pijo ‘ncollo? = ragazzino, ti prendo in braccio?).
 'NCRIPPILLITO : Intorpidito (nei muscoli), raggrinzito (vedi anche INCRIPPILLITO).
 NE' TENÉ NE' SCURTICA' : Non accontentarsi, non accettare compromessi.
-NESCA - NESCHE : Botta - botte solenni.
+NESCA : Botta.
+NESCHE : Botte solenni.
 NESCO : Boccino (v. anche ONNESCO).
 'NFRACICASSE : Bagnarsi, infradiciarsi.
 'NFRANCUJATO : Mischiato, confuso (v. anche INFRANCUJATO).
 'NFRATANDO : Frattanto.
-'NFONNA - 'NFUSO : Bagnare - Bagnato (v. anche ANFONNISE o INFONNA).
+'NFONNA : Bagnato (v. anche ANFONNISE o INFONNA).
+'NFUSO : Bagnato (v. anche ANFONNISE o INFONNA).
 'NGO' : Ancora.
 'NGRAVIDA' : Mettere incinta.
 ‘NGRUGNATO : Arrabbiato, offeso.
-'NGUATTA' - 'NGUATTATO : Nascondere, nascosto (v. anche ANGUATTARE o INGUATTARE).
+'NGUATTA' : Nascondere (v. anche ANGUATTARE o INGUATTARE).
+'NGUATTATO : Nascosto (v. anche ANGUATTARE o INGUATTARE).
 'NGUATTARELLA : Nascondino (gioco per bambini).
 ‘NGUJATTO : Spogliato, detto di volatile implume.
 NICULIZIA : Liquirizia.
 NIMMANCO : Neanche (v. MAMMANCO).
-'NNASPO - ONNASPO : Raspo d'uva, grappolo.
+'NNASPO : Raspo d'uva, grappolo.
+'NNASPO : Raspo d'uva, grappolo.
 NOCCHIA : Nocciola.
 NOCCHIETO : Noccioleto.
-NONEE… : Conferma di una negazione; quasi a dire “No, non insistere ancora”.
+NONEE... : Conferma di una negazione; quasi a dire “No, non insistere ancora”.
 NORO : Genero (anche GHIENORO).
 NOVA : Notizia.
 'NTENGOLATO : Unto (v. anche 'ONTOLATO).
@@ -754,7 +857,8 @@ NOVA : Notizia.
 'NTISI : Intesi, capiti (v. ANDENNA).
 'NTISICHITO : Rinseccolito.
 'NTRALUCCA' : Barcollare; essere instabili (v. ANTRALUCCA’).
-'NTRAPPAJA' - 'NTRAPPAJATO : Confondere, confuso (v. ANTRAPPAJA' – INTRAPPAJASSE).
+'NTRAPPAJA' : Confondere (v. ANTRAPPAJA' – INTRAPPAJASSE).
+'NTRAPPAJATO : Confuso (v. ANTRAPPAJA' – INTRAPPAJASSE).
 'NTRATANTO : Intanto, frattanto.
 ‘NTRICASSE : Intricarsi.
 'NTRONATO : Intontito, stordito, incrinato (in senso figurato: stupido, minato nella salute) (v. INTRONATO).
@@ -775,7 +879,8 @@ OJO: OLIO.
 OMMASTO : Basto, sella.
 OMMINO : Uomo.
 OMPICCIONE : Ombelico (v. anche UMPICCIONE) usato, a volte, anche il termine 'MBELLICO.
-ONNASPO - 'NNASPO : Raspo d'uva, grappolo (v. anche RACICIO e ROMPAZZO).
+ONNASPO : Raspo d'uva, grappolo (v. anche RACICIO e ROMPAZZO).
+'NNASPO : Raspo d'uva, grappolo (v. anche RACICIO e ROMPAZZO).
 ONNESCO : Boccino (v. anche NESCO).
 ONTO : Lardo.
 ONTOLATO : Unto (v. anche 'NTENGOLATO).
@@ -788,7 +893,7 @@ OTO : Sporco, sudiciume (v. LOTO).
 OTOSO : Sporco, agg.
 PACCHIAROTTO : Pienotto, grassottello.
 PACÈNZA : Pazienza.
-PAINO (fare il _) : Ostentare, esibire.
+PAINO : (fare il _) Ostentare, esibire.
 PAJARICCIO : Materasso riempito di foglie di granturco e paglia.
 PAJARO : Fienile, cumulo di fieno o paglia.
 PAJAROZZA : Pagliaio di dimensioni ridotte (1,5 m. circa).
@@ -802,16 +907,19 @@ PANNATAIO : Nicchia, scaffale a muro (nelle vecchie case, prive di acqua corrent
 PANNINARO : Colui che vende stoffe.
 PANTÀSIMA : Fantasma.
 PANUNTELLA : Azione dinamica del fare il PANUNTO (FACEMO LA PANUNTELLA? = STROFINIAMO IL PANE SUL LARDO? … che si appendeva al camino).
-PANUNTO – PANONTO : Pane unto (strofinato, ad esempio, al lardo di maiale che lo rende grasso).
+PANUNTO : Pane unto (strofinato, ad esempio, al lardo di maiale che lo rende grasso).
+PANONTO : Pane unto (strofinato, ad esempio, al lardo di maiale che lo rende grasso).
 PANTANICCIO (o PANTANICCHIO) : Pantano, area ricca di pozzanghere.
 PAPARME : A terra sdraiato (Si sbatte i' ccapo, aremane jò a ppaparme = se batte la testa resta steso in terra).
 PA-PPA-RA-PA’ : Sillabe non pronunciate, ma fischiate. Quattro note sinonimo di esagerazione; quando qualcuno la dice proprio grossa.
 PAPPOLA : Frottola, storiella inventata per burla o per vanteria.
-PARAVANTI - PARANNANZI : Grembiule da cucina o per artigiani.
+PARAVANTI : Grembiule da cucina o per artigiani.
+PARANNANZI : Grembiule da cucina o per artigiani.
 PARA : Piccola diga (para de patalocco).
 PARO : Paio - Sembro (che te paro? = cosa ti sembro?).
 PARO E CEPRO (SCEPRO) : Pari e dispari.
-PASSONE - PASSUNE : Grosso palo da recinzione.
+PASSONE : Grosso palo da recinzione.
+PASSUNE : Grosso palo da recinzione.
 PASTASCIUCCA : Pasta asciutta.
 PASTECHE : Pasticche.
 PÀSTINO : Miscuglio, impasto di letame (anche di sterco umano!) e paglia, utilizzato come concime. A Soriano, c'è un Vicolo dei Pastini, ove anticamente avveniva il "butto" dei rifiuti e dei bisogni fisiologici, che poi venivano appunto utilizzati come fertilizzante.
@@ -842,10 +950,12 @@ PERA : Pera (pl. le pera), in senso figurato le botte.
 PERCOSSO : Stupito, sbalordito (remase percosso = rimase sbalordito o colpito).
 PERCOTA : Stupire, sbalordire (me percotette = rimasi stupito).
 PERSICHE : Pesche.
-PERSORA o PERSOJA : Catino di coccio.
+PERSORA : Catino di coccio.
+PERSOJA : Catino di coccio.
 PERTICA : Bastone flessibile utilizzato per battere le piante e far cadere i frutti.
 PESTATORO : Pestello (del mortaio).
-PETALINO - PEDALINO : Calzino (M'ha ditto petalino oppure m'ha ditto zella = Sono stato sfortunato ).
+PETALINO : Calzino (M'ha ditto petalino oppure m'ha ditto zella = Sono stato sfortunato ).
+PEDALINO : Calzino (M'ha ditto petalino oppure m'ha ditto zella = Sono stato sfortunato ).
 PETETE : Puzze (nel "buco delle petete" c'erano dei gabinetti pubblici all'aperto).
 PETTINICCHIA : Fungo.
 PIAGNA : Piangere.
@@ -872,7 +982,8 @@ PIEI : Piedi.
 PIEI DURGI : Usato nei confronti di chi cammina con sofferenza (e ccammina bbene… che c’hai i ppiei durgi?)
 PIENARA : Alluvione.
 PIETRUCCOLA : Sampietrino.
-PIGNATTO - PIGNATTA : Pentola.
+PIGNATTO : Pentola.
+PIGNATTA : Pentola.
 PIJA' : Prendere.
 PIJA' CHI'LLOMBRELLA : espressione figurata usata la mattina delle Ceneri quando, trovata una persona addormentata dopo una notte di balli, si apriva l'ombrello su di essa, prima di svegliarla e costringerla a pagare la colazione).
 PIJA’ LA SEGA A GGIRO : Girarci intorno, essere inconcludenti (menare il can per l’aia).
@@ -890,7 +1001,7 @@ PITALE : Vaso da notte.
 PITINATA : Schioccare di dita, colpo portato col dito medio rilasciato di colpo dal pollice.
 PITOLA’ : Girare su se stessi.
 PITOLOZZO : Piccola trottola di legno, picchio, a corda.
-PITTURINA (fare a _) : Beccarsi in modo dispettoso e quasi infantile (hanno fatto a pitturina = si sono beccati).
+PITTURINA : (fare a _) Beccarsi in modo dispettoso e quasi infantile (hanno fatto a pitturina = si sono beccati).
 PITUÈRIE : Chiacchiere a vuoto.
 PIUJCCICA : Pioviggina (v. FRILLICHICCHIA).
 PIZZARULLI : Ghiaccioli.
@@ -898,21 +1009,26 @@ POJELLO : Manciata (es. di nocciole) a due mani.
 POJO : Poggio (I' ggiorn'i'ppojo = Il lunedì dell'Angelo).
 POLACCA : Blusa femminile.
 POLE : Può.
-POLLANDRELLI - POLANDRELLI : Bacche selvatiche commestibili, simili alle nespole, ma più piccole.
+POLLANDRELLI : Bacche selvatiche commestibili, simili alle nespole, ma più piccole.
+POLANDRELLI : Bacche selvatiche commestibili, simili alle nespole, ma più piccole.
 POLLEDRA : Vescica (pl. le polledra).
 PORCARECCIA : Porcilaia.
 PORCO : Maiale, sudicio.
 PORETTA ANNUI : Poveri noi.
 PORETTELLO : Poveraccio.
 PORNELLO : Susino (albero) PORNELLA = Susine (frutta).
-PORO - PURITTI : Povero - poveretti (Poro cristiano = Pover'uomo).
+PORO : Povero (Poro cristiano = Pover'uomo).
+PURITTI : Poveretti (Poro cristiano = Pover'uomo).
 POSTALE : Autobus (vedi CORRIERA).
-POZZA - POZZI : Che tu possa (che te pozzi pijà 'n gorbo = che ti venga un accidente).
+POZZA : Che tu possa (che te pozzi pijà 'n gorbo = che ti venga un accidente).
+POZZI : Che tu possa (che te pozzi pijà 'n gorbo = che ti venga un accidente).
 PREME : Interessare (me preme = mi interessa).
 PRESA : Palpata di natiche.
 PRESCIA : Fretta.
 PRETE : Sagoma in legno dove si inseriva lo scaldaletto.
-PRICISSIONE - PRETISSIONE - PRITISSIONE : Processione.
+PRICISSIONE : Processione.
+PRETISSIONE : Processione.
+PRITISSIONE : Processione.
 PRICURA' : Riordinare, accudire, rassettare (la casa) - Pricurà le bestie = Accudire gli animali.
 PRIMURA : Urgenza, premura.
 PROENNA : Composto per cavalli, di fave e biada, "servito" in un sacchetto legato al muso dell'animale (v. MUSETTA).
@@ -930,7 +1046,8 @@ PUPPIDA : Upupa.
 PÛRA : Paura (veni ccà, n’issi pura = avvicinati, non temere).
 PURCHITTI : Maialini.
 PURCHITTI DE SANT'ANTOGNO : Insetti che si appallottolano se impauruti.
-PURTICALLO - PURTIGALLO : Arancia.
+PURTICALLO : Arancia.
+PURTIGALLO : Arancia.
 PUTIVA : Poteva.
 PUZZOLOSO : Sporcaccione (anche dispettoso).
 QUARANTOTTO : Conteggio delle carte sparigliate nel gioco della scopa.
@@ -939,7 +1056,8 @@ QUARTERIA : Terreno concesso in conduzione agricola ad un colono, cui spettava 1
 QUÈLLE : Nulla, niente, nessuna cosa.
 QUESSO? : Quale?
 QUESTORO : Costoro.
-QUINATO/A : Cognato, a.
+QUINATO : Cognato.
+QUINATA : Cognata.
 RABBIA : Invidia (C'hai rabbia? Rusica la vidabbia).
 RACCHINICHITO : Rachitico.
 RACCIURCINATO : Raffazzonato, alla meglio, rattoppato.
@@ -953,51 +1071,66 @@ RAMINA : Schiumarola.
 RANCICA' : Grattare.
 RANCICHETTO : Striscetta di cotenna (avere il rancichetto = sentire il rancido alla gola per il cibo grasso).
 RANCICHILLI : Plurale di RANCICHETTO.
-RANCICO – RANCIO : Rancido, stantio.
+RANCICO : Rancido, stantio.
+RANCIO : Rancido, stantio.
 RANCURICCHIASSE : Piegarsi, farsi piccolo (v. ANCURICCHIASSE o RINGURICCHIASSE).
 RAPAZZOLA : Cuccetta di capanna.
 RASCHIAMACHINE : Attrezzo da cucina in ferro, per pulire il piano della madia dai residui della pasta del pane.
 RASOLETTO : Piccolo spiazzo di terreno.
 RATTA : Rete, peritoneo del suino, con cui si fasciano i fegatelli da cuocere "de lo spido".
 RATTATUJA : Confusione, ressa.
-RAZZICARELLA – RUSICARELLA : Dispetti, ripicche, infantili.
+RAZZICARELLA : Dispetti, ripicche, infantili.
+RUSICARELLA : Dispetti, ripicche, infantili.
 RECULE : Cade e non si recupera (usato, ad esempio, per gli alimenti ATTENTE CO' LA FARINA CHE RECULE).
-REGAZZO/A : Fidanzato, a.
+REGAZZO : Fidanzato.
+REGAZZA : Fidanzata.
 REGGIA : Reggere, prestare (te l'ajo dato a reggia = te l'ho solo prestato).
 REGGIA CECIO : Sinonimo di riservatezza, saper mantenere un segreto (nun reggi cecio = sei un chiacchierone).
 REGNA : Covone di grano.
-RENTA' - RENDA' : Entrare (Rentà rento = entrar dentro).
+RENTA' : Entrare (Rentà rento = entrar dentro).
+RENDA' : Entrare (Rentà rento = entrar dentro).
 REPARBASSE : Non osare, aver timore (v. AREPARBASSE).
 RIA : Ridere.
-RICCOJA - RICCOSSA : Raccogliere, raccolta.
-RICHIÈA o RECHIÈA : Controllare, ispezionare (specie i confini dei campi).
-RIECCO - ARIECCO : Di nuovo.
+RICCOJA : Raccogliere, raccolta.
+RICCOSSA : Raccogliere, raccolta.
+RICHIÈA : Controllare, ispezionare (specie i confini dei campi).
+RECHIÈA : Controllare, ispezionare (specie i confini dei campi).
+RIECCO : Di nuovo.
+ARIECCO : Di nuovo.
 RIMPINICASSE : Arrampicarsi.
 RINNACCIO : Rammendo, accia di filo.
-RINVICIDA' - RINVISCIDA' : Resuscitare.
+RINVICIDA' : Resuscitare.
+RINVICIDA' : Resuscitare.
 RISPARAMBIO : Risparmio.
 RIVOLO : Piccolo topo montano, tasso.
 RIZZA' : Alzare, alzarsi dal letto.
-RIZZASSE - RIZZITE : Alzarsi - Alzati! (da terra, dal letto).
+RIZZASSE : Alzarsi (da terra, dal letto).
+RIZZITE : Alzati! (da terra, dal letto).
 ROCCHIO : Pezzo di carne, salsiccia; anche pezzo cilindrico di legno.
 ROELLO : Prurito. Quando si manifesta in modo naturale (v. PRUZZA e SURCICO).
-ROMPAZZO o RAMPAZZO : Grappolo d'uva (v. anche ONNASPO e RACICIO).
+ROMPAZZO : Grappolo d'uva (v. anche ONNASPO e RACICIO).
+RAMPAZZO : Grappolo d'uva (v. anche ONNASPO e RACICIO).
 RONCETTO : Roncoletta.
 RONCIO : Roncola.
 RÔNNA : Grinta, cipiglio.
 ROPPA : Rompere (nu ruppissi … = non rompere …); v. anche SPASCIA'.
-ROSCIO/A : Rosso/a.
+ROSCIO : Rosso.
+ROSCIA : Rossa.
 ROSORE : Irritazione cutanea che provoca prurito (ROELLO).
-ROSORICCHIO - ROSOLICCHIO : Troppo cotto - di un soffritto bruciacchiato (leva la tigama, nu lo facissi rosoricchio = togli la padella, non farlo abbrustolire).
-RÔTTE - ROTTEZZIA : Grotta , grottaccia, antro, caverna.
+ROSORICCHIO : Troppo cotto - di un soffritto bruciacchiato (leva la tigama, nu lo facissi rosoricchio = togli la padella, non farlo abbrustolire).
+ROSOLICCHIO : Troppo cotto - di un soffritto bruciacchiato (leva la tigama, nu lo facissi rosoricchio = togli la padella, non farlo abbrustolire).
+RÔTTE : Grotta , grottaccia, antro, caverna.
+ROTTEZZIA : Grotta , grottaccia, antro, caverna.
 RUGHE : Processionarie.
 RUÌNA : Rovina.
 RÛJ : Rovi.
-RUPI' - RUPERTO : Aprire, aperto (rupette = aprì).
+RUPI' : Aprire, aperto (rupette = aprì).
+RUPERTO : Aprire, aperto (rupette = aprì).
 RUSCINA : Persona sporca e trasandata ("nun facissi la ruscina = cura un po' meglio te stessa").
 RUSICA' : Rosicare, rodersi dall'invidia (v. RABBIA) - RUSICA! Usato nei confronti dell'invidioso. L’imperativo viene accompagnato da un gesto con le unghie, passate avanti e indietro sui denti.
 RUSICHINO : Parte cartilaginosa del prosciutto.
-RUSPA' - RUSPO : Ripulire - Gioco di carte (andare a ruspo = cercare qualcosa rimasta dopo il raccolto).
+RUSPA' : Ripulire - Gioco di carte (andare a ruspo = cercare qualcosa rimasta dopo il raccolto).
+RUSPO : Ripulire - Gioco di carte (andare a ruspo = cercare qualcosa rimasta dopo il raccolto).
 RUZZA : Ruggine.
 RUZZACCHIOTTO : Individuo un po' sempliciotto, ma soprattutto rozzo e greve.
 RUZZOLA : Oggetto circolare.
@@ -1005,12 +1138,15 @@ SACCIO : So, conosco. Lo SAPARAJO? = Lo saprò? - Vieni a dirlo a me?. (Saccio u
 SACCOCCIA : Tasca.
 SACCUNI : Confraternita dei … (che in saio bianco trasportano la bara con il Cristo nella processione del venerdì santo).
 SAMPISTERNO : Santo di comodo, "virtuale", con cui prendersela nei momenti di rabbia (mannaggia sampisterno).
-SAPPA - SAPPONE : Zappa, zappone.
+SAPPA : Zappa, zappone.
+SAPPONE : Zappa, zappone.
 SARACA : Getto recente di rovo da more, tenero e commestibile.
 SARAPOLLI : Varietà di erba commestibile.
 SARDAFOSSI : Geometra.
-SARGE - SARGIO : Salice.
-SARTORE - SARTORA : Sarto, sarta.
+SARGE : Salice.
+SARGIO : Salice.
+SARTORE : Sarto.
+SARTORA : Sarta.
 SARVATICO : Selvatico.
 SARVIETTA : Tovagliolo.
 SASSICHETO : Strada o fondo sassoso.
@@ -1025,7 +1161,7 @@ SBROCCARE : Andare fuori di testa.
 SBUCA’ : Bucare, forare.
 SBURRA' : Eiaculare.
 SCAFARE : Togliere dai baccelli.
-SCAFATO (S’è _) : S'è fatto furbo.
+SCAFATO : S'è fatto furbo.
 SCAFI : Fave.
 SCALLALETTO : Scaldaletto.
 SCALLINO : Recipiente che contiene carboni accesi, per riscaldarsi.
@@ -1035,13 +1171,15 @@ SCAPOCOLLO : Dirupo.
 SCAPPA' : Uscire (luvì scapp'i'zzole= guarda un po', esce il sole).
 SCARVUJA’ : Scompigliare, sconvolgere (v. anche CARAVUJA').
 SCARCA' ILL'UNNII : Togliere i nidi.
-SCARCIOFULI - SCARCIOFULITTI : Carciofi - Carciofini.
+SCARCIOFULI : Carciofi.
+SCARCIOFULITTI : Carciofini.
 SCARDAONE : Scarabeo.
 SCARGIA : Scorza.
 SCARTARELLA : Gioco che i ragazzi fanno con il pallone (uno contro tutti, in un dribbling continuo).
 SCASA' : Traslocare; anche mettere le dita nel naso.
 SCATARRA’ : Espettorare.
-SCEGNA - SCENTO : Scendere. Sceso.
+SCEGNA : Scendere.
+SCENTO : Sceso.
 SCENTA : Discesa.
 SCEPRO : Dispari (v. anche CEPRO).
 SCÈSCITO : Disordine materiale.
@@ -1058,9 +1196,11 @@ SCIASCIA : Varietà di peperino vulcanico rosato, tipico dei territori del Cimin
 SCINICASSE : Faticare, stancarsi esageratamente (SCINICATO = sciancato, malfermo) (me so' scinicato pe' carrejà le legna = mi sono sfinito per trasportare la legna).
 SCINTILENE : Lampada ad acetilene.
 SCIOJA : Sciogliere (ji s’è sciord’i’ccorpo = ha avuto problemi intestinali).
-SCIOMMOLA' - SCIMULA' : Parziale prosciugarsi (di terreno, oggetti umidi).
+SCIOMMOLA' : Parziale prosciugarsi (di terreno, oggetti umidi).
+SCIMULA' : Parziale prosciugarsi (di terreno, oggetti umidi).
 SCIORNA : Persona estremamente trascurata.
-SCIORTA - SCIORDA : Diarrea.
+SCIORTA : Diarrea.
+SCIORDA : Diarrea.
 SCIUTTASSE : Asciugarsi, es. ha patito la sciutta (di frutto disidratato, coltivato in un "SECCARECCIO").
 SCOCCODEJA’ : Parlare con insistenza, sguaiatamente.
 SCÔLA : Colapasta.
@@ -1090,7 +1230,8 @@ SÊA : Sedia, verbo sedere (es. mettise a sea = mettersi seduti).
 SECCARECCIA : Aridità.
 SECCARECCIO : Terreno arido.
 SECCATORO : Essiccatoio.
-SEDOIO - SEDITORE : Sedile.
+SEDOIO : Sedile.
+SEDITORE : Sedile.
 SELLERO : Sedano. (Usato a volte nei confronti di una persona un po' imbranata).
 SEMENZA : Chiodino.
 SENTO : Segnato (un punteggio, una nota, un goal).
@@ -1100,7 +1241,9 @@ SETOLA : Crine guida o pilota, utilizzato dal calzolaio per trascinare lo spago 
 SÉRVA : Selva.
 SFRAGNA : Spremere, schiacciare.
 SFRATAZZO : Frattazzo, grande spatola per intonaci (v. anche AMERICANA).
-SFRIZZOLI - SFRICCIOLI - FRICCIULI : Ciccioli.
+SFRIZZOLI : Ciccioli.
+SFRICCIOLI : Ciccioli.
+FRICCIULI : Ciccioli.
 SGANASSUNI : Colpi dati in faccia.
 SGNOLA' : Miagolare (anche GNAOLA').
 SGOMMARELLO : Mestolo (v. MESCOLA).
@@ -1111,10 +1254,11 @@ SGRIGNATA : Raggio di sole che fa capolino dalle nuvole.
 SGUILLA' : Slittare.
 SGUINCIO : Obliquo, (l’ajo preso de sguincio = l’ho colpito di striscio).
 SGUINCIUNI : Scroscio, obliquo, di pioggia.
-SI FREGATO… : Che ti prenda…
+SI FREGATO... : Che ti prenda...
 SI MMAI CHE SI’ : Nel caso che, caso mai.
-SI SI’ BBONO…COMMATTICE TU : Se sei capace… fallo tu.
-SI TANT'E' - SI TANT'ENE : Se è così, tant'è.
+SI SI’ BBONO COMMATTICE TU : Se sei capace fallo tu.
+SI TANT'E' : Se è così.
+SI TANT'ENE : tant'è.
 SIMIA : Scimmia.
 SIMINA : Semina.
 SINALE : Grembiule domestico (v. anche ZINALE).
@@ -1136,14 +1280,17 @@ SORCA 'NTENTA : Impomatato, unto.
 SORRAGA : Aringa.
 SORVA : Frutto. Bòtte (va' vija sinnò so' sorva = vattene altrimenti le prendi).
 SPANACCA' : Schiaffeggiare (dare le PANACCHE).
-SPANNA - SPASO : Spandere - sparso.
+SPANNA : Spandere.
+SPASO : sparso.
 SPANNULI' : Sbadigliare.
-SPARAMBIO - SPARAGNO : Risparmio.
+SPARAMBIO : Risparmio.
+SPARAGNO : Risparmio.
 SPARGIO : Asparago.
 SPARRUCA' : Disperdere, mettere fuori posto (chi ammontona e chi sparruca = chi risparmia e chi sperpera).
 SPARTA : Dividere. (Se spartiscino = Si dividono).
 SPASCIA' : Sfasciare, rompere; v. anche ROPPA.
-SPEGNA - SPENTO : Spingere, spinto.
+SPEGNA : Spingere.
+SPENTO : Spinto.
 SPÈNNA : Spendere (v. anche SPRAGNA).
 SPERDIA’ : Bestemmiare.
 SPIANATORA : Tavola per lavorare la pasta.
@@ -1153,11 +1300,12 @@ SPICIOCCA' : Staccare (es. i "pummiduritti a boccolo", conservati per l'inverno)
 SPINICASSE : Sporgersi.
 SPINICO : Altalena.
 SPINOSA : Istrice.
-SPITO o SPIDO : Spiedo.
+SPITO : Spiedo.
+SPIDO : Spiedo.
 SPONNA’ : Sfondare.
 SPONNATO : Sfondato – molto fortunato.
 SPORDO : Spogliato, nudo.
-SPORDO (S’è _) : Si è tolto l'abito talare.
+SPORDO : Si è tolto l'abito talare.
 SPRAGNA : Spendere (v. anche SPENNA).
 SPULINA' : Ripulire l'arredo (riferito soprattuto alle pulizie straordinarie di Pasqua), vincere al gioco (es. l'ajo spulinato).
 SPUNGICA' : Pungere, punzecchiare.
@@ -1167,8 +1315,10 @@ SQUIZZAMUSO : Tagliolini in brodo.
 SQUIZZARELLO : Gioco che facevano i ragazzi tirandosi l'acqua.
 STACCIÛNI : Residui della lavorazione della canapa o di altri vegetali.
 STAFFA : Attrezzo del calzolaio, utilizzato per poggiare le calzature da confezionare.
-STAGNARO - STAGNINO : Idraulico.
-STEGNA - STENTO : Spegnere, spento (es. Stingi i'llume stì! = Spegni quel lume!).
+STAGNARO : Idraulico.
+STAGNINO : Idraulico.
+STEGNA : Spegnere (es. Stingi i'llume stì! = Spegni quel lume!).
+STENTO : Spento (es. Stingi i'llume stì! = Spegni quel lume!).
 STÉNA : Steccato.
 STENNA : Stendere (me fai stenna le zampe = mi farai morire).
 STIGNA' : Togliere (un vizio, una cattiva abitudine) es. t'ajo da stignà.
@@ -1176,14 +1326,18 @@ STILOSO : Di bella fattezza, sportivo (che machina stilosa… = che auto sportiv
 STORZA' : Balzare, trasalire (M'ai fatto storzà = Mi hai fatto sobbalzare dalla paura).
 STORZO : Scatto, sobbalzo
 STRACCALI : Bretelle.
-STRACCASSE - STRACCO : Stancarsi, stanco.
+STRACCASSE : Stancarsi.
+STRACCO : Stanco.
 STRAGNERO : Straniero.
-STRASCINA' - STRASCINUNI : Trascinare - Trascinandosi (anche A STRASCINO = Al traino).
+STRASCINA' : Trascinare.
+STRASCINUNI : Trascinandosi (anche A STRASCINO = Al traino).
 STREGNA : Stringere.
 STRIFOLACCIA : Strofinaccio da cucina.
 STRIPPASORRAGHE : Secco, estremamente magro.
-STRIULO - STRIVOLO : Strigolo (Silene inflata); erba spontanea primaverile, dal sapore simile agli spinaci.
-STROLIGO - STROLICO : Indovino, astrologo.
+STRIULO : Strigolo (Silene inflata); erba spontanea primaverile, dal sapore simile agli spinaci.
+STRIVOLO : Strigolo (Silene inflata); erba spontanea primaverile, dal sapore simile agli spinaci.
+STROLIGO : Indovino.
+STROLICO : Astrologo.
 STROZZAPRETI : Tipo di pasta fatta in casa.
 STRUFFAJE : Impicci, cose superflue o inutili (v. anche GHIACCULI e ZARAVATTULI).
 STRUFOLI : Dolce tipico del carnevale simile alle castagnole.
@@ -1202,15 +1356,18 @@ SUGACICHE : Fumatore esasperato che, aiutandosi con uno spillo, fumava fino a sc
 SUGAETO : Bambino che si ciuccia il dito.
 SUGASUBBIE : Secco, allampanato, che "SUGA" le "SUBBIE".
 SULI : Soli (s. Solo) (ERIMA dui suli - Eravamo solamente in due).
-SULINA (alla _) : Al sole. (I vvecchi a piazza stanno alla sulina = I vecchi in piazza si mettono al sole).
-SUPPELLI' - SUPPECCHI' - SUPPESTI' : Su per di lì, su per di qua - Lassù.
+SULINA : (alla _)  Al sole. (I vvecchi a piazza stanno alla sulina = I vecchi in piazza si mettono al sole).
+SUPPELLI' : Su per di lì.
+SUPPECCHI' : su per di qua .
+SUPPESTI' : Lassù.
 SURCICO : Solletico provocato (fare il SURCICO = fare il solletico)
 SURIANO : Soriano.
 SUSTACCHINA : Travetto di legno.
 SUTRINA : Frittella con acqua e farina.
 SVERDO COMME LA PORVERE : Veloce mentalmente, intiutivo.
 SVORCHIA' : Togliere le nocciole dalla parte verde che le avvolge (v. VORCHIO).
-TACCHIA - TACCHIETTA : Pezzetti di legno per accendere il fuoco (vedi anche APPICCIUME).
+TACCHIA : Pezzetti di legno per accendere il fuoco (vedi anche APPICCIUME).
+TACCHIETTA : Pezzetti di legno per accendere il fuoco (vedi anche APPICCIUME).
 TADDÈO : Te Deum.
 TARROCCA' : Rimproverare.
 TASTA : Spicchio per la verifica della maturita dell'anguria.
@@ -1220,7 +1377,9 @@ TEMPERANZA : Conseguenza di una pioggia eccessiva (es. osservando una sorgente i
 TENE' CONTO : Considerare.
 TERRA PIANO : Piano terra (sto accasato a terra piano = abito a pian terreno).
 TERZILE : Telo dove si appoggiavano le pagnotte pronte per essere cotte; era anche usato per tenere separati i pani.
-TÉSTO - TÉSTO STI' - TISTI : Questo, questo qui, questi.
+TÉSTO : Questo.
+TÉSTO STI' : Questo qui.
+TISTI : Questi.
 TIÈLLA : Teglia.
 TIGAMA : Tegame.
 TIGNA : Tenacia, insistenza, testardaggine.
@@ -1229,14 +1388,16 @@ TINGOLO (1-2-3) : Filastrocca dei bambini che giocavano a 'NGUATTARELLA.
 TIPPE TOPPE : Toppa gommosa utilizzata per riparare le camere d'aria delle biciclette.
 TISTIMOGNO : Testimonio.
 TÍTOLO : Bambino.
-TOA' - TOASSE : Piegare, piegarsi (nun me pozzo toà = non posso piegarmi).
+TOA'  : Piegare (nun me pozzo toà = non posso piegarmi).
+TOASSE : Piegarsi (nun me pozzo toà = non posso piegarmi).
 TOCCA : Bisogna.
 TOCCIO : Collo della bottiglia.
 TORSO : Stupido, ingenuo.
 TOTERO : Totolo (interno della pannocchia).
-TOTOLA' - TOTOLONE : Brontolare, brontolone.
+TOTOLA' : Brontolare.
+TOTOLONE : Brontolone.
 TRABBACCHINO : Baldacchino.
-TRAFUGO (DE _) : Di nascosto.
+TRAFUGO  :(DE _) Di nascosto.
 TRAVAJO : Lavoro.
 TRICCHE E TRACCHE : Tavola in legno con due perni metallici che veniva utilizzata dal venerdì Santo alla Pasqua di Resurrezione. Sostituiva il suono delle campane, per definizione "legate". Un esemplare è ancora conservato nella Chiesa di S. Agostino.
 TRINCETTO : Lungo coltello del calzolaio.
@@ -1245,15 +1406,18 @@ TRISTO : Cattivo, v. anche PROÌBITO (Accitefa quanto sì tristo = perbacco quan
 TROCCOLO : Recipiente, ricavato da un tronco d'albero, dove si versa il cibo dei maiali (v. PILOZZA).
 TROJA : Scrofa.
 TROMBA’ : Fare sesso.
-TRONA' - TRONO : Tuonare, tuono.
+TRONA' : Tuonare.
+TRONO : Tuono.
 TROSCIA : Sbocco d'acqua verso il basso.
 TROVA' LOCO : Tranquillizzarsi (nun trova loco i'ffijo stì = quel bambino è molto irrequieto).
 TROVO : Trovato (l’ajo trovo io = l’ho trovato io).
-TRUZZOLA' - TRUZZOLARE : Ruzzolare.
+TRUZZOLA' : Ruzzolare.
+TRUZZOLARE : Ruzzolare.
 TUCINO : Beccuccio della brocca per l'acqua.
-TU'MMEZZO - DU'MMEZZO : Nel mezzo.
+TU'MMEZZO : Nel mezzo.
+DU'MMEZZO : Nel mezzo.
 TURVIO : Torbido.
-TUSSI' (CUSSI') : Così, in questo modo (anche ACCUSSI' - ATTUSSI').
+TUSSI'  : (CUSSI') Così, in questo modo (anche ACCUSSI' - ATTUSSI').
 UA : Uva.
 UFFA : Esclamazione annoiata.
 UMPICCIONE : Ombelico (v. anche OMPICCIONE).
@@ -1271,22 +1435,27 @@ VAJATA : Russola (fungo).
 VAJO : Vado (1^ pers. sing. - ind. pres. - verbo andare).
 VELEGNA' : Vendemmiare (v. anche SDIVIGNA')
 VÈNE : Venire, andare, aver voglia (nun me ne vène = non mi va).
-VENNA - VENNE : Vendere.
+VENNA : Vendere.
+VENNE : Vendere.
 VERTE : Bisaccia da spalla o basto leggero.
 VESCÓO : Vescovo.
 VETTINA : Recipiente per olio (v. anche BITTINA).
 VIARELLA : Stradella di campagna, sentiero.
 VIA ROMANA : Strada maestra (nome comune).
 VICCHIÛNI : Vecchioni. Ma soprattutto per indicare il loro ricovero: gerontocomio).
-VILLAMPORCO - VILLAMBORCO : Villano, maleducato.
+VILLAMPORCO : Villano.
+VILLAMBORCO : Maleducato.
 VILLANO : Contadino (in proprio) – v. anche SOCCIO.
-VINI' - VENETTE : Venire - Venne (Venette fatta = Riuscì).
-VINTURLO - VENTURLO : Turbine.
+VINI' : Venire.
+VENETTE : Venne (Venette fatta = Riuscì).
+VINTURLO : Turbine.
+VENTURLO : Turbine.
 VITABBIA : Vitalba. Pianta. I piccoli rami secchi venivano fumati.
 VOJA : Voglia.
 VOJOLA : Caldarrosta.
 VORCHIO : Parte verde che avvolge il guscio delle nocciole.
-VORICA - VORIGA : Fossa a grosso invaso per raccogliere l'acqua da irrigazione.
+VORICA : Fossa a grosso invaso per raccogliere l'acqua da irrigazione.
+VORIGA : Fossa a grosso invaso per raccogliere l'acqua da irrigazione.
 ZACCO : Sacco, molto (me piaci 'n zacco = mi piaci molto).
 ZAMPITALICCHIO : Grillo.
 ZAPPASTRELLO : Zappa a due denti, corti e non appuntiti.

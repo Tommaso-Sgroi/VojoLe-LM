@@ -45,1310 +45,1480 @@
 DIZIONARIO:
 
 ```
-A BEA! : A bere! (Quasi a dire: ti ho impressionato, ti sei spaventato. Bevi che ti passa la paura).
-A PO' : Ormai. (A po' che ce semo = dal momento che chi siamo); anche DA PO'.
-ABBADA' : Badare, custodire, accudire (es. abbadà la casa, i ffijo).
-ABBASTA' : Bastare; (ABBASTA TUSSI' = così è sufficiente) (Jì dovrebbe abbastà = Gli dovrebbe bastare).
-ABBATELLO : Chierichetto.
-ABBIOCCO : Attimo di sonnolenza, stanchezza.
-ABBISA' : Avvisare; ABBISORNO = avvisarono.
-ABBOCCATO : Dicesi di vino né dolce, né secco.
-ABBOZZA' : Sopportare malvolentieri.
-ABBRACCICATI : Abbracciati.
-ABBREO! : Tirchio!
-ABBRUCIA' : Bruciare.
-ACCA' : Qua; anche CCA'.
-ACCAJO' : Quaggiù.
-ACCARAVUJASSE : Azzuffarsi.
-ACCASARE : Abitare (do' s'ito accasato? = dove sei andato ad abitare?).
-ACCASSU' - ACCASSUNE : Quassù.
-ACCAVARGA' : Cavalcare o accavallare.
-ACCENNA : Accendere (ACCIGNIVA = Accendeva).
-ACCHIAPPARELLA : Gioco di ragazzi che si rincorrono.
-ACCHIESA : Chiesa.
-ACCIANCA' : Stringere tra le gambe (dare l'ACCIANCO = fare una corte spietata).
-ACCIDEFA (ACCITEFA) : Accipicchia.
-ACCIOCCASSE : Accosciarsi, avvilirsi, piegarsi sui talloni.
-ACCIRIGNASSE : Impazzire, intristirsi.
-ACCIRIGNATA : Coccolata. (es. donna che si lascia avvolgere in un abbraccio protettivo).
-ACCOZZICASSE : Appisolarsi; ACCOZZICATO = appisolato.
-ACCUNNI' – ACCUNNÌTO : Condire, condito.
-ACCURTA' : Accorciare.
-ACCUSSI' : Così, in questo modo (anche ATTUSSI' - CUSSI' - TUSSI').
-ACCUTTIMATO : Lavoratore indefesso (Stakanovista).
-ACQUETTA : Brodaglia contenente i rimasugli della porchetta (v. anche PIATTELLA).
-ADDANNA' : Dannare.
-AFFIARASSE : Avventarsi (S'AFFIARETTE - AFFIARATO = Si avventò – avventato).
-AGGHIANNASSE : Sdraiarsi, accomodarsi (come può fare una maiale sulle ghiande).
-AGGUAJASSE : Sdraiarsi, avvilirsi - AGGUAJATO = s'è buttato giù – AGGUAJITE = coricati.
-AIUTANE : Aiutare (T'ajo d'aiutane? No faccio da mine = Ti devo aiutare? No, faccio da me).
-AJO : Aglio (pronuncia identica alla voce "ho" - eppure te l'ajo ditto = eppure te l'ho detto).
-ALA E GOBBA : Gioco che i bambini facevano con le figurine.
-ALENTE : Ecco fatto, così impari.
-ALL'ANIMA : Accidenti.
-ALLECCONÌSSE : Invogliarsi, svegliare l'appetito. ALLECCONITO = invogliato.
-ALLEGA' : Astringere l'epidermide della bocca (Me s'alleghino i'llenti = mi si legano i denti).
-ALLEGREZZE : Doni per sposalizi, nascite.
-ALLESSO : Lesso, bollito (ill'allesso).
-ALLOCA’ : Sistemare, trovar posto (l’hai allocato i’ppranzo? = hai digerito il pranzo?).
-ALLUCCASSE : Stancarsi. ALLUCCATO (LUCCO) = stanco finito – (anche ALLACCASSE).
-ALLICCIA’ : Camminare a passo spedito; sbrigarsi.
-ALLUMA' : Adocchiare, guardare sott'occhi, aguzzare la vista (ALLUMATO = incantato).
-ALLUPATO : Eccitato (sessualmente) v. anche ARRAPATO.
-AMANDULI : Mandorle (generalmente fresche).
-AMERICANA : Frattazzo, grande spatola per intonaci (v. anche SFRATAZZO).
-AMMANNATO : Guasto (di frutta).
-AMMANTA' : Avvolgersi, vestire.
-AMMASONA' - 'MMASONA' : Intridere, maneggiare l'impasto per il pane - fare l'AMMASONATA.
-AMMÀTTISE : Imbattersi.
-AMMAZZA – AMMAPPA : Accipicchia, Accidenti. (Ammazza so' stracco – Ammappite si' bbella; Accidenti come sono stanco – Accipicchia come sei bella).
-AMMEREJA' – AMMEREJASSE : Dicesi di pecore o altri animali fermi sotto il sole, come se dormissero.
-AMMOCCA' : Imboccare.
-AMMONTA' : Salire (a cavallo).
-AMMUMINTI : A momenti, quasi (ammuminti gnavo jò = stavo quasi per cadere).
-AMORE AMORE : Metodo di cottura, molto lentamente.
-AMPICCIA' – AMPICCIASSE : Interessarsi dei fatti altrui, ingombrare (Scanzite che m'ampicci = Levati che mi dai fastidio).
-AMPICCIONE : Curioso, pettegolo.
-ANCLUPPASSE : Ripararsi dal freddo.
-ANCO' : Ancora.
-ANCURICCHIA' – ANCURICCHIASSE : Piegarsi, chinarsi sui talloni, rattrappirsi (ANCURICCHIATO = Accovacciato, rattrappito).
-ANDÈNNA - ANTÈNNA : Capire, intendere (Nun andinnia = Non capiva).
-ANDRO - ARTRO – ADDRO : Altro. (C'è aremasso addro? Nissun andro? = C'è rimasto nient'altro? Nessun altro?).
-ANFÓNNISE - ANFUSO : Bagnarsi, bagnato. (v. anche INFONNA o 'NFONNA).
-ANGUATTA' : Nascondere (v. 'NGUATTA' o INGUATTA'). I' ffiji giochino a 'nguattarella = I bambini giocano a nascondino.
-ANGUATTARELLA : Nascondino (I' ffiji giochino a 'nguattarella = I bambini giocano a nascondino).
-ANGUMINGIA : Comincia, inizia.
-ANGUMINGIA' - ANCUMINGIA' : Iniziare (N'arengumingiassi = Non ricominciare).
-ANISO : Anice.
-ANISTRELLO : Rastrello.
-ANNA' : Andare (v. anche 'NA - GNA' - JI').
-ANNANZI : Avanti (tir'annanzi = tira avanti).
-ANNARELLO : Girello per bambini.
-ANNO : Anno. Senza articolo significa l'anno scorso (es. ce so' ito anno = ci sono andato l'anno passato).
-ANTIRICHI’ : Rattrappire; ANTIRICHITO = rattrappito.
-ANTRALUCCA’ : Barcollare; essere instabili (vedi 'NTRALUCCA').
-ANTRAPPAJA' – ANTRAPPAJATO : Confondere, confuso (v. INTRAPPAJASSE – 'NTRAPPAJA').
-ANTRUPPATO : Urtato, intruppato.
-ANTUSA' - ANTUSO – ANTUSATO : Ammaccare, ammaccato (anche INTUSATO – 'NTUSO).
-APISE : Matita, lapis.
-APPALLOZZASSE – APPALLOZZATO : Avvinghiarsi, ridurre a palla, colluttarsi.
-APPANICATO : Malaticcio, pallido.
-APPARA’ : porgere qualcosa, anche affrontare, metterci un rimedio (comme l'appari la faccenna?).
-APPARECCHIO : Aeroplano.
-APPENA : Rattrista.
-APPIANA' : Salire (per le scale, in auto).
-APPICCAPANNI : Appendi abiti.
-APPICCA' : Appendere, accendere. (Hajo appiccato la giubba = ho appeso la giacca - ete appiccato i' ffoco = avete acceso il fuoco).
-APPICCHITE! : Arrangiati!
-APPICCIA' : Accendere.
-APPICCIUME : Ramoscelli, carta e foglie secche che si usano per accendere il fuoco.
-APPINICASSE – APPINICATO : Addormentarsi, insonnolito.
-APPIZZA' : Assaggiare con la punta della lingua, aguzzare (Appizz'i'll'occhj = Aguzza la vista).
-APPIZZUTA APISE : Tempera matite.
-APPIZZUTA' : Fare la punta a qualcosa (Nu' l'appizzutassi = Non lo fare troppo appuntito).
-APPÓLLO : Il rientro serale di galline e uccelli al nido.
-APPOZZA' : Intingere.
-APPUSCHIJA : Sinonimo di alta temperatura (ajo 'n callo che appuschjo = ho un caldo che soffoco).
-ARA : Aia per battere il grano.
-ARADIO : Radioricevitore (pronunciato sempre con l'articolo: la radio = ILL'ARADIO).
-ARBIRI PIZZUTI : Cimitero.
-ARBOLETO : Arboreto.
-ARCHEMUSE : Alchermes.
-AREBBOLLA : Ribollire. (J'arebbulliva i'zzangue - Gli ribolliva il sangue).
-ARECCONTA' : Raccontare (t'arecconto = ti racconto).
-ARECCÒTA – ARECCÒSSO : Raccogliere - raccolto.
-ARECORDASSE : Ricordare.
-AREDDUSSE – AREDDUTO : Ridursi - Radunato (il raccolto).
-AREECCO - ARIECCO : Di nuovo, ci risiamo.
-AREFUCINA' : Rovistare (v. anche AREMUCINA' o SMUCINA').
-AREMANE' - AREMASSO - AREMANETTE : Rimanere, rimasto, rimase.
-AREMBARZA' : Rimbalzare.
-AREMEDIA' : Rimediare.
-AREMICIDA' : Ripararsi (dalla pioggia).
-AREMUCINA' - ARIMUCINA' : Rovistare, cercare, rimuginare. (anche AREFUCINA' o SMUCINA').
-ARENGRESCIA : Rincrescere.
-ARENVISCIDA' - ARENVICIDA' : Resuscitare.
-AREPARBASSE - REPARBASSE : Non osare, aver timore.
-ARESCALLASSE : Adirarsi.
-ARESCERNA : Vedere, distinguere, aguzzare la vista.
-AREVIA - ARIVIA : Di nuovo, ancora.
-ARICCOMANNO (M'_) : Raccomando (ariccomannite di'zzignore = raccomandati a Dio).
-ARIECCHITELLO : Rieccolo, eccolo nuovamente.
-ARIGNIGNOLASSE : Riprendersi, ringalluzzirsi.
-ARIVURDICA' : Rivoltare (S'ARIVURDICHETTE = si rivoltò).
-ARRAPATO : Eccitato (sessualmente) v. anche ALLUPATO.
-ARRAZZICARE: Stuzzicare, provocare (di solito un cane).
-ARRI CCA' : Vieni qua (comando usato per indirizzare gli equini).
-ARRI LLA' : Vai là (comando usato per indirizzare gli equini).
-ARRICCASSE : Arricchirsi.
-ARRUCATO : Rauco.
-ARVA : Le fico arva (tipo di fico).
-ARZICA' - ARRAZZICA' : Tirare calci (di somari, ecc.). (Anche di persona che reagisce).
-ASSÈA : Ora, adesso.
-ASSOGNA - ASSUGNA : Sugna, grasso.
-ATTANFA’ : Dare cattivo odore es “T’attanfa la surcica – ti puzza l’ascella
-ATTUMELLA' : Mettere, buttare in un angolo.
-ATTUMELLATO : Gettato in un angolo, dimenticato.
-ATTURA' : Tappare.
-ATTUSSI' : Così, in questo modo (anche ACCUSSI’ - CUSSI' - TUSSI').
-AZZECCA' - AZZECCHIME : Azzeccare, colpire nel segno. Colpiscimi.
-AZZICA' - AZZICO (dare ill'_) : Dare il via, stimolare.
-BADANAO : Gran sedere (anche, più genericamente, cosa grossa).
-BACCAJA' : Litigare (se so' baccajati = hanno litigato).
-BACCHIO : Bastone a testa grossa.
-BANNA : Fanfara, banda, anche nel senso di gruppo (v. anche MUSICA), fetore.
-BANNELLA : Serramento fissato sul lato esterno delle ante di porte e finestre.
-BANNITA : Bandita, terreno recintato (BESTIE A BANNITA = animali al pascolo). Più genericamente zona di protezione dove alcune attività vengono bandite:
-BANNOLO : Bandolo.
-BARBACANE : Supporti in pietra dei travi dei camini, alari.
-BARBACCIA : Rutto forte e rumoroso.
-BARBOZZO : Mento.
-BARLOZZO - BARLOZZETTO : Barile, barilotto.
-BAROZZA : Carro da buoi.
-BARZINELLA : Cosa né buone né cattiva.
-BARZOTTO : Dicesi di frutto, cibo, animale, né maturo né acerbo, né cotto né crudo. Anche di uomo né ragazzo né adulto o di organo sessuale maschile non completamente eretto.
-BASSIFRATTA (fare la _) : Ripulire un bosco dalla vegetazione infestante.
-BASSO : Avvallamento, passo o valico.
-BATIZZO : Battesimo.
-BATOCCHIO : Battaglio delle campane, dei bussaporta.
-BATTILONTO : Tavola battilardo.
-BATTIMURO : Gioco che i bambini facevano con le monete.
-BEA - BII - BEETTE - BIUTO : Bere, bevi, bevve, bevuto - (i'bbea = il vino) da cui il detto bii bii i'bbea bà = bevi bevi il vino papà.
-BEARELLO : Prodotto alimentare. Riveniente dalla lavorazione delle interiora del maiale.
-BECALINO : Orbo, strabico; genericamente detto di chi vede poco.
-BECCAMORTO : Infame, becchino (v. anche CASSAMORTARO).
-BEFANÌA : Epifania.
-BENANCHE : Nonostante, anche sé.
-BIASTIMA : Bestemmia (v. anche DIASILLA).
-BIASTIMA' : Bestemmiare (D'ill'acchiesa nun ze pole biastima' = In chiesa non si può bestemmiare).
-BIBBIRIBBOZZA : Gioco per bambini, simile al saltamontone.
-BICCUTO : Curioso, impiccione.
-BIFERA : Tromba, nasone.
-BIFERETTA : Trombetta.
-BILANCIONE : Grande bilancia appesa ad un'asta, normalmente retta sulle spalle da due persone, usata dal quintale in su.
-BILLO : Tacchino.
-BIOCCA : Chioccia.
-BIRBACCIONE : Birbante, furbacchione.
-BIRBO : Svelto, pronto.
-BIROCCIO - BIROCCINO : Carretto, carro a cavalli per il trasporto di 1 o 2 persone.
-BITTINA : Recipiente per olio (anche VETTINA).
-BOCCATONE : Schiaffo a mano aperta sulla bocca.
-BOCCIA - BOCCIONE : Bottiglia - Bottiglione, fiasco.
-BOCCO : Moneta, soldo. (anche MOCCO).
-BOLLETTA : Chiodo corto a testa larga (veniva infisso sulla suola delle scarpe per rallentarne l'usura).
-BONA MORTE : Confraternita religiosa in saio nero.
-BONO : Capace, (si bbono tu? = tu sei capace?); anche piacevole (me sa bono = mi piace).
-BÔO : Bue.
-BOTTAFONE : Fondo di un crepaccio dove si raccoglie l'acqua caduta dall'alto. Punto più ampio e profondo dei fossi dove sipossono trovare i gamberi d'acqua dolce.
-BOTTINO : Serbatoio in muratura, generalmente prossimo ad una sorgente, per la raccolta di acqua potabile.
-BRAGHETTONE : Listello di legno.
-BRATICOLA : Graticola.
-BRILLOCCHI : Brillanti, gioielli (v. anche SBRILLOCCHI).
-BRISCHIO : Vischio.
-BRONZETTO : Piccolo mastello in legno di forma ellittica con manico, utilizzato in genere per l'asporto di vino dai tini.
-BRUGNOLO : Fungo commestibile con cappello di colore bruno.
-BUCIARDA : Attrezzo edile con punta sulle due estremità.
-BUCO : Vicolo (oltre alle altre accezioni).
-BUSSI : Colpi, rumori.
-BUTTITO : Luogo ove venivano vuotati i vasi da notte (v. PITALE).
-BUZZICO : Oliatore; gioco per bambini detto "ACCHIAPPARELLA".
-CACAPRUSSIA : Disinfestante per piante, anche pianta selvatica avente qualità astringenti o diarroiche a seconda del senso delle foglie.
-CACARITTO : Sgabello con un solo piede, usato dagli scalpellini.
-CACCAVELLA : Bacca rossa di siepe selvatica.
-CACCHIARA : Bosco di castagno rinascente dal tronco di alberi tagliati. Bosco di polloni; dim. CACCHIARETTA.
-CACCHIO : Gemma di vite o pollone.
-CACCIA’ : Riuscire (nun ce la caccio = non ci riesco).
-CACCIO : Estraggo (caccio i' vvino = prendo il vino dalla botte), faccio (nun ce la caccio = non ce la faccio) (v. anche CAVO).
-CACIARA : Confusione.
-CAE' - CAETTE - CAÙTO : Cadere - cadde.
-CAÉTTA - GAÉTTA : Compagni di persone poco di buono.
-CAGNANTE : Fungo del genere "boleto" che cambia di colore al taglio; tossico crudo. (detto anche di persone voltagabbana).
-CAJ : Calli.
-CALLAFREDDA : Effetto nocivo sulle colture che produce poca pioggia su terreno caldo.
-CALLAJA : Caldaia (grossa pentola per fare il sapone).
-CALLARA : a tutta callara = di gran corsa.
-CALLARO : Recipiente per cucinare o scaldare acqua.
-CALLARELLA-O : Piccolo recipiente da cucina o secchio da muratore.
-CALLAROZZO : vedi CALLARO.
-CAMPA ANCO'? : E' ancora vivo? (v. anche E’ MORTO MMAI?).
-CAMPA’ : Vivere.
-CAMPANO : Grosso sonaglio (al collo di animali).
-CANA : Cagna.
-CANALE - CANALETTO : Grosso cucchiaio in legno per prendere farine o cereali.
-CANIPINA : Appezzamento di terreno molto piccolo, orticello.
-CANIZZA : Discussione animata e rumorosa, litigio.
-CANNELLA : Cavola per botti.
-CANNOCCIO : Sbocco di uscita dei liquidi.
-CANUCCIO : Cagnolino.
-CAPAGNO : Paniere con manico.
-CAPA' : Scegliere, mondare (ete capato i ccici? = avete pulito i ceci?).
-CAPÈRCHIO : Telaio per la tessitura della canapa (esiste anche un Vicolo del Caperchio, in prossimità dell'ingresso al Castello).
-CAPEZZA : Cavezza, corda con cui si lega l'asino.
-CAPILLI : Capelli (l'ajo preso p'i'ccapilli = l'ho preso per i capelli).
-CAPO : Testa, chi è al comando di qualcosa.
-CAPOCCIONE : Testardo, zuccone, (v. anche zuccarotto).
-CAPOCCIUNI : Girini.
-CAPOCOLLO : Lonza.
-CAPOFOCO : Alare del camino.
-CAPOMAZZO : Parte iniziale dell'intestino dell'agnello, utilizzata nella cottura della "Coratella d'abbacchio".
-CAPPANNELLO - CAPANNELLO : Persona col naso grosso "a capanna".
-CAPRARECCIA : Ricovero per capre.
-CARABOZZOLO : Bambino vivace.
-CARAPIJA : Parapiglia.
-CARATELLO : Recipiente per vino.
-CARAVUJA' : Scompigliare, sconvolgere (v. anche SCARAVUJA').
-CARBONARA : Carbonaia; catasta di legna, ricoperta di terra, che si bruciava per poi ottenere carbone.
-CARCALLASINO : Quasi un suggerimento per il contadino che all'Ave Maria doveva caricare il somaro e rientrare che era giunta l'"OR DE NOTTE".
-CARCASELLO : Mucchietto di nòccioli di pesche fatto per gioco dai bambini.
-CARCATOJA : Paletto per sostenere su un lato la soma.
-CARCATOJATE : Bastonate (con la carcatoja).
-CARGA' : Caricare.
-CARGE o CARCE : Calce.
-CARNAJOLO : Che lavora le carni (la vecchia "di'ccarnaiolo" che viveva "rento un seccatoro").
-CARRARECCIA : Strada sterrata carrabile.
-CARREJA' : Trasportare.
-CARRETTELLA : Veicolo composto di 4 tavole, 2 assi e 3 cuscinetti a sfera con cui i ragazzi si catapultavano nelle discese. Si manovrava con una corda e si frenava con i tacchi. Le fratture erano frequenti.
-CARRIERA : Corsa rapida (de carriera = in modo veloce).
-CARRUCOLE : Occhiali.
-CARTARENA : Costola.
-CARUSINO : Barbiere.
-CARZAROTTO : Calzettone.
-CARZUNI : Calzoni.
-CASSAMORTARO : Becchino (v. anche BECCAMORTO).
-CASTALLO : Messo del Tribunale o della Curia.
-CATANA : Borsa, cartella con manici. Usato anche per definire un capo d'abbigliamento eccessivamente abbondante (te sta comme 'na catana).
-CATARCIONE : Pesante catenaccio.
-CATELLO : Catenaccio.
-CATERATTA : Botola.
-CATERVA : Grande quantità.
-CATOLLO : Sputo grasso (di secrezione).
-CATTANNO : Rovina (S'ito a'ccattanno = Sono andato in rovina).
-CAVACICI o CAVARCICI : Cavalcioni.
-CAVO : Faccio, riesco (ce la cavo da solo = ci riesco da me) (v. anche CACCIO).
-CAZZAROLA : Casseruola.
-CAZZIMPERIO : Salpepolio (condimento).
-CCA' : Qua. (veni a ccà = vieni qua).
-CE LL'ETE? : Ce lo avete?
-CEPA : Cipolla.
-CEPPA : Mortaio in legno.
-CEPPAJA : Tronco d'albero reciso, che ha prodotto nuovi getti.
-CEPRO : Dispari (v. anche SCEPRO).
-CERASA : Ciliegie.
-CERQUA : Quercia.
-CERQUETO : Querceto.
-CERVIO - CERVIOTTO : Acerbo - Non del tutto maturo.
-CETRUNI : Cetrioli.
-CHÉ - CAÉ - CUTO - CAUTO : Cadere - Caduto.
-CHÈ? - CHENE'? : Che? - Che cosa?
-CHECCOSA - CHECCOSETTA : Qualcosa. Qualche cosetta.
-CHI’ : Con il, di chi.
-CHI SSI’ FFIJO? : Di chi sei figlio? come si chiamano i tuoi?
-CHIAPPAPETE : Incapace, inconcludente.
-CHIEMPA - JEMPA : Riempire (Jimpito = Riempito).
-CHIOCCHIA’ : Pigolare (cantare di pennuto).
-CHIOÉLLO : Perno che blocca il giogo dei buoi al carro.
-CHIÒO : Chiodo.
-CHITUNO : Qualcuno.
-CHITUNANTRO - CHITUNANDRO : Qualcun altro.
-CHIU' : Più.
-CHJÈA : Chiedere (Chjìva, chjeètte = chiedeva, chiese).
-CHJÈLLI : Nessuno ('n c'è chjelli = non c'è nessuno).
-CIANCA - CIANCHI : Gamba, gambe.
-CIANCHETTA : Sgambetto.
-CIANFANAIO : Parolaio, imbroglione.
-CICA : Affatto, mica (nun l'ajo visto cica = non l'ho veduto affatto).
-CICAROLO : Colui che raccoglie le cicche (di sigaretta) gettate.
-CICCIA’ : Germogliare.
-CIFOLETTO : Fischietto.
-CIFOLO : Ciufolo o zufolo. In modo figurato "ha mesto i' cifolo = ha messo il broncio".
-CIFOLOTTI : Rigatoncini, pasta corta rigata.
-CIFOLOTTO : Stupido, incapace.
-CINICE : Residui del focolare ancora accesi.
-CINQUALE : Schiaffone con le dita aperte.
-CINTURINO : Cinta dei pantaloni (m'ajo da levane i' ccinturino? = devo minacciarti con la cinta dei pantaloni?).
-CIPICCIA – CIPICCIOSO : Secrezione sierosa degli occhi; cisposo.
-CIPIGNOLO : Salvadanaio. In modo figurato testa dura (che c'hai rento i cipignolo? = che ti dice la testa?).
-CIRIGNA - CERIGNA : Grosso canestro con due manici (v. anche MINELLA).
-CIUCCO : Brillo.
-CIUCO : Piccolo.
-CIUÍTTA : Civetta.
-CÓA : Coda.
-COACCIO : Covo, tana.
-COAGNIGNOLO : Il più piccolo di una nidiata o di una famiglia.
-COARIZZO : Fondoschiena del pollo.
-COATA : Riposata, amalgamata, insaporita. Detto, ad esempio, di una minestra mangiata il giorno dopo la cottura (la magnamo ddimane, intanto se coa; perchè coata jè più bbona).
-COCIA - COCE : Far male; me fa cocia = mi fa male.
-COETTA : Misura di farina.
-COJONARE : Canzonare.
-COMMANNA! : Grido della fornaia di primo mattino, con cui invitava le massaie a portare il pane a cuocere. (Quasi a dire: sono pronta, accetto ordini.)
-COMMATTA : Affaccendarsi.
-COMME : Come. (E comme? = In che modo? Come sarebbe?).
-CONCIARELLO : Setaccio utilizzato in edilizia per selezionare la sabbia.
-CORBO (v. anche GORBO) : Accidente. Che te pija 'n corbo = Che ti venga un accidente.
-CORGASSE : Coricarsi. Te corgo = Te ne do' tante da coricarti.
-COROJO : Cercine. Panno raccolto a ciambella sulla testa per il trasporto di un carico (ha fatt'i'ccorojio, c'ha mesto la tiella e è ita a 'nfornà).
-CORRIERA : Autobus (vedi POSTALE).
-CORTELLETTA : Coltello per scannare animali.
-CORVATTA : Cravatta.
-CORVELLO : Setaccio per legumi.
-COTOZZO : Nuca, parte posteriore del collo.
-COSTA : Salita ripida.
-COSTA COSTA : Modo di camminare al margine di una strada o di un terreno. (v. anche MURO MURO).
-CRABIGNERE : Carabiniere.
-CRAPA : Capra; a volte utilizzato per indicare anche la testa.
-CRASCIA : Benessere, abbondanza, ricca dispensa.
-CRATASTA : Catasta.
-CREDENZONE : Grosso mobile da dispensa.
-CRETTO : Crepaccio, fessura.
-CRISTIANO : Persona, gente.
-CROGGNOLA : Frutto del corniolo (indica anche un colpo violento ricevuto).
-CROGGNOLATA : Bastonata.
-CROGGNOLO : Corniolo, albero.
-CROMPATO : Comprato.
-CRUCOLO : Mazza di tamburo, fungo. Lat. Lepiota procera.
-CRUTEGNOLO : Bitorzolo, bernoccolo, gonfiore in genere.
-CUCCHIARA : Paletta usata dagli operai edili.
-CUCCUMELLO - CUPPITELLO : Pentolino.
-CUJA : Scroto.
-CUJA LENTA : Chi usa pantaloni grandi e un po’ calati.
-CULETTA : Cunetta stradale (v. anche PROVA e FORMA); usato anche per definire una donna chiacchierona, che parla continuamente.
-CUMBINA’ : Mettersi d'accordo.
-CUNFINO : Confine.
-CUNICCHIO : Cunicolo (pl. CUNICCHIA) esiste un fosso detto "delle Cunicchia", per gli ingrottamenti dell'acqua.
-CUPERTOJA : Coperchio di recipienti in coccio.
-CUPO : Profondo, scuro (di luce).
-CURIATO : Grosso bastone, a due segmenti, per battere legumi.
-CURIOLI : Strisce di cuoio utilizzate normalmente come lacci per le scarpe.
-CURRA : Correre.
-CURRENTI : Centogambe, insetti pelosi.
-CURTELLO : Coltello.
-CUSSI’ (TUSSI’) : Così, in questo modo (anche ACCUSSI' - ATTUSSI').
-CUTICA : Cotenna. Anche rispondendo a una persona permalosa (e che t'ajo ditto cutica? = e che t'avrò mai detto?).
-CUTO A BAFFANNANZI : Caduto di faccia.
-CUTO A CAPOTEFICCO : Caduto a gambe all'aria.
-DA ESSO - DA ISSI : A lui, a loro.
-DA MMI' - DA MMINE : A me.
-DA PO' (A PO') : Ormai (Da po' che ce semo = dal momento che chi siamo).
-DA TTI' : A te.
-DA QUANTANE : Da quanto tempo.
-DANARA : Seme di denari (nel gioco delle carte).
-DEDECCA' - DEDECCANE : Di qua.
-DEDICCHI' – DEDICCHINE : Di qui.
-DEDISTI' : Lì.
-DENANZI : Davanti.
-DERETO : Didietro.
-DI’ : Nel, sul (Di’pponte = sul ponte; di’ccasale = nel casolare).
-DIASILLA : Bestemmia (V. anche BIASTIMA).
-DIASCOLE : Diamine.
-DICCHI : Qui.
-DICIA : Dire, raccontare (che nun ze pozzi jì dicenno = che non si vada a raccontare).
-DILLI' : Lì.
-DIMANE : Domani.
-DISCORRA : Discutere, colloquiare.
-DISPARA' : Sparigliare.
-DO' MMAI : Quando mai. (do' mmai s'ava da sapé 'na cosa ttussì = quando mai si doveva scoprire una cosa del genere).
-DO NE VELLE : Da nessuna parte, in nessun posto.
-DORGE : Dolce.
-DOTTRINA : Catechismo.
-DRENTO : Dentro (v. anche RENTO o RENDO).
-DU' - DUI : Due.
-DU'MMENTRE : Nel mentre, mentre.
-DU'MMEZZO - TU'MMEZZO : Nel mezzo, nel mentre.
-DUNCA : Dunque.
-E’ MORTO MMAI? : E’ ancora vivo? (v. anche CAMPA ANCO'?)
-ECCHEDECHE' : Ecco che.
-ECCHIME : Eccomi.
-ECCO : Guarda, vedi (guarda chi ecco = guarda chi sta arrivando).
-EJELA : Eccola (v. anche ESSELA - ESTELA).
-ENTI : Denti, es. me s'alleghin'ill'enti = mi si legano i denti (per frutta acerba, che allappa).
-EPRE : Lepre.
-ERGE : Elce (pianta) - (Sott'i'llerge de Sant'Utizzio = Sotto l'elce di Sant'Eutizio).
-ERIMA - ERINO : Eravamo, erano.
-ERTA - JERTA : Ripida (di salita).
-ERTO - JERTO : Spesso, grossolano, maleducato (Si jerto comm'ill'orlo 'i ddomo = Sei talmente grossolano da essere spesso come la base del duomo).
-ESSA : Essere.
-ESSELO : Eccolo lì (v. anche EJELO - ESTELO).
-ESTELA : Eccola (v. anche EJELA - ESSELA).
-ETO - ETA : Dito - dita (v. anche LETO - LETA). Un eto = un po' (v. anche FRICCIOLO, OGNA).
-ETONE : Alluce.
-FA' I'FFIUME : Andar bene.
-FACCENNA : Prestazione sessuale.
-FACEMO : Facciamo.
-FACETE : Fate.
-FACIOLI : Fagioli.
-FACIOLI DE LE CURDI : Fagiolini bianchi.
-FAE : Fave.
-FALLACCIANO : Fico; anche uomo meschino.
-FAO : Faggio (fai buji = punto fitto e cupo della faggeta).
-FARGE : Falce.
-FARINELLO : Piccolo fungo bianco, commestibile.
-FERCETO : Luogo invaso da felci.
-FERRAIOLO (farajolo) : Cappotto. Più precisamente un’abbondante mantella, senza maniche e bottoni.
-FI' : Figlio; es. curri fì = corri ragazzo, dattela a gambe.
-FIACCAJNE : Debolezza.
-FIARA : Fiamma.
-FICO PICCIALONE : Varietà di fichi con il gambo; fico, al plurale "le fico".
-FIEZZA : Ciocca di capelli (generalmente se di colore diverso).
-FIJANO : Figlioccio (di battesimo, cresima).
-FIJARELLO : Ragazzino.
-FIJO : Figlio.
-FIJOTTO : Figlio piccolo di animale, pulcino.
-FILAGNA : Filare.
-FILARELLO : Strumento in legno per filare la canapa.
-FILO FILONZA : Tipo di farfalla.
-FIMMINA : Donna.
-FINENTE : Fino a (s'ito a piej finente i'pponte = sono arrivato a piedi fino al ponte).
-FINI' : Finire (Finiscette = Finì).
-FIOCCA' : Nevicare (Fiocca = Nevica).
-FIOTTA’ : Lamentarsi, essere lagnosi.
-FIOTTO : Lamento
-FIRGI : Felci. (I' ffirgi = le felci).
-FISCOLI : Filtri per l’olio usati nei frantoi.
-FO' : Campicello, campagna - E' ito fò (o de fò) = E' andato in campagna.
-FOCORE : Bruciore.
-FOJETTA : Unità di misura del vino tipica delle osterie, equivalente a 1/2 litro.
-FONNARDO - FONNO : Profondo.
-FONTANILE : Abbeveratoio.
-FORA - DE FORA - DAFORA : Fuori.
-FORASACCO : Spiga selvatica che si trova in mezzo al fieno (v. anche PUGNASACCO).
-FORCOLA : Insetto della frutta, forcina (ce so' le forcole rento le persiche).
-FORDA : Bacino di raccolta delle acque.
-FORGO : Palmo (come misura), tanto, parecchio.
-FORMA : Avvallamento di terreno (specialmente al lato di strade e viottoli.
-FRA AGGIUSTITE E METTITE BENE… : Tra una cosa e l'altra (fra aggiustite e mettite bene, ce vorrà 'n'antra oretta = per prepararmi ci vorrà ancora un'ora).
-FRACIO : Fradicio (sia bagnato che troppo maturo).
-FRANCIOTTOLA o FRANGIOTTOLA : Favola, bugia. (franciottola d’illume stento = storiella che va troppo per le lunghe).
-FRANGETOLE : Erba selvatica a ciuffi (commestibile).
-FRASCARELLI : Tipo di pasta fatta in casa.
-FRASCHINO o FRESCHINO : Odore caratteristico di prosciutto non bene conservato per cattiva salagione.
-FRATTA : Siepe, per di più spinosa, anche per segnare il limite dei campi.
-FRÈE : Febbre.
-FREGHINO o FRIGHINO : Commerciante troppo disinvolto.
-FREGNA : Vagina.
-FREGNACCIA : Stupidaggine; anche frittata di acqua, sale e farina altrimenti detta "SUTRINA".
-FREGNO : Qualcuno, qualcosa (dispregiativo).
-FRENGICA o FRENCICA o FREGNA o FRESCA : Accipicchia.
-FRESCHE o FREGNE : Arrabbiature, avere le fresche o fregne = essere arrabbiato, inquieto.
-FREZZA : Fionda a elastici.
-FRICCIULI - SFRIZZOLI - SFRICCIOLI : Ciccioli.
-FRICCIOLO - FRICCIOLETTO : Piccola quantità, , un po', un pochetto (v. anche ETO, OGNA, 'NTICCHIA).
-FRILLICHICCHIA : Pioviggina (v. PIUJCCICA).
-FRONTINO : Schiaffetto sulla fronte.
-FUGATO : Chi va di fretta, veloce (de fugato = di corsa).
-FUMOGENA : Malattia degli olivi.
-FURCINA : Forcone, forca (attrezzo agricolo).
-FURCINELLA : Forcella per capelli.
-FURMINE : Fulmine, sinonimo anche di velocità (je 'n furmine).
-FURMINA' : Bruciare (la lampadina s'è furminata).
-FURMINANTI : Fiammiferi da cucina (sturare i furminanti = accendere i fiammiferi).
-FUSCELLA : Recipiente di confezionamento della ricotta. Ill’arecotta vene comme la fuscella; spesso usato per giustificare i figli che hanno gli stessi vizi dei padri.
-GAETTA : Gruppo di giovinastri.
-GALITTI : Garretti, caviglie (L'ajo preso p'i'ggalitti = L'ho preso per le caviglie).
-GANASSE : Mascelle, denti molari.
-GARAVINA o CARAVINA : Attrezzo edile, piccone a punta e taglio.
-GARGARIZZI : Gargarismi (v. anche GRAGALIZZI).
-GARGAROZZO : Trachea (v. anche GRAGALOZZO).
-GATTAROLA : Foro in basso alle porte per fare passare il gatto.
-GATTÍO : Cattivo.
-GATTO PUZZOLO : Puzzola.
-GERZO : Gelso.
-GHIACCULI : Scarti, cose superflue, impicci (v. anche STRUFFAJE e ZARAVATTULI).
-GHIENORO : Genero (v. anche NORO).
-GHIOTTA : Teglia rettangolare a bordo basso.
-GIALLUNI : Genere di fagioli.
-GIONCATA : Derivato del latte, ottenuto dalla separazione del siero dal coagulo, commestibile.
-GIOVENNOTTA/O : Nubile, scapolo.
-GIRELLI : Fuochi d'artificio.
-GIUBBA : Giacca.
-GIUBBA AREVORDATA : Di persona che ricicla vecchi abiti, non potendo permettersene di nuovi.
-'GNA : Bisogna.
-GNA' - GNATO - GNAMO : Andare, andato, andiamo (v. ANNA' - JI' - 'NA').
-GNAOLA’ : Miagolare (anche SGNAOLA').
-GNASTICARE : Masticare.
-GNAULÍO : Miagolio.
-GNERTO : Spesso, grossolano; (v. anche JERTO).
-GNESPOLI - GNESPULI : Nespole.
-GNESPOLO : Albero di nespole.
-GNESTOLO : Fionda che si ruota per il lancio (non come quella ad elastici detta "MAZZAFIONDA").
-'GNI POCH'E TTANTO : Ogni tanto.
-'GNI SEMPRE : Sempre, ogni volta.
-GNOMMARATORA : Donna che lavora la lana, materassaia.
-GNOMMERO : Gomitolo di lana.
-GNUCCO : Brillo.
-GNUCCHITTI CH'I' FERRO : Tipo di pasta fatta in casa con acqua e farina.
-GOGOSSO : Osso di pesca, (giocare a GOGOSSI e fare il CARCASELLO (v.) divertimento per bambini).
-GOJAROTTO : Mattacchione, eccessivamente estroverso, plateale.
-GOJO : Matto o anche guasto (es. per un prodotto vegetale).
-GONDOLA : Traliccio appeso sotto i carri per trasportare fieno e pastura.
-GORBE : Volpe.
-GORBO : Colpo apoplettico, accidente (che te pozza pijà 'n gorbo = che ti venga un accidenti - Uguale a CÓRBO (v.).
-GOVERNA' : Accudire, nutrire gli animali.
-GRAGALIZZI : Gargarismi (v. anche GARGARIZZI).
-GRACALOZZO : Trachea (v. anche GARGAROZZO).
-GRASCIA : Termine di origine medievale che indica l’insieme delle componenti necessarie alla composizione del vitto.
-GRAVIOLI : Dolci tipici del carnevale, ripieni di ricotta condita.
-GRAZZIA : Grazia, benevolenza (troppa Grazzia Sant'Antò).
-GRICCIORE : Tristezza, sconforto.
-GRUGNO : Faccia.
-GUADAMBIO : Guadagno.
-GUAZZERA : Rugiada.
-GUINZA : Terreno bagnato e pantanoso.
-IAMMANCO o IMMENO : Almeno.
-IEPPE : Zolle di terreno, rivoltate dall'aratro.
-IMMASCIATA : Messaggio, ambasceria.
-IMMOTTATORO : Imbuto (v. MOTTATORO).
-INCANNATA - ANCANNATA : Trappola per invischiare volatili.
-INCIAMPICA' : Inciampare (v. 'NCIAMPICA').
-INCIURCINATO : Raggomitolato, raggrinzito (vedi anche ‘NCRIPPILLITO).
-INCRIPPILLITO : Intorpidito (nei muscoli), rattrappito (v anche 'NCRIPPILLITO).
-INCUJATO o INCUJATTO : Implume, imberbe.
-INFONNA - INFUSO : Bagnare - Bagnato (v. anche ANFONNISE o 'NFONNA).
-INFRANCUJATO : Frammischiato, confuso (v. anche 'NFRANCUJATO).
-INGONIA : Agonia.
-INGRUGNATO : Che tiene il broncio.
-INGUATTA' : Nascondere (v. anche ANGUATTA' o 'NGUATTA').
-INNIMICO : Nemico (Ill'innimico = Il nemico).
-INTIGNA’ : Insistere, intestardirsi, (anche 'NTIGNA').
-INTIRICHITO : Disseccato, intirizzito. Rimanere sbalordito, sorpreso (v. 'NTIRICHITO).
-INTRAPPAJASSE - INTRAPPAJATO : Confondersi - Confuso (v. anche ANTRAPPAJA' - 'NTRAPPAJATO).
-INTRONATO : Intontito, incrinato (in senso figurato: stupido, minato nella salute) (v. 'NTRONATO).
-INTRUJASSE : Sporcarsi (v. 'NTRUJASSE).
-INTURCINATO : Intrecciato, aggrovigliato (v. 'NTURCINATO).
-INTUSATO : Ammaccato (anche ANTUSO o 'NTUSO).
-IRRE ORRE : Scivolare sull'argomento, come LIPPE LAPPE.
-ISSI : Avere (N'issi pura = Non aver paura).
-ITO : Andato; (S’ito fo' = Sono andato in campagna).
-J'E' : E'.
-JERTA (ERTA) : Ripida.
-JERTO : Spesso, grossolano; (v. anche GNERTO).
-JI : Andare. (Tocca ji fo' = Bisogna andare in campagna; pres. io vajo; part. pass. esso gnava; pass. rem. nui gnemma) (v. anche ANNA' - GNA' - NA').
-JI PUZZA I’ BBENESTA’ : Pretenzioso, che non si accontenta.
-JI FA PROVE : Gli fa bene.
-JI FETA PURE I' GGALLO : Ha una fortuna sfacciata.
-JICINA : Decina.
-JO' : Giù (scigni jò = scendi giù).
-JOPPECCHI' : Giù per di qua.
-JOPPEDISTI' : Laggiù da quelle parti.
-JOPPELLI' : Giù per di lì.
-LAI : Via, dai. (e lai... = e via..., e dai…) - (lai mpò piantela = dai smettila).
-LAJO' : Laggiù.
-LAJOPPEDEDILLI' : Laggiù in quel posto.
-LAMPA' : Lampeggiare. (Si dicchì lampa de che parte trona = Se qui lampeggia in qualche posto tuona).
-LANZAGNA : Pasta fatta in casa, lasagna.
-LANZAGNOLO : Mattarello.
-LAPPE : In qualche (ajo da passà 'ncò lappe che bottega = devo ancora passare in qualche negozio).
-LA'PPE'CCHI' : Da queste parti.
-LAPPEDOGNA : Emozione, paura, debolezza (v. anche PATUNIA).
-LA'PP'ELLI' : Da quelle parti.
-LARDELLO : Piccolo fungo commestibile di colore arancio (lat. Cantharellus cibarius).
-LASCA : Fungo, a forma di lingua, che cresce sui tronchi degli alberi (lat. Fistulina hepatica).
-LATTONZOLO : Maialino da latte (al forno).
-LE COSE FATTE CON FINFIRINFIN SE NE VANNO CON FINFIRINFAN : Ciò che si ottiene con facilità, altrettanto facilmente si perde.
-LEGA : Piccolo invaso d'acqua, prossimo ad una sorgente, delimitato da sassi disposti a secco e terra (es. LEGA della PALLUCCOLA).
-LEMME LEMME : Piano piano.
-LENA : Legna da ardere (pl. LE LÉNA o anche 'E LÉNA).
-LETE : Levati, spostati.
-LETO - LETA : Dito - dita (v. anche ETO - ETA).
-LETTA : Striscia di terreno coltivabile limitato da due filari di alberi o di piante.
-LIECIO : Insipido, acquoso, insapore (anche SLECIO).
-LINTERNA : Lampada ad olio.
-LINTIERA : Ringhiera.
-LIPPE LAPPE : Scivolare sull'argomento, tergiversare, v. IRRE ORRE.
-LO POZZO VEDE' COMME I' FFUME DILL'OCCHI : E' insopportabile, come il fumo negli occhi.
-LOCCA : Chioccia.
-LOCO COMMODO : Gabinetto.
-LOFFA : Vescia (fungo); anche emissione silenziosa di gas intestinali (all'opposto di "SCURREJA").
-LONTO : Lardo.
-LORDO : Sporcaccione.
-LOTO : Sudiciume, sporcizia, (v. anche OTO).
-LOTOSO : Sudicio, sporco.
-LUCCHISINA : Sovraccoperta di cotone o imbottita.
-LUCCICA - LUCCICHETTA : Lucciola.
-LUCCICORE : Bagliore.
-LUCCO : Stanco (v. ALLUCCASSE).
-LUCERNARO : Abbaino.
-LUCIARO : Persona addetta alla lettura dei consumi e distribuzione delle bollette della vecchia Società Romana per l'Energia Elettrica.
-LUFFO : Fianco (es. comme me cocino i lluffi = come mi fa male la schiena).
-LUPO PENARO : Licantropo.
-LUPINO : Specie di callo alle dita dei piedi.
-LUPOLI : Getti primaverili di piante (es. vitalba). Commestibili.
-LUSTRORE : Chiarore, splendore.
-LUVI' : Guarda un po'? (Luvì chi ecco? = guarda un po' chi arriva?).
-MA' - MATE : Madre, mamma (mate mia quanto patiscio = mamma mia quanto si soffre).
-MACHINE : Madia (v. anche MATTERA).
-MACIO : Strafatto, troppo maturo, molliccio, guasto (in senso figurato persona furbastra es. sì macio ma pperò).
-MADONNÉLLE : Acheni, ancora verdi, di olmo, teneri e commestibili; anche bambine in costume nero e col velo, che accompagnano la processione del venerdì santo.
-MAGGIO : Ginestra. (Hanno piantato 'i maggio = Hanno fatto sesso).
-MAGNA' : Mangiare (i' mmagnà o i' ddamagnà = il cibo).
-MAGNARDO : Famelico, mangiatore, di buon appetito.
-MAGNASBOTTO : Biscia d’acqua.
-MALE E PPEGGIO : Piccolo attrezzo da muratore con due punte da taglio perpendicolari tra loro (una taglia male e l'altra peggio).
-MAMMANCO : Neanche, nemmeno (v. NIMMANCO).
-MAMMOCCIO : Bamboccio, stupido.
-MANCECOLA : Attrezzo per la lavorazione della canapa.
-MANCIOCCOLA : Mano grande, grassa, capiente.
-MANEJA' : Maneggiare, mischiare, muovere (Maneja maneja nun ajo capito chiù quelle = A forza di mischiare non ho capito più niente).
-MANNOLO : Straccio per pulire il forno.
-MANTENGOLA : Mattarello (v. anche LANSAGNOLO).
-MARCHESE : Mestruo.
-MARTAJATO : Malfatto (v. MARTUFO).
-MARTINICCHIA : Freno a mano dei carri.
-MARTUFO : Malfatto (v. MARTAJATO).
-MARVEJA : Verme che si riproduce vicino all'osso del prosciutto male conservato (perché poco salato o fatto con tempo umido e caldo).
-MARZI - MARZITTI : Cime di rapa.
-MASTELLO : Recipiente con manico da inserire nelle botti per prendere un po' del contenuto.
-MATRIA : "Madre" dell'aceto.
-MATRIÀLE : Rozzo (di persona), materiale.
-MATTA : Dal Vocabolo arcaico che indica una stuoia .
-MATTERA : Madia (v. anche MACHINE).
-MAZZAFEGHETE : Salsicce di fegato.
-MAZZAFIONDA : Fionda ad elastici.
-'MBORZO : Bolso, fiacco.
-'MBRIACO : Ubriaco (stato momentaneo).
-'MBRIACONE : Etilista (dedito al bere).
-'MBROJO - 'MBROJONE : Imbroglio - imbroglione.
-ME CE SCORZO TUTTO : Non ho alcuna fretta (quasi a farlo di proposito, come reazione).
-ME SA MIJANNI : Non vedo l'ora.
-MEJO : Meglio, migliore (sì' i'mmejo = sei il migliore).
-MELLA : Mela (pl. le mella).
-MELLAFRICA : Corbezzolo (frutto a maturazione invernale).
-MENCELLA : Brocca di coccio per acqua.
-MENCIO - MENCIAROTTO : Poco scaltro, sempliciotto.
-MESCOLA : Cucchiaio in legno da cucina.
-MESSA PAZZA : Messa pomeridiana del venerdì santo.
-MESTO : Messo. (l'ajo mesto = l'ho messo).
-META : Mietere.
-METTA - MITTI : Mettere, metti (Nun ce mittissi becco = Non impicciarti).
-MEZZA : Recipiente cilindrico per misurare cereali, olive, ecc..
-MEZZADI' : Mezzogiorno.
-MEZZAROLO : Mezzadro.
-MICCIA : Asina.
-MICIA : Gatta.
-MIJARA : Migliaia.
-MILLUZZA : Piccole mele, anche un po' acerbe.
-MINELLA : Grosso cesto in vimini, largo e basso senza manici (con i manici è la CIRIGNA).
-MINTURZELLA : Erba aromatica (usata nella cottura della trippa).
-MINZONA' : Nominare.
-MITTI A TOMBOLA? : Scegli i numeri? (da inserire nella cartella per partecipare alla tombola pubblica).
-MO' : Ora, adesso.
-MO’ MMO’ : Proprio adesso (so’ rentato mo’ mmo’ = sono rientrato proprio adesso).
-MOCCO : Moneta, soldo (v. BOCCO).
-MOCCOLO : Muco, moccio, secrezione nasale.
-MOCCOLOTTO : Cerotto, lume. Usato nelle chiese o al cimitero.
-MOCOLA : Lenticchia (legume); usato per indicare anche le lentiggini (mocoloso = lentigginoso) dal lat. "macula".
-MOGNA : Mungere.
-MONNA' : Pulire, mondare.
-MONNEZZA : Immondizia.
-MONNEZZARO : Spazzino; cumulo di rifiuti.
-MONNOLO : Scopetta o panno usati per pulire i forni a legna.
-MONTONE : Tanto/i (c'ha un montone de bocchi testo stì = è molto ricca quella persona lì).
-MORDACCHIA : Museruola.
-MÓRDO : Molto.
-MORRALE : Palo in legno (generalmente usato nei sottotetti).
-MORRE - MORRALE - MORRALETTO : Scarpata.
-MORTAJOLO : Porcino (fungo) Boletus edulis.
-MOSCIARELLE : Castagne secche.
-MOSCIO : Flaccido (di frutta e di persona).
-MOSTRARELLA : Atto dello strofinare la buccia dell'anguria sulla faccia.
-MOTTATOIO - MOTTATORO : Imbuto, che imbotta (anche IMMOTTATORE).
-MOVA : Muovere (Mujva = Muoveva).
-'MPOPONITO : Intontito (dopo un colpo ricevuto), insonnolito (appena sveglio).
-MUCCICOSO : Moccioso, .
-MUCCI' : Scappare, fuggire, uscire di casa. (J'è toccato muccì - E' dovuto scappare).
-MUFFA' : Ammuffire (anche ammuffà ill'occhi = fare gli occhi neri con i pugni).
-MUNELLACCIO : Ragazzo dispettoso.
-MUNELLO/A : Bambino/a.
-MURO MURO : Modo di camminare accanto ai muri, quasi a ripararsi sotto la gronda (v. anche COSTA COSTA).
-MUSETTA : Sacchetti di mangime appesi al collo di animali.
-MUSICA : Banda.
-MUSICANTE : Componente di una banda.
-MUTA’ : Cambiare.
-MUTATA : Cambio di vestito per le feste (es. la mutata della Domenica).
-NA' : Andare (v. anche ANNA' - GNA' - JI').
-'NA MASSA : Tanto, molto, infinitamente.
-NATICA' : Tentennare, smuoversi (es. il sasso naticarello o rupe tremante).
-NATICCHIA : Nottolino in legno per chiudere infissi.
-'NCIAMPICA' : Inciampare (v. INCIAMPICA').
-'NCIANCICA' - 'NCIANCICATO : Masticare, sgualcire - masticato, sgualcito.
-'NCIURCINATO : Raggomitolato, avviluppato; (v INCIURCINATO).
-'NCOLLA' : Prendere in braccio (fijarè te pijo ‘ncollo? = ragazzino, ti prendo in braccio?).
-'NCRIPPILLITO : Intorpidito (nei muscoli), raggrinzito (vedi anche INCRIPPILLITO).
-NE' TENÉ NE' SCURTICA' : Non accontentarsi, non accettare compromessi.
-NESCA - NESCHE : Botta - botte solenni.
-NESCO : Boccino (v. anche ONNESCO).
-'NFRACICASSE : Bagnarsi, infradiciarsi.
-'NFRANCUJATO : Mischiato, confuso (v. anche INFRANCUJATO).
-'NFRATANDO : Frattanto.
-'NFONNA - 'NFUSO : Bagnare - Bagnato (v. anche ANFONNISE o INFONNA).
-'NGO' : Ancora.
-'NGRAVIDA' : Mettere incinta.
-‘NGRUGNATO : Arrabbiato, offeso.
-'NGUATTA' - 'NGUATTATO : Nascondere, nascosto (v. anche ANGUATTARE o INGUATTARE).
-'NGUATTARELLA : Nascondino (gioco per bambini).
-‘NGUJATTO : Spogliato, detto di volatile implume.
-NICULIZIA : Liquirizia.
-NIMMANCO : Neanche (v. MAMMANCO).
-'NNASPO - ONNASPO : Raspo d'uva, grappolo.
-NOCCHIA : Nocciola.
-NOCCHIETO : Noccioleto.
-NONEE… : Conferma di una negazione; quasi a dire “No, non insistere ancora”.
-NORO : Genero (anche GHIENORO).
-NOVA : Notizia.
-'NTENGOLATO : Unto (v. anche 'ONTOLATO).
-'NTICCHIA : Un po' (v. anche FRICCIOLO, ETO, OGNA).
-‘NTIGNA’ : Insistere, incaponirsi, (anche INTIGNA').
-'NTIRICHITO : Disseccato, intirizzito. Rimanere sbalordito, sorpreso (v. INTIRICHITO).
-'NTISI : Intesi, capiti (v. ANDENNA).
-'NTISICHITO : Rinseccolito.
-'NTRALUCCA' : Barcollare; essere instabili (v. ANTRALUCCA’).
-'NTRAPPAJA' - 'NTRAPPAJATO : Confondere, confuso (v. ANTRAPPAJA' – INTRAPPAJASSE).
-'NTRATANTO : Intanto, frattanto.
-‘NTRICASSE : Intricarsi.
-'NTRONATO : Intontito, stordito, incrinato (in senso figurato: stupido, minato nella salute) (v. INTRONATO).
-'NTRUJASSE : Sporcarsi (v. INTRUJASSE).
-'NTRUPPAGHIRBE : Malfermo, barcollante.
-‘NTURCINATO : Intrecciato, aggrovigliato (v. INTURCINATO).
-'NTUSATO : Ammaccato (anche ANTUSO o INTUSATO).
-NU' JE LA CACCIO : Non ce la faccio.
-NUN ME ME VENE : Non mi va, non ne ho voglia.
-'NZEGNATO : Insegnato.
-'NZIFONA' : Coitare.
-'NZUATTATO : Tanto sporco.
-'NZUGA' : Istigare.
-OCCHIATICCIO : Malocchio.
-OGNA : Unghia (un'ogna = un po') (v. anche ETO, FRICCIOLO, 'NTICCHIA).
-OJI : Oggi.
-OMMASTO : Basto, sella.
-OMMINO : Uomo.
-OMPICCIONE : Ombelico (v. anche UMPICCIONE) usato, a volte, anche il termine 'MBELLICO.
-ONNASPO - 'NNASPO : Raspo d'uva, grappolo (v. anche RACICIO e ROMPAZZO).
-ONNESCO : Boccino (v. anche NESCO).
-ONTO : Lardo.
-ONTOLATO : Unto (v. anche 'NTENGOLATO).
-OPO : Lupo.
-OPRA : Persone assunte per un lavoro. (ajo scerdo ill'opra = ho trovato gli operai).
-OR DE NOTTE : Identificabile con l'Ave Maria, il suono delle campane all'imbrunire. Usato anche come termine di paragone (te faccio comme 'n or de notte = te ne do così tante da farti nero). (Vedi anche "CARCALLASINO").
-ORGANETTA : Fisarmonica.
-ORLOGGIO : Orologio. “Ill’orloggio ‘i pponte”
-OTO : Sporco, sudiciume (v. LOTO).
-OTOSO : Sporco, agg.
-PACCHIAROTTO : Pienotto, grassottello.
-PACÈNZA : Pazienza.
-PAINO (fare il _) : Ostentare, esibire.
-PAJARICCIO : Materasso riempito di foglie di granturco e paglia.
-PAJARO : Fienile, cumulo di fieno o paglia.
-PAJAROZZA : Pagliaio di dimensioni ridotte (1,5 m. circa).
-PALANCA : Tavola di legno non pregiato, usata in edilizia come piano d'appoggio.
-PALLOZZO : Bozzo, rigonfiamento.
-PALLUCCOLA : Piccola palla, bacca di cipresso.
-PAMPAJOLE : Briciole di legno o foglie secche.
-PAMPARITI : Piccoli dolcetti fatti in casa.
-PANACCA : Forte colpo a mano aperta.
-PANNATAIO : Nicchia, scaffale a muro (nelle vecchie case, prive di acqua corrente, rappresentava lo spazio destinato a contenere una brocca).
-PANNINARO : Colui che vende stoffe.
-PANTÀSIMA : Fantasma.
-PANUNTELLA : Azione dinamica del fare il PANUNTO (FACEMO LA PANUNTELLA? = STROFINIAMO IL PANE SUL LARDO? … che si appendeva al camino).
-PANUNTO – PANONTO : Pane unto (strofinato, ad esempio, al lardo di maiale che lo rende grasso).
-PANTANICCIO (o PANTANICCHIO) : Pantano, area ricca di pozzanghere.
-PAPARME : A terra sdraiato (Si sbatte i' ccapo, aremane jò a ppaparme = se batte la testa resta steso in terra).
-PA-PPA-RA-PA’ : Sillabe non pronunciate, ma fischiate. Quattro note sinonimo di esagerazione; quando qualcuno la dice proprio grossa.
-PAPPOLA : Frottola, storiella inventata per burla o per vanteria.
-PARAVANTI - PARANNANZI : Grembiule da cucina o per artigiani.
-PARA : Piccola diga (para de patalocco).
-PARO : Paio - Sembro (che te paro? = cosa ti sembro?).
-PARO E CEPRO (SCEPRO) : Pari e dispari.
-PASSONE - PASSUNE : Grosso palo da recinzione.
-PASTASCIUCCA : Pasta asciutta.
-PASTECHE : Pasticche.
-PÀSTINO : Miscuglio, impasto di letame (anche di sterco umano!) e paglia, utilizzato come concime. A Soriano, c'è un Vicolo dei Pastini, ove anticamente avveniva il "butto" dei rifiuti e dei bisogni fisiologici, che poi venivano appunto utilizzati come fertilizzante.
-PATACCA : Macchia, bella donna.
-PATALOCCO : Stupido; membro maschile.
-PATE : Padre (v. anche TATA).
-PATI' : Soffrire; (patisciva = soffriva).
-PATOLLO : Persona di fisico pesante, torpido.
-PATRÍCCIA : Giaciglio miserevole.
-PATUNIA : Paura (v. anche LAPPEDUNIA).
-PATURNIE : Nervosismo (lassime perda c’haio certe paturnie… = lasciami stare, ho certi nervi…).
-PECORARECCIA : Ovile.
-PEJO : Peggio.
-PELA : Scotta, brucia.
-PELA' : Sbucciare, scottare.
-PELOSELLA : Erba campestre, profumata e commestibile, ricoperta di peluria.
-PÈNNA : Pendere (a settembre i'll'uva è fatta e la fico penne) - A PENNA = Penzoloni.
-PENNATAJA : Erba selvatica infestante che nasce sui muri: paretaria.
-PENNAZZE : Ciglia e/o sopracciglia.
-PENNENTI : Orecchini.
-PENNINELLA : Gioco dei bambini, consistente nel fare centro con la penna (munita di pennino) in un punto del preciso del poggiapiedi del banco di scuola.
-PENNOLONE : Nel senso di persona alta e dinoccolata.
-PENNULUNI : Penzoloni. (ch'i ccarzuni pennuluni = con i pantaloni penzoloni) (v. anche CUJA LENTA).
-PEPARELLA : Erba selvatica commestibile, usata come condimento.
-PEPE PAPA RENTO CASA : Gioco con le biglie per bambini.
-PEPERONE : Fungo non commestibile di colore bianco sporco.
-PERA : Pera (pl. le pera), in senso figurato le botte.
-PERCOSSO : Stupito, sbalordito (remase percosso = rimase sbalordito o colpito).
-PERCOTA : Stupire, sbalordire (me percotette = rimasi stupito).
-PERSICHE : Pesche.
-PERSORA o PERSOJA : Catino di coccio.
-PERTICA : Bastone flessibile utilizzato per battere le piante e far cadere i frutti.
-PESTATORO : Pestello (del mortaio).
-PETALINO - PEDALINO : Calzino (M'ha ditto petalino oppure m'ha ditto zella = Sono stato sfortunato ).
-PETETE : Puzze (nel "buco delle petete" c'erano dei gabinetti pubblici all'aperto).
-PETTINICCHIA : Fungo.
-PIAGNA : Piangere.
-PIAGNITOIO : Casi pietosi.
-PIANETTELLO : Ripiano di terra alla sommità di una salita.
-PIANTA' : Smettere (l'hai da piantà = dei farla finita).
-PIANTA' I'CCHJÒO : Fare la Cresima.
-PIATTELLA : Parti meno nobili del maiale (interiora, muso, orecchie) cotte insieme alla porchetta in apposito recipiente (v. anche ACQUETTA).
-PIATTERIA : Cristalliera, mobile che contiene piatti e stoviglie.
-PIATTOLA : Parassita (rivolti a una persona fastidiosa e insistente "s'ì comme 'na piattola).
-PICA : Ghiandaia (uccello).
-PICCASURCI : Pungitopo.
-PICCICHIRI : Chicchi di grandine.
-PICCININO : Dito piccolo del piede.
-PICCO : Senza soldi (Sto a'ppicco = Sono senza soldi).
-PICÊLLO : Pedicello, foruncolo.
-PICIA : Organo sessuale femminile (Fare a picia = coitare).
-PICIANGULI : Brandelli penzolanti.
-PICÍNO : Punta estrema di un sacco, angolino.
-PICIO LENTO : Persona oltremodo tranquilla.
-PICIOCCO : Picciolo; organo sessuale maschile.
-PIDOCCHIO AREFATTO : Arrichito; che ostenta questo suo nouvo stato.
-PIEI : Piedi.
-PIEI DURGI : Usato nei confronti di chi cammina con sofferenza (e ccammina bbene… che c’hai i ppiei durgi?)
-PIENARA : Alluvione.
-PIETRUCCOLA : Sampietrino.
-PIGNATTO - PIGNATTA : Pentola.
-PIJA' : Prendere.
-PIJA' CHI'LLOMBRELLA : espressione figurata usata la mattina delle Ceneri quando, trovata una persona addormentata dopo una notte di balli, si apriva l'ombrello su di essa, prima di svegliarla e costringerla a pagare la colazione).
-PIJA’ LA SEGA A GGIRO : Girarci intorno, essere inconcludenti (menare il can per l’aia).
-PIJA' 'N COLLO : Prendere in braccio (T'aio da pijà 'n collo? = Devo prenderti in braccio?).
-PILOTTO : Fastidio (non me dissi i'ppilotto = non mi assillare).
-PILOZZA : Recipiente ove porre gli alimenti dei maiali, scavato nella pietra (v. anche TROCCOLO).
-PILUCCO : Peletto; anche di persona con una capigliatura rada e ispida.
-PIO : Bastoncino, pezzetto di legno.
-PIOTO : Lento nell'agire, tardo di mente.
-PIOTO PIOTO : Andatura lenta, comportamento della persona tranquilla, flemmatica.
-PIPINETO : Dicesi di un gruppo di persone vocianti.
-PIRICOCOLO : Albicocco (albero); PIRICOCULI (i frutti).
-PIROLE : Pillole.
-PITALE : Vaso da notte.
-PITINATA : Schioccare di dita, colpo portato col dito medio rilasciato di colpo dal pollice.
-PITOLA’ : Girare su se stessi.
-PITOLOZZO : Piccola trottola di legno, picchio, a corda.
-PITTURINA (fare a _) : Beccarsi in modo dispettoso e quasi infantile (hanno fatto a pitturina = si sono beccati).
-PITUÈRIE : Chiacchiere a vuoto.
-PIUJCCICA : Pioviggina (v. FRILLICHICCHIA).
-PIZZARULLI : Ghiaccioli.
-POJELLO : Manciata (es. di nocciole) a due mani.
-POJO : Poggio (I' ggiorn'i'ppojo = Il lunedì dell'Angelo).
-POLACCA : Blusa femminile.
-POLE : Può.
-POLLANDRELLI - POLANDRELLI : Bacche selvatiche commestibili, simili alle nespole, ma più piccole.
-POLLEDRA : Vescica (pl. le polledra).
-PORCARECCIA : Porcilaia.
-PORCO : Maiale, sudicio.
-PORETTA ANNUI : Poveri noi.
-PORETTELLO : Poveraccio.
-PORNELLO : Susino (albero) PORNELLA = Susine (frutta).
-PORO - PURITTI : Povero - poveretti (Poro cristiano = Pover'uomo).
-POSTALE : Autobus (vedi CORRIERA).
-POZZA - POZZI : Che tu possa (che te pozzi pijà 'n gorbo = che ti venga un accidente).
-PREME : Interessare (me preme = mi interessa).
-PRESA : Palpata di natiche.
-PRESCIA : Fretta.
-PRETE : Sagoma in legno dove si inseriva lo scaldaletto.
-PRICISSIONE - PRETISSIONE - PRITISSIONE : Processione.
-PRICURA' : Riordinare, accudire, rassettare (la casa) - Pricurà le bestie = Accudire gli animali.
-PRIMURA : Urgenza, premura.
-PROENNA : Composto per cavalli, di fave e biada, "servito" in un sacchetto legato al muso dell'animale (v. MUSETTA).
-PROÌBITO : Cattivo, ingovernabile (v. anche TRISTO).
-PROVA : Bordo (es. la prova della via = la cunetta)
-PRUZZA : Prurito (v. anche SURCICO e ROELLO).
-PUCCIA : Bambola.
-PUCÍNO : Pulcino, anche di frutta troppo matura (la pesca c'ha i'ppucino), strafatta.
-PUGNASACCO : La spiga selvatica (FORASACCO v.) capitata in un sacco.
-PULISCENZA : Pace, modo di dire di smettere un gioco di bambini.
-PUMMEDORO : Pomodoro.
-PUMMIDURITTI (a boccolo) : Piccoli pomodori a grappolo da consumare in inverno.
-PUNTICCIUNI : Colpi dati con le nocche delle dita.
-PUPPIDA : Upupa.
-PÛRA : Paura (veni ccà, n’issi pura = avvicinati, non temere).
-PURCHITTI : Maialini.
-PURCHITTI DE SANT'ANTOGNO : Insetti che si appallottolano se impauruti.
-PURTICALLO - PURTIGALLO : Arancia.
-PUTIVA : Poteva.
-PUZZOLOSO : Sporcaccione (anche dispettoso).
-QUARANTOTTO : Conteggio delle carte sparigliate nel gioco della scopa.
-QUARTARONE : Grosso recipiente da cantina.
-QUARTERIA : Terreno concesso in conduzione agricola ad un colono, cui spettava 1/4 dei raccolti.
-QUÈLLE : Nulla, niente, nessuna cosa.
-QUESSO? : Quale?
-QUESTORO : Costoro.
-QUINATO/A : Cognato, a.
-RABBIA : Invidia (C'hai rabbia? Rusica la vidabbia).
-RACCHINICHITO : Rachitico.
-RACCIURCINATO : Raffazzonato, alla meglio, rattoppato.
-RACICIO : Racemio, parte di un grappolo d'uva (v. anche ONNASPO e ROMPAZZO).
-RAFACANE : Ingordo, avido, insaziabile.
-RAFFICA' : Graffiare.
-RAFFICO : Graffio.
-RAMAJA : Ramoscello secco.
-RAMICCIA : Gramigna.
-RAMINA : Schiumarola.
-RANCICA' : Grattare.
-RANCICHETTO : Striscetta di cotenna (avere il rancichetto = sentire il rancido alla gola per il cibo grasso).
-RANCICHILLI : Plurale di RANCICHETTO.
-RANCICO – RANCIO : Rancido, stantio.
-RANCURICCHIASSE : Piegarsi, farsi piccolo (v. ANCURICCHIASSE o RINGURICCHIASSE).
-RAPAZZOLA : Cuccetta di capanna.
-RASCHIAMACHINE : Attrezzo da cucina in ferro, per pulire il piano della madia dai residui della pasta del pane.
-RASOLETTO : Piccolo spiazzo di terreno.
-RATTA : Rete, peritoneo del suino, con cui si fasciano i fegatelli da cuocere "de lo spido".
-RATTATUJA : Confusione, ressa.
-RAZZICARELLA – RUSICARELLA : Dispetti, ripicche, infantili.
-RECULE : Cade e non si recupera (usato, ad esempio, per gli alimenti ATTENTE CO' LA FARINA CHE RECULE).
-REGAZZO/A : Fidanzato, a.
-REGGIA : Reggere, prestare (te l'ajo dato a reggia = te l'ho solo prestato).
-REGGIA CECIO : Sinonimo di riservatezza, saper mantenere un segreto (nun reggi cecio = sei un chiacchierone).
-REGNA : Covone di grano.
-RENTA' - RENDA' : Entrare (Rentà rento = entrar dentro).
-REPARBASSE : Non osare, aver timore (v. AREPARBASSE).
-RIA : Ridere.
-RICCOJA - RICCOSSA : Raccogliere, raccolta.
-RICHIÈA o RECHIÈA : Controllare, ispezionare (specie i confini dei campi).
-RIECCO - ARIECCO : Di nuovo.
-RIMPINICASSE : Arrampicarsi.
-RINNACCIO : Rammendo, accia di filo.
-RINVICIDA' - RINVISCIDA' : Resuscitare.
-RISPARAMBIO : Risparmio.
-RIVOLO : Piccolo topo montano, tasso.
-RIZZA' : Alzare, alzarsi dal letto.
-RIZZASSE - RIZZITE : Alzarsi - Alzati! (da terra, dal letto).
-ROCCHIO : Pezzo di carne, salsiccia; anche pezzo cilindrico di legno.
-ROELLO : Prurito. Quando si manifesta in modo naturale (v. PRUZZA e SURCICO).
-ROMPAZZO o RAMPAZZO : Grappolo d'uva (v. anche ONNASPO e RACICIO).
-RONCETTO : Roncoletta.
-RONCIO : Roncola.
-RÔNNA : Grinta, cipiglio.
-ROPPA : Rompere (nu ruppissi … = non rompere …); v. anche SPASCIA'.
-ROSCIO/A : Rosso/a.
-ROSORE : Irritazione cutanea che provoca prurito (ROELLO).
-ROSORICCHIO - ROSOLICCHIO : Troppo cotto - di un soffritto bruciacchiato (leva la tigama, nu lo facissi rosoricchio = togli la padella, non farlo abbrustolire).
-RÔTTE - ROTTEZZIA : Grotta , grottaccia, antro, caverna.
-RUGHE : Processionarie.
-RUÌNA : Rovina.
-RÛJ : Rovi.
-RUPI' - RUPERTO : Aprire, aperto (rupette = aprì).
-RUSCINA : Persona sporca e trasandata ("nun facissi la ruscina = cura un po' meglio te stessa").
-RUSICA' : Rosicare, rodersi dall'invidia (v. RABBIA) - RUSICA! Usato nei confronti dell'invidioso. L’imperativo viene accompagnato da un gesto con le unghie, passate avanti e indietro sui denti.
-RUSICHINO : Parte cartilaginosa del prosciutto.
-RUSPA' - RUSPO : Ripulire - Gioco di carte (andare a ruspo = cercare qualcosa rimasta dopo il raccolto).
-RUZZA : Ruggine.
-RUZZACCHIOTTO : Individuo un po' sempliciotto, ma soprattutto rozzo e greve.
-RUZZOLA : Oggetto circolare.
-SACCIO : So, conosco. Lo SAPARAJO? = Lo saprò? - Vieni a dirlo a me?. (Saccio un unnio = so dov'è un nido).
-SACCOCCIA : Tasca.
-SACCUNI : Confraternita dei … (che in saio bianco trasportano la bara con il Cristo nella processione del venerdì santo).
-SAMPISTERNO : Santo di comodo, "virtuale", con cui prendersela nei momenti di rabbia (mannaggia sampisterno).
-SAPPA - SAPPONE : Zappa, zappone.
-SARACA : Getto recente di rovo da more, tenero e commestibile.
-SARAPOLLI : Varietà di erba commestibile.
-SARDAFOSSI : Geometra.
-SARGE - SARGIO : Salice.
-SARTORE - SARTORA : Sarto, sarta.
-SARVATICO : Selvatico.
-SARVIETTA : Tovagliolo.
-SASSICHETO : Strada o fondo sassoso.
-SATOLLO : Sazio.
-SBAJA' : Sbagliare.
-SBATIZZA’ : Affannarsi a fare o cercare qualcosa.
-SBÉOLA' : Belare (anche di persona blaterante).
-SBILLICASSE : Sbellicarsi.
-SBRILLOCCHI : Brillanti, gioielli (v. anche BRILLOCCHI).
-SBRILLUCCICA' : Brillare.
-SBROCCARE : Andare fuori di testa.
-SBUCA’ : Bucare, forare.
-SBURRA' : Eiaculare.
-SCAFARE : Togliere dai baccelli.
-SCAFATO (S’è _) : S'è fatto furbo.
-SCAFI : Fave.
-SCALLALETTO : Scaldaletto.
-SCALLINO : Recipiente che contiene carboni accesi, per riscaldarsi.
-SCALUNI : Gradini (li scaluni 'i'ddomo = i gradini del duomo).
-SCANGOSCIO : Cosa mal ridotta, sbilenca.
-SCAPOCOLLO : Dirupo.
-SCAPPA' : Uscire (luvì scapp'i'zzole= guarda un po', esce il sole).
-SCARVUJA’ : Scompigliare, sconvolgere (v. anche CARAVUJA').
-SCARCA' ILL'UNNII : Togliere i nidi.
-SCARCIOFULI - SCARCIOFULITTI : Carciofi - Carciofini.
-SCARDAONE : Scarabeo.
-SCARGIA : Scorza.
-SCARTARELLA : Gioco che i ragazzi fanno con il pallone (uno contro tutti, in un dribbling continuo).
-SCASA' : Traslocare; anche mettere le dita nel naso.
-SCATARRA’ : Espettorare.
-SCEGNA - SCENTO : Scendere. Sceso.
-SCENTA : Discesa.
-SCEPRO : Dispari (v. anche CEPRO).
-SCÈSCITO : Disordine materiale.
-SCHIFETTO : Recipiente piano con bordi, ricavato nel legno.
-SCHIOPPO : Fucile.
-SCIACCUJA' : Confondere (SCIACCUJA' i'ccapo = confondere la mente; SCIACCUJOTTO = confuso).
-SCIALA' : Godere, divertirsi, provare soddisfazione.
-SCIALITO : Alimento oramai insipido, che ha perso la sapidità di cui una volta era ricco.
-SCIALOJA : Godimento.
-SCIALUGARE : Lasciare il nido, la casa per la prima volta (farsi grandi).
-SCIALUGHINO : Uccello al primo volo.
-SCIAMPERLE : Ciabatte.
-SCIASCIA : Varietà di peperino vulcanico rosato, tipico dei territori del Cimino.
-SCINICASSE : Faticare, stancarsi esageratamente (SCINICATO = sciancato, malfermo) (me so' scinicato pe' carrejà le legna = mi sono sfinito per trasportare la legna).
-SCINTILENE : Lampada ad acetilene.
-SCIOJA : Sciogliere (ji s’è sciord’i’ccorpo = ha avuto problemi intestinali).
-SCIOMMOLA' - SCIMULA' : Parziale prosciugarsi (di terreno, oggetti umidi).
-SCIORNA : Persona estremamente trascurata.
-SCIORTA - SCIORDA : Diarrea.
-SCIUTTASSE : Asciugarsi, es. ha patito la sciutta (di frutto disidratato, coltivato in un "SECCARECCIO").
-SCOCCODEJA’ : Parlare con insistenza, sguaiatamente.
-SCÔLA : Colapasta.
-SCOLE ARDE : Scuole superiori.
-SCONOCCHIATO : Dissestato (di cosa, mobile) (di persona : l'ajo sconocchiato = l'ho picchiato per bene).
-SCOPA : Ginestra dei carbonai (lat. cytisus scoparius).
-SCOPETO : Luogo invaso dalle ginestre dei carbonai.
-SCOPPIA' : Battere (le mano = le mani).
-SCOPPOLARELLE : Tipo di susine (Le pornella scoppolarelle).
-SCORROMPISE : Guastarsi (col tempo).
-SCORZO : Scalzo (Ch'i'ppiej scurzi = A piedi scalzi).
-SCOTA : Scuotere. (Scutiva = Scuoteva).
-SCROCCHIO : Scroscio, rumore (es. m'hanno scrocchiato ill'ossa).
-SCRUÈJO : Capriccioso, schifiltoso, stravagante.
-SCUCCHIA : Mento prominente.
-SCUJASSE : Sbellicarsi, sfiancarsi (me so' scujato p'i' rrja = mi sono sbellicato dalle risate; me so' scujato pe' pportallo su = mi sono sfiancato per portarlo su)
-SCURI : Sportelli di una finestra.
-SCUROSO : Chi soffre il solletico (SURCICO).
-SCURREJA' : Fare venti, peti rumorosi.
-SCUSCIATA : Chiassata.
-SDEMOGNA : Disgelare.
-SDEGNATO : Irritato, degenerato (es. trasformazione maligna di un foruncolo).
-SDILUNGASSE : Allungarsi, distendersi.
-SDILUVIA : Piove abbondantemente.
-SDIVIGNA' : Vendemmiare (anche VELEGNA').
-SÊA : Sedia, verbo sedere (es. mettise a sea = mettersi seduti).
-SECCARECCIA : Aridità.
-SECCARECCIO : Terreno arido.
-SECCATORO : Essiccatoio.
-SEDOIO - SEDITORE : Sedile.
-SELLERO : Sedano. (Usato a volte nei confronti di una persona un po' imbranata).
-SEMENZA : Chiodino.
-SENTO : Segnato (un punteggio, una nota, un goal).
-SENZALE : Mediatore; organizzatore di incontri d’affari.
-SERTA : Ghirlanda, serto (detto di agli e cipolle).
-SETOLA : Crine guida o pilota, utilizzato dal calzolaio per trascinare lo spago nei fori della tomaia.
-SÉRVA : Selva.
-SFRAGNA : Spremere, schiacciare.
-SFRATAZZO : Frattazzo, grande spatola per intonaci (v. anche AMERICANA).
-SFRIZZOLI - SFRICCIOLI - FRICCIULI : Ciccioli.
-SGANASSUNI : Colpi dati in faccia.
-SGNOLA' : Miagolare (anche GNAOLA').
-SGOMMARELLO : Mestolo (v. MESCOLA).
-SGRACIOLATURA : Scorticatura, abrasione.
-SGRAMAJI : Ricami, decorazioni.
-SGRAVA' : Partorire.
-SGRIGNATA : Raggio di sole che fa capolino dalle nuvole.
-SGUILLA' : Slittare.
-SGUINCIO : Obliquo, (l’ajo preso de sguincio = l’ho colpito di striscio).
-SGUINCIUNI : Scroscio, obliquo, di pioggia.
-SI FREGATO… : Che ti prenda…
-SI MMAI CHE SI’ : Nel caso che, caso mai.
-SI SI’ BBONO…COMMATTICE TU : Se sei capace… fallo tu.
-SI TANT'E' - SI TANT'ENE : Se è così, tant'è.
-SIMIA : Scimmia.
-SIMINA : Semina.
-SINALE : Grembiule domestico (v. anche ZINALE).
-SINALONE : Grembiule scolastico (v. anche ZINALONE).
-SINDINELLA : Sentinella, controllore (stì de sindinella? = vigili?).
-SITO : Luogo.
-SLECIO : Insignificante, insipido (v. LIECIO).
-SMANEJA' : Rimestare, maneggiare (v. anche SMUCINA').
-SMARINO : Rosmarino.
-SMETTA : Smettere.
-SMICCIA' : Sbirciare, adocchiare.
-SMONNOLA’ : Pulire (col monnolo) i vecchi forni a legna.
-SMUCINA' : Rovistare (anche AREFUCINA' o AREMUCINA').
-SOATTA : Colpo molto forte e veloce (es. diretto di un pugile; tiro di un calciatore).
-SOCCIO : Contadino (alle dipendenze) - v. anche VILLANO.
-SOFFREO : Avanzo, rimasuglio.
-SOMA : Carico (di un asino).
-SORCA 'NTENTA : Impomatato, unto.
-SORRAGA : Aringa.
-SORVA : Frutto. Bòtte (va' vija sinnò so' sorva = vattene altrimenti le prendi).
-SPANACCA' : Schiaffeggiare (dare le PANACCHE).
-SPANNA - SPASO : Spandere - sparso.
-SPANNULI' : Sbadigliare.
-SPARAMBIO - SPARAGNO : Risparmio.
-SPARGIO : Asparago.
-SPARRUCA' : Disperdere, mettere fuori posto (chi ammontona e chi sparruca = chi risparmia e chi sperpera).
-SPARTA : Dividere. (Se spartiscino = Si dividono).
-SPASCIA' : Sfasciare, rompere; v. anche ROPPA.
-SPEGNA - SPENTO : Spingere, spinto.
-SPÈNNA : Spendere (v. anche SPRAGNA).
-SPERDIA’ : Bestemmiare.
-SPIANATORA : Tavola per lavorare la pasta.
-SPICCIASTALLE : Veterinario.
-SPICCICHERA' : Grandinare.
-SPICIOCCA' : Staccare (es. i "pummiduritti a boccolo", conservati per l'inverno).
-SPINICASSE : Sporgersi.
-SPINICO : Altalena.
-SPINOSA : Istrice.
-SPITO o SPIDO : Spiedo.
-SPONNA’ : Sfondare.
-SPONNATO : Sfondato – molto fortunato.
-SPORDO : Spogliato, nudo.
-SPORDO (S’è _) : Si è tolto l'abito talare.
-SPRAGNA : Spendere (v. anche SPENNA).
-SPULINA' : Ripulire l'arredo (riferito soprattuto alle pulizie straordinarie di Pasqua), vincere al gioco (es. l'ajo spulinato).
-SPUNGICA' : Pungere, punzecchiare.
-SPUNTA : E’ inacidito (tipico del vino che prende aria), ma rivolto anche a qualche zitella particolarmente acida.
-SPURTUNA : Sfortuna (so' SPURTUNATO comm'i'ccani dill'acchiesa = ho la stessa fortuna dei cani che entrano in chiesa).
-SQUIZZAMUSO : Tagliolini in brodo.
-SQUIZZARELLO : Gioco che facevano i ragazzi tirandosi l'acqua.
-STACCIÛNI : Residui della lavorazione della canapa o di altri vegetali.
-STAFFA : Attrezzo del calzolaio, utilizzato per poggiare le calzature da confezionare.
-STAGNARO - STAGNINO : Idraulico.
-STEGNA - STENTO : Spegnere, spento (es. Stingi i'llume stì! = Spegni quel lume!).
-STÉNA : Steccato.
-STENNA : Stendere (me fai stenna le zampe = mi farai morire).
-STIGNA' : Togliere (un vizio, una cattiva abitudine) es. t'ajo da stignà.
-STILOSO : Di bella fattezza, sportivo (che machina stilosa… = che auto sportiva…)
-STORZA' : Balzare, trasalire (M'ai fatto storzà = Mi hai fatto sobbalzare dalla paura).
-STORZO : Scatto, sobbalzo
-STRACCALI : Bretelle.
-STRACCASSE - STRACCO : Stancarsi, stanco.
-STRAGNERO : Straniero.
-STRASCINA' - STRASCINUNI : Trascinare - Trascinandosi (anche A STRASCINO = Al traino).
-STREGNA : Stringere.
-STRIFOLACCIA : Strofinaccio da cucina.
-STRIPPASORRAGHE : Secco, estremamente magro.
-STRIULO - STRIVOLO : Strigolo (Silene inflata); erba spontanea primaverile, dal sapore simile agli spinaci.
-STROLIGO - STROLICO : Indovino, astrologo.
-STROZZAPRETI : Tipo di pasta fatta in casa.
-STRUFFAJE : Impicci, cose superflue o inutili (v. anche GHIACCULI e ZARAVATTULI).
-STRUFOLI : Dolce tipico del carnevale simile alle castagnole.
-STRUPPIO : Storpio.
-STUCCATO : Spezzato, staccato.
-STUCCO : Sinonimo di approssimazione (facemo a stucco = facciamo a occhio).
-STURA' : Accendere (i ffurminanti), stappare (i' llavandino).
-STUTERA' : Togliere i tuteri del mais dalle foglie che li avvolgono.
-SUNE : Su (veni sune? = sali?).
-SUBBIA : Attrezzo arcuato usato dal calzolaio per forare la suola.
-SUCCHIO : Varietà arbustiva di acero campestre.
-SUDDIZIONE : Soggezione
-SUGAMELLI : Fiori, tipo campanule, che venivano succhiati.
-SUGA' : Succhiare.
-SUGACICHE : Fumatore esasperato che, aiutandosi con uno spillo, fumava fino a scottarsi le labbra.
-SUGAETO : Bambino che si ciuccia il dito.
-SUGASUBBIE : Secco, allampanato, che "SUGA" le "SUBBIE".
-SULI : Soli (s. Solo) (ERIMA dui suli - Eravamo solamente in due).
-SULINA (alla _) : Al sole. (I vvecchi a piazza stanno alla sulina = I vecchi in piazza si mettono al sole).
-SUPPELLI' - SUPPECCHI' - SUPPESTI' : Su per di lì, su per di qua - Lassù.
-SURCICO : Solletico provocato (fare il SURCICO = fare il solletico)
-SURIANO : Soriano.
-SUSTACCHINA : Travetto di legno.
-SUTRINA : Frittella con acqua e farina.
-SVERDO COMME LA PORVERE : Veloce mentalmente, intiutivo.
-SVORCHIA' : Togliere le nocciole dalla parte verde che le avvolge (v. VORCHIO).
-TACCHIA - TACCHIETTA : Pezzetti di legno per accendere il fuoco (vedi anche APPICCIUME).
-TADDÈO : Te Deum.
-TARROCCA' : Rimproverare.
-TASTA : Spicchio per la verifica della maturita dell'anguria.
-TATA : Padre, papà (v. anche PATE).
-TE POZZA PIJA' 'N TRONO/GORBO! : Che ti prenda un colpo!
-TEMPERANZA : Conseguenza di una pioggia eccessiva (es. osservando una sorgente intorbidita "ha fatto temperanza").
-TENE' CONTO : Considerare.
-TERRA PIANO : Piano terra (sto accasato a terra piano = abito a pian terreno).
-TERZILE : Telo dove si appoggiavano le pagnotte pronte per essere cotte; era anche usato per tenere separati i pani.
-TÉSTO - TÉSTO STI' - TISTI : Questo, questo qui, questi.
-TIÈLLA : Teglia.
-TIGAMA : Tegame.
-TIGNA : Tenacia, insistenza, testardaggine.
-TIGNOSO : Caparbio, cocciuto.
-TINGOLO (1-2-3) : Filastrocca dei bambini che giocavano a 'NGUATTARELLA.
-TIPPE TOPPE : Toppa gommosa utilizzata per riparare le camere d'aria delle biciclette.
-TISTIMOGNO : Testimonio.
-TÍTOLO : Bambino.
-TOA' - TOASSE : Piegare, piegarsi (nun me pozzo toà = non posso piegarmi).
-TOCCA : Bisogna.
-TOCCIO : Collo della bottiglia.
-TORSO : Stupido, ingenuo.
-TOTERO : Totolo (interno della pannocchia).
-TOTOLA' - TOTOLONE : Brontolare, brontolone.
-TRABBACCHINO : Baldacchino.
-TRAFUGO (DE _) : Di nascosto.
-TRAVAJO : Lavoro.
-TRICCHE E TRACCHE : Tavola in legno con due perni metallici che veniva utilizzata dal venerdì Santo alla Pasqua di Resurrezione. Sostituiva il suono delle campane, per definizione "legate". Un esemplare è ancora conservato nella Chiesa di S. Agostino.
-TRINCETTO : Lungo coltello del calzolaio.
-TRIPPITINO : Piccolo tre-piedi.
-TRISTO : Cattivo, v. anche PROÌBITO (Accitefa quanto sì tristo = perbacco quanto sei cattivo) .
-TROCCOLO : Recipiente, ricavato da un tronco d'albero, dove si versa il cibo dei maiali (v. PILOZZA).
-TROJA : Scrofa.
-TROMBA’ : Fare sesso.
-TRONA' - TRONO : Tuonare, tuono.
-TROSCIA : Sbocco d'acqua verso il basso.
-TROVA' LOCO : Tranquillizzarsi (nun trova loco i'ffijo stì = quel bambino è molto irrequieto).
-TROVO : Trovato (l’ajo trovo io = l’ho trovato io).
-TRUZZOLA' - TRUZZOLARE : Ruzzolare.
-TUCINO : Beccuccio della brocca per l'acqua.
-TU'MMEZZO - DU'MMEZZO : Nel mezzo.
-TURVIO : Torbido.
-TUSSI' (CUSSI') : Così, in questo modo (anche ACCUSSI' - ATTUSSI').
-UA : Uva.
-UFFA : Esclamazione annoiata.
-UMPICCIONE : Ombelico (v. anche OMPICCIONE).
-UNCENZO : Cipresso.
-UNNICE : Nido ove depone la gallina.
-UNNÌO : Nido (d'uccello, d'animale di piccola taglia).
-URDIMO : Ultimo (l'ultima viene detto… "la l'urdima").
-URZA : Ronzio.
-URZINO : Ronzino.
-VACCARECCIA : Zona adibita all'allevamento dei bovini.
-VACCHITELLA : Vitella.
-VACCIO : Gozzo (la gallina 'ngorda j'è crepato i'vvaccio = alla gallina ingorda è scoppiato il gozzo).
-VAGO : Chicco (d'uva), al plurale può anche indicare dei colpi (j'ajo dato du vaga = gli ho dato due colpi).
-VAJATA : Russola (fungo).
-VAJO : Vado (1^ pers. sing. - ind. pres. - verbo andare).
-VELEGNA' : Vendemmiare (v. anche SDIVIGNA')
-VÈNE : Venire, andare, aver voglia (nun me ne vène = non mi va).
-VENNA - VENNE : Vendere.
-VERTE : Bisaccia da spalla o basto leggero.
-VESCÓO : Vescovo.
-VETTINA : Recipiente per olio (v. anche BITTINA).
-VIARELLA : Stradella di campagna, sentiero.
-VIA ROMANA : Strada maestra (nome comune).
-VICCHIÛNI : Vecchioni. Ma soprattutto per indicare il loro ricovero: gerontocomio).
-VILLAMPORCO - VILLAMBORCO : Villano, maleducato.
-VILLANO : Contadino (in proprio) – v. anche SOCCIO.
-VINI' - VENETTE : Venire - Venne (Venette fatta = Riuscì).
-VINTURLO - VENTURLO : Turbine.
-VITABBIA : Vitalba. Pianta. I piccoli rami secchi venivano fumati.
-VOJA : Voglia.
-VOJOLA : Caldarrosta.
-VORCHIO : Parte verde che avvolge il guscio delle nocciole.
-VORICA - VORIGA : Fossa a grosso invaso per raccogliere l'acqua da irrigazione.
-ZACCO : Sacco, molto (me piaci 'n zacco = mi piaci molto).
-ZAMPITALICCHIO : Grillo.
-ZAPPASTRELLO : Zappa a due denti, corti e non appuntiti.
-ZAPPASTRO : Zappa a due denti, lunghi e appuntiti.
-ZAPPITELLO : Zappa a lama corta stretta per lavori superficiali.
-ZAPPONE : Grande zappa con manico poco rifinito per lavori profondi (Si jerto comm'i'mmanico di'zzappone = Sei grossolano come il manico della zappa).
-ZARAVATTULI : Impicci (v. anche GHIACCULI e STRUFFAJE).
-ZASSO : Sasso (i'zass 'a culetta = il sasso della cunetta: grosso masso sito in via Montecavallo).
-ZELLA : Sporcizia, sudiciume; anche malasorte (m'ha ditto zella oppure m'ha ditto petalino = sono stato sfortunato).
-ZINALE : Grembiule domestico (v. anche SINALE).
-ZINALONE : Grembiule scolastico (v. anche SINALONE).
-ZINDIMENDO : Sentimento (me so' fatto pijà d'i'zindimendo = mi sono lasciato prendere dall'emozione).
-ZINNA : Mammella.
-ZIRO : Recipiente per bucato con cenere e lasciva (Si llercio comm'i'llorlo i'zziro = Sei sporco come la cenere rappresa sul bordo del recipiente).
-ZOMPA' : Saltare (Nu'zzompassi = Non saltare).
-ZUCCAROTTO : Zuccone (v. anche CAPOCCIONE).
+{"parola": "A BEA!", "contesto": "A bere! (Quasi a dire: ti ho impressionato, ti sei spaventato. Bevi che ti passa la paura)."}
+{"parola": "A PO'", "contesto": "Ormai. (A po' che ce semo = dal momento che chi siamo); anche DA PO'."}
+{"parola": "ABBADA'", "contesto": "Badare, custodire, accudire (es. abbad\u00e0 la casa, i ffijo)."}
+{"parola": "ABBASTA'", "contesto": "Bastare; (ABBASTA TUSSI' = cos\u00ec \u00e8 sufficiente) (J\u00ec dovrebbe abbast\u00e0 = Gli dovrebbe bastare)."}
+{"parola": "ABBATELLO", "contesto": "Chierichetto."}
+{"parola": "ABBIOCCO", "contesto": "Attimo di sonnolenza, stanchezza."}
+{"parola": "ABBISA'", "contesto": "Avvisare; ABBISORNO = avvisarono."}
+{"parola": "ABBOCCATO", "contesto": "Dicesi di vino n\u00e9 dolce, n\u00e9 secco."}
+{"parola": "ABBOZZA'", "contesto": "Sopportare malvolentieri."}
+{"parola": "ABBRACCICATI", "contesto": "Abbracciati."}
+{"parola": "ABBREO!", "contesto": "Tirchio!"}
+{"parola": "ABBRUCIA'", "contesto": "Bruciare."}
+{"parola": "ACCA'", "contesto": "Qua; anche CCA'."}
+{"parola": "ACCAJO'", "contesto": "Quaggi\u00f9."}
+{"parola": "ACCARAVUJASSE", "contesto": "Azzuffarsi."}
+{"parola": "ACCASARE", "contesto": "Abitare (do' s'ito accasato? = dove sei andato ad abitare?)."}
+{"parola": "ACCASSU'", "contesto": "Quass\u00f9."}
+{"parola": "ACCASSUNE", "contesto": "Quass\u00f9."}
+{"parola": "ACCAVARGA'", "contesto": "Cavalcare o accavallare."}
+{"parola": "ACCENNA", "contesto": "Accendere (ACCIGNIVA = Accendeva)."}
+{"parola": "ACCHIAPPARELLA", "contesto": "Gioco di ragazzi che si rincorrono."}
+{"parola": "ACCHIESA", "contesto": "Chiesa."}
+{"parola": "ACCIANCA'", "contesto": "Stringere tra le gambe (dare l'ACCIANCO = fare una corte spietata)."}
+{"parola": "ACCIDEFA (ACCITEFA)", "contesto": "Accipicchia."}
+{"parola": "ACCIOCCASSE", "contesto": "Accosciarsi, avvilirsi, piegarsi sui talloni."}
+{"parola": "ACCIRIGNASSE", "contesto": "Impazzire, intristirsi."}
+{"parola": "ACCIRIGNATA", "contesto": "Coccolata. (es. donna che si lascia avvolgere in un abbraccio protettivo)."}
+{"parola": "ACCOZZICASSE", "contesto": "Appisolarsi; ACCOZZICATO = appisolato."}
+{"parola": "ACCUNNI'", "contesto": "Condire."}
+{"parola": "ACCUNN\u00ccTO", "contesto": "condito."}
+{"parola": "ACCURTA'", "contesto": "Accorciare."}
+{"parola": "ACCUSSI'", "contesto": "Cos\u00ec, in questo modo (anche ATTUSSI' - CUSSI' - TUSSI')."}
+{"parola": "ACCUTTIMATO", "contesto": "Lavoratore indefesso (Stakanovista)."}
+{"parola": "ACQUETTA", "contesto": "Brodaglia contenente i rimasugli della porchetta (v. anche PIATTELLA)."}
+{"parola": "ADDANNA'", "contesto": "Dannare."}
+{"parola": "AFFIARASSE", "contesto": "Avventarsi (S'AFFIARETTE - AFFIARATO = Si avvent\u00f2 \u2013 avventato)."}
+{"parola": "AGGHIANNASSE", "contesto": "Sdraiarsi, accomodarsi (come pu\u00f2 fare una maiale sulle ghiande)."}
+{"parola": "AGGUAJASSE", "contesto": "Sdraiarsi, avvilirsi - AGGUAJATO = s'\u00e8 buttato gi\u00f9 \u2013 AGGUAJITE = coricati."}
+{"parola": "AIUTANE", "contesto": "Aiutare (T'ajo d'aiutane? No faccio da mine = Ti devo aiutare? No, faccio da me)."}
+{"parola": "AJO", "contesto": "Aglio (pronuncia identica alla voce \"ho\" - eppure te l'ajo ditto = eppure te l'ho detto)."}
+{"parola": "ALA E GOBBA", "contesto": "Gioco che i bambini facevano con le figurine."}
+{"parola": "ALENTE", "contesto": "Ecco fatto, cos\u00ec impari."}
+{"parola": "ALL'ANIMA", "contesto": "Accidenti."}
+{"parola": "ALLECCON\u00ccSSE", "contesto": "Invogliarsi, svegliare l'appetito. ALLECCONITO = invogliato."}
+{"parola": "ALLEGA'", "contesto": "Astringere l'epidermide della bocca (Me s'alleghino i'llenti = mi si legano i denti)."}
+{"parola": "ALLEGREZZE", "contesto": "Doni per sposalizi, nascite."}
+{"parola": "ALLESSO", "contesto": "Lesso, bollito (ill'allesso)."}
+{"parola": "ALLOCA\u2019", "contesto": "Sistemare, trovar posto (l\u2019hai allocato i\u2019ppranzo? = hai digerito il pranzo?)."}
+{"parola": "ALLUCCASSE", "contesto": "Stancarsi. ALLUCCATO (LUCCO) = stanco finito \u2013 (anche ALLACCASSE)."}
+{"parola": "ALLICCIA\u2019", "contesto": "Camminare a passo spedito; sbrigarsi."}
+{"parola": "ALLUMA'", "contesto": "Adocchiare, guardare sott'occhi, aguzzare la vista (ALLUMATO = incantato)."}
+{"parola": "ALLUPATO", "contesto": "Eccitato (sessualmente) v. anche ARRAPATO."}
+{"parola": "AMANDULI", "contesto": "Mandorle (generalmente fresche)."}
+{"parola": "AMERICANA", "contesto": "Frattazzo, grande spatola per intonaci (v. anche SFRATAZZO)."}
+{"parola": "AMMANNATO", "contesto": "Guasto (di frutta)."}
+{"parola": "AMMANTA'", "contesto": "Avvolgersi, vestire."}
+{"parola": "AMMASONA'", "contesto": "Intridere."}
+{"parola": "'MMASONA'", "contesto": "maneggiare l'impasto per il pane - fare l'AMMASONATA."}
+{"parola": "AMM\u00c0TTISE", "contesto": "Imbattersi."}
+{"parola": "AMMAZZA", "contesto": "Accipicchia. (Ammazza so' stracco \u2013 Ammappite si' bbella; Accidenti come sono stanco)."}
+{"parola": "AMMAPPA", "contesto": "Accidenti. (Accidenti come sono stanco \u2013 Accipicchia come sei bella)."}
+{"parola": "AMMEREJA'", "contesto": "Dicesi di pecore o altri animali fermi sotto il sole, come se dormissero (verbo)."}
+{"parola": "AMMEREJASSE", "contesto": "Dicesi di pecore o altri animali fermi sotto il sole, come se dormissero (verbo riflessivo)."}
+{"parola": "AMMOCCA'", "contesto": "Imboccare."}
+{"parola": "AMMONTA'", "contesto": "Salire (a cavallo)."}
+{"parola": "AMMUMINTI", "contesto": "A momenti, quasi (ammuminti gnavo j\u00f2 = stavo quasi per cadere)."}
+{"parola": "AMORE AMORE", "contesto": "Metodo di cottura, molto lentamente."}
+{"parola": "AMPICCIA'", "contesto": "Interessarsi dei fatti altrui, ingombrare (Scanzite che m'ampicci = Levati che mi dai fastidio)."}
+{"parola": "AMPICCIASSE", "contesto": "Interessarsi dei fatti altrui, ingombrare (Scanzite che m'ampicci = Levati che mi dai fastidio) (forma riflessiva)."}
+{"parola": "AMPICCIONE", "contesto": "Curioso, pettegolo."}
+{"parola": "ANCLUPPASSE", "contesto": "Ripararsi dal freddo."}
+{"parola": "ANCO'", "contesto": "Ancora."}
+{"parola": "ANCURICCHIA'", "contesto": "Piegarsi, chinarsi sui talloni, rattrappirsi (ANCURICCHIATO = Accovacciato, rattrappito)."}
+{"parola": "ANCURICCHIASSE", "contesto": "Piegarsi, chinarsi sui talloni, rattrappirsi (ANCURICCHIATO = Accovacciato, rattrappito) (forma riflessiva)."}
+{"parola": "AND\u00c8NNA", "contesto": "Capire."}
+{"parola": "ANT\u00c8NNA", "contesto": "intendere (Nun andinnia = Non capiva)."}
+{"parola": "ANDRO", "contesto": "Altro. (C'\u00e8 aremasso addro? Nissun andro? = C'\u00e8 rimasto nient'altro? Nessun altro?)."}
+{"parola": "ARTRO", "contesto": "Altro. (C'\u00e8 aremasso addro? Nissun andro? = C'\u00e8 rimasto nient'altro? Nessun altro?)."}
+{"parola": "ADDRO", "contesto": "Altro. (C'\u00e8 aremasso addro? Nissun andro? = C'\u00e8 rimasto nient'altro? Nessun altro?)."}
+{"parola": "ANF\u00d3NNISE", "contesto": "Bagnarsi"}
+{"parola": "ANFUSO", "contesto": "bagnato. (v. anche INFONNA o 'NFONNA)."}
+{"parola": "ANGUATTA'", "contesto": "Nascondere (v. 'NGUATTA' o INGUATTA'). I' ffiji giochino a 'nguattarella = I bambini giocano a nascondino."}
+{"parola": "ANGUATTARELLA", "contesto": "Nascondino (I' ffiji giochino a 'nguattarella = I bambini giocano a nascondino)."}
+{"parola": "ANGUMINGIA", "contesto": "Comincia, inizia."}
+{"parola": "ANGUMINGIA'", "contesto": "Iniziare (N'arengumingiassi = Non ricominciare)."}
+{"parola": "ANCUMINGIA'", "contesto": "Iniziare (N'arengumingiassi = Non ricominciare)."}
+{"parola": "ANISO", "contesto": "Anice."}
+{"parola": "ANISTRELLO", "contesto": "Rastrello."}
+{"parola": "ANNA'", "contesto": "Andare (v. anche 'NA - GNA' - JI')."}
+{"parola": "ANNANZI", "contesto": "Avanti (tir'annanzi = tira avanti)."}
+{"parola": "ANNARELLO", "contesto": "Girello per bambini."}
+{"parola": "ANNO", "contesto": "Anno. Senza articolo significa l'anno scorso (es. ce so' ito anno = ci sono andato l'anno passato)."}
+{"parola": "ANTIRICHI\u2019", "contesto": "Rattrappire; ANTIRICHITO = rattrappito."}
+{"parola": "ANTRALUCCA\u2019", "contesto": "Barcollare; essere instabili (vedi 'NTRALUCCA')."}
+{"parola": "ANTRAPPAJA' \u2013 ANTRAPPAJATO", "contesto": "Confondere, confuso (v. INTRAPPAJASSE \u2013 'NTRAPPAJA')."}
+{"parola": "ANTRUPPATO", "contesto": "Urtato, intruppato."}
+{"parola": "ANTUSA'", "contesto": "Ammaccare, ammaccato (anche INTUSATO \u2013 'NTUSO)."}
+{"parola": "ANTUSO", "contesto": "Ammaccare, ammaccato (anche INTUSATO \u2013 'NTUSO)."}
+{"parola": "ANTUSATO", "contesto": "Ammaccare, ammaccato (anche INTUSATO \u2013 'NTUSO)."}
+{"parola": "APISE", "contesto": "Matita, lapis."}
+{"parola": "APPALLOZZASSE", "contesto": "Avvinghiarsi, ridurre a palla, colluttarsi."}
+{"parola": "APPALLOZZATO", "contesto": "Avvinghiarsi, ridurre a palla, colluttarsi."}
+{"parola": "APPANICATO", "contesto": "Malaticcio, pallido."}
+{"parola": "APPARA\u2019", "contesto": "porgere qualcosa, anche affrontare, metterci un rimedio (comme l'appari la faccenna?)."}
+{"parola": "APPARECCHIO", "contesto": "Aeroplano."}
+{"parola": "APPENA", "contesto": "Rattrista."}
+{"parola": "APPIANA'", "contesto": "Salire (per le scale, in auto)."}
+{"parola": "APPICCAPANNI", "contesto": "Appendi abiti."}
+{"parola": "APPICCA'", "contesto": "Appendere, accendere. (Hajo appiccato la giubba = ho appeso la giacca - ete appiccato i' ffoco = avete acceso il fuoco)."}
+{"parola": "APPICCHITE!", "contesto": "Arrangiati!"}
+{"parola": "APPICCIA'", "contesto": "Accendere."}
+{"parola": "APPICCIUME", "contesto": "Ramoscelli, carta e foglie secche che si usano per accendere il fuoco."}
+{"parola": "APPINICASSE", "contesto": "Addormentarsi."}
+{"parola": "APPINICATO", "contesto": "insonnolito."}
+{"parola": "APPIZZA'", "contesto": "Assaggiare con la punta della lingua, aguzzare (Appizz'i'll'occhj = Aguzza la vista)."}
+{"parola": "APPIZZUTA APISE", "contesto": "Tempera matite."}
+{"parola": "APPIZZUTA'", "contesto": "Fare la punta a qualcosa (Nu' l'appizzutassi = Non lo fare troppo appuntito)."}
+{"parola": "APP\u00d3LLO", "contesto": "Il rientro serale di galline e uccelli al nido."}
+{"parola": "APPOZZA'", "contesto": "Intingere."}
+{"parola": "APPUSCHIJA", "contesto": "Sinonimo di alta temperatura (ajo 'n callo che appuschjo = ho un caldo che soffoco)."}
+{"parola": "ARA", "contesto": "Aia per battere il grano."}
+{"parola": "ARADIO", "contesto": "Radioricevitore (pronunciato sempre con l'articolo: la radio = ILL'ARADIO)."}
+{"parola": "ARBIRI PIZZUTI", "contesto": "Cimitero."}
+{"parola": "ARBOLETO", "contesto": "Arboreto."}
+{"parola": "ARCHEMUSE", "contesto": "Alchermes."}
+{"parola": "AREBBOLLA", "contesto": "Ribollire. (J'arebbulliva i'zzangue - Gli ribolliva il sangue)."}
+{"parola": "ARECCONTA'", "contesto": "Raccontare (t'arecconto = ti racconto)."}
+{"parola": "ARECC\u00d2TA", "contesto": "Raccogliere."}
+{"parola": "ARECC\u00d2SSO", "contesto": "raccolto."}
+{"parola": "ARECORDASSE", "contesto": "Ricordare."}
+{"parola": "AREDDUSSE", "contesto": "Ridursi (il raccolto)."}
+{"parola": "AREDDUTO", "contesto": "Radunato (il raccolto)."}
+{"parola": "AREECCO", "contesto": "Di nuovo."}
+{"parola": "ARIECCO", "contesto": "ci risiamo."}
+{"parola": "AREFUCINA'", "contesto": "Rovistare (v. anche AREMUCINA' o SMUCINA')."}
+{"parola": "AREMANE'", "contesto": "Rimanere."}
+{"parola": "AREMASSO", "contesto": "rimasto."}
+{"parola": "AREMANETTE", "contesto": "rimase."}
+{"parola": "AREMBARZA'", "contesto": "Rimbalzare."}
+{"parola": "AREMEDIA'", "contesto": "Rimediare."}
+{"parola": "AREMICIDA'", "contesto": "Ripararsi (dalla pioggia)."}
+{"parola": "AREMUCINA'", "contesto": "Rovistare, cercare. (anche AREFUCINA' o SMUCINA')."}
+{"parola": "ARIMUCINA'", "contesto": "Rimuginare."}
+{"parola": "ARENGRESCIA", "contesto": "Rincrescere."}
+{"parola": "ARENVISCIDA'", "contesto": "Resuscitare."}
+{"parola": "ARENVICIDA'", "contesto": "Resuscitare."}
+{"parola": "AREPARBASSE", "contesto": "Non osare"}
+{"parola": "REPARBASSE", "contesto": "aver timore."}
+{"parola": "ARESCALLASSE", "contesto": "Adirarsi."}
+{"parola": "ARESCERNA", "contesto": "Vedere, distinguere, aguzzare la vista."}
+{"parola": "AREVIA", "contesto": "Di nuovo."}
+{"parola": "ARIVIA", "contesto": "Ancora."}
+{"parola": "ARICCOMANNO (M'_)", "contesto": "Raccomando (ariccomannite di'zzignore = raccomandati a Dio)."}
+{"parola": "ARIECCHITELLO", "contesto": "Rieccolo, eccolo nuovamente."}
+{"parola": "ARIGNIGNOLASSE", "contesto": "Riprendersi, ringalluzzirsi."}
+{"parola": "ARIVURDICA'", "contesto": "Rivoltare (S'ARIVURDICHETTE = si rivolt\u00f2)."}
+{"parola": "ARRAPATO", "contesto": "Eccitato (sessualmente) v. anche ALLUPATO."}
+{"parola": "ARRAZZICARE", "contesto": "Stuzzicare, provocare (di solito un cane)."}
+{"parola": "ARRI CCA'", "contesto": "Vieni qua (comando usato per indirizzare gli equini)."}
+{"parola": "ARRI LLA'", "contesto": "Vai l\u00e0 (comando usato per indirizzare gli equini)."}
+{"parola": "ARRICCASSE", "contesto": "Arricchirsi."}
+{"parola": "ARRUCATO", "contesto": "Rauco."}
+{"parola": "ARVA", "contesto": "Le fico arva (tipo di fico)."}
+{"parola": "ARZICA'", "contesto": "Tirare calci (di somari, ecc.). (Anche di persona che reagisce)."}
+{"parola": "ARRAZZICA'", "contesto": "Tirare calci (di somari, ecc.). (Anche di persona che reagisce)."}
+{"parola": "ASS\u00c8A", "contesto": "Ora, adesso."}
+{"parola": "ASSOGNA", "contesto": "Sugna, grasso."}
+{"parola": "ASSUGNA", "contesto": "Sugna, grasso."}
+{"parola": "ATTANFA\u2019", "contesto": "Dare cattivo odore es \u201cT\u2019attanfa la surcica \u2013 ti puzza l\u2019ascella"}
+{"parola": "ATTUMELLA'", "contesto": "Mettere, buttare in un angolo."}
+{"parola": "ATTUMELLATO", "contesto": "Gettato in un angolo, dimenticato."}
+{"parola": "ATTURA'", "contesto": "Tappare."}
+{"parola": "ATTUSSI'", "contesto": "Cos\u00ec, in questo modo (anche ACCUSSI\u2019 - CUSSI' - TUSSI')."}
+{"parola": "AZZECCA'", "contesto": "Azzeccare."}
+{"parola": "AZZECCHIME", "contesto": "Colpiscimi."}
+{"parola": "AZZICA'(dare ill'_)", "contesto": "Dare il via."}
+{"parola": "AZZICO (dare ill'_)", "contesto": "Stimolare."}
+{"parola": "BADANAO", "contesto": "Gran sedere (anche, pi\u00f9 genericamente, cosa grossa)."}
+{"parola": "BACCAJA'", "contesto": "Litigare (se so' baccajati = hanno litigato)."}
+{"parola": "BACCHIO", "contesto": "Bastone a testa grossa."}
+{"parola": "BANNA", "contesto": "Fanfara, banda, anche nel senso di gruppo (v. anche MUSICA), fetore."}
+{"parola": "BANNELLA", "contesto": "Serramento fissato sul lato esterno delle ante di porte e finestre."}
+{"parola": "BANNITA", "contesto": "Bandita, terreno recintato (BESTIE A BANNITA = animali al pascolo). Pi\u00f9 genericamente zona di protezione dove alcune attivit\u00e0 vengono bandite:"}
+{"parola": "BANNOLO", "contesto": "Bandolo."}
+{"parola": "BARBACANE", "contesto": "Supporti in pietra dei travi dei camini, alari."}
+{"parola": "BARBACCIA", "contesto": "Rutto forte e rumoroso."}
+{"parola": "BARBOZZO", "contesto": "Mento."}
+{"parola": "BARLOZZO", "contesto": "Barile."}
+{"parola": "BARLOZZETTO", "contesto": "barilotto."}
+{"parola": "BAROZZA", "contesto": "Carro da buoi."}
+{"parola": "BARZINELLA", "contesto": "Cosa n\u00e9 buone n\u00e9 cattiva."}
+{"parola": "BARZOTTO", "contesto": "Dicesi di frutto, cibo, animale, n\u00e9 maturo n\u00e9 acerbo, n\u00e9 cotto n\u00e9 crudo. Anche di uomo n\u00e9 ragazzo n\u00e9 adulto o di organo sessuale maschile non completamente eretto."}
+{"parola": "BASSIFRATTA (fare la _)", "contesto": "Ripulire un bosco dalla vegetazione infestante."}
+{"parola": "BASSO", "contesto": "Avvallamento, passo o valico."}
+{"parola": "BATIZZO", "contesto": "Battesimo."}
+{"parola": "BATOCCHIO", "contesto": "Battaglio delle campane, dei bussaporta."}
+{"parola": "BATTILONTO", "contesto": "Tavola battilardo."}
+{"parola": "BATTIMURO", "contesto": "Gioco che i bambini facevano con le monete."}
+{"parola": "BEA", "contesto": "Bere (i'bbea = il vino) da cui il detto bii bii i'bbea b\u00e0 = bevi bevi il vino pap\u00e0."}
+{"parola": "BII", "contesto": "bevi (i'bbea = il vino) da cui il detto bii bii i'bbea b\u00e0 = bevi bevi il vino pap\u00e0."}
+{"parola": "BEETTE", "contesto": "bevve, bevuto (i'bbea = il vino) da cui il detto bii bii i'bbea b\u00e0 = bevi bevi il vino pap\u00e0."}
+{"parola": "BIUTO", "contesto": "bevuto - (i'bbea = il vino) da cui il detto bii bii i'bbea b\u00e0 = bevi bevi il vino pap\u00e0."}
+{"parola": "BEARELLO", "contesto": "Prodotto alimentare. Riveniente dalla lavorazione delle interiora del maiale."}
+{"parola": "BECALINO", "contesto": "Orbo, strabico; genericamente detto di chi vede poco."}
+{"parola": "BECCAMORTO", "contesto": "Infame, becchino (v. anche CASSAMORTARO)."}
+{"parola": "BEFAN\u00ccA", "contesto": "Epifania."}
+{"parola": "BENANCHE", "contesto": "Nonostante, anche s\u00e9."}
+{"parola": "BIASTIMA", "contesto": "Bestemmia (v. anche DIASILLA)."}
+{"parola": "BIASTIMA'", "contesto": "Bestemmiare (D'ill'acchiesa nun ze pole biastima' = In chiesa non si pu\u00f2 bestemmiare)."}
+{"parola": "BIBBIRIBBOZZA", "contesto": "Gioco per bambini, simile al saltamontone."}
+{"parola": "BICCUTO", "contesto": "Curioso, impiccione."}
+{"parola": "BIFERA", "contesto": "Tromba, nasone."}
+{"parola": "BIFERETTA", "contesto": "Trombetta."}
+{"parola": "BILANCIONE", "contesto": "Grande bilancia appesa ad un'asta, normalmente retta sulle spalle da due persone, usata dal quintale in su."}
+{"parola": "BILLO", "contesto": "Tacchino."}
+{"parola": "BIOCCA", "contesto": "Chioccia."}
+{"parola": "BIRBACCIONE", "contesto": "Birbante, furbacchione."}
+{"parola": "BIRBO", "contesto": "Svelto, pronto."}
+{"parola": "BIROCCIO", "contesto": "Carretto."}
+{"parola": "BIROCCINO", "contesto": "carro a cavalli per il trasporto di 1 o 2 persone."}
+{"parola": "BITTINA", "contesto": "Recipiente per olio (anche VETTINA)."}
+{"parola": "BOCCATONE", "contesto": "Schiaffo a mano aperta sulla bocca."}
+{"parola": "BOCCIA", "contesto": "Bottiglia, fiasco."}
+{"parola": "BOCCIONE", "contesto": "Bottiglione, fiasco."}
+{"parola": "BOCCO", "contesto": "Moneta, soldo. (anche MOCCO)."}
+{"parola": "BOLLETTA", "contesto": "Chiodo corto a testa larga (veniva infisso sulla suola delle scarpe per rallentarne l'usura)."}
+{"parola": "BONA MORTE", "contesto": "Confraternita religiosa in saio nero."}
+{"parola": "BONO", "contesto": "Capace, (si bbono tu? = tu sei capace?); anche piacevole (me sa bono = mi piace)."}
+{"parola": "B\u00d4O", "contesto": "Bue."}
+{"parola": "BOTTAFONE", "contesto": "Fondo di un crepaccio dove si raccoglie l'acqua caduta dall'alto. Punto pi\u00f9 ampio e profondo dei fossi dove sipossono trovare i gamberi d'acqua dolce."}
+{"parola": "BOTTINO", "contesto": "Serbatoio in muratura, generalmente prossimo ad una sorgente, per la raccolta di acqua potabile."}
+{"parola": "BRAGHETTONE", "contesto": "Listello di legno."}
+{"parola": "BRATICOLA", "contesto": "Graticola."}
+{"parola": "BRILLOCCHI", "contesto": "Brillanti, gioielli (v. anche SBRILLOCCHI)."}
+{"parola": "BRISCHIO", "contesto": "Vischio."}
+{"parola": "BRONZETTO", "contesto": "Piccolo mastello in legno di forma ellittica con manico, utilizzato in genere per l'asporto di vino dai tini."}
+{"parola": "BRUGNOLO", "contesto": "Fungo commestibile con cappello di colore bruno."}
+{"parola": "BUCIARDA", "contesto": "Attrezzo edile con punta sulle due estremit\u00e0."}
+{"parola": "BUCO", "contesto": "Vicolo (oltre alle altre accezioni)."}
+{"parola": "BUSSI", "contesto": "Colpi, rumori."}
+{"parola": "BUTTITO", "contesto": "Luogo ove venivano vuotati i vasi da notte (v. PITALE)."}
+{"parola": "BUZZICO", "contesto": "Oliatore; gioco per bambini detto \"ACCHIAPPARELLA\"."}
+{"parola": "CACAPRUSSIA", "contesto": "Disinfestante per piante, anche pianta selvatica avente qualit\u00e0 astringenti o diarroiche a seconda del senso delle foglie."}
+{"parola": "CACARITTO", "contesto": "Sgabello con un solo piede, usato dagli scalpellini."}
+{"parola": "CACCAVELLA", "contesto": "Bacca rossa di siepe selvatica."}
+{"parola": "CACCHIARA", "contesto": "Bosco di castagno rinascente dal tronco di alberi tagliati. Bosco di polloni; dim. CACCHIARETTA."}
+{"parola": "CACCHIO", "contesto": "Gemma di vite o pollone."}
+{"parola": "CACCIA\u2019", "contesto": "Riuscire (nun ce la caccio = non ci riesco)."}
+{"parola": "CACCIO", "contesto": "Estraggo (caccio i' vvino = prendo il vino dalla botte), faccio (nun ce la caccio = non ce la faccio) (v. anche CAVO)."}
+{"parola": "CACIARA", "contesto": "Confusione."}
+{"parola": "CAE'", "contesto": "Cadere."}
+{"parola": "CA\u00d9TO", "contesto": "cadde."}
+{"parola": "CAETTE", "contesto": "cadde."}
+{"parola": "CA\u00c9TTA", "contesto": "Compagni di persone poco di buono."}
+{"parola": "GA\u00c9TTA", "contesto": "Compagni di persone poco di buono."}
+{"parola": "CAGNANTE", "contesto": "Fungo del genere \"boleto\" che cambia di colore al taglio; tossico crudo. (detto anche di persone voltagabbana)."}
+{"parola": "CAJ", "contesto": "Calli."}
+{"parola": "CALLAFREDDA", "contesto": "Effetto nocivo sulle colture che produce poca pioggia su terreno caldo."}
+{"parola": "CALLAJA", "contesto": "Caldaia (grossa pentola per fare il sapone)."}
+{"parola": "CALLARA", "contesto": "a tutta callara = di gran corsa."}
+{"parola": "CALLARO", "contesto": "Recipiente per cucinare o scaldare acqua."}
+{"parola": "CALLARELLA", "contesto": "Piccolo recipiente da cucina o secchio da muratore."}
+{"parola": "CALLARELLO", "contesto": "Piccolo recipiente da cucina o secchio da muratore."}
+{"parola": "CALLAROZZO", "contesto": "vedi CALLARO."}
+{"parola": "CAMPA ANCO'?", "contesto": "E' ancora vivo? (v. anche E\u2019 MORTO MMAI?)."}
+{"parola": "CAMPA\u2019", "contesto": "Vivere."}
+{"parola": "CAMPANO", "contesto": "Grosso sonaglio (al collo di animali)."}
+{"parola": "CANA", "contesto": "Cagna."}
+{"parola": "CANALE", "contesto": "Grosso cucchiaio in legno per prendere farine o cereali."}
+{"parola": "CANALETTO", "contesto": "Grosso cucchiaio in legno per prendere farine o cereali."}
+{"parola": "CANIPINA", "contesto": "Appezzamento di terreno molto piccolo, orticello."}
+{"parola": "CANIZZA", "contesto": "Discussione animata e rumorosa, litigio."}
+{"parola": "CANNELLA", "contesto": "Cavola per botti."}
+{"parola": "CANNOCCIO", "contesto": "Sbocco di uscita dei liquidi."}
+{"parola": "CANUCCIO", "contesto": "Cagnolino."}
+{"parola": "CAPAGNO", "contesto": "Paniere con manico."}
+{"parola": "CAPA'", "contesto": "Scegliere, mondare (ete capato i ccici? = avete pulito i ceci?)."}
+{"parola": "CAP\u00c8RCHIO", "contesto": "Telaio per la tessitura della canapa (esiste anche un Vicolo del Caperchio, in prossimit\u00e0 dell'ingresso al Castello)."}
+{"parola": "CAPEZZA", "contesto": "Cavezza, corda con cui si lega l'asino."}
+{"parola": "CAPILLI", "contesto": "Capelli (l'ajo preso p'i'ccapilli = l'ho preso per i capelli)."}
+{"parola": "CAPO", "contesto": "Testa, chi \u00e8 al comando di qualcosa."}
+{"parola": "CAPOCCIONE", "contesto": "Testardo, zuccone, (v. anche zuccarotto)."}
+{"parola": "CAPOCCIUNI", "contesto": "Girini."}
+{"parola": "CAPOCOLLO", "contesto": "Lonza."}
+{"parola": "CAPOFOCO", "contesto": "Alare del camino."}
+{"parola": "CAPOMAZZO", "contesto": "Parte iniziale dell'intestino dell'agnello, utilizzata nella cottura della \"Coratella d'abbacchio\"."}
+{"parola": "CAPPANNELLO", "contesto": "Persona col naso grosso \"a capanna\"."}
+{"parola": "CAPANNELLO", "contesto": "Persona col naso grosso \"a capanna\"."}
+{"parola": "CAPRARECCIA", "contesto": "Ricovero per capre."}
+{"parola": "CARABOZZOLO", "contesto": "Bambino vivace."}
+{"parola": "CARAPIJA", "contesto": "Parapiglia."}
+{"parola": "CARATELLO", "contesto": "Recipiente per vino."}
+{"parola": "CARAVUJA'", "contesto": "Scompigliare, sconvolgere (v. anche SCARAVUJA')."}
+{"parola": "CARBONARA", "contesto": "Carbonaia; catasta di legna, ricoperta di terra, che si bruciava per poi ottenere carbone."}
+{"parola": "CARCALLASINO", "contesto": "Quasi un suggerimento per il contadino che all'Ave Maria doveva caricare il somaro e rientrare che era giunta l'\"OR DE NOTTE\"."}
+{"parola": "CARCASELLO", "contesto": "Mucchietto di n\u00f2ccioli di pesche fatto per gioco dai bambini."}
+{"parola": "CARCATOJA", "contesto": "Paletto per sostenere su un lato la soma."}
+{"parola": "CARCATOJATE", "contesto": "Bastonate (con la carcatoja)."}
+{"parola": "CARGA'", "contesto": "Caricare."}
+{"parola": "CARGE o CARCE", "contesto": "Calce."}
+{"parola": "CARNAJOLO", "contesto": "Che lavora le carni (la vecchia \"di'ccarnaiolo\" che viveva \"rento un seccatoro\")."}
+{"parola": "CARRARECCIA", "contesto": "Strada sterrata carrabile."}
+{"parola": "CARREJA'", "contesto": "Trasportare."}
+{"parola": "CARRETTELLA", "contesto": "Veicolo composto di 4 tavole, 2 assi e 3 cuscinetti a sfera con cui i ragazzi si catapultavano nelle discese. Si manovrava con una corda e si frenava con i tacchi. Le fratture erano frequenti."}
+{"parola": "CARRIERA", "contesto": "Corsa rapida (de carriera = in modo veloce)."}
+{"parola": "CARRUCOLE", "contesto": "Occhiali."}
+{"parola": "CARTARENA", "contesto": "Costola."}
+{"parola": "CARUSINO", "contesto": "Barbiere."}
+{"parola": "CARZAROTTO", "contesto": "Calzettone."}
+{"parola": "CARZUNI", "contesto": "Calzoni."}
+{"parola": "CASSAMORTARO", "contesto": "Becchino (v. anche BECCAMORTO)."}
+{"parola": "CASTALLO", "contesto": "Messo del Tribunale o della Curia."}
+{"parola": "CATANA", "contesto": "Borsa, cartella con manici. Usato anche per definire un capo d'abbigliamento eccessivamente abbondante (te sta comme 'na catana)."}
+{"parola": "CATARCIONE", "contesto": "Pesante catenaccio."}
+{"parola": "CATELLO", "contesto": "Catenaccio."}
+{"parola": "CATERATTA", "contesto": "Botola."}
+{"parola": "CATERVA", "contesto": "Grande quantit\u00e0."}
+{"parola": "CATOLLO", "contesto": "Sputo grasso (di secrezione)."}
+{"parola": "CATTANNO", "contesto": "Rovina (S'ito a'ccattanno = Sono andato in rovina)."}
+{"parola": "CAVACICI o CAVARCICI", "contesto": "Cavalcioni."}
+{"parola": "CAVO", "contesto": "Faccio, riesco (ce la cavo da solo = ci riesco da me) (v. anche CACCIO)."}
+{"parola": "CAZZAROLA", "contesto": "Casseruola."}
+{"parola": "CAZZIMPERIO", "contesto": "Salpepolio (condimento)."}
+{"parola": "CCA'", "contesto": "Qua. (veni a cc\u00e0 = vieni qua)."}
+{"parola": "CE LL'ETE?", "contesto": "Ce lo avete?"}
+{"parola": "CEPA", "contesto": "Cipolla."}
+{"parola": "CEPPA", "contesto": "Mortaio in legno."}
+{"parola": "CEPPAJA", "contesto": "Tronco d'albero reciso, che ha prodotto nuovi getti."}
+{"parola": "CEPRO", "contesto": "Dispari (v. anche SCEPRO)."}
+{"parola": "CERASA", "contesto": "Ciliegie."}
+{"parola": "CERQUA", "contesto": "Quercia."}
+{"parola": "CERQUETO", "contesto": "Querceto."}
+{"parola": "CERVIO", "contesto": "Acerbo."}
+{"parola": "CERVIOTTO", "contesto": "Non del tutto maturo."}
+{"parola": "CETRUNI", "contesto": "Cetrioli."}
+{"parola": "CH\u00c9", "contesto": "Cadere."}
+{"parola": "CA\u00c9", "contesto": "Cadere."}
+{"parola": "CUTO", "contesto": "Caduto."}
+{"parola": "CAUTO", "contesto": "Caduto."}
+{"parola": "CH\u00c8?", "contesto": "Che?"}
+{"parola": "CHENE'?", "contesto": "Che cosa?"}
+{"parola": "CHECCOSA", "contesto": "Qualcosa."}
+{"parola": "CHECCOSETTA", "contesto": "Qualche cosetta."}
+{"parola": "CHI\u2019", "contesto": "Con il, di chi."}
+{"parola": "CHI SSI\u2019 FFIJO?", "contesto": "Di chi sei figlio? come si chiamano i tuoi?"}
+{"parola": "CHIAPPAPETE", "contesto": "Incapace, inconcludente."}
+{"parola": "CHIEMPA", "contesto": "Riempire (Jimpito = Riempito)."}
+{"parola": "JEMPA", "contesto": "Riempire (Jimpito = Riempito)."}
+{"parola": "CHIOCCHIA\u2019", "contesto": "Pigolare (cantare di pennuto)."}
+{"parola": "CHIO\u00c9LLO", "contesto": "Perno che blocca il giogo dei buoi al carro."}
+{"parola": "CHI\u00d2O", "contesto": "Chiodo."}
+{"parola": "CHITUNO", "contesto": "Qualcuno."}
+{"parola": "CHITUNANTRO", "contesto": "Qualcun altro."}
+{"parola": "CHITUNANDRO", "contesto": "Qualcun altro."}
+{"parola": "CHIU'", "contesto": "Pi\u00f9."}
+{"parola": "CHJ\u00c8A", "contesto": "Chiedere (Chj\u00ecva, chje\u00e8tte = chiedeva, chiese)."}
+{"parola": "CHJ\u00c8LLI", "contesto": "Nessuno ('n c'\u00e8 chjelli = non c'\u00e8 nessuno)."}
+{"parola": "CIANCA", "contesto": "Gamba."}
+{"parola": "CIANCHI", "contesto": "Gambe."}
+{"parola": "CIANCHETTA", "contesto": "Sgambetto."}
+{"parola": "CIANFANAIO", "contesto": "Parolaio, imbroglione."}
+{"parola": "CICA", "contesto": "Affatto, mica (nun l'ajo visto cica = non l'ho veduto affatto)."}
+{"parola": "CICAROLO", "contesto": "Colui che raccoglie le cicche (di sigaretta) gettate."}
+{"parola": "CICCIA\u2019", "contesto": "Germogliare."}
+{"parola": "CIFOLETTO", "contesto": "Fischietto."}
+{"parola": "CIFOLO", "contesto": "Ciufolo o zufolo. In modo figurato \"ha mesto i' cifolo = ha messo il broncio\"."}
+{"parola": "CIFOLOTTI", "contesto": "Rigatoncini, pasta corta rigata."}
+{"parola": "CIFOLOTTO", "contesto": "Stupido, incapace."}
+{"parola": "CINICE", "contesto": "Residui del focolare ancora accesi."}
+{"parola": "CINQUALE", "contesto": "Schiaffone con le dita aperte."}
+{"parola": "CINTURINO", "contesto": "Cinta dei pantaloni (m'ajo da levane i' ccinturino? = devo minacciarti con la cinta dei pantaloni?)."}
+{"parola": "CIPICCIA", "contesto": "Secrezione sierosa degli occhi."}
+{"parola": "CIPICCIOSO", "contesto": "cisposo."}
+{"parola": "CIPIGNOLO", "contesto": "Salvadanaio. In modo figurato testa dura (che c'hai rento i cipignolo? = che ti dice la testa?)."}
+{"parola": "CIRIGNA", "contesto": "Grosso canestro con due manici (v. anche MINELLA)."}
+{"parola": "CERIGNA", "contesto": "Grosso canestro con due manici (v. anche MINELLA)."}
+{"parola": "CIUCCO", "contesto": "Brillo."}
+{"parola": "CIUCO", "contesto": "Piccolo."}
+{"parola": "CIU\u00cdTTA", "contesto": "Civetta."}
+{"parola": "C\u00d3A", "contesto": "Coda."}
+{"parola": "COACCIO", "contesto": "Covo, tana."}
+{"parola": "COAGNIGNOLO", "contesto": "Il pi\u00f9 piccolo di una nidiata o di una famiglia."}
+{"parola": "COARIZZO", "contesto": "Fondoschiena del pollo."}
+{"parola": "COATA", "contesto": "Riposata, amalgamata, insaporita. Detto, ad esempio, di una minestra mangiata il giorno dopo la cottura (la magnamo ddimane, intanto se coa; perch\u00e8 coata j\u00e8 pi\u00f9 bbona)."}
+{"parola": "COCIA", "contesto": "Far male inteso come dolore; me fa cocia = mi fa male."}
+{"parola": "COCE", "contesto": "Far male inteso come dolore; me fa cocia = mi fa male."}
+{"parola": "COETTA", "contesto": "Misura di farina."}
+{"parola": "COJONARE", "contesto": "Canzonare."}
+{"parola": "COMMANNA!", "contesto": "Grido della fornaia di primo mattino, con cui invitava le massaie a portare il pane a cuocere. (Quasi a dire: sono pronta, accetto ordini.)"}
+{"parola": "COMMATTA", "contesto": "Affaccendarsi."}
+{"parola": "COMME", "contesto": "Come. (E comme? = In che modo? Come sarebbe?)."}
+{"parola": "CONCIARELLO", "contesto": "Setaccio utilizzato in edilizia per selezionare la sabbia."}
+{"parola": "CORBO (v. anche GORBO)", "contesto": "Accidente. Che te pija 'n corbo = Che ti venga un accidente."}
+{"parola": "CORGASSE", "contesto": "Coricarsi. Te corgo = Te ne do' tante da coricarti."}
+{"parola": "COROJO", "contesto": "Cercine. Panno raccolto a ciambella sulla testa per il trasporto di un carico (ha fatt'i'ccorojio, c'ha mesto la tiella e \u00e8 ita a 'nforn\u00e0)."}
+{"parola": "CORRIERA", "contesto": "Autobus (vedi POSTALE)."}
+{"parola": "CORTELLETTA", "contesto": "Coltello per scannare animali."}
+{"parola": "CORVATTA", "contesto": "Cravatta."}
+{"parola": "CORVELLO", "contesto": "Setaccio per legumi."}
+{"parola": "COTOZZO", "contesto": "Nuca, parte posteriore del collo."}
+{"parola": "COSTA", "contesto": "Salita ripida."}
+{"parola": "COSTA COSTA", "contesto": "Modo di camminare al margine di una strada o di un terreno. (v. anche MURO MURO)."}
+{"parola": "CRABIGNERE", "contesto": "Carabiniere."}
+{"parola": "CRAPA", "contesto": "Capra; a volte utilizzato per indicare anche la testa."}
+{"parola": "CRASCIA", "contesto": "Benessere, abbondanza, ricca dispensa."}
+{"parola": "CRATASTA", "contesto": "Catasta."}
+{"parola": "CREDENZONE", "contesto": "Grosso mobile da dispensa."}
+{"parola": "CRETTO", "contesto": "Crepaccio, fessura."}
+{"parola": "CRISTIANO", "contesto": "Persona, gente."}
+{"parola": "CROGGNOLA", "contesto": "Frutto del corniolo (indica anche un colpo violento ricevuto)."}
+{"parola": "CROGGNOLATA", "contesto": "Bastonata."}
+{"parola": "CROGGNOLO", "contesto": "Corniolo, albero."}
+{"parola": "CROMPATO", "contesto": "Comprato."}
+{"parola": "CRUCOLO", "contesto": "Mazza di tamburo, fungo. Lat. Lepiota procera."}
+{"parola": "CRUTEGNOLO", "contesto": "Bitorzolo, bernoccolo, gonfiore in genere."}
+{"parola": "CUCCHIARA", "contesto": "Paletta usata dagli operai edili."}
+{"parola": "CUCCUMELLO", "contesto": "Pentolino."}
+{"parola": "CUPPITELLO", "contesto": "Pentolino."}
+{"parola": "CUJA", "contesto": "Scroto."}
+{"parola": "CUJA LENTA", "contesto": "Chi usa pantaloni grandi e un po\u2019 calati."}
+{"parola": "CULETTA", "contesto": "Cunetta stradale (v. anche PROVA e FORMA); usato anche per definire una donna chiacchierona, che parla continuamente."}
+{"parola": "CUMBINA\u2019", "contesto": "Mettersi d'accordo."}
+{"parola": "CUNFINO", "contesto": "Confine."}
+{"parola": "CUNICCHIO", "contesto": "Cunicolo (pl. CUNICCHIA) esiste un fosso detto \"delle Cunicchia\", per gli ingrottamenti dell'acqua."}
+{"parola": "CUPERTOJA", "contesto": "Coperchio di recipienti in coccio."}
+{"parola": "CUPO", "contesto": "Profondo, scuro (di luce)."}
+{"parola": "CURIATO", "contesto": "Grosso bastone, a due segmenti, per battere legumi."}
+{"parola": "CURIOLI", "contesto": "Strisce di cuoio utilizzate normalmente come lacci per le scarpe."}
+{"parola": "CURRA", "contesto": "Correre."}
+{"parola": "CURRENTI", "contesto": "Centogambe, insetti pelosi."}
+{"parola": "CURTELLO", "contesto": "Coltello."}
+{"parola": "CUSSI\u2019 (TUSSI\u2019)", "contesto": "Cos\u00ec, in questo modo (anche ACCUSSI' - ATTUSSI')."}
+{"parola": "CUTICA", "contesto": "Cotenna. Anche rispondendo a una persona permalosa (e che t'ajo ditto cutica? = e che t'avr\u00f2 mai detto?)."}
+{"parola": "CUTO A BAFFANNANZI", "contesto": "Caduto di faccia."}
+{"parola": "CUTO A CAPOTEFICCO", "contesto": "Caduto a gambe all'aria."}
+{"parola": "DA ESSO", "contesto": "A lui."}
+{"parola": "DA ISSI", "contesto": "A loro."}
+{"parola": "DA MMI'", "contesto": "A me."}
+{"parola": "DA MMINE", "contesto": "A me."}
+{"parola": "DA PO' (A PO')", "contesto": "Ormai (Da po' che ce semo = dal momento che chi siamo)."}
+{"parola": "DA TTI'", "contesto": "A te."}
+{"parola": "DA QUANTANE", "contesto": "Da quanto tempo."}
+{"parola": "DANARA", "contesto": "Seme di denari (nel gioco delle carte)."}
+{"parola": "DEDECCA'", "contesto": "Di qua."}
+{"parola": "DEDECCANE", "contesto": "Di qua."}
+{"parola": "DEDICCHI'", "contesto": "Di qui."}
+{"parola": "DEDICCHINE", "contesto": "Di qui."}
+{"parola": "DEDISTI'", "contesto": "L\u00ec."}
+{"parola": "DENANZI", "contesto": "Davanti."}
+{"parola": "DERETO", "contesto": "Didietro."}
+{"parola": "DI\u2019", "contesto": "Nel, sul (Di\u2019pponte = sul ponte; di\u2019ccasale = nel casolare)."}
+{"parola": "DIASILLA", "contesto": "Bestemmia (V. anche BIASTIMA)."}
+{"parola": "DIASCOLE", "contesto": "Diamine."}
+{"parola": "DICCHI", "contesto": "Qui."}
+{"parola": "DICIA", "contesto": "Dire, raccontare (che nun ze pozzi j\u00ec dicenno = che non si vada a raccontare)."}
+{"parola": "DILLI'", "contesto": "L\u00ec."}
+{"parola": "DIMANE", "contesto": "Domani."}
+{"parola": "DISCORRA", "contesto": "Discutere, colloquiare."}
+{"parola": "DISPARA'", "contesto": "Sparigliare."}
+{"parola": "DO' MMAI", "contesto": "Quando mai. (do' mmai s'ava da sap\u00e9 'na cosa ttuss\u00ec = quando mai si doveva scoprire una cosa del genere)."}
+{"parola": "DO NE VELLE", "contesto": "Da nessuna parte, in nessun posto."}
+{"parola": "DORGE", "contesto": "Dolce."}
+{"parola": "DOTTRINA", "contesto": "Catechismo."}
+{"parola": "DRENTO", "contesto": "Dentro (v. anche RENTO o RENDO)."}
+{"parola": "DUI", "contesto": "Due."}
+{"parola": "DU'", "contesto": "Due."}
+{"parola": "DU'MMENTRE", "contesto": "Nel mentre, mentre."}
+{"parola": "TU'MMEZZO", "contesto": "Nel mentre."}
+{"parola": "DU'MMEZZO", "contesto": "Nel mentre."}
+{"parola": "DUNCA", "contesto": "Dunque."}
+{"parola": "E\u2019 MORTO MMAI?", "contesto": "E\u2019 ancora vivo? (v. anche CAMPA ANCO'?)"}
+{"parola": "ECCHEDECHE'", "contesto": "Ecco che."}
+{"parola": "ECCHIME", "contesto": "Eccomi."}
+{"parola": "ECCO", "contesto": "Guarda, vedi (guarda chi ecco = guarda chi sta arrivando)."}
+{"parola": "EJELA", "contesto": "Eccola (v. anche ESSELA - ESTELA)."}
+{"parola": "ENTI", "contesto": "Denti, es. me s'alleghin'ill'enti = mi si legano i denti (per frutta acerba, che allappa)."}
+{"parola": "EPRE", "contesto": "Lepre."}
+{"parola": "ERGE", "contesto": "Elce (pianta) - (Sott'i'llerge de Sant'Utizzio = Sotto l'elce di Sant'Eutizio)."}
+{"parola": "ERIMA", "contesto": "Eravamo."}
+{"parola": "ERINO", "contesto": "Erano."}
+{"parola": "ERTA", "contesto": "Ripida (di salita)."}
+{"parola": "JERTA", "contesto": "Ripida (di salita)."}
+{"parola": "ERTO", "contesto": "Spesso, grossolano, maleducato (Si erto comm'ill'orlo 'i ddomo = Sei talmente grossolano da essere spesso come la base del duomo)."}
+{"parola": "JERTO", "contesto": "Spesso, grossolano, maleducato (Si jerto comm'ill'orlo 'i ddomo = Sei talmente grossolano da essere spesso come la base del duomo)."}
+{"parola": "ESSA", "contesto": "Essere."}
+{"parola": "ESSELO", "contesto": "Eccolo l\u00ec (v. anche EJELO - ESTELO)."}
+{"parola": "ESTELA", "contesto": "Eccola (v. anche EJELA - ESSELA)."}
+{"parola": "ETO", "contesto": "Dito (v. anche LETO). Un eto = un po' (v. anche FRICCIOLO, OGNA)."}
+{"parola": "ETA", "contesto": "Dita (v. anche LETA). Un eto = un po' (v. anche FRICCIOLO, OGNA)."}
+{"parola": "ETONE", "contesto": "Alluce."}
+{"parola": "FA' I'FFIUME", "contesto": "Andar bene."}
+{"parola": "FACCENNA", "contesto": "Prestazione sessuale."}
+{"parola": "FACEMO", "contesto": "Facciamo."}
+{"parola": "FACETE", "contesto": "Fate."}
+{"parola": "FACIOLI", "contesto": "Fagioli."}
+{"parola": "FACIOLI DE LE CURDI", "contesto": "Fagiolini bianchi."}
+{"parola": "FAE", "contesto": "Fave."}
+{"parola": "FALLACCIANO", "contesto": "Fico; anche uomo meschino."}
+{"parola": "FAO", "contesto": "Faggio (fai buji = punto fitto e cupo della faggeta)."}
+{"parola": "FARGE", "contesto": "Falce."}
+{"parola": "FARINELLO", "contesto": "Piccolo fungo bianco, commestibile."}
+{"parola": "FERCETO", "contesto": "Luogo invaso da felci."}
+{"parola": "FERRAIOLO (farajolo)", "contesto": "Cappotto. Pi\u00f9 precisamente un\u2019abbondante mantella, senza maniche e bottoni."}
+{"parola": "FI'", "contesto": "Figlio; es. curri f\u00ec = corri ragazzo, dattela a gambe."}
+{"parola": "FIACCAJNE", "contesto": "Debolezza."}
+{"parola": "FIARA", "contesto": "Fiamma."}
+{"parola": "FICO PICCIALONE", "contesto": "Variet\u00e0 di fichi con il gambo; fico, al plurale \"le fico\"."}
+{"parola": "FIEZZA", "contesto": "Ciocca di capelli (generalmente se di colore diverso)."}
+{"parola": "FIJANO", "contesto": "Figlioccio (di battesimo, cresima)."}
+{"parola": "FIJARELLO", "contesto": "Ragazzino."}
+{"parola": "FIJO", "contesto": "Figlio."}
+{"parola": "FIJOTTO", "contesto": "Figlio piccolo di animale, pulcino."}
+{"parola": "FILAGNA", "contesto": "Filare."}
+{"parola": "FILARELLO", "contesto": "Strumento in legno per filare la canapa."}
+{"parola": "FILO FILONZA", "contesto": "Tipo di farfalla."}
+{"parola": "FIMMINA", "contesto": "Donna."}
+{"parola": "FINENTE", "contesto": "Fino a (s'ito a piej finente i'pponte = sono arrivato a piedi fino al ponte)."}
+{"parola": "FINI'", "contesto": "Finire (Finiscette = Fin\u00ec)."}
+{"parola": "FIOCCA'", "contesto": "Nevicare (Fiocca = Nevica)."}
+{"parola": "FIOTTA\u2019", "contesto": "Lamentarsi, essere lagnosi."}
+{"parola": "FIOTTO", "contesto": "Lamento"}
+{"parola": "FIRGI", "contesto": "Felci. (I' ffirgi = le felci)."}
+{"parola": "FISCOLI", "contesto": "Filtri per l\u2019olio usati nei frantoi."}
+{"parola": "FO'", "contesto": "Campicello, campagna - E' ito f\u00f2 (o de f\u00f2) = E' andato in campagna."}
+{"parola": "FOCORE", "contesto": "Bruciore."}
+{"parola": "FOJETTA", "contesto": "Unit\u00e0 di misura del vino tipica delle osterie, equivalente a 1/2 litro."}
+{"parola": "FONNARDO", "contesto": "Profondo."}
+{"parola": "FONNO", "contesto": "Profondo."}
+{"parola": "FONTANILE", "contesto": "Abbeveratoio."}
+{"parola": "FORA", "contesto": "Fuori."}
+{"parola": "DE FORA", "contesto": "Fuori."}
+{"parola": "DAFORA", "contesto": "Fuori."}
+{"parola": "FORASACCO", "contesto": "Spiga selvatica che si trova in mezzo al fieno (v. anche PUGNASACCO)."}
+{"parola": "FORCOLA", "contesto": "Insetto della frutta, forcina (ce so' le forcole rento le persiche)."}
+{"parola": "FORDA", "contesto": "Bacino di raccolta delle acque."}
+{"parola": "FORGO", "contesto": "Palmo (come misura), tanto, parecchio."}
+{"parola": "FORMA", "contesto": "Avvallamento di terreno (specialmente al lato di strade e viottoli."}
+{"parola": "FRA AGGIUSTITE E METTITE BENE\u2026", "contesto": "Tra una cosa e l'altra (fra aggiustite e mettite bene, ce vorr\u00e0 'n'antra oretta = per prepararmi ci vorr\u00e0 ancora un'ora)."}
+{"parola": "FRACIO", "contesto": "Fradicio (sia bagnato che troppo maturo)."}
+{"parola": "FRANCIOTTOLA", "contesto": "Favola, bugia. (franciottola d\u2019illume stento = storiella che va troppo per le lunghe)."}
+{"parola": "FRANGIOTTOLA", "contesto": "Favola, bugia. (franciottola d\u2019illume stento = storiella che va troppo per le lunghe)."}
+{"parola": "FRANGETOLE", "contesto": "Erba selvatica a ciuffi (commestibile)."}
+{"parola": "FRASCARELLI", "contesto": "Tipo di pasta fatta in casa."}
+{"parola": "FRASCHINO", "contesto": "Odore caratteristico di prosciutto non bene conservato per cattiva salagione."}
+{"parola": "FRESCHINO", "contesto": "Odore caratteristico di prosciutto non bene conservato per cattiva salagione."}
+{"parola": "FRATTA", "contesto": "Siepe, per di pi\u00f9 spinosa, anche per segnare il limite dei campi."}
+{"parola": "FR\u00c8E", "contesto": "Febbre."}
+{"parola": "FREGHINO", "contesto": "Commerciante troppo disinvolto."}
+{"parola": "FRIGHINO", "contesto": "Commerciante troppo disinvolto."}
+{"parola": "FREGNA", "contesto": "Vagina."}
+{"parola": "FREGNACCIA", "contesto": "Stupidaggine; anche frittata di acqua, sale e farina altrimenti detta \"SUTRINA\"."}
+{"parola": "FREGNO", "contesto": "Qualcuno, qualcosa (dispregiativo)."}
+{"parola": "FRENGICA", "contesto": "Accipicchia."}
+{"parola": "FRENCICA", "contesto": "Accipicchia."}
+{"parola": "FREGNA", "contesto": "Accipicchia."}
+{"parola": "FRESCA", "contesto": "Accipicchia."}
+{"parola": "FRESCHE", "contesto": "Arrabbiature, avere le fresche o fregne = essere arrabbiato, inquieto."}
+{"parola": "FREGNE", "contesto": "Arrabbiature, avere le fresche o fregne = essere arrabbiato, inquieto."}
+{"parola": "FREZZA", "contesto": "Fionda a elastici."}
+{"parola": "FRICCIULI", "contesto": "Ciccioli."}
+{"parola": "SFRIZZOLI", "contesto": "Ciccioli."}
+{"parola": "SFRICCIOLI", "contesto": "Ciccioli."}
+{"parola": "FRICCIOLO", "contesto": "Piccola quantit\u00e0, , un po', un pochetto (v. anche ETO, OGNA, 'NTICCHIA)."}
+{"parola": "FRICCIOLETTO", "contesto": "Piccola quantit\u00e0, , un po', un pochetto (v. anche ETO, OGNA, 'NTICCHIA)."}
+{"parola": "FRILLICHICCHIA", "contesto": "Pioviggina (v. PIUJCCICA)."}
+{"parola": "FRONTINO", "contesto": "Schiaffetto sulla fronte."}
+{"parola": "FUGATO", "contesto": "Chi va di fretta, veloce (de fugato = di corsa)."}
+{"parola": "FUMOGENA", "contesto": "Malattia degli olivi."}
+{"parola": "FURCINA", "contesto": "Forcone, forca (attrezzo agricolo)."}
+{"parola": "FURCINELLA", "contesto": "Forcella per capelli."}
+{"parola": "FURMINE", "contesto": "Fulmine, sinonimo anche di velocit\u00e0 (je 'n furmine)."}
+{"parola": "FURMINA'", "contesto": "Bruciare (la lampadina s'\u00e8 furminata)."}
+{"parola": "FURMINANTI", "contesto": "Fiammiferi da cucina (sturare i furminanti = accendere i fiammiferi)."}
+{"parola": "FUSCELLA", "contesto": "Recipiente di confezionamento della ricotta. Ill\u2019arecotta vene comme la fuscella; spesso usato per giustificare i figli che hanno gli stessi vizi dei padri."}
+{"parola": "GAETTA", "contesto": "Gruppo di giovinastri."}
+{"parola": "GALITTI", "contesto": "Garretti, caviglie (L'ajo preso p'i'ggalitti = L'ho preso per le caviglie)."}
+{"parola": "GANASSE", "contesto": "Mascelle, denti molari."}
+{"parola": "GARAVINA", "contesto": "Attrezzo edile, piccone a punta e taglio."}
+{"parola": "CARAVINA", "contesto": "Attrezzo edile, piccone a punta e taglio."}
+{"parola": "GARGARIZZI", "contesto": "Gargarismi (v. anche GRAGALIZZI)."}
+{"parola": "GARGAROZZO", "contesto": "Trachea (v. anche GRAGALOZZO)."}
+{"parola": "GATTAROLA", "contesto": "Foro in basso alle porte per fare passare il gatto."}
+{"parola": "GATT\u00cdO", "contesto": "Cattivo."}
+{"parola": "GATTO PUZZOLO", "contesto": "Puzzola."}
+{"parola": "GERZO", "contesto": "Gelso."}
+{"parola": "GHIACCULI", "contesto": "Scarti, cose superflue, impicci (v. anche STRUFFAJE e ZARAVATTULI)."}
+{"parola": "GHIENORO", "contesto": "Genero (v. anche NORO)."}
+{"parola": "GHIOTTA", "contesto": "Teglia rettangolare a bordo basso."}
+{"parola": "GIALLUNI", "contesto": "Genere di fagioli."}
+{"parola": "GIONCATA", "contesto": "Derivato del latte, ottenuto dalla separazione del siero dal coagulo, commestibile."}
+{"parola": "GIOVENNOTTA", "contesto": "Nubile."}
+{"parola": "GIOVENNOTTO", "contesto": "Scapolo."}
+{"parola": "GIRELLI", "contesto": "Fuochi d'artificio."}
+{"parola": "GIUBBA", "contesto": "Giacca."}
+{"parola": "GIUBBA AREVORDATA", "contesto": "Di persona che ricicla vecchi abiti, non potendo permettersene di nuovi."}
+{"parola": "'GNA", "contesto": "Bisogna."}
+{"parola": "GNA'", "contesto": "Andare (v. ANNA' - JI' - 'NA')."}
+{"parola": "GNATO", "contesto": "andato (v. ANNA' - JI' - 'NA')."}
+{"parola": "GNAMO", "contesto": "andiamo (v. ANNA' - JI' - 'NA')."}
+{"parola": "GNAOLA\u2019", "contesto": "Miagolare (anche SGNAOLA')."}
+{"parola": "GNASTICARE", "contesto": "Masticare."}
+{"parola": "GNAUL\u00cdO", "contesto": "Miagolio."}
+{"parola": "GNERTO", "contesto": "Spesso, grossolano; (v. anche JERTO)."}
+{"parola": "GNESPOLI", "contesto": "Nespole."}
+{"parola": "GNESPULI", "contesto": "Nespole."}
+{"parola": "GNESPOLO", "contesto": "Albero di nespole."}
+{"parola": "GNESTOLO", "contesto": "Fionda che si ruota per il lancio (non come quella ad elastici detta \"MAZZAFIONDA\")."}
+{"parola": "'GNI POCH'E TTANTO", "contesto": "Ogni tanto."}
+{"parola": "'GNI SEMPRE", "contesto": "Sempre, ogni volta."}
+{"parola": "GNOMMARATORA", "contesto": "Donna che lavora la lana, materassaia."}
+{"parola": "GNOMMERO", "contesto": "Gomitolo di lana."}
+{"parola": "GNUCCO", "contesto": "Brillo."}
+{"parola": "GNUCCHITTI CH'I' FERRO", "contesto": "Tipo di pasta fatta in casa con acqua e farina."}
+{"parola": "GOGOSSO", "contesto": "Osso di pesca, (giocare a GOGOSSI e fare il CARCASELLO (v.) divertimento per bambini)."}
+{"parola": "GOJAROTTO", "contesto": "Mattacchione, eccessivamente estroverso, plateale."}
+{"parola": "GOJO", "contesto": "Matto o anche guasto (es. per un prodotto vegetale)."}
+{"parola": "GONDOLA", "contesto": "Traliccio appeso sotto i carri per trasportare fieno e pastura."}
+{"parola": "GORBE", "contesto": "Volpe."}
+{"parola": "GORBO", "contesto": "Colpo apoplettico, accidente (che te pozza pij\u00e0 'n gorbo = che ti venga un accidenti - Uguale a C\u00d3RBO (v.)."}
+{"parola": "GOVERNA'", "contesto": "Accudire, nutrire gli animali."}
+{"parola": "GRAGALIZZI", "contesto": "Gargarismi (v. anche GARGARIZZI)."}
+{"parola": "GRACALOZZO", "contesto": "Trachea (v. anche GARGAROZZO)."}
+{"parola": "GRASCIA", "contesto": "Termine di origine medievale che indica l\u2019insieme delle componenti necessarie alla composizione del vitto."}
+{"parola": "GRAVIOLI", "contesto": "Dolci tipici del carnevale, ripieni di ricotta condita."}
+{"parola": "GRAZZIA", "contesto": "Grazia, benevolenza (troppa Grazzia Sant'Ant\u00f2)."}
+{"parola": "GRICCIORE", "contesto": "Tristezza, sconforto."}
+{"parola": "GRUGNO", "contesto": "Faccia."}
+{"parola": "GUADAMBIO", "contesto": "Guadagno."}
+{"parola": "GUAZZERA", "contesto": "Rugiada."}
+{"parola": "GUINZA", "contesto": "Terreno bagnato e pantanoso."}
+{"parola": "IAMMANCO", "contesto": "Almeno."}
+{"parola": "IMMENO", "contesto": "Almeno."}
+{"parola": "IEPPE", "contesto": "Zolle di terreno, rivoltate dall'aratro."}
+{"parola": "IMMASCIATA", "contesto": "Messaggio, ambasceria."}
+{"parola": "IMMOTTATORO", "contesto": "Imbuto (v. MOTTATORO)."}
+{"parola": "INCANNATA", "contesto": "Trappola per invischiare volatili."}
+{"parola": "ANCANNATA", "contesto": "Trappola per invischiare volatili."}
+{"parola": "INCIAMPICA'", "contesto": "Inciampare (v. 'NCIAMPICA')."}
+{"parola": "INCIURCINATO", "contesto": "Raggomitolato, raggrinzito (vedi anche \u2018NCRIPPILLITO)."}
+{"parola": "INCRIPPILLITO", "contesto": "Intorpidito (nei muscoli), rattrappito (v anche 'NCRIPPILLITO)."}
+{"parola": "INCUJATO", "contesto": "Implume."}
+{"parola": "INCUJATTO", "contesto": "Imberbe."}
+{"parola": "INFONNA", "contesto": "Bagnare (v. anche ANFONNISE o 'NFONNA)."}
+{"parola": "INFUSO", "contesto": "Bagnato (v. anche ANFONNISE o 'NFONNA)."}
+{"parola": "INFRANCUJATO", "contesto": "Frammischiato, confuso (v. anche 'NFRANCUJATO)."}
+{"parola": "INGONIA", "contesto": "Agonia."}
+{"parola": "INGRUGNATO", "contesto": "Che tiene il broncio."}
+{"parola": "INGUATTA'", "contesto": "Nascondere (v. anche ANGUATTA' o 'NGUATTA')."}
+{"parola": "INNIMICO", "contesto": "Nemico (Ill'innimico = Il nemico)."}
+{"parola": "INTIGNA\u2019", "contesto": "Insistere, intestardirsi, (anche 'NTIGNA')."}
+{"parola": "INTIRICHITO", "contesto": "Disseccato, intirizzito. Rimanere sbalordito, sorpreso (v. 'NTIRICHITO)."}
+{"parola": "INTRAPPAJASSE", "contesto": "Confondersi (v. anche ANTRAPPAJA' - 'NTRAPPAJATO)."}
+{"parola": "INTRAPPAJATO", "contesto": "Confuso (v. anche ANTRAPPAJA' - 'NTRAPPAJATO)."}
+{"parola": "INTRONATO", "contesto": "Intontito, incrinato (in senso figurato: stupido, minato nella salute) (v. 'NTRONATO)."}
+{"parola": "INTRUJASSE", "contesto": "Sporcarsi (v. 'NTRUJASSE)."}
+{"parola": "INTURCINATO", "contesto": "Intrecciato, aggrovigliato (v. 'NTURCINATO)."}
+{"parola": "INTUSATO", "contesto": "Ammaccato (anche ANTUSO o 'NTUSO)."}
+{"parola": "IRRE ORRE", "contesto": "Scivolare sull'argomento, come LIPPE LAPPE."}
+{"parola": "ISSI", "contesto": "Avere (N'issi pura = Non aver paura)."}
+{"parola": "ITO", "contesto": "Andato; (S\u2019ito fo' = Sono andato in campagna)."}
+{"parola": "J'E'", "contesto": "E'."}
+{"parola": "JERTA (ERTA)", "contesto": "Ripida."}
+{"parola": "JERTO", "contesto": "Spesso, grossolano; (v. anche GNERTO)."}
+{"parola": "JI", "contesto": "Andare. (Tocca ji fo' = Bisogna andare in campagna; pres. io vajo; part. pass. esso gnava; pass. rem. nui gnemma) (v. anche ANNA' - GNA' - NA')."}
+{"parola": "JI PUZZA I\u2019 BBENESTA\u2019", "contesto": "Pretenzioso, che non si accontenta."}
+{"parola": "JI FA PROVE", "contesto": "Gli fa bene."}
+{"parola": "JI FETA PURE I' GGALLO", "contesto": "Ha una fortuna sfacciata."}
+{"parola": "JICINA", "contesto": "Decina."}
+{"parola": "JO'", "contesto": "Gi\u00f9 (scigni j\u00f2 = scendi gi\u00f9)."}
+{"parola": "JOPPECCHI'", "contesto": "Gi\u00f9 per di qua."}
+{"parola": "JOPPEDISTI'", "contesto": "Laggi\u00f9 da quelle parti."}
+{"parola": "JOPPELLI'", "contesto": "Gi\u00f9 per di l\u00ec."}
+{"parola": "LAI", "contesto": "Via, dai. (e lai... = e via..., e dai\u2026) - (lai mp\u00f2 piantela = dai smettila)."}
+{"parola": "LAJO'", "contesto": "Laggi\u00f9."}
+{"parola": "LAJOPPEDEDILLI'", "contesto": "Laggi\u00f9 in quel posto."}
+{"parola": "LAMPA'", "contesto": "Lampeggiare. (Si dicch\u00ec lampa de che parte trona = Se qui lampeggia in qualche posto tuona)."}
+{"parola": "LANZAGNA", "contesto": "Pasta fatta in casa, lasagna."}
+{"parola": "LANZAGNOLO", "contesto": "Mattarello."}
+{"parola": "LAPPE", "contesto": "In qualche (ajo da pass\u00e0 'nc\u00f2 lappe che bottega = devo ancora passare in qualche negozio)."}
+{"parola": "LA'PPE'CCHI'", "contesto": "Da queste parti."}
+{"parola": "LAPPEDOGNA", "contesto": "Emozione, paura, debolezza (v. anche PATUNIA)."}
+{"parola": "LA'PP'ELLI'", "contesto": "Da quelle parti."}
+{"parola": "LARDELLO", "contesto": "Piccolo fungo commestibile di colore arancio (lat. Cantharellus cibarius)."}
+{"parola": "LASCA", "contesto": "Fungo, a forma di lingua, che cresce sui tronchi degli alberi (lat. Fistulina hepatica)."}
+{"parola": "LATTONZOLO", "contesto": "Maialino da latte (al forno)."}
+{"parola": "LE COSE FATTE CON FINFIRINFIN SE NE VANNO CON FINFIRINFAN", "contesto": "Ci\u00f2 che si ottiene con facilit\u00e0, altrettanto facilmente si perde."}
+{"parola": "LEGA", "contesto": "Piccolo invaso d'acqua, prossimo ad una sorgente, delimitato da sassi disposti a secco e terra (es. LEGA della PALLUCCOLA)."}
+{"parola": "LEMME LEMME", "contesto": "Piano piano."}
+{"parola": "LENA", "contesto": "Legna da ardere (pl. LE L\u00c9NA o anche 'E L\u00c9NA)."}
+{"parola": "LETE", "contesto": "Levati, spostati."}
+{"parola": "LETO", "contesto": "Dito (v. anche ETO - ETA)."}
+{"parola": "LETA", "contesto": "Dita (v. anche ETO - ETA)."}
+{"parola": "LETTA", "contesto": "Striscia di terreno coltivabile limitato da due filari di alberi o di piante."}
+{"parola": "LIECIO", "contesto": "Insipido, acquoso, insapore (anche SLECIO)."}
+{"parola": "LINTERNA", "contesto": "Lampada ad olio."}
+{"parola": "LINTIERA", "contesto": "Ringhiera."}
+{"parola": "LIPPE LAPPE", "contesto": "Scivolare sull'argomento, tergiversare, v. IRRE ORRE."}
+{"parola": "LO POZZO VEDE' COMME I' FFUME DILL'OCCHI", "contesto": "E' insopportabile, come il fumo negli occhi."}
+{"parola": "LOCCA", "contesto": "Chioccia."}
+{"parola": "LOCO COMMODO", "contesto": "Gabinetto."}
+{"parola": "LOFFA", "contesto": "Vescia (fungo); anche emissione silenziosa di gas intestinali (all'opposto di \"SCURREJA\")."}
+{"parola": "LONTO", "contesto": "Lardo."}
+{"parola": "LORDO", "contesto": "Sporcaccione."}
+{"parola": "LOTO", "contesto": "Sudiciume, sporcizia, (v. anche OTO)."}
+{"parola": "LOTOSO", "contesto": "Sudicio, sporco."}
+{"parola": "LUCCHISINA", "contesto": "Sovraccoperta di cotone o imbottita."}
+{"parola": "LUCCICA", "contesto": "Lucciola."}
+{"parola": "LUCCICHETTA", "contesto": "Lucciola."}
+{"parola": "LUCCICORE", "contesto": "Bagliore."}
+{"parola": "LUCCO", "contesto": "Stanco (v. ALLUCCASSE)."}
+{"parola": "LUCERNARO", "contesto": "Abbaino."}
+{"parola": "LUCIARO", "contesto": "Persona addetta alla lettura dei consumi e distribuzione delle bollette della vecchia Societ\u00e0 Romana per l'Energia Elettrica."}
+{"parola": "LUFFO", "contesto": "Fianco (es. comme me cocino i lluffi = come mi fa male la schiena)."}
+{"parola": "LUPO PENARO", "contesto": "Licantropo."}
+{"parola": "LUPINO", "contesto": "Specie di callo alle dita dei piedi."}
+{"parola": "LUPOLI", "contesto": "Getti primaverili di piante (es. vitalba). Commestibili."}
+{"parola": "LUSTRORE", "contesto": "Chiarore, splendore."}
+{"parola": "LUVI'", "contesto": "Guarda un po'? (Luv\u00ec chi ecco? = guarda un po' chi arriva?)."}
+{"parola": "MA'", "contesto": "Madre, mamma (mate mia quanto patiscio = mamma mia quanto si soffre)."}
+{"parola": "MATE", "contesto": "Madre, mamma (mate mia quanto patiscio = mamma mia quanto si soffre)."}
+{"parola": "MACHINE", "contesto": "Madia (v. anche MATTERA)."}
+{"parola": "MACIO", "contesto": "Strafatto, troppo maturo, molliccio, guasto (in senso figurato persona furbastra es. s\u00ec macio ma pper\u00f2)."}
+{"parola": "MADONN\u00c9LLE", "contesto": "Acheni, ancora verdi, di olmo, teneri e commestibili; anche bambine in costume nero e col velo, che accompagnano la processione del venerd\u00ec santo."}
+{"parola": "MAGGIO", "contesto": "Ginestra. (Hanno piantato 'i maggio = Hanno fatto sesso)."}
+{"parola": "MAGNA'", "contesto": "Mangiare (i' mmagn\u00e0 o i' ddamagn\u00e0 = il cibo)."}
+{"parola": "MAGNARDO", "contesto": "Famelico, mangiatore, di buon appetito."}
+{"parola": "MAGNASBOTTO", "contesto": "Biscia d\u2019acqua."}
+{"parola": "MALE E PPEGGIO", "contesto": "Piccolo attrezzo da muratore con due punte da taglio perpendicolari tra loro (una taglia male e l'altra peggio)."}
+{"parola": "MAMMANCO", "contesto": "Neanche, nemmeno (v. NIMMANCO)."}
+{"parola": "MAMMOCCIO", "contesto": "Bamboccio, stupido."}
+{"parola": "MANCECOLA", "contesto": "Attrezzo per la lavorazione della canapa."}
+{"parola": "MANCIOCCOLA", "contesto": "Mano grande, grassa, capiente."}
+{"parola": "MANEJA'", "contesto": "Maneggiare, mischiare, muovere (Maneja maneja nun ajo capito chi\u00f9 quelle = A forza di mischiare non ho capito pi\u00f9 niente)."}
+{"parola": "MANNOLO", "contesto": "Straccio per pulire il forno."}
+{"parola": "MANTENGOLA", "contesto": "Mattarello (v. anche LANSAGNOLO)."}
+{"parola": "MARCHESE", "contesto": "Mestruo."}
+{"parola": "MARTAJATO", "contesto": "Malfatto (v. MARTUFO)."}
+{"parola": "MARTINICCHIA", "contesto": "Freno a mano dei carri."}
+{"parola": "MARTUFO", "contesto": "Malfatto (v. MARTAJATO)."}
+{"parola": "MARVEJA", "contesto": "Verme che si riproduce vicino all'osso del prosciutto male conservato (perch\u00e9 poco salato o fatto con tempo umido e caldo)."}
+{"parola": "MARZI", "contesto": "Cime di rapa."}
+{"parola": "MARZITTI", "contesto": "Cime di rapa."}
+{"parola": "MASTELLO", "contesto": "Recipiente con manico da inserire nelle botti per prendere un po' del contenuto."}
+{"parola": "MATRIA", "contesto": "\"Madre\" dell'aceto."}
+{"parola": "MATRI\u00c0LE", "contesto": "Rozzo (di persona), materiale."}
+{"parola": "MATTA", "contesto": "Dal Vocabolo arcaico che indica una stuoia ."}
+{"parola": "MATTERA", "contesto": "Madia (v. anche MACHINE)."}
+{"parola": "MAZZAFEGHETE", "contesto": "Salsicce di fegato."}
+{"parola": "MAZZAFIONDA", "contesto": "Fionda ad elastici."}
+{"parola": "'MBORZO", "contesto": "Bolso, fiacco."}
+{"parola": "'MBRIACO", "contesto": "Ubriaco (stato momentaneo)."}
+{"parola": "'MBRIACONE", "contesto": "Etilista (dedito al bere)."}
+{"parola": "'MBROJO", "contesto": "Imbroglio."}
+{"parola": "'MBROJONE", "contesto": "imbroglione."}
+{"parola": "ME CE SCORZO TUTTO", "contesto": "Non ho alcuna fretta (quasi a farlo di proposito, come reazione)."}
+{"parola": "ME SA MIJANNI", "contesto": "Non vedo l'ora."}
+{"parola": "MEJO", "contesto": "Meglio, migliore (s\u00ec' i'mmejo = sei il migliore)."}
+{"parola": "MELLA", "contesto": "Mela (pl. le mella)."}
+{"parola": "MELLAFRICA", "contesto": "Corbezzolo (frutto a maturazione invernale)."}
+{"parola": "MENCELLA", "contesto": "Brocca di coccio per acqua."}
+{"parola": "MENCIO", "contesto": "Poco scaltro."}
+{"parola": "MENCIAROTTO", "contesto": "Sempliciotto."}
+{"parola": "MESCOLA", "contesto": "Cucchiaio in legno da cucina."}
+{"parola": "MESSA PAZZA", "contesto": "Messa pomeridiana del venerd\u00ec santo."}
+{"parola": "MESTO", "contesto": "Messo. (l'ajo mesto = l'ho messo)."}
+{"parola": "META", "contesto": "Mietere."}
+{"parola": "METTA", "contesto": "Mettere (Nun ce mittissi becco = Non impicciarti)."}
+{"parola": "MITTI", "contesto": "metti (Nun ce mittissi becco = Non impicciarti)."}
+{"parola": "MEZZA", "contesto": "Recipiente cilindrico per misurare cereali, olive, ecc.."}
+{"parola": "MEZZADI'", "contesto": "Mezzogiorno."}
+{"parola": "MEZZAROLO", "contesto": "Mezzadro."}
+{"parola": "MICCIA", "contesto": "Asina."}
+{"parola": "MICIA", "contesto": "Gatta."}
+{"parola": "MIJARA", "contesto": "Migliaia."}
+{"parola": "MILLUZZA", "contesto": "Piccole mele, anche un po' acerbe."}
+{"parola": "MINELLA", "contesto": "Grosso cesto in vimini, largo e basso senza manici (con i manici \u00e8 la CIRIGNA)."}
+{"parola": "MINTURZELLA", "contesto": "Erba aromatica (usata nella cottura della trippa)."}
+{"parola": "MINZONA'", "contesto": "Nominare."}
+{"parola": "MITTI A TOMBOLA?", "contesto": "Scegli i numeri? (da inserire nella cartella per partecipare alla tombola pubblica)."}
+{"parola": "MO'", "contesto": "Ora, adesso."}
+{"parola": "MO\u2019 MMO\u2019", "contesto": "Proprio adesso (so\u2019 rentato mo\u2019 mmo\u2019 = sono rientrato proprio adesso)."}
+{"parola": "MOCCO", "contesto": "Moneta, soldo (v. BOCCO)."}
+{"parola": "MOCCOLO", "contesto": "Muco, moccio, secrezione nasale."}
+{"parola": "MOCCOLOTTO", "contesto": "Cerotto, lume. Usato nelle chiese o al cimitero."}
+{"parola": "MOCOLA", "contesto": "Lenticchia (legume); usato per indicare anche le lentiggini (mocoloso = lentigginoso) dal lat. \"macula\"."}
+{"parola": "MOGNA", "contesto": "Mungere."}
+{"parola": "MONNA'", "contesto": "Pulire, mondare."}
+{"parola": "MONNEZZA", "contesto": "Immondizia."}
+{"parola": "MONNEZZARO", "contesto": "Spazzino; cumulo di rifiuti."}
+{"parola": "MONNOLO", "contesto": "Scopetta o panno usati per pulire i forni a legna."}
+{"parola": "MONTONE", "contesto": "Tanto/i (c'ha un montone de bocchi testo st\u00ec = \u00e8 molto ricca quella persona l\u00ec)."}
+{"parola": "MORDACCHIA", "contesto": "Museruola."}
+{"parola": "M\u00d3RDO", "contesto": "Molto."}
+{"parola": "MORRALE", "contesto": "Palo in legno (generalmente usato nei sottotetti)."}
+{"parola": "MORRE", "contesto": "Scarpata."}
+{"parola": "MORRALE", "contesto": "Scarpata."}
+{"parola": "MORRALETTO", "contesto": "Scarpata."}
+{"parola": "MORTAJOLO", "contesto": "Porcino (fungo) Boletus edulis."}
+{"parola": "MOSCIARELLE", "contesto": "Castagne secche."}
+{"parola": "MOSCIO", "contesto": "Flaccido (di frutta e di persona)."}
+{"parola": "MOSTRARELLA", "contesto": "Atto dello strofinare la buccia dell'anguria sulla faccia."}
+{"parola": "MOTTATOIO", "contesto": "Imbuto."}
+{"parola": "MOTTATORO", "contesto": "che imbotta (anche IMMOTTATORE)."}
+{"parola": "MOVA", "contesto": "Muovere (Mujva = Muoveva)."}
+{"parola": "'MPOPONITO", "contesto": "Intontito (dopo un colpo ricevuto), insonnolito (appena sveglio)."}
+{"parola": "MUCCICOSO", "contesto": "Moccioso, ."}
+{"parola": "MUCCI'", "contesto": "Scappare, fuggire, uscire di casa. (J'\u00e8 toccato mucc\u00ec - E' dovuto scappare)."}
+{"parola": "MUFFA'", "contesto": "Ammuffire (anche ammuff\u00e0 ill'occhi = fare gli occhi neri con i pugni)."}
+{"parola": "MUNELLACCIO", "contesto": "Ragazzo dispettoso."}
+{"parola": "MUNELLO", "contesto": "Bambino."}
+{"parola": "MUNELLA", "contesto": "Bambina."}
+{"parola": "MURO MURO", "contesto": "Modo di camminare accanto ai muri, quasi a ripararsi sotto la gronda (v. anche COSTA COSTA)."}
+{"parola": "MUSETTA", "contesto": "Sacchetti di mangime appesi al collo di animali."}
+{"parola": "MUSICA", "contesto": "Banda."}
+{"parola": "MUSICANTE", "contesto": "Componente di una banda."}
+{"parola": "MUTA\u2019", "contesto": "Cambiare."}
+{"parola": "MUTATA", "contesto": "Cambio di vestito per le feste (es. la mutata della Domenica)."}
+{"parola": "NA'", "contesto": "Andare (v. anche ANNA' - GNA' - JI')."}
+{"parola": "'NA MASSA", "contesto": "Tanto, molto, infinitamente."}
+{"parola": "NATICA'", "contesto": "Tentennare, smuoversi (es. il sasso naticarello o rupe tremante)."}
+{"parola": "NATICCHIA", "contesto": "Nottolino in legno per chiudere infissi."}
+{"parola": "'NCIAMPICA'", "contesto": "Inciampare (v. INCIAMPICA')."}
+{"parola": "'NCIANCICA'", "contesto": "Masticare, sgualcire."}
+{"parola": "'NCIANCICATO", "contesto": "masticato, sgualcito."}
+{"parola": "'NCIURCINATO", "contesto": "Raggomitolato, avviluppato; (v INCIURCINATO)."}
+{"parola": "'NCOLLA'", "contesto": "Prendere in braccio (fijar\u00e8 te pijo \u2018ncollo? = ragazzino, ti prendo in braccio?)."}
+{"parola": "'NCRIPPILLITO", "contesto": "Intorpidito (nei muscoli), raggrinzito (vedi anche INCRIPPILLITO)."}
+{"parola": "NE' TEN\u00c9 NE' SCURTICA'", "contesto": "Non accontentarsi, non accettare compromessi."}
+{"parola": "NESCA", "contesto": "Botta."}
+{"parola": "NESCHE", "contesto": "Botte solenni."}
+{"parola": "NESCO", "contesto": "Boccino (v. anche ONNESCO)."}
+{"parola": "'NFRACICASSE", "contesto": "Bagnarsi, infradiciarsi."}
+{"parola": "'NFRANCUJATO", "contesto": "Mischiato, confuso (v. anche INFRANCUJATO)."}
+{"parola": "'NFRATANDO", "contesto": "Frattanto."}
+{"parola": "'NFONNA", "contesto": "Bagnato (v. anche ANFONNISE o INFONNA)."}
+{"parola": "'NFUSO", "contesto": "Bagnato (v. anche ANFONNISE o INFONNA)."}
+{"parola": "'NGO'", "contesto": "Ancora."}
+{"parola": "'NGRAVIDA'", "contesto": "Mettere incinta."}
+{"parola": "\u2018NGRUGNATO", "contesto": "Arrabbiato, offeso."}
+{"parola": "'NGUATTA'", "contesto": "Nascondere (v. anche ANGUATTARE o INGUATTARE)."}
+{"parola": "'NGUATTATO", "contesto": "Nascosto (v. anche ANGUATTARE o INGUATTARE)."}
+{"parola": "'NGUATTARELLA", "contesto": "Nascondino (gioco per bambini)."}
+{"parola": "\u2018NGUJATTO", "contesto": "Spogliato, detto di volatile implume."}
+{"parola": "NICULIZIA", "contesto": "Liquirizia."}
+{"parola": "NIMMANCO", "contesto": "Neanche (v. MAMMANCO)."}
+{"parola": "'NNASPO", "contesto": "Raspo d'uva, grappolo."}
+{"parola": "'NNASPO", "contesto": "Raspo d'uva, grappolo."}
+{"parola": "NOCCHIA", "contesto": "Nocciola."}
+{"parola": "NOCCHIETO", "contesto": "Noccioleto."}
+{"parola": "NONEE...", "contesto": "Conferma di una negazione; quasi a dire \u201cNo, non insistere ancora\u201d."}
+{"parola": "NORO", "contesto": "Genero (anche GHIENORO)."}
+{"parola": "NOVA", "contesto": "Notizia."}
+{"parola": "'NTENGOLATO", "contesto": "Unto (v. anche 'ONTOLATO)."}
+{"parola": "'NTICCHIA", "contesto": "Un po' (v. anche FRICCIOLO, ETO, OGNA)."}
+{"parola": "\u2018NTIGNA\u2019", "contesto": "Insistere, incaponirsi, (anche INTIGNA')."}
+{"parola": "'NTIRICHITO", "contesto": "Disseccato, intirizzito. Rimanere sbalordito, sorpreso (v. INTIRICHITO)."}
+{"parola": "'NTISI", "contesto": "Intesi, capiti (v. ANDENNA)."}
+{"parola": "'NTISICHITO", "contesto": "Rinseccolito."}
+{"parola": "'NTRALUCCA'", "contesto": "Barcollare; essere instabili (v. ANTRALUCCA\u2019)."}
+{"parola": "'NTRAPPAJA'", "contesto": "Confondere (v. ANTRAPPAJA' \u2013 INTRAPPAJASSE)."}
+{"parola": "'NTRAPPAJATO", "contesto": "Confuso (v. ANTRAPPAJA' \u2013 INTRAPPAJASSE)."}
+{"parola": "'NTRATANTO", "contesto": "Intanto, frattanto."}
+{"parola": "\u2018NTRICASSE", "contesto": "Intricarsi."}
+{"parola": "'NTRONATO", "contesto": "Intontito, stordito, incrinato (in senso figurato: stupido, minato nella salute) (v. INTRONATO)."}
+{"parola": "'NTRUJASSE", "contesto": "Sporcarsi (v. INTRUJASSE)."}
+{"parola": "'NTRUPPAGHIRBE", "contesto": "Malfermo, barcollante."}
+{"parola": "\u2018NTURCINATO", "contesto": "Intrecciato, aggrovigliato (v. INTURCINATO)."}
+{"parola": "'NTUSATO", "contesto": "Ammaccato (anche ANTUSO o INTUSATO)."}
+{"parola": "NU' JE LA CACCIO", "contesto": "Non ce la faccio."}
+{"parola": "NUN ME ME VENE", "contesto": "Non mi va, non ne ho voglia."}
+{"parola": "'NZEGNATO", "contesto": "Insegnato."}
+{"parola": "'NZIFONA'", "contesto": "Coitare."}
+{"parola": "'NZUATTATO", "contesto": "Tanto sporco."}
+{"parola": "'NZUGA'", "contesto": "Istigare."}
+{"parola": "OCCHIATICCIO", "contesto": "Malocchio."}
+{"parola": "OGNA", "contesto": "Unghia (un'ogna = un po') (v. anche ETO, FRICCIOLO, 'NTICCHIA)."}
+{"parola": "OJI", "contesto": "Oggi."}
+{"parola": "OJO", "contesto": "OLIO."}
+{"parola": "OMMASTO", "contesto": "Basto, sella."}
+{"parola": "OMMINO", "contesto": "Uomo."}
+{"parola": "OMPICCIONE", "contesto": "Ombelico (v. anche UMPICCIONE) usato, a volte, anche il termine 'MBELLICO."}
+{"parola": "ONNASPO", "contesto": "Raspo d'uva, grappolo (v. anche RACICIO e ROMPAZZO)."}
+{"parola": "'NNASPO", "contesto": "Raspo d'uva, grappolo (v. anche RACICIO e ROMPAZZO)."}
+{"parola": "ONNESCO", "contesto": "Boccino (v. anche NESCO)."}
+{"parola": "ONTO", "contesto": "Lardo."}
+{"parola": "ONTOLATO", "contesto": "Unto (v. anche 'NTENGOLATO)."}
+{"parola": "OPO", "contesto": "Lupo."}
+{"parola": "OPRA", "contesto": "Persone assunte per un lavoro. (ajo scerdo ill'opra = ho trovato gli operai)."}
+{"parola": "OR DE NOTTE", "contesto": "Identificabile con l'Ave Maria, il suono delle campane all'imbrunire. Usato anche come termine di paragone (te faccio comme 'n or de notte = te ne do cos\u00ec tante da farti nero). (Vedi anche \"CARCALLASINO\")."}
+{"parola": "ORGANETTA", "contesto": "Fisarmonica."}
+{"parola": "ORLOGGIO", "contesto": "Orologio. \u201cIll\u2019orloggio \u2018i pponte\u201d"}
+{"parola": "OTO", "contesto": "Sporco, sudiciume (v. LOTO)."}
+{"parola": "OTOSO", "contesto": "Sporco, agg."}
+{"parola": "PACCHIAROTTO", "contesto": "Pienotto, grassottello."}
+{"parola": "PAC\u00c8NZA", "contesto": "Pazienza."}
+{"parola": "PAINO", "contesto": "(fare il _) Ostentare, esibire."}
+{"parola": "PAJARICCIO", "contesto": "Materasso riempito di foglie di granturco e paglia."}
+{"parola": "PAJARO", "contesto": "Fienile, cumulo di fieno o paglia."}
+{"parola": "PAJAROZZA", "contesto": "Pagliaio di dimensioni ridotte (1,5 m. circa)."}
+{"parola": "PALANCA", "contesto": "Tavola di legno non pregiato, usata in edilizia come piano d'appoggio."}
+{"parola": "PALLOZZO", "contesto": "Bozzo, rigonfiamento."}
+{"parola": "PALLUCCOLA", "contesto": "Piccola palla, bacca di cipresso."}
+{"parola": "PAMPAJOLE", "contesto": "Briciole di legno o foglie secche."}
+{"parola": "PAMPARITI", "contesto": "Piccoli dolcetti fatti in casa."}
+{"parola": "PANACCA", "contesto": "Forte colpo a mano aperta."}
+{"parola": "PANNATAIO", "contesto": "Nicchia, scaffale a muro (nelle vecchie case, prive di acqua corrente, rappresentava lo spazio destinato a contenere una brocca)."}
+{"parola": "PANNINARO", "contesto": "Colui che vende stoffe."}
+{"parola": "PANT\u00c0SIMA", "contesto": "Fantasma."}
+{"parola": "PANUNTELLA", "contesto": "Azione dinamica del fare il PANUNTO (FACEMO LA PANUNTELLA? = STROFINIAMO IL PANE SUL LARDO? \u2026 che si appendeva al camino)."}
+{"parola": "PANUNTO", "contesto": "Pane unto (strofinato, ad esempio, al lardo di maiale che lo rende grasso)."}
+{"parola": "PANONTO", "contesto": "Pane unto (strofinato, ad esempio, al lardo di maiale che lo rende grasso)."}
+{"parola": "PANTANICCIO (o PANTANICCHIO)", "contesto": "Pantano, area ricca di pozzanghere."}
+{"parola": "PAPARME", "contesto": "A terra sdraiato (Si sbatte i' ccapo, aremane j\u00f2 a ppaparme = se batte la testa resta steso in terra)."}
+{"parola": "PA-PPA-RA-PA\u2019", "contesto": "Sillabe non pronunciate, ma fischiate. Quattro note sinonimo di esagerazione; quando qualcuno la dice proprio grossa."}
+{"parola": "PAPPOLA", "contesto": "Frottola, storiella inventata per burla o per vanteria."}
+{"parola": "PARAVANTI", "contesto": "Grembiule da cucina o per artigiani."}
+{"parola": "PARANNANZI", "contesto": "Grembiule da cucina o per artigiani."}
+{"parola": "PARA", "contesto": "Piccola diga (para de patalocco)."}
+{"parola": "PARO", "contesto": "Paio - Sembro (che te paro? = cosa ti sembro?)."}
+{"parola": "PARO E CEPRO (SCEPRO)", "contesto": "Pari e dispari."}
+{"parola": "PASSONE", "contesto": "Grosso palo da recinzione."}
+{"parola": "PASSUNE", "contesto": "Grosso palo da recinzione."}
+{"parola": "PASTASCIUCCA", "contesto": "Pasta asciutta."}
+{"parola": "PASTECHE", "contesto": "Pasticche."}
+{"parola": "P\u00c0STINO", "contesto": "Miscuglio, impasto di letame (anche di sterco umano!) e paglia, utilizzato come concime. A Soriano, c'\u00e8 un Vicolo dei Pastini, ove anticamente avveniva il \"butto\" dei rifiuti e dei bisogni fisiologici, che poi venivano appunto utilizzati come fertilizzante."}
+{"parola": "PATACCA", "contesto": "Macchia, bella donna."}
+{"parola": "PATALOCCO", "contesto": "Stupido; membro maschile."}
+{"parola": "PATE", "contesto": "Padre (v. anche TATA)."}
+{"parola": "PATI'", "contesto": "Soffrire; (patisciva = soffriva)."}
+{"parola": "PATOLLO", "contesto": "Persona di fisico pesante, torpido."}
+{"parola": "PATR\u00cdCCIA", "contesto": "Giaciglio miserevole."}
+{"parola": "PATUNIA", "contesto": "Paura (v. anche LAPPEDUNIA)."}
+{"parola": "PATURNIE", "contesto": "Nervosismo (lassime perda c\u2019haio certe paturnie\u2026 = lasciami stare, ho certi nervi\u2026)."}
+{"parola": "PECORARECCIA", "contesto": "Ovile."}
+{"parola": "PEJO", "contesto": "Peggio."}
+{"parola": "PELA", "contesto": "Scotta, brucia."}
+{"parola": "PELA'", "contesto": "Sbucciare, scottare."}
+{"parola": "PELOSELLA", "contesto": "Erba campestre, profumata e commestibile, ricoperta di peluria."}
+{"parola": "P\u00c8NNA", "contesto": "Pendere (a settembre i'll'uva \u00e8 fatta e la fico penne) - A PENNA = Penzoloni."}
+{"parola": "PENNATAJA", "contesto": "Erba selvatica infestante che nasce sui muri: paretaria."}
+{"parola": "PENNAZZE", "contesto": "Ciglia e/o sopracciglia."}
+{"parola": "PENNENTI", "contesto": "Orecchini."}
+{"parola": "PENNINELLA", "contesto": "Gioco dei bambini, consistente nel fare centro con la penna (munita di pennino) in un punto del preciso del poggiapiedi del banco di scuola."}
+{"parola": "PENNOLONE", "contesto": "Nel senso di persona alta e dinoccolata."}
+{"parola": "PENNULUNI", "contesto": "Penzoloni. (ch'i ccarzuni pennuluni = con i pantaloni penzoloni) (v. anche CUJA LENTA)."}
+{"parola": "PEPARELLA", "contesto": "Erba selvatica commestibile, usata come condimento."}
+{"parola": "PEPE PAPA RENTO CASA", "contesto": "Gioco con le biglie per bambini."}
+{"parola": "PEPERONE", "contesto": "Fungo non commestibile di colore bianco sporco."}
+{"parola": "PERA", "contesto": "Pera (pl. le pera), in senso figurato le botte."}
+{"parola": "PERCOSSO", "contesto": "Stupito, sbalordito (remase percosso = rimase sbalordito o colpito)."}
+{"parola": "PERCOTA", "contesto": "Stupire, sbalordire (me percotette = rimasi stupito)."}
+{"parola": "PERSICHE", "contesto": "Pesche."}
+{"parola": "PERSORA", "contesto": "Catino di coccio."}
+{"parola": "PERSOJA", "contesto": "Catino di coccio."}
+{"parola": "PERTICA", "contesto": "Bastone flessibile utilizzato per battere le piante e far cadere i frutti."}
+{"parola": "PESTATORO", "contesto": "Pestello (del mortaio)."}
+{"parola": "PETALINO", "contesto": "Calzino (M'ha ditto petalino oppure m'ha ditto zella = Sono stato sfortunato )."}
+{"parola": "PEDALINO", "contesto": "Calzino (M'ha ditto petalino oppure m'ha ditto zella = Sono stato sfortunato )."}
+{"parola": "PETETE", "contesto": "Puzze (nel \"buco delle petete\" c'erano dei gabinetti pubblici all'aperto)."}
+{"parola": "PETTINICCHIA", "contesto": "Fungo."}
+{"parola": "PIAGNA", "contesto": "Piangere."}
+{"parola": "PIAGNITOIO", "contesto": "Casi pietosi."}
+{"parola": "PIANETTELLO", "contesto": "Ripiano di terra alla sommit\u00e0 di una salita."}
+{"parola": "PIANTA'", "contesto": "Smettere (l'hai da piant\u00e0 = dei farla finita)."}
+{"parola": "PIANTA' I'CCHJ\u00d2O", "contesto": "Fare la Cresima."}
+{"parola": "PIATTELLA", "contesto": "Parti meno nobili del maiale (interiora, muso, orecchie) cotte insieme alla porchetta in apposito recipiente (v. anche ACQUETTA)."}
+{"parola": "PIATTERIA", "contesto": "Cristalliera, mobile che contiene piatti e stoviglie."}
+{"parola": "PIATTOLA", "contesto": "Parassita (rivolti a una persona fastidiosa e insistente \"s'\u00ec comme 'na piattola)."}
+{"parola": "PICA", "contesto": "Ghiandaia (uccello)."}
+{"parola": "PICCASURCI", "contesto": "Pungitopo."}
+{"parola": "PICCICHIRI", "contesto": "Chicchi di grandine."}
+{"parola": "PICCININO", "contesto": "Dito piccolo del piede."}
+{"parola": "PICCO", "contesto": "Senza soldi (Sto a'ppicco = Sono senza soldi)."}
+{"parola": "PIC\u00caLLO", "contesto": "Pedicello, foruncolo."}
+{"parola": "PICIA", "contesto": "Organo sessuale femminile (Fare a picia = coitare)."}
+{"parola": "PICIANGULI", "contesto": "Brandelli penzolanti."}
+{"parola": "PIC\u00cdNO", "contesto": "Punta estrema di un sacco, angolino."}
+{"parola": "PICIO LENTO", "contesto": "Persona oltremodo tranquilla."}
+{"parola": "PICIOCCO", "contesto": "Picciolo; organo sessuale maschile."}
+{"parola": "PIDOCCHIO AREFATTO", "contesto": "Arrichito; che ostenta questo suo nouvo stato."}
+{"parola": "PIEI", "contesto": "Piedi."}
+{"parola": "PIEI DURGI", "contesto": "Usato nei confronti di chi cammina con sofferenza (e ccammina bbene\u2026 che c\u2019hai i ppiei durgi?)"}
+{"parola": "PIENARA", "contesto": "Alluvione."}
+{"parola": "PIETRUCCOLA", "contesto": "Sampietrino."}
+{"parola": "PIGNATTO", "contesto": "Pentola."}
+{"parola": "PIGNATTA", "contesto": "Pentola."}
+{"parola": "PIJA'", "contesto": "Prendere."}
+{"parola": "PIJA' CHI'LLOMBRELLA", "contesto": "espressione figurata usata la mattina delle Ceneri quando, trovata una persona addormentata dopo una notte di balli, si apriva l'ombrello su di essa, prima di svegliarla e costringerla a pagare la colazione)."}
+{"parola": "PIJA\u2019 LA SEGA A GGIRO", "contesto": "Girarci intorno, essere inconcludenti (menare il can per l\u2019aia)."}
+{"parola": "PIJA' 'N COLLO", "contesto": "Prendere in braccio (T'aio da pij\u00e0 'n collo? = Devo prenderti in braccio?)."}
+{"parola": "PILOTTO", "contesto": "Fastidio (non me dissi i'ppilotto = non mi assillare)."}
+{"parola": "PILOZZA", "contesto": "Recipiente ove porre gli alimenti dei maiali, scavato nella pietra (v. anche TROCCOLO)."}
+{"parola": "PILUCCO", "contesto": "Peletto; anche di persona con una capigliatura rada e ispida."}
+{"parola": "PIO", "contesto": "Bastoncino, pezzetto di legno."}
+{"parola": "PIOTO", "contesto": "Lento nell'agire, tardo di mente."}
+{"parola": "PIOTO PIOTO", "contesto": "Andatura lenta, comportamento della persona tranquilla, flemmatica."}
+{"parola": "PIPINETO", "contesto": "Dicesi di un gruppo di persone vocianti."}
+{"parola": "PIRICOCOLO", "contesto": "Albicocco (albero); PIRICOCULI (i frutti)."}
+{"parola": "PIROLE", "contesto": "Pillole."}
+{"parola": "PITALE", "contesto": "Vaso da notte."}
+{"parola": "PITINATA", "contesto": "Schioccare di dita, colpo portato col dito medio rilasciato di colpo dal pollice."}
+{"parola": "PITOLA\u2019", "contesto": "Girare su se stessi."}
+{"parola": "PITOLOZZO", "contesto": "Piccola trottola di legno, picchio, a corda."}
+{"parola": "PITTURINA", "contesto": "(fare a _) Beccarsi in modo dispettoso e quasi infantile (hanno fatto a pitturina = si sono beccati)."}
+{"parola": "PITU\u00c8RIE", "contesto": "Chiacchiere a vuoto."}
+{"parola": "PIUJCCICA", "contesto": "Pioviggina (v. FRILLICHICCHIA)."}
+{"parola": "PIZZARULLI", "contesto": "Ghiaccioli."}
+{"parola": "POJELLO", "contesto": "Manciata (es. di nocciole) a due mani."}
+{"parola": "POJO", "contesto": "Poggio (I' ggiorn'i'ppojo = Il luned\u00ec dell'Angelo)."}
+{"parola": "POLACCA", "contesto": "Blusa femminile."}
+{"parola": "POLE", "contesto": "Pu\u00f2."}
+{"parola": "POLLANDRELLI", "contesto": "Bacche selvatiche commestibili, simili alle nespole, ma pi\u00f9 piccole."}
+{"parola": "POLANDRELLI", "contesto": "Bacche selvatiche commestibili, simili alle nespole, ma pi\u00f9 piccole."}
+{"parola": "POLLEDRA", "contesto": "Vescica (pl. le polledra)."}
+{"parola": "PORCARECCIA", "contesto": "Porcilaia."}
+{"parola": "PORCO", "contesto": "Maiale, sudicio."}
+{"parola": "PORETTA ANNUI", "contesto": "Poveri noi."}
+{"parola": "PORETTELLO", "contesto": "Poveraccio."}
+{"parola": "PORNELLO", "contesto": "Susino (albero) PORNELLA = Susine (frutta)."}
+{"parola": "PORO", "contesto": "Povero (Poro cristiano = Pover'uomo)."}
+{"parola": "PURITTI", "contesto": "Poveretti (Poro cristiano = Pover'uomo)."}
+{"parola": "POSTALE", "contesto": "Autobus (vedi CORRIERA)."}
+{"parola": "POZZA", "contesto": "Che tu possa (che te pozzi pij\u00e0 'n gorbo = che ti venga un accidente)."}
+{"parola": "POZZI", "contesto": "Che tu possa (che te pozzi pij\u00e0 'n gorbo = che ti venga un accidente)."}
+{"parola": "PREME", "contesto": "Interessare (me preme = mi interessa)."}
+{"parola": "PRESA", "contesto": "Palpata di natiche."}
+{"parola": "PRESCIA", "contesto": "Fretta."}
+{"parola": "PRETE", "contesto": "Sagoma in legno dove si inseriva lo scaldaletto."}
+{"parola": "PRICISSIONE", "contesto": "Processione."}
+{"parola": "PRETISSIONE", "contesto": "Processione."}
+{"parola": "PRITISSIONE", "contesto": "Processione."}
+{"parola": "PRICURA'", "contesto": "Riordinare, accudire, rassettare (la casa) - Pricur\u00e0 le bestie = Accudire gli animali."}
+{"parola": "PRIMURA", "contesto": "Urgenza, premura."}
+{"parola": "PROENNA", "contesto": "Composto per cavalli, di fave e biada, \"servito\" in un sacchetto legato al muso dell'animale (v. MUSETTA)."}
+{"parola": "PRO\u00ccBITO", "contesto": "Cattivo, ingovernabile (v. anche TRISTO)."}
+{"parola": "PROVA", "contesto": "Bordo (es. la prova della via = la cunetta)"}
+{"parola": "PRUZZA", "contesto": "Prurito (v. anche SURCICO e ROELLO)."}
+{"parola": "PUCCIA", "contesto": "Bambola."}
+{"parola": "PUC\u00cdNO", "contesto": "Pulcino, anche di frutta troppo matura (la pesca c'ha i'ppucino), strafatta."}
+{"parola": "PUGNASACCO", "contesto": "La spiga selvatica (FORASACCO v.) capitata in un sacco."}
+{"parola": "PULISCENZA", "contesto": "Pace, modo di dire di smettere un gioco di bambini."}
+{"parola": "PUMMEDORO", "contesto": "Pomodoro."}
+{"parola": "PUMMIDURITTI (a boccolo)", "contesto": "Piccoli pomodori a grappolo da consumare in inverno."}
+{"parola": "PUNTICCIUNI", "contesto": "Colpi dati con le nocche delle dita."}
+{"parola": "PUPPIDA", "contesto": "Upupa."}
+{"parola": "P\u00dbRA", "contesto": "Paura (veni cc\u00e0, n\u2019issi pura = avvicinati, non temere)."}
+{"parola": "PURCHITTI", "contesto": "Maialini."}
+{"parola": "PURCHITTI DE SANT'ANTOGNO", "contesto": "Insetti che si appallottolano se impauruti."}
+{"parola": "PURTICALLO", "contesto": "Arancia."}
+{"parola": "PURTIGALLO", "contesto": "Arancia."}
+{"parola": "PUTIVA", "contesto": "Poteva."}
+{"parola": "PUZZOLOSO", "contesto": "Sporcaccione (anche dispettoso)."}
+{"parola": "QUARANTOTTO", "contesto": "Conteggio delle carte sparigliate nel gioco della scopa."}
+{"parola": "QUARTARONE", "contesto": "Grosso recipiente da cantina."}
+{"parola": "QUARTERIA", "contesto": "Terreno concesso in conduzione agricola ad un colono, cui spettava 1/4 dei raccolti."}
+{"parola": "QU\u00c8LLE", "contesto": "Nulla, niente, nessuna cosa."}
+{"parola": "QUESSO?", "contesto": "Quale?"}
+{"parola": "QUESTORO", "contesto": "Costoro."}
+{"parola": "QUINATO", "contesto": "Cognato."}
+{"parola": "QUINATA", "contesto": "Cognata."}
+{"parola": "RABBIA", "contesto": "Invidia (C'hai rabbia? Rusica la vidabbia)."}
+{"parola": "RACCHINICHITO", "contesto": "Rachitico."}
+{"parola": "RACCIURCINATO", "contesto": "Raffazzonato, alla meglio, rattoppato."}
+{"parola": "RACICIO", "contesto": "Racemio, parte di un grappolo d'uva (v. anche ONNASPO e ROMPAZZO)."}
+{"parola": "RAFACANE", "contesto": "Ingordo, avido, insaziabile."}
+{"parola": "RAFFICA'", "contesto": "Graffiare."}
+{"parola": "RAFFICO", "contesto": "Graffio."}
+{"parola": "RAMAJA", "contesto": "Ramoscello secco."}
+{"parola": "RAMICCIA", "contesto": "Gramigna."}
+{"parola": "RAMINA", "contesto": "Schiumarola."}
+{"parola": "RANCICA'", "contesto": "Grattare."}
+{"parola": "RANCICHETTO", "contesto": "Striscetta di cotenna (avere il rancichetto = sentire il rancido alla gola per il cibo grasso)."}
+{"parola": "RANCICHILLI", "contesto": "Plurale di RANCICHETTO."}
+{"parola": "RANCICO", "contesto": "Rancido, stantio."}
+{"parola": "RANCIO", "contesto": "Rancido, stantio."}
+{"parola": "RANCURICCHIASSE", "contesto": "Piegarsi, farsi piccolo (v. ANCURICCHIASSE o RINGURICCHIASSE)."}
+{"parola": "RAPAZZOLA", "contesto": "Cuccetta di capanna."}
+{"parola": "RASCHIAMACHINE", "contesto": "Attrezzo da cucina in ferro, per pulire il piano della madia dai residui della pasta del pane."}
+{"parola": "RASOLETTO", "contesto": "Piccolo spiazzo di terreno."}
+{"parola": "RATTA", "contesto": "Rete, peritoneo del suino, con cui si fasciano i fegatelli da cuocere \"de lo spido\"."}
+{"parola": "RATTATUJA", "contesto": "Confusione, ressa."}
+{"parola": "RAZZICARELLA", "contesto": "Dispetti, ripicche, infantili."}
+{"parola": "RUSICARELLA", "contesto": "Dispetti, ripicche, infantili."}
+{"parola": "RECULE", "contesto": "Cade e non si recupera (usato, ad esempio, per gli alimenti ATTENTE CO' LA FARINA CHE RECULE)."}
+{"parola": "REGAZZO", "contesto": "Fidanzato."}
+{"parola": "REGAZZA", "contesto": "Fidanzata."}
+{"parola": "REGGIA", "contesto": "Reggere, prestare (te l'ajo dato a reggia = te l'ho solo prestato)."}
+{"parola": "REGGIA CECIO", "contesto": "Sinonimo di riservatezza, saper mantenere un segreto (nun reggi cecio = sei un chiacchierone)."}
+{"parola": "REGNA", "contesto": "Covone di grano."}
+{"parola": "RENTA'", "contesto": "Entrare (Rent\u00e0 rento = entrar dentro)."}
+{"parola": "RENDA'", "contesto": "Entrare (Rent\u00e0 rento = entrar dentro)."}
+{"parola": "REPARBASSE", "contesto": "Non osare, aver timore (v. AREPARBASSE)."}
+{"parola": "RIA", "contesto": "Ridere."}
+{"parola": "RICCOJA", "contesto": "Raccogliere, raccolta."}
+{"parola": "RICCOSSA", "contesto": "Raccogliere, raccolta."}
+{"parola": "RICHI\u00c8A", "contesto": "Controllare, ispezionare (specie i confini dei campi)."}
+{"parola": "RECHI\u00c8A", "contesto": "Controllare, ispezionare (specie i confini dei campi)."}
+{"parola": "RIECCO", "contesto": "Di nuovo."}
+{"parola": "ARIECCO", "contesto": "Di nuovo."}
+{"parola": "RIMPINICASSE", "contesto": "Arrampicarsi."}
+{"parola": "RINNACCIO", "contesto": "Rammendo, accia di filo."}
+{"parola": "RINVICIDA'", "contesto": "Resuscitare."}
+{"parola": "RINVICIDA'", "contesto": "Resuscitare."}
+{"parola": "RISPARAMBIO", "contesto": "Risparmio."}
+{"parola": "RIVOLO", "contesto": "Piccolo topo montano, tasso."}
+{"parola": "RIZZA'", "contesto": "Alzare, alzarsi dal letto."}
+{"parola": "RIZZASSE", "contesto": "Alzarsi (da terra, dal letto)."}
+{"parola": "RIZZITE", "contesto": "Alzati! (da terra, dal letto)."}
+{"parola": "ROCCHIO", "contesto": "Pezzo di carne, salsiccia; anche pezzo cilindrico di legno."}
+{"parola": "ROELLO", "contesto": "Prurito. Quando si manifesta in modo naturale (v. PRUZZA e SURCICO)."}
+{"parola": "ROMPAZZO", "contesto": "Grappolo d'uva (v. anche ONNASPO e RACICIO)."}
+{"parola": "RAMPAZZO", "contesto": "Grappolo d'uva (v. anche ONNASPO e RACICIO)."}
+{"parola": "RONCETTO", "contesto": "Roncoletta."}
+{"parola": "RONCIO", "contesto": "Roncola."}
+{"parola": "R\u00d4NNA", "contesto": "Grinta, cipiglio."}
+{"parola": "ROPPA", "contesto": "Rompere (nu ruppissi \u2026 = non rompere \u2026); v. anche SPASCIA'."}
+{"parola": "ROSCIO", "contesto": "Rosso."}
+{"parola": "ROSCIA", "contesto": "Rossa."}
+{"parola": "ROSORE", "contesto": "Irritazione cutanea che provoca prurito (ROELLO)."}
+{"parola": "ROSORICCHIO", "contesto": "Troppo cotto - di un soffritto bruciacchiato (leva la tigama, nu lo facissi rosoricchio = togli la padella, non farlo abbrustolire)."}
+{"parola": "ROSOLICCHIO", "contesto": "Troppo cotto - di un soffritto bruciacchiato (leva la tigama, nu lo facissi rosoricchio = togli la padella, non farlo abbrustolire)."}
+{"parola": "R\u00d4TTE", "contesto": "Grotta , grottaccia, antro, caverna."}
+{"parola": "ROTTEZZIA", "contesto": "Grotta , grottaccia, antro, caverna."}
+{"parola": "RUGHE", "contesto": "Processionarie."}
+{"parola": "RU\u00ccNA", "contesto": "Rovina."}
+{"parola": "R\u00dbJ", "contesto": "Rovi."}
+{"parola": "RUPI'", "contesto": "Aprire, aperto (rupette = apr\u00ec)."}
+{"parola": "RUPERTO", "contesto": "Aprire, aperto (rupette = apr\u00ec)."}
+{"parola": "RUSCINA", "contesto": "Persona sporca e trasandata (\"nun facissi la ruscina = cura un po' meglio te stessa\")."}
+{"parola": "RUSICA'", "contesto": "Rosicare, rodersi dall'invidia (v. RABBIA) - RUSICA! Usato nei confronti dell'invidioso. L\u2019imperativo viene accompagnato da un gesto con le unghie, passate avanti e indietro sui denti."}
+{"parola": "RUSICHINO", "contesto": "Parte cartilaginosa del prosciutto."}
+{"parola": "RUSPA'", "contesto": "Ripulire - Gioco di carte (andare a ruspo = cercare qualcosa rimasta dopo il raccolto)."}
+{"parola": "RUSPO", "contesto": "Ripulire - Gioco di carte (andare a ruspo = cercare qualcosa rimasta dopo il raccolto)."}
+{"parola": "RUZZA", "contesto": "Ruggine."}
+{"parola": "RUZZACCHIOTTO", "contesto": "Individuo un po' sempliciotto, ma soprattutto rozzo e greve."}
+{"parola": "RUZZOLA", "contesto": "Oggetto circolare."}
+{"parola": "SACCIO", "contesto": "So, conosco. Lo SAPARAJO? = Lo sapr\u00f2? - Vieni a dirlo a me?. (Saccio un unnio = so dov'\u00e8 un nido)."}
+{"parola": "SACCOCCIA", "contesto": "Tasca."}
+{"parola": "SACCUNI", "contesto": "Confraternita dei \u2026 (che in saio bianco trasportano la bara con il Cristo nella processione del venerd\u00ec santo)."}
+{"parola": "SAMPISTERNO", "contesto": "Santo di comodo, \"virtuale\", con cui prendersela nei momenti di rabbia (mannaggia sampisterno)."}
+{"parola": "SAPPA", "contesto": "Zappa, zappone."}
+{"parola": "SAPPONE", "contesto": "Zappa, zappone."}
+{"parola": "SARACA", "contesto": "Getto recente di rovo da more, tenero e commestibile."}
+{"parola": "SARAPOLLI", "contesto": "Variet\u00e0 di erba commestibile."}
+{"parola": "SARDAFOSSI", "contesto": "Geometra."}
+{"parola": "SARGE", "contesto": "Salice."}
+{"parola": "SARGIO", "contesto": "Salice."}
+{"parola": "SARTORE", "contesto": "Sarto."}
+{"parola": "SARTORA", "contesto": "Sarta."}
+{"parola": "SARVATICO", "contesto": "Selvatico."}
+{"parola": "SARVIETTA", "contesto": "Tovagliolo."}
+{"parola": "SASSICHETO", "contesto": "Strada o fondo sassoso."}
+{"parola": "SATOLLO", "contesto": "Sazio."}
+{"parola": "SBAJA'", "contesto": "Sbagliare."}
+{"parola": "SBATIZZA\u2019", "contesto": "Affannarsi a fare o cercare qualcosa."}
+{"parola": "SB\u00c9OLA'", "contesto": "Belare (anche di persona blaterante)."}
+{"parola": "SBILLICASSE", "contesto": "Sbellicarsi."}
+{"parola": "SBRILLOCCHI", "contesto": "Brillanti, gioielli (v. anche BRILLOCCHI)."}
+{"parola": "SBRILLUCCICA'", "contesto": "Brillare."}
+{"parola": "SBROCCARE", "contesto": "Andare fuori di testa."}
+{"parola": "SBUCA\u2019", "contesto": "Bucare, forare."}
+{"parola": "SBURRA'", "contesto": "Eiaculare."}
+{"parola": "SCAFARE", "contesto": "Togliere dai baccelli."}
+{"parola": "SCAFATO", "contesto": "S'\u00e8 fatto furbo."}
+{"parola": "SCAFI", "contesto": "Fave."}
+{"parola": "SCALLALETTO", "contesto": "Scaldaletto."}
+{"parola": "SCALLINO", "contesto": "Recipiente che contiene carboni accesi, per riscaldarsi."}
+{"parola": "SCALUNI", "contesto": "Gradini (li scaluni 'i'ddomo = i gradini del duomo)."}
+{"parola": "SCANGOSCIO", "contesto": "Cosa mal ridotta, sbilenca."}
+{"parola": "SCAPOCOLLO", "contesto": "Dirupo."}
+{"parola": "SCAPPA'", "contesto": "Uscire (luv\u00ec scapp'i'zzole= guarda un po', esce il sole)."}
+{"parola": "SCARVUJA\u2019", "contesto": "Scompigliare, sconvolgere (v. anche CARAVUJA')."}
+{"parola": "SCARCA' ILL'UNNII", "contesto": "Togliere i nidi."}
+{"parola": "SCARCIOFULI", "contesto": "Carciofi."}
+{"parola": "SCARCIOFULITTI", "contesto": "Carciofini."}
+{"parola": "SCARDAONE", "contesto": "Scarabeo."}
+{"parola": "SCARGIA", "contesto": "Scorza."}
+{"parola": "SCARTARELLA", "contesto": "Gioco che i ragazzi fanno con il pallone (uno contro tutti, in un dribbling continuo)."}
+{"parola": "SCASA'", "contesto": "Traslocare; anche mettere le dita nel naso."}
+{"parola": "SCATARRA\u2019", "contesto": "Espettorare."}
+{"parola": "SCEGNA", "contesto": "Scendere."}
+{"parola": "SCENTO", "contesto": "Sceso."}
+{"parola": "SCENTA", "contesto": "Discesa."}
+{"parola": "SCEPRO", "contesto": "Dispari (v. anche CEPRO)."}
+{"parola": "SC\u00c8SCITO", "contesto": "Disordine materiale."}
+{"parola": "SCHIFETTO", "contesto": "Recipiente piano con bordi, ricavato nel legno."}
+{"parola": "SCHIOPPO", "contesto": "Fucile."}
+{"parola": "SCIACCUJA'", "contesto": "Confondere (SCIACCUJA' i'ccapo = confondere la mente; SCIACCUJOTTO = confuso)."}
+{"parola": "SCIALA'", "contesto": "Godere, divertirsi, provare soddisfazione."}
+{"parola": "SCIALITO", "contesto": "Alimento oramai insipido, che ha perso la sapidit\u00e0 di cui una volta era ricco."}
+{"parola": "SCIALOJA", "contesto": "Godimento."}
+{"parola": "SCIALUGARE", "contesto": "Lasciare il nido, la casa per la prima volta (farsi grandi)."}
+{"parola": "SCIALUGHINO", "contesto": "Uccello al primo volo."}
+{"parola": "SCIAMPERLE", "contesto": "Ciabatte."}
+{"parola": "SCIASCIA", "contesto": "Variet\u00e0 di peperino vulcanico rosato, tipico dei territori del Cimino."}
+{"parola": "SCINICASSE", "contesto": "Faticare, stancarsi esageratamente (SCINICATO = sciancato, malfermo) (me so' scinicato pe' carrej\u00e0 le legna = mi sono sfinito per trasportare la legna)."}
+{"parola": "SCINTILENE", "contesto": "Lampada ad acetilene."}
+{"parola": "SCIOJA", "contesto": "Sciogliere (ji s\u2019\u00e8 sciord\u2019i\u2019ccorpo = ha avuto problemi intestinali)."}
+{"parola": "SCIOMMOLA'", "contesto": "Parziale prosciugarsi (di terreno, oggetti umidi)."}
+{"parola": "SCIMULA'", "contesto": "Parziale prosciugarsi (di terreno, oggetti umidi)."}
+{"parola": "SCIORNA", "contesto": "Persona estremamente trascurata."}
+{"parola": "SCIORTA", "contesto": "Diarrea."}
+{"parola": "SCIORDA", "contesto": "Diarrea."}
+{"parola": "SCIUTTASSE", "contesto": "Asciugarsi, es. ha patito la sciutta (di frutto disidratato, coltivato in un \"SECCARECCIO\")."}
+{"parola": "SCOCCODEJA\u2019", "contesto": "Parlare con insistenza, sguaiatamente."}
+{"parola": "SC\u00d4LA", "contesto": "Colapasta."}
+{"parola": "SCOLE ARDE", "contesto": "Scuole superiori."}
+{"parola": "SCONOCCHIATO", "contesto": "Dissestato (di cosa, mobile) (di persona : l'ajo sconocchiato = l'ho picchiato per bene)."}
+{"parola": "SCOPA", "contesto": "Ginestra dei carbonai (lat. cytisus scoparius)."}
+{"parola": "SCOPETO", "contesto": "Luogo invaso dalle ginestre dei carbonai."}
+{"parola": "SCOPPIA'", "contesto": "Battere (le mano = le mani)."}
+{"parola": "SCOPPOLARELLE", "contesto": "Tipo di susine (Le pornella scoppolarelle)."}
+{"parola": "SCORROMPISE", "contesto": "Guastarsi (col tempo)."}
+{"parola": "SCORZO", "contesto": "Scalzo (Ch'i'ppiej scurzi = A piedi scalzi)."}
+{"parola": "SCOTA", "contesto": "Scuotere. (Scutiva = Scuoteva)."}
+{"parola": "SCROCCHIO", "contesto": "Scroscio, rumore (es. m'hanno scrocchiato ill'ossa)."}
+{"parola": "SCRU\u00c8JO", "contesto": "Capriccioso, schifiltoso, stravagante."}
+{"parola": "SCUCCHIA", "contesto": "Mento prominente."}
+{"parola": "SCUJASSE", "contesto": "Sbellicarsi, sfiancarsi (me so' scujato p'i' rrja = mi sono sbellicato dalle risate; me so' scujato pe' pportallo su = mi sono sfiancato per portarlo su)"}
+{"parola": "SCURI", "contesto": "Sportelli di una finestra."}
+{"parola": "SCUROSO", "contesto": "Chi soffre il solletico (SURCICO)."}
+{"parola": "SCURREJA'", "contesto": "Fare venti, peti rumorosi."}
+{"parola": "SCUSCIATA", "contesto": "Chiassata."}
+{"parola": "SDEMOGNA", "contesto": "Disgelare."}
+{"parola": "SDEGNATO", "contesto": "Irritato, degenerato (es. trasformazione maligna di un foruncolo)."}
+{"parola": "SDILUNGASSE", "contesto": "Allungarsi, distendersi."}
+{"parola": "SDILUVIA", "contesto": "Piove abbondantemente."}
+{"parola": "SDIVIGNA'", "contesto": "Vendemmiare (anche VELEGNA')."}
+{"parola": "S\u00caA", "contesto": "Sedia, verbo sedere (es. mettise a sea = mettersi seduti)."}
+{"parola": "SECCARECCIA", "contesto": "Aridit\u00e0."}
+{"parola": "SECCARECCIO", "contesto": "Terreno arido."}
+{"parola": "SECCATORO", "contesto": "Essiccatoio."}
+{"parola": "SEDOIO", "contesto": "Sedile."}
+{"parola": "SEDITORE", "contesto": "Sedile."}
+{"parola": "SELLERO", "contesto": "Sedano. (Usato a volte nei confronti di una persona un po' imbranata)."}
+{"parola": "SEMENZA", "contesto": "Chiodino."}
+{"parola": "SENTO", "contesto": "Segnato (un punteggio, una nota, un goal)."}
+{"parola": "SENZALE", "contesto": "Mediatore; organizzatore di incontri d\u2019affari."}
+{"parola": "SERTA", "contesto": "Ghirlanda, serto (detto di agli e cipolle)."}
+{"parola": "SETOLA", "contesto": "Crine guida o pilota, utilizzato dal calzolaio per trascinare lo spago nei fori della tomaia."}
+{"parola": "S\u00c9RVA", "contesto": "Selva."}
+{"parola": "SFRAGNA", "contesto": "Spremere, schiacciare."}
+{"parola": "SFRATAZZO", "contesto": "Frattazzo, grande spatola per intonaci (v. anche AMERICANA)."}
+{"parola": "SFRIZZOLI", "contesto": "Ciccioli."}
+{"parola": "SFRICCIOLI", "contesto": "Ciccioli."}
+{"parola": "FRICCIULI", "contesto": "Ciccioli."}
+{"parola": "SGANASSUNI", "contesto": "Colpi dati in faccia."}
+{"parola": "SGNOLA'", "contesto": "Miagolare (anche GNAOLA')."}
+{"parola": "SGOMMARELLO", "contesto": "Mestolo (v. MESCOLA)."}
+{"parola": "SGRACIOLATURA", "contesto": "Scorticatura, abrasione."}
+{"parola": "SGRAMAJI", "contesto": "Ricami, decorazioni."}
+{"parola": "SGRAVA'", "contesto": "Partorire."}
+{"parola": "SGRIGNATA", "contesto": "Raggio di sole che fa capolino dalle nuvole."}
+{"parola": "SGUILLA'", "contesto": "Slittare."}
+{"parola": "SGUINCIO", "contesto": "Obliquo, (l\u2019ajo preso de sguincio = l\u2019ho colpito di striscio)."}
+{"parola": "SGUINCIUNI", "contesto": "Scroscio, obliquo, di pioggia."}
+{"parola": "SI FREGATO...", "contesto": "Che ti prenda..."}
+{"parola": "SI MMAI CHE SI\u2019", "contesto": "Nel caso che, caso mai."}
+{"parola": "SI SI\u2019 BBONO COMMATTICE TU", "contesto": "Se sei capace fallo tu."}
+{"parola": "SI TANT'E'", "contesto": "Se \u00e8 cos\u00ec."}
+{"parola": "SI TANT'ENE", "contesto": "tant'\u00e8."}
+{"parola": "SIMIA", "contesto": "Scimmia."}
+{"parola": "SIMINA", "contesto": "Semina."}
+{"parola": "SINALE", "contesto": "Grembiule domestico (v. anche ZINALE)."}
+{"parola": "SINALONE", "contesto": "Grembiule scolastico (v. anche ZINALONE)."}
+{"parola": "SINDINELLA", "contesto": "Sentinella, controllore (st\u00ec de sindinella? = vigili?)."}
+{"parola": "SITO", "contesto": "Luogo."}
+{"parola": "SLECIO", "contesto": "Insignificante, insipido (v. LIECIO)."}
+{"parola": "SMANEJA'", "contesto": "Rimestare, maneggiare (v. anche SMUCINA')."}
+{"parola": "SMARINO", "contesto": "Rosmarino."}
+{"parola": "SMETTA", "contesto": "Smettere."}
+{"parola": "SMICCIA'", "contesto": "Sbirciare, adocchiare."}
+{"parola": "SMONNOLA\u2019", "contesto": "Pulire (col monnolo) i vecchi forni a legna."}
+{"parola": "SMUCINA'", "contesto": "Rovistare (anche AREFUCINA' o AREMUCINA')."}
+{"parola": "SOATTA", "contesto": "Colpo molto forte e veloce (es. diretto di un pugile; tiro di un calciatore)."}
+{"parola": "SOCCIO", "contesto": "Contadino (alle dipendenze) - v. anche VILLANO."}
+{"parola": "SOFFREO", "contesto": "Avanzo, rimasuglio."}
+{"parola": "SOMA", "contesto": "Carico (di un asino)."}
+{"parola": "SORCA 'NTENTA", "contesto": "Impomatato, unto."}
+{"parola": "SORRAGA", "contesto": "Aringa."}
+{"parola": "SORVA", "contesto": "Frutto. B\u00f2tte (va' vija sinn\u00f2 so' sorva = vattene altrimenti le prendi)."}
+{"parola": "SPANACCA'", "contesto": "Schiaffeggiare (dare le PANACCHE)."}
+{"parola": "SPANNA", "contesto": "Spandere."}
+{"parola": "SPASO", "contesto": "sparso."}
+{"parola": "SPANNULI'", "contesto": "Sbadigliare."}
+{"parola": "SPARAMBIO", "contesto": "Risparmio."}
+{"parola": "SPARAGNO", "contesto": "Risparmio."}
+{"parola": "SPARGIO", "contesto": "Asparago."}
+{"parola": "SPARRUCA'", "contesto": "Disperdere, mettere fuori posto (chi ammontona e chi sparruca = chi risparmia e chi sperpera)."}
+{"parola": "SPARTA", "contesto": "Dividere. (Se spartiscino = Si dividono)."}
+{"parola": "SPASCIA'", "contesto": "Sfasciare, rompere; v. anche ROPPA."}
+{"parola": "SPEGNA", "contesto": "Spingere."}
+{"parola": "SPENTO", "contesto": "Spinto."}
+{"parola": "SP\u00c8NNA", "contesto": "Spendere (v. anche SPRAGNA)."}
+{"parola": "SPERDIA\u2019", "contesto": "Bestemmiare."}
+{"parola": "SPIANATORA", "contesto": "Tavola per lavorare la pasta."}
+{"parola": "SPICCIASTALLE", "contesto": "Veterinario."}
+{"parola": "SPICCICHERA'", "contesto": "Grandinare."}
+{"parola": "SPICIOCCA'", "contesto": "Staccare (es. i \"pummiduritti a boccolo\", conservati per l'inverno)."}
+{"parola": "SPINICASSE", "contesto": "Sporgersi."}
+{"parola": "SPINICO", "contesto": "Altalena."}
+{"parola": "SPINOSA", "contesto": "Istrice."}
+{"parola": "SPITO", "contesto": "Spiedo."}
+{"parola": "SPIDO", "contesto": "Spiedo."}
+{"parola": "SPONNA\u2019", "contesto": "Sfondare."}
+{"parola": "SPONNATO", "contesto": "Sfondato \u2013 molto fortunato."}
+{"parola": "SPORDO", "contesto": "Spogliato, nudo."}
+{"parola": "SPORDO", "contesto": "Si \u00e8 tolto l'abito talare."}
+{"parola": "SPRAGNA", "contesto": "Spendere (v. anche SPENNA)."}
+{"parola": "SPULINA'", "contesto": "Ripulire l'arredo (riferito soprattuto alle pulizie straordinarie di Pasqua), vincere al gioco (es. l'ajo spulinato)."}
+{"parola": "SPUNGICA'", "contesto": "Pungere, punzecchiare."}
+{"parola": "SPUNTA", "contesto": "E\u2019 inacidito (tipico del vino che prende aria), ma rivolto anche a qualche zitella particolarmente acida."}
+{"parola": "SPURTUNA", "contesto": "Sfortuna (so' SPURTUNATO comm'i'ccani dill'acchiesa = ho la stessa fortuna dei cani che entrano in chiesa)."}
+{"parola": "SQUIZZAMUSO", "contesto": "Tagliolini in brodo."}
+{"parola": "SQUIZZARELLO", "contesto": "Gioco che facevano i ragazzi tirandosi l'acqua."}
+{"parola": "STACCI\u00dbNI", "contesto": "Residui della lavorazione della canapa o di altri vegetali."}
+{"parola": "STAFFA", "contesto": "Attrezzo del calzolaio, utilizzato per poggiare le calzature da confezionare."}
+{"parola": "STAGNARO", "contesto": "Idraulico."}
+{"parola": "STAGNINO", "contesto": "Idraulico."}
+{"parola": "STEGNA", "contesto": "Spegnere (es. Stingi i'llume st\u00ec! = Spegni quel lume!)."}
+{"parola": "STENTO", "contesto": "Spento (es. Stingi i'llume st\u00ec! = Spegni quel lume!)."}
+{"parola": "ST\u00c9NA", "contesto": "Steccato."}
+{"parola": "STENNA", "contesto": "Stendere (me fai stenna le zampe = mi farai morire)."}
+{"parola": "STIGNA'", "contesto": "Togliere (un vizio, una cattiva abitudine) es. t'ajo da stign\u00e0."}
+{"parola": "STILOSO", "contesto": "Di bella fattezza, sportivo (che machina stilosa\u2026 = che auto sportiva\u2026)"}
+{"parola": "STORZA'", "contesto": "Balzare, trasalire (M'ai fatto storz\u00e0 = Mi hai fatto sobbalzare dalla paura)."}
+{"parola": "STORZO", "contesto": "Scatto, sobbalzo"}
+{"parola": "STRACCALI", "contesto": "Bretelle."}
+{"parola": "STRACCASSE", "contesto": "Stancarsi."}
+{"parola": "STRACCO", "contesto": "Stanco."}
+{"parola": "STRAGNERO", "contesto": "Straniero."}
+{"parola": "STRASCINA'", "contesto": "Trascinare."}
+{"parola": "STRASCINUNI", "contesto": "Trascinandosi (anche A STRASCINO = Al traino)."}
+{"parola": "STREGNA", "contesto": "Stringere."}
+{"parola": "STRIFOLACCIA", "contesto": "Strofinaccio da cucina."}
+{"parola": "STRIPPASORRAGHE", "contesto": "Secco, estremamente magro."}
+{"parola": "STRIULO", "contesto": "Strigolo (Silene inflata); erba spontanea primaverile, dal sapore simile agli spinaci."}
+{"parola": "STRIVOLO", "contesto": "Strigolo (Silene inflata); erba spontanea primaverile, dal sapore simile agli spinaci."}
+{"parola": "STROLIGO", "contesto": "Indovino."}
+{"parola": "STROLICO", "contesto": "Astrologo."}
+{"parola": "STROZZAPRETI", "contesto": "Tipo di pasta fatta in casa."}
+{"parola": "STRUFFAJE", "contesto": "Impicci, cose superflue o inutili (v. anche GHIACCULI e ZARAVATTULI)."}
+{"parola": "STRUFOLI", "contesto": "Dolce tipico del carnevale simile alle castagnole."}
+{"parola": "STRUPPIO", "contesto": "Storpio."}
+{"parola": "STUCCATO", "contesto": "Spezzato, staccato."}
+{"parola": "STUCCO", "contesto": "Sinonimo di approssimazione (facemo a stucco = facciamo a occhio)."}
+{"parola": "STURA'", "contesto": "Accendere (i ffurminanti), stappare (i' llavandino)."}
+{"parola": "STUTERA'", "contesto": "Togliere i tuteri del mais dalle foglie che li avvolgono."}
+{"parola": "SUNE", "contesto": "Su (veni sune? = sali?)."}
+{"parola": "SUBBIA", "contesto": "Attrezzo arcuato usato dal calzolaio per forare la suola."}
+{"parola": "SUCCHIO", "contesto": "Variet\u00e0 arbustiva di acero campestre."}
+{"parola": "SUDDIZIONE", "contesto": "Soggezione"}
+{"parola": "SUGAMELLI", "contesto": "Fiori, tipo campanule, che venivano succhiati."}
+{"parola": "SUGA'", "contesto": "Succhiare."}
+{"parola": "SUGACICHE", "contesto": "Fumatore esasperato che, aiutandosi con uno spillo, fumava fino a scottarsi le labbra."}
+{"parola": "SUGAETO", "contesto": "Bambino che si ciuccia il dito."}
+{"parola": "SUGASUBBIE", "contesto": "Secco, allampanato, che \"SUGA\" le \"SUBBIE\"."}
+{"parola": "SULI", "contesto": "Soli (s. Solo) (ERIMA dui suli - Eravamo solamente in due)."}
+{"parola": "SULINA", "contesto": "(alla _)  Al sole. (I vvecchi a piazza stanno alla sulina = I vecchi in piazza si mettono al sole)."}
+{"parola": "SUPPELLI'", "contesto": "Su per di l\u00ec."}
+{"parola": "SUPPECCHI'", "contesto": "su per di qua ."}
+{"parola": "SUPPESTI'", "contesto": "Lass\u00f9."}
+{"parola": "SURCICO", "contesto": "Solletico provocato (fare il SURCICO = fare il solletico)"}
+{"parola": "SURIANO", "contesto": "Soriano."}
+{"parola": "SUSTACCHINA", "contesto": "Travetto di legno."}
+{"parola": "SUTRINA", "contesto": "Frittella con acqua e farina."}
+{"parola": "SVERDO COMME LA PORVERE", "contesto": "Veloce mentalmente, intiutivo."}
+{"parola": "SVORCHIA'", "contesto": "Togliere le nocciole dalla parte verde che le avvolge (v. VORCHIO)."}
+{"parola": "TACCHIA", "contesto": "Pezzetti di legno per accendere il fuoco (vedi anche APPICCIUME)."}
+{"parola": "TACCHIETTA", "contesto": "Pezzetti di legno per accendere il fuoco (vedi anche APPICCIUME)."}
+{"parola": "TADD\u00c8O", "contesto": "Te Deum."}
+{"parola": "TARROCCA'", "contesto": "Rimproverare."}
+{"parola": "TASTA", "contesto": "Spicchio per la verifica della maturita dell'anguria."}
+{"parola": "TATA", "contesto": "Padre, pap\u00e0 (v. anche PATE)."}
+{"parola": "TE POZZA PIJA' 'N TRONO/GORBO!", "contesto": "Che ti prenda un colpo!"}
+{"parola": "TEMPERANZA", "contesto": "Conseguenza di una pioggia eccessiva (es. osservando una sorgente intorbidita \"ha fatto temperanza\")."}
+{"parola": "TENE' CONTO", "contesto": "Considerare."}
+{"parola": "TERRA PIANO", "contesto": "Piano terra (sto accasato a terra piano = abito a pian terreno)."}
+{"parola": "TERZILE", "contesto": "Telo dove si appoggiavano le pagnotte pronte per essere cotte; era anche usato per tenere separati i pani."}
+{"parola": "T\u00c9STO", "contesto": "Questo."}
+{"parola": "T\u00c9STO STI'", "contesto": "Questo qui."}
+{"parola": "TISTI", "contesto": "Questi."}
+{"parola": "TI\u00c8LLA", "contesto": "Teglia."}
+{"parola": "TIGAMA", "contesto": "Tegame."}
+{"parola": "TIGNA", "contesto": "Tenacia, insistenza, testardaggine."}
+{"parola": "TIGNOSO", "contesto": "Caparbio, cocciuto."}
+{"parola": "TINGOLO (1-2-3)", "contesto": "Filastrocca dei bambini che giocavano a 'NGUATTARELLA."}
+{"parola": "TIPPE TOPPE", "contesto": "Toppa gommosa utilizzata per riparare le camere d'aria delle biciclette."}
+{"parola": "TISTIMOGNO", "contesto": "Testimonio."}
+{"parola": "T\u00cdTOLO", "contesto": "Bambino."}
+{"parola": "TOA'", "contesto": "Piegare (nun me pozzo to\u00e0 = non posso piegarmi)."}
+{"parola": "TOASSE", "contesto": "Piegarsi (nun me pozzo to\u00e0 = non posso piegarmi)."}
+{"parola": "TOCCA", "contesto": "Bisogna."}
+{"parola": "TOCCIO", "contesto": "Collo della bottiglia."}
+{"parola": "TORSO", "contesto": "Stupido, ingenuo."}
+{"parola": "TOTERO", "contesto": "Totolo (interno della pannocchia)."}
+{"parola": "TOTOLA'", "contesto": "Brontolare."}
+{"parola": "TOTOLONE", "contesto": "Brontolone."}
+{"parola": "TRABBACCHINO", "contesto": "Baldacchino."}
+{"parola": "TRAFUGO", "contesto": "(DE _) Di nascosto."}
+{"parola": "TRAVAJO", "contesto": "Lavoro."}
+{"parola": "TRICCHE E TRACCHE", "contesto": "Tavola in legno con due perni metallici che veniva utilizzata dal venerd\u00ec Santo alla Pasqua di Resurrezione. Sostituiva il suono delle campane, per definizione \"legate\". Un esemplare \u00e8 ancora conservato nella Chiesa di S. Agostino."}
+{"parola": "TRINCETTO", "contesto": "Lungo coltello del calzolaio."}
+{"parola": "TRIPPITINO", "contesto": "Piccolo tre-piedi."}
+{"parola": "TRISTO", "contesto": "Cattivo, v. anche PRO\u00ccBITO (Accitefa quanto s\u00ec tristo = perbacco quanto sei cattivo) ."}
+{"parola": "TROCCOLO", "contesto": "Recipiente, ricavato da un tronco d'albero, dove si versa il cibo dei maiali (v. PILOZZA)."}
+{"parola": "TROJA", "contesto": "Scrofa."}
+{"parola": "TROMBA\u2019", "contesto": "Fare sesso."}
+{"parola": "TRONA'", "contesto": "Tuonare."}
+{"parola": "TRONO", "contesto": "Tuono."}
+{"parola": "TROSCIA", "contesto": "Sbocco d'acqua verso il basso."}
+{"parola": "TROVA' LOCO", "contesto": "Tranquillizzarsi (nun trova loco i'ffijo st\u00ec = quel bambino \u00e8 molto irrequieto)."}
+{"parola": "TROVO", "contesto": "Trovato (l\u2019ajo trovo io = l\u2019ho trovato io)."}
+{"parola": "TRUZZOLA'", "contesto": "Ruzzolare."}
+{"parola": "TRUZZOLARE", "contesto": "Ruzzolare."}
+{"parola": "TUCINO", "contesto": "Beccuccio della brocca per l'acqua."}
+{"parola": "TU'MMEZZO", "contesto": "Nel mezzo."}
+{"parola": "DU'MMEZZO", "contesto": "Nel mezzo."}
+{"parola": "TURVIO", "contesto": "Torbido."}
+{"parola": "TUSSI'", "contesto": "(CUSSI') Cos\u00ec, in questo modo (anche ACCUSSI' - ATTUSSI')."}
+{"parola": "UA", "contesto": "Uva."}
+{"parola": "UFFA", "contesto": "Esclamazione annoiata."}
+{"parola": "UMPICCIONE", "contesto": "Ombelico (v. anche OMPICCIONE)."}
+{"parola": "UNCENZO", "contesto": "Cipresso."}
+{"parola": "UNNICE", "contesto": "Nido ove depone la gallina."}
+{"parola": "UNN\u00ccO", "contesto": "Nido (d'uccello, d'animale di piccola taglia)."}
+{"parola": "URDIMO", "contesto": "Ultimo (l'ultima viene detto\u2026 \"la l'urdima\")."}
+{"parola": "URZA", "contesto": "Ronzio."}
+{"parola": "URZINO", "contesto": "Ronzino."}
+{"parola": "VACCARECCIA", "contesto": "Zona adibita all'allevamento dei bovini."}
+{"parola": "VACCHITELLA", "contesto": "Vitella."}
+{"parola": "VACCIO", "contesto": "Gozzo (la gallina 'ngorda j'\u00e8 crepato i'vvaccio = alla gallina ingorda \u00e8 scoppiato il gozzo)."}
+{"parola": "VAGO", "contesto": "Chicco (d'uva), al plurale pu\u00f2 anche indicare dei colpi (j'ajo dato du vaga = gli ho dato due colpi)."}
+{"parola": "VAJATA", "contesto": "Russola (fungo)."}
+{"parola": "VAJO", "contesto": "Vado (1^ pers. sing. - ind. pres. - verbo andare)."}
+{"parola": "VELEGNA'", "contesto": "Vendemmiare (v. anche SDIVIGNA')"}
+{"parola": "V\u00c8NE", "contesto": "Venire, andare, aver voglia (nun me ne v\u00e8ne = non mi va)."}
+{"parola": "VENNA", "contesto": "Vendere."}
+{"parola": "VENNE", "contesto": "Vendere."}
+{"parola": "VERTE", "contesto": "Bisaccia da spalla o basto leggero."}
+{"parola": "VESC\u00d3O", "contesto": "Vescovo."}
+{"parola": "VETTINA", "contesto": "Recipiente per olio (v. anche BITTINA)."}
+{"parola": "VIARELLA", "contesto": "Stradella di campagna, sentiero."}
+{"parola": "VIA ROMANA", "contesto": "Strada maestra (nome comune)."}
+{"parola": "VICCHI\u00dbNI", "contesto": "Vecchioni. Ma soprattutto per indicare il loro ricovero: gerontocomio)."}
+{"parola": "VILLAMPORCO", "contesto": "Villano."}
+{"parola": "VILLAMBORCO", "contesto": "Maleducato."}
+{"parola": "VILLANO", "contesto": "Contadino (in proprio) \u2013 v. anche SOCCIO."}
+{"parola": "VINI'", "contesto": "Venire."}
+{"parola": "VENETTE", "contesto": "Venne (Venette fatta = Riusc\u00ec)."}
+{"parola": "VINTURLO", "contesto": "Turbine."}
+{"parola": "VENTURLO", "contesto": "Turbine."}
+{"parola": "VITABBIA", "contesto": "Vitalba. Pianta. I piccoli rami secchi venivano fumati."}
+{"parola": "VOJA", "contesto": "Voglia."}
+{"parola": "VOJOLA", "contesto": "Caldarrosta."}
+{"parola": "VORCHIO", "contesto": "Parte verde che avvolge il guscio delle nocciole."}
+{"parola": "VORICA", "contesto": "Fossa a grosso invaso per raccogliere l'acqua da irrigazione."}
+{"parola": "VORIGA", "contesto": "Fossa a grosso invaso per raccogliere l'acqua da irrigazione."}
+{"parola": "ZACCO", "contesto": "Sacco, molto (me piaci 'n zacco = mi piaci molto)."}
+{"parola": "ZAMPITALICCHIO", "contesto": "Grillo."}
+{"parola": "ZAPPASTRELLO", "contesto": "Zappa a due denti, corti e non appuntiti."}
+{"parola": "ZAPPASTRO", "contesto": "Zappa a due denti, lunghi e appuntiti."}
+{"parola": "ZAPPITELLO", "contesto": "Zappa a lama corta stretta per lavori superficiali."}
+{"parola": "ZAPPONE", "contesto": "Grande zappa con manico poco rifinito per lavori profondi (Si jerto comm'i'mmanico di'zzappone = Sei grossolano come il manico della zappa)."}
+{"parola": "ZARAVATTULI", "contesto": "Impicci (v. anche GHIACCULI e STRUFFAJE)."}
+{"parola": "ZASSO", "contesto": "Sasso (i'zass 'a culetta = il sasso della cunetta: grosso masso sito in via Montecavallo)."}
+{"parola": "ZELLA", "contesto": "Sporcizia, sudiciume; anche malasorte (m'ha ditto zella oppure m'ha ditto petalino = sono stato sfortunato)."}
+{"parola": "ZINALE", "contesto": "Grembiule domestico (v. anche SINALE)."}
+{"parola": "ZINALONE", "contesto": "Grembiule scolastico (v. anche SINALONE)."}
+{"parola": "ZINDIMENDO", "contesto": "Sentimento (me so' fatto pij\u00e0 d'i'zindimendo = mi sono lasciato prendere dall'emozione)."}
+{"parola": "ZINNA", "contesto": "Mammella."}
+{"parola": "ZIRO", "contesto": "Recipiente per bucato con cenere e lasciva (Si llercio comm'i'llorlo i'zziro = Sei sporco come la cenere rappresa sul bordo del recipiente)."}
+{"parola": "ZOMPA'", "contesto": "Saltare (Nu'zzompassi = Non saltare)."}
+{"parola": "ZUCCAROTTO", "contesto": "Zuccone (v. anche CAPOCCIONE)."}
 ```
 
 POESIE/RACCONTI:
