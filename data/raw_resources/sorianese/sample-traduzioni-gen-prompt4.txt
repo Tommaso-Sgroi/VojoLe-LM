@@ -1,0 +1,62 @@
+TESTO:
+{"parola": "PARA", "contesto": "Piccola diga (para de patalocco)."}
+{"parola": "RONCIO", "contesto": "Roncola."}
+{"parola": "ZAPPONE", "contesto": "Grande zappa con manico poco rifinito per lavori profondi (Si jerto comm'i'mmanico di'zzappone = Sei grossolano come il manico della zappa)."}
+{"parola": "TROVO", "contesto": "Trovato (l\u2019ajo trovo io = l\u2019ho trovato io)."}
+{"parola": "GNESPOLI - GNESPULI", "contesto": "Nespole."}
+
+TRADUZIONE - GPT 4.1 mini:
+{
+    "traduzione":{
+        { "sorianese": "Ajo trovo 'na para pe' la roncio e uzzà lu zappone."},
+        { "italiano": "Ho trovato una piccola diga per la roncola e usare la grande zappa."}
+    }
+}
+
+TESTO:
+{"parola": "ANGUMINGIA", "contesto": "Comincia, inizia."}
+{"parola": "AREMUCINA' - ARIMUCINA'", "contesto": "Rovistare, cercare, rimuginare. (anche AREFUCINA' o SMUCINA')."}
+{"parola": "SPANNA - SPASO", "contesto": "Spandere - sparso."}
+{"parola": "GALITTI", "contesto": "Garretti, caviglie (L'ajo preso p'i'ggalitti = L'ho preso per le caviglie)."}
+{"parola": "RANCURICCHIASSE", "contesto": "Piegarsi, farsi piccolo (v. ANCURICCHIASSE o RINGURICCHIASSE)."}
+
+TRADUZIONE - GPT 4.1 mini:
+
+{
+    "traduzione":{
+        { "sorianese": "Quanno angumingia la jurnata, arimucina' tra le cose che spanno spaso finte. Me so preso proprio p'i' galitti e m'aggiangio rancuricchiasse."},
+        { "italiano": "Quando comincia la giornata, cerco tra le cose sparse ovunque. Mi sono preso proprio per le caviglie e mi sto piegando."}
+    }
+}
+
+TESTO:
+{"parola": "SULI", "contesto": "Soli (s. Solo) (ERIMA dui suli - Eravamo solamente in due)."}
+{"parola": "CICAROLO", "contesto": "Colui che raccoglie le cicche (di sigaretta) gettate."}
+{"parola": "CETRUNI", "contesto": "Cetrioli."}
+{"parola": "ERGE", "contesto": "Elce (pianta) - (Sott'i'llerge de Sant'Utizzio = Sotto l'elce di Sant'Eutizio)."}
+{"parola": "BONA MORTE", "contesto": "Confraternita religiosa in saio nero."}
+
+TRADUZIONE - GPT 4.1 mini:
+{
+    "traduzione":{
+        { "sorianese": "Semo soli, jè sceso 'u cicarolo cu 'i cetruni sott'i'llerge, vicino a Bona Morte."},
+        { "italiano": "Siamo soli, è arrivato il raccoglitore di cicche con i cetrioli sotto le elci, vicino alla Confraternita religiosa in saio nero."}
+    }
+}
+
+TESTO:
+{"parola": "BRONZETTO", "contesto": "Piccolo mastello in legno di forma ellittica con manico, utilizzato in genere per l'asporto di vino dai tini."}
+{"parola": "ARBOLETO", "contesto": "Arboreto."}
+{"parola": "CRATASTA", "contesto": "Catasta."}
+{"parola": "FINI'", "contesto": "Finire (Finiscette = Fin\u00ec)."}
+{"parola": "SDILUNGASSE", "contesto": "Allungarsi, distendersi."}
+
+TRADUZIONE - GPT 4.1 mini:
+{
+    "traduzione":{
+        { "sorianese": "Dopu lu lavoru, finiscette 'na cratasta d'arboreto e lu bronzetto 'mmano, poi m'arricurdai de sdilungasse ppi piungì."},
+        { "italiano": "Dopo il lavoro, finii una catasta di arboreto e il piccolo mastello in mano, poi mi ricordai di distendermi per riposare."}
+    }
+}
+
+

@@ -3,7 +3,12 @@
 > Per ciascuna frase, restituisci **unicamente** un oggetto JSON con questa struttura:
 >
 > ```json
-> {"translation": "testo tradotto qui"}
+{
+    "traduzione":{
+        { "sorianese": "testo in sorianese"},
+        { "italiano": "testo in italiano"}
+    }
+}
 > ```
 >
 > ### Regole da seguire con assoluta precisione:
@@ -22,24 +27,20 @@
 >
 > - Input:
 > ```
-> I cookie sono piccole porzioni di dati che vengono memorizzate e utilizzate per migliorare l’esperienza di utilizzo di un sito.
-> Ad esempio possono ricordare temporaneamente le tue preferenze di navigazione per evitarti di selezionare tutte le volte la lingua, rendendo quindi le visite successive più comode e intuitive.
-> Oppure possono servire per fare dei “sondaggi anonimi” su come gli utenti navigano attraverso il sito, in modo da poterlo poi migliorare partendo da dati reali.
-> Se si desidera disabilitare l’uso dei cookie è necessario personalizzare le impostazioni del proprio computer impostando la cancellazione di tutti i cookie o attivando un messaggio di avviso quando i cookie vengono memorizzati. Per procedere senza modificare l’applicazione dei cookie è sufficiente continuare con la navigazione.
-> I cookie sono dati salvati in forma testuale nella forma “variabile=valore” (esempio: “dataAccessoSito=2014-01-20,14:23:15″). Questi dati possono essere letti solamente dal sito che li ha generati, e in molti casi hanno una data di scadenza, oltre la quale il browser li cancellerà automaticamente.
-> Non tutti i cookie vengono utilizzati per lo stesso scopo: di seguito verranno specificate le diverse tipologie di cookie utilizzati da questo sito web.
-> Questi cookie sono essenziali al fine di consentire di spostarsi in tutto il sito ed utilizzare a pieno le sue caratteristiche. Senza questi cookie alcuni servizi non potranno funzionare correttamente.
-> Questi cookie raccolgono informazioni su come gli utenti utilizzano un sito web, ma non memorizzano informazioni che identificano un visitatore. Questi cookie vengono utilizzati solo per migliorare il funzionamento del sito web.
-> Utilizzando il sito l’utente accetta che tali cookie possono essere memorizzati sul proprio dispositivo.
-> I cookie consentono al sito di ricordare le scelte fatte dall’utente (come la lingua o altre impostazioni speciali eventualmente disponibili) e forniscono funzionalità avanzate personalizzate, e possono anche essere utilizzati per fornire i servizi richiesti. Utilizzando il sito l’utente accetta che tali cookie possono essere memorizzati sul proprio dispositivo.
-> Il consenso per l’utilizzo dei vari cookie tecnici elencati s’intende accordato anche in modo implicito se l’utente prosegue la sua navigazione su questo sito web come anche i cookie di statistica.
-> La maggior parte dei browser accetta automaticamente i cookie, ma l’utente può modificare le impostazioni per disabilitare tale funzione. È possibile bloccare tutte le tipologie di cookie, oppure accettare di riceverne soltanto alcuni e disabilitarne altri. La sezione “Opzioni” o “Preferenze” nel menu del browser permettono di evitare di ricevere cookie o altre tecnologie di tracciamento utente e come ottenere notifica dal browser dell’attivazione di queste tecnologie.
-> Ricordiamo però che la disabilitazione dei cookie tecnici potrebbe limitare la possibilità di usare questo sito web e impedire di beneficiare in pieno delle funzionalità e dei servizi presenti.
-> Provvedimento del Garante per la Privacy dell’8 maggio 2014, pubblicato sulla Gazzetta Ufficiale n. 126 del 3 giugno consultabile all’indirizzo: www.garanteprivacy.it
-> ```
+{"parola": "LUCCICA - LUCCICHETTA", "contesto": "Lucciola."}
+{"parola": "CHJ\u00c8LLI", "contesto": "Nessuno ('n c'\u00e8 chjelli = non c'\u00e8 nessuno)."}
+{"parola": "ZASSO", "contesto": "Sasso (i'zass 'a culetta = il sasso della cunetta: grosso masso sito in via Montecavallo)."}
+{"parola": "CAMPA\u2019", "contesto": "Vivere."}
+{"parola": "LAPPEDOGNA", "contesto": "Emozione, paura, debolezza (v. anche PATUNIA)."}
+```
 > - Output:
 > ```json
-> {"translation": "I cookie so' piccole porzioni de dati che s'arimano e s'usanno pe' fà mejo l'esperienza de usà 'n sito. Pe' esempio, ponno aricordà pe' 'n po' le preferenze tue de navigà, evitanno de scegne ogni vorda la lingua, facenno le visite appresso più comode. O pure ponno servì pe' fà 'domande senza nomi' su comme la ggente naviga, pe' migliurà 'sto sito partenno da dati veri. Si te vole disabbilità l'uso de li cookie, te tocca personalizzà le impostazioni d'u computer tojo, mettenno de scancellà tutti li cookie o attivà 'n messaggio quanno se mettono. Pe' seguità senza cangià nente, basta seguità a navigà. Li cookie so' dati salvati in forma testuale comme 'variabbile=valore' (tipo 'dataAccessoSito=2014-01-20,14:23:15'). Ste dati ponno leggerli solo 'sto sito che l'ha fatti, e spesso c'hanno 'na data de scadenza, doppo che 'l browser li scancella da sé. Nun tutti li cookie servono pe' lo stesso scopo: ccqua sotto se spiegano le varie sorte. Sti cookie so' necessari pe' poté navigà dappertutto e usà tutte le funzioni. Senza, certi servizi nun fonzionano. Sti cookie ariccojono info su comme la ggente usa 'sto sito, ma nun registrano nomi. Serveno solo pe' migliurà 'l sito. Usannolo, l'utente accetta che ste cookie se mettino. Li cookie permettono ar sito de aricordà le scelte tue (lingua o impostazioni) e danno funzioni personalizzate. Usannolo, l'utente accetta. 'U consenso pe' li cookie tecnici se dà automatico si te seguiti a navigà, pure pe' quelli de statistica. A majjà parte de li browser accetta li cookie da sé, ma te poi cangià le impostazioni pe' disabbilitalli. Te blocchi tutti o solo certi. Nelle 'opzioni' o 'preferenze' d'u browser trovi comme fà. Ma attento: disabbilità li cookie tecnici te po' limità l'uso d'sto sito e nun te lassa godé tutte le funzioni. Provvedimento d'u Garante pe' la Privacy d'u 8 maggio 2014, pubbrecato sulla Gazzetta Ufficiale n. 126 d'u 3 giugno, leggetelo a 'www.garanteprivacy.it'."}
+{
+    "traduzione":{
+        { "sorianese": "N'c'era chjèlli, sulo 'na luccichetta che luccicava supra 'i zasso, e io, cu' 'na lappedogna rento, cercavo 'i campa'."},
+        { "italiano": "La non c'era nessuno, solo una lucciola che brillava sopra il sasso, e io, con un'emozione dentro, cercavo di vivere."}
+    }
+}
 > ```
 
 DIZIONARIO:
