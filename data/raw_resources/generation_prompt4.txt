@@ -18,7 +18,25 @@
 > 4. **Rispondi esclusivamente con l'oggetto JSON** avente la sola chiave `"translation"`.
 > 5. Se una parola non è presente nel dizionario, cerca di parafrasarla (o usare sinonimi) usando termini **documentati** negli esempi testuali.
 > 6. Modifica la forma della frase se necessario, per adattarla alla sintassi e alla morfologia della lingua in questione.
->
+> 7. Non usare parole da altri dialetti se non unicamente quello della Tuscia
+> 8. attieniti a queste indicazioni sui dialetti della Tuscia:
+```
+I dialetti hanno alcune caratteristiche peculiari come:
+
+Aferesi: caduta di uno o più suoni all'inizio di parola es. nverno 'inverno'
+Sincope: caduta di un suono o di gruppi di suoni all'interno di una parola es. spirto 'spirito'
+Apocope: caduta di un fonema alla fine di una parola es. fior 'fiore'
+Metatesi: trasposizione di fonemi all'interno di una parola es. grolia 'gloria', drento 'dentro', crompo 'compro', cerqua 'quercia', zoppo 'pozzo'
+In molti dialetti risulta un'assimilazione dei nessi ND > nn e MB > mm
+In alcuni dialetti la s a inizio parola si trasforma in zz ad esempio: e zzale invece che il sale, i zzole invece che il sole.
+In molti dialetti, gli e li all'interno di una parola diventano j come fojo invece che foglio, ojo invece che olio.
+In alcuni paesi la f a inizio parola diventa v
+In alcune parole avviene il troncamento, come nelle parole mamma e papà che diventano mà e pà
+Spesso la locuzione verbo stare + gerundio si sostituisce con verbo stare + a (preposizione) + infinito, ad esempio sto a magnà 'sto mangiando , sto a curì 'sto correndo'
+Il dittongo uo si trasforma spesso in o
+Alcune pronunce vocaliche diverse rispetto all'italiano parlato a Roma, ed in alcuni casi anche rispetto all'italiano standard, quali ad esempio "nòme", "gònna", "scèndere", "bistècca", nonché i suffissi in "-èsimo", ecc.
+```
+
 > Hai a disposizione:
 > - Un dizionario dettagliato di termini dialettali/locali, nel formato { "parola": "parola/parole dialetto sorianese", "contesto": "contesto di utilizzo e/o significato"}
 > - Esempi di poesie e racconti in lingua tradotta, da usare come riferimento stilistico.
