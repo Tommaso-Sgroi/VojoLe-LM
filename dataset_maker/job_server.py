@@ -45,18 +45,24 @@ class Database:
         Crea un database sqlite3 a partire da uno schema di tabelle,
         eseguendo i comandi SQL necessari.
         """
-        schema_sql = """        
-        CREATE TABLE IF NOT EXISTS ItaSentence (
-            sentence_id CHAR(47) PRIMARY KEY,
-            sentence_text MEDIUMTEXT,
-            status int(4) DEFAULT -1,
-            time_created TIMESTAMP DEFAULT CURRENT_TIMESTAMP() 
-        );        
-        CREATE TABLE IF NOT EXISTS SorSentence (
-            sentence_id CHAR(47) PRIMARY KEY,
-            sentence_text MEDIUMTEXT
-        );
-        """
+        schema_sqls = [
+            """CREATE TABLE IF NOT EXISTS ItaSentence (
+                sentence_id INT(32) PRIMARY KEY,
+                sentence_text MEDIUMTEXT,
+                status int(4) DEFAULT -1,
+                time_created TIMESTAMP DEFAULT CURRENT_TIMESTAMP()
+            ) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+            """,
+            """CREATE TABLE IF NOT EXISTS SorSentence (
+                sentence_id INT(32) PRIMARY KEY,
+                sentence_text MEDIUMTEXT
+            ) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+            """,
+            """CREATE TABLE IF NOT EXISTS BatchJob (
+                batch_id VARCHAR(47) PRIMARY KEY,
+                status INT(4) DEFAULT 0
+            );"""
+        ]
 
         job_sql = f"""
             CREATE EVENT IF NOT EXISTS restore_status
@@ -76,7 +82,8 @@ class Database:
                 WHERE NEW.sentence_id=sentence_id;"""
         cursor = self.get_cursor()
         try:
-            cursor.execute(schema_sql)
+            for stmt in schema_sqls:
+                cursor.execute(stmt)
             # cursor.execute(job_sql)
             # cursor.execute(trigger_sql)
             self.conn.commit()
@@ -121,7 +128,7 @@ class Database:
         finally:
             cursor.close()
 
-    def insert_translation(self, id:str, sorianese_translation:str):
+    def insert_translation(self, id:int, sorianese_translation:str):
         cursor = self.get_cursor()
         try:
             cursor.execute("INSERT INTO SorSentence (sentence_id, sentence_text) VALUES (%s, %s)",
@@ -224,6 +231,7 @@ if __name__ == "__main__":
         )
     parser.add_argument('--create', action='store_true', help='Create the database and populate it with the dataset.')
     parser.add_argument('--schedule', action='store_true', help='Run the module in schedule mod, every 5 minute set to NOT_DONE every job who is in WIP by 5 1 minute.')
+    parser.add_argument('--db_path', nargs='?', type=str, help='Search file at given path.')
 
     args = parser.parse_args()
 
