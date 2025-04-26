@@ -231,17 +231,17 @@ if __name__ == "__main__":
         schedule_item_status_reset()
 
     if args.create:
-        # phrases_train, phrases_test = load_clean_mc4_dataset()
-        #
-        # phrases = phrases_test + phrases_train
-        # del phrases_train, phrases_test
+        phrases_train, phrases_test = load_clean_mc4_dataset()
+
+        phrases = phrases_test + phrases_train
+        del phrases_train, phrases_test
 
         db = Database()
         print("Populating DB")
 
-        print(db.has_pending_jobs())
-        # db.create_database()
-        # db.populate_database(phrases)
+        # print(db.has_pending_jobs())
+        db.create_database()
+        db.populate_database(phrases)
 
 
 
