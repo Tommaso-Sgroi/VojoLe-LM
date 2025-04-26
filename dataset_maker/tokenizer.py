@@ -6,19 +6,19 @@ import json
 
 def read_fulldataset():
     text = []
-    with(open('./data/fineweb-2/data/ita_Latn/test.jsonl', 'r')) as f:
+    with(open('./data/clean_mc4_it/clean_mc4_it.jsonl', 'r')) as f:
         tl = f.readlines()
         for l in tl:
             text.append(json.loads(l)['text'])
 
-    with(open('./data/fineweb-2/data/ita_Latn/train.jsonl', 'r')) as f:
-        tl = f.readlines()
-        for l in tl:
-            text.append(json.loads(l)['text'])
+    # with(open('./data/fineweb-2/data/ita_Latn/train.jsonl', 'r')) as f:
+    #     tl = f.readlines()
+    #     for l in tl:
+    #         text.append(json.loads(l)['text'])
     return text
 
 def read_dataset_and_prompt():
-    with(open('./data/generation_prompt.txt', 'r')) as f:
+    with(open('./data/raw_resources/generation_prompt4.txt', 'r')) as f:
         it = f.read()
     return [it + l for l in read_fulldataset()]
 

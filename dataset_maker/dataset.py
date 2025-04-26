@@ -74,7 +74,16 @@ def load_dataset(ds_path: str = './data/fineweb-2/data/ita_Latn') -> tuple[list[
 
     return train_d, test_d
 
+def load_clean_mc4_dataset(ds_path: str = "./data/clean_mc4_it/clean_mc4_it.jsonl"):
+    from os import path
+    import json
 
+    with(open(path.join(ds_path), "r", encoding="utf-8")) as f:
+        ds = []
+        for id, line in enumerate(f.readlines()):
+            ds.append(json.loads(line))
+            ds[-1]['id'] = id
+        return ds, []
 
 if __name__ == '__main__':
     # dataset = parse_parquet_dataset()

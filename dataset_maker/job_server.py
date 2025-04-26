@@ -6,10 +6,11 @@ import mysql.connector
 from mysql.connector import IntegrityError
 from tqdm import tqdm
 
-from dataset_maker.dataset import load_dataset
+from dataset_maker.dataset import load_clean_mc4_dataset
+
 hostName = "localhost"
 serverPort = 8080
-dataset_path = './data/fineweb-2/data/ita_Latn'
+dataset_path = './data/clean_mc4_it/clean_mc4_it.jsonl'
 sorianese_dataset_path = './data/fineweb-2/data/sor_Latn'
 
 NOT_DONE = -1
@@ -25,7 +26,8 @@ class Database:
 
     def open_connection(self):
         return mysql.connector.connect(
-            host="er-sorianese",
+            # host="er-sorianese",
+            host="127.0.0.1",
             port="3306",
             user="root",
             password="root",
@@ -132,6 +134,65 @@ class Database:
         finally:
             cursor.close()
 
+    def add_batch_job(self, batch_id):
+        cursor = self.get_cursor()
+        try:
+            cursor.execute("INSERT INTO BatchJob (batch_id) VALUES (%s)", (batch_id,))
+            self.conn.commit()
+        except Exception as e:
+            print("Error inserting new translation: ", e)
+        finally:
+            cursor.close()
+
+    def update_batch_job(self, batch_id, status):
+        cursor = self.get_cursor()
+        try:
+            cursor.execute("Update BatchJob SET status = %s WHERE batch_id = %s", (status, batch_id))
+            self.conn.commit()
+        except Exception as e:
+            print("Error inserting new translation: ", e)
+        finally:
+            cursor.close()
+
+    def get_pending_batch_jobs(self):
+        cursor = self.get_cursor()
+        try:
+            cursor.execute("SELECT batch_id FROM BatchJob WHERE status = %s", (WORK_IN_PROGRESS,))
+            results = cursor.fetchall()
+            return [r[0] for r in results]
+        except Exception as e:
+            print("Error inserting new translation: ", e)
+        finally:
+            cursor.close()
+
+    def has_pending_jobs(self) -> int:
+        cursor = self.get_cursor()
+        try:
+            cursor.execute("SELECT COUNT(batch_id) FROM BatchJob WHERE status = %s", (WORK_IN_PROGRESS,))
+            results = cursor.fetchall()
+            return results.pop()[0]
+        except Exception as e:
+            print("Error inserting new translation: ", e)
+        finally:
+            cursor.close()
+
+    def completion_status(self):
+        query = """SELECT
+                  (SELECT COUNT(*) FROM ItaSentence WHERE status = 1)
+                  /
+                  (SELECT COUNT(*) FROM ItaSentence)
+                  AS fraction_not_done;
+              """
+        cursor = self.get_cursor()
+        try:
+            cursor.execute(query)
+            results = cursor.fetchall().pop()[0]
+            print(results)
+            return results
+        except Exception as e:
+            print("Error inserting new translation: ", e)
+        finally:
+            cursor.close()
 
 def schedule_item_status_reset(i: int = 1):
     """
@@ -170,15 +231,17 @@ if __name__ == "__main__":
         schedule_item_status_reset()
 
     if args.create:
-        phrases_train, phrases_test = load_dataset(dataset_path)
-
-        phrases = phrases_test + phrases_train
-        del phrases_train, phrases_test
+        # phrases_train, phrases_test = load_clean_mc4_dataset()
+        #
+        # phrases = phrases_test + phrases_train
+        # del phrases_train, phrases_test
 
         db = Database()
         print("Populating DB")
-        db.create_database()
-        db.populate_database(phrases)
+
+        print(db.has_pending_jobs())
+        # db.create_database()
+        # db.populate_database(phrases)
 
 
 
