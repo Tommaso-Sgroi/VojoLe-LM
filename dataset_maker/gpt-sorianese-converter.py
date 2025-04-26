@@ -7,7 +7,7 @@ from openai import OpenAI
 
 from dataset_maker.job_server import Database
 
-RATE_LIMIT_RPM = 500 # RPM
+RATE_LIMIT_RPM = 50 # RPM
 RATE_LIMIT_RPD = 10_000 # RPM
 
 
@@ -34,15 +34,14 @@ def load_samples():
 def create_batch_file():
     global client, database, RATE_LIMIT_RPM
     items = []
-    RATE_LIMIT_RPM = 1
     for _ in range(RATE_LIMIT_RPM):
         custom_key, content = database.get_next_item()
         item = {
-            "custom_id": custom_key,
+            "custom_id": str(custom_key),
             "method": "POST", "url": "/v1/chat/completions",
             "body": {
                 # "model": "gpt-4.1-mini",
-                "model": "gpt-4o-mini",
+                "model": "gpt-4.1-mini",
                 "messages": [
                     {"role": "system", "content": SYSTEM_PROMPT},
                     {"role": "user", "content": content}
@@ -56,14 +55,13 @@ def create_batch_file():
 
     with(open('/tmp/batchinput.jsonl', 'w', encoding='utf-8')) as f:
         for i in range(len(items)):
-            items[i] = json.dumps(items[i]) + '\n'
-        f.writelines(items)
+            f.write(json.dumps(items[i]) + '\n')
 
     batch_input_file = client.files.create(
         file=open("/tmp/batchinput.jsonl", "rb"),
         purpose="batch"
     )
-    return batch_input_file
+    return batch_input_file, items
 
 
 def retrieve_batch_output():
@@ -109,7 +107,7 @@ def batch_inference():
     # for _ in tqdm.tqdm(range(RATE_LIMIT_RPD)):
     if True:
         try:
-            batch_input_file = create_batch_file()
+            batch_input_file, items = create_batch_file()
             print('batch file created')
             batch_input_file_id = batch_input_file.id
 
@@ -124,7 +122,8 @@ def batch_inference():
             print('batch job created')
 
             batches.append(batch)
-            database.add_batch_job(batch.id)
+            it = [int(i['custom_id']) for i in items]
+            database.add_batch_job(batch.id, it)
         except Exception as e:
             raise e
 
@@ -144,7 +143,7 @@ if __name__ == '__main__':
 
     if args.batch_inference:
         batch_inference()
-
+        pass
     if args.retrieve_batch is not None:
 
         while database.has_pending_jobs() > 0 or args.continuous_retrieve_batch:

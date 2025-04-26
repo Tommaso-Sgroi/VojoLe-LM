@@ -46,22 +46,22 @@ class Database:
         eseguendo i comandi SQL necessari.
         """
         schema_sqls = [
-            """CREATE TABLE IF NOT EXISTS ItaSentence (
-                sentence_id INT(32) PRIMARY KEY,
-                sentence_text MEDIUMTEXT,
-                status int(4) DEFAULT -1,
-                time_created TIMESTAMP DEFAULT CURRENT_TIMESTAMP()
-            ) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-            """,
-            """CREATE TABLE IF NOT EXISTS SorSentence (
-                sentence_id INT(32) PRIMARY KEY,
-                sentence_text MEDIUMTEXT
-            ) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-            """,
             """CREATE TABLE IF NOT EXISTS BatchJob (
                 batch_id VARCHAR(47) PRIMARY KEY,
-                status INT(4) DEFAULT 0
-            );"""
+                status INT DEFAULT 0
+            );""",
+            """CREATE TABLE IF NOT EXISTS ItaSentence (
+                sentence_id BIGINT PRIMARY KEY,
+                sentence_text MEDIUMTEXT,
+                status INT DEFAULT -1,
+                time_created TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                batch_id VARCHAR(47)
+            ) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;""",
+
+            """CREATE TABLE IF NOT EXISTS SorSentence (
+                sentence_id BIGINT PRIMARY KEY,
+                sentence_text MEDIUMTEXT
+            ) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;"""
         ]
 
         job_sql = f"""
@@ -141,10 +141,12 @@ class Database:
         finally:
             cursor.close()
 
-    def add_batch_job(self, batch_id):
+    def add_batch_job(self, batch_id, custom_ids):
         cursor = self.get_cursor()
         try:
             cursor.execute("INSERT INTO BatchJob (batch_id) VALUES (%s)", (batch_id,))
+            for cid in custom_ids:
+                cursor.execute("UPDATE ItaSentence SET batch_id = %s WHERE sentence_id = %s", (batch_id, cid))
             self.conn.commit()
         except Exception as e:
             print("Error inserting new translation: ", e)
@@ -155,6 +157,7 @@ class Database:
         cursor = self.get_cursor()
         try:
             cursor.execute("Update BatchJob SET status = %s WHERE batch_id = %s", (status, batch_id))
+            cursor.execute("Update ItaSentence SET status = %s WHERE batch_id = %s", (status, batch_id))
             self.conn.commit()
         except Exception as e:
             print("Error inserting new translation: ", e)
