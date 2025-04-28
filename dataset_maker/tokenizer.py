@@ -1,6 +1,7 @@
 import multiprocessing
 from functools import partial
 
+import tiktoken
 from tqdm import tqdm
 import json
 
@@ -18,9 +19,10 @@ def read_fulldataset():
     return text
 
 def read_dataset_and_prompt():
-    with(open('./data/raw_resources/generation_prompt4.txt', 'r')) as f:
+    with(open('./data/raw_resources/generation_prompt2.txt', 'r')) as f:
         it = f.read()
     return [it + l for l in read_fulldataset()]
+
 
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, GPT2Tokenizer
 
@@ -28,7 +30,13 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification, GPT2
 # pt_model = AutoModelForSequenceClassification.from_pretrained(model_name)
 # tokenizer = AutoTokenizer.from_pretrained(model_name)
 
-gpt_tokenizer = GPT2Tokenizer.from_pretrained("openai-community/gpt2")
+
+gpt_tokenizer = tiktoken.encoding_for_model("gpt-4o-mini")
+
+def calculate_length_tokens(text):
+    global gpt_tokenizer
+    return len(gpt_tokenizer.encode(text))
+
 from time import time
 #
 # gpt_tokens = [tokenizer.encode(text) for text in tqdm(text)]
@@ -37,12 +45,11 @@ from deepseek_tokenizer import deepseek_tokenizer
 
 # deepseek_tokens = [ds_token.encode(text) for text in tqdm(text)]
 with multiprocessing.Pool(8) as pool:
-    results = pool.map(partial(gpt_tokenizer.encode, truncation=True), read_fulldataset())
+    results = pool.map(calculate_length_tokens, read_fulldataset())
 
 
-sum_tokens = 0
-for result in results:
-    sum_tokens += len(result)
+sum_tokens = sum(results)
+
 
 print('#expected-out GPT-tokens')
 print('average: ', sum_tokens / len(results))
@@ -50,41 +57,9 @@ print('Total tokens: ', sum_tokens)
 
 del results
 with multiprocessing.Pool(8) as pool:
-    results = pool.map(partial(gpt_tokenizer.encode, truncation=True), read_dataset_and_prompt())
+    results = pool.map(calculate_length_tokens, read_dataset_and_prompt())
 
-sum_tokens = 0
-for result in results:
-    sum_tokens += len(result)
-
+sum_tokens = sum(results)
 print('#expected-input GPT-tokens')
 print('average: ', sum_tokens / len(results))
 print('Total tokens: ', sum_tokens)
-
-del results
-with multiprocessing.Pool(8) as pool:
-    results = pool.map(partial(deepseek_tokenizer.encode, truncation=True), read_fulldataset())
-
-# Process the results
-sum_tokens = 0
-for result in results:
-    sum_tokens += len(result)
-print('#expected-output deepseek-tokens')
-print('average: ', sum_tokens / len(results))
-print('Total tokens: ', sum_tokens)
-
-print('#input tokens')
-
-del results
-with multiprocessing.Pool(8) as pool:
-    results = pool.map(partial(deepseek_tokenizer.encode, truncation=True), read_dataset_and_prompt())
-
-# Process the results
-sum_tokens = 0
-for result in results:
-    sum_tokens += len(result)
-print('#expected-input deepseek-tokens')
-print('average: ', sum_tokens / len(results))
-print('Total tokens: ', sum_tokens)
-
-
-print('si caga addosso e muore')

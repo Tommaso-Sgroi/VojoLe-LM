@@ -1,14 +1,20 @@
 import json
 import os
 from time import sleep
+
+import tqdm
+from transformers import GPT2Tokenizer
+import tiktoken
+# from dataset_maker.tokenizer import gpt_tokenizer
 from dataset_maker.utils import clean_gpt_output_formatted_text
 # import tqdm
 from openai import OpenAI
 
 from dataset_maker.job_server import Database
 
-RATE_LIMIT_RPM = 50 # RPM
+RATE_LIMIT_RPM = 20 # RPM
 RATE_LIMIT_RPD = 10_000 # RPM
+RATE_LIMIT_MAX_TOKENS = 2_000_000 # MAX TOKENS ENQUEUE
 
 
 OPEN_AI_KEY = os.getenv('OPENAI_API_KEY')
@@ -32,9 +38,11 @@ def load_samples():
 
 
 def create_batch_file():
-    global client, database, RATE_LIMIT_RPM
+    global client, database, RATE_LIMIT_RPM, RATE_LIMIT_MAX_TOKENS
     items = []
-    for _ in range(RATE_LIMIT_RPM):
+    tokens = 0
+    encoding = tiktoken.encoding_for_model("gpt-4o-mini")
+    while True:
         custom_key, content = database.get_next_item()
         item = {
             "custom_id": str(custom_key),
@@ -51,6 +59,11 @@ def create_batch_file():
 
             }
         }
+        tkns = encoding.encode(SYSTEM_PROMPT + '\n' + content)
+        tokens += len(tkns)
+        if tokens > RATE_LIMIT_MAX_TOKENS:
+            database.cancel_single_sentence_job(custom_key)
+            break
         items.append(item)
 
     with(open('/tmp/batchinput.jsonl', 'w', encoding='utf-8')) as f:

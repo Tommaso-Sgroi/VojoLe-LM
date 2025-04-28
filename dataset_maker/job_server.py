@@ -128,6 +128,16 @@ class Database:
         finally:
             cursor.close()
 
+    def cancel_single_sentence_job(self, sentence_id):
+        cursor = self.get_cursor()
+        try:
+            cursor.execute("UPDATE ItaSentence SET status=-1, time_created=CURRENT_TIMESTAMP() WHERE sentence_id=%s", (sentence_id,))
+            self.conn.commit()
+        except Exception as e:
+            print("Error inserting new translation: ", e)
+        finally:
+            cursor.close()
+
     def insert_translation(self, id:int, sorianese_translation:str):
         cursor = self.get_cursor()
         try:
