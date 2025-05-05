@@ -85,6 +85,12 @@ def load_clean_mc4_dataset(ds_path: str = "./data/clean_mc4_it/clean_mc4_it.json
             ds[-1]['id'] = id
         return ds, []
 
+def load_tatoeba_dataset(ds_path: str = "./data2/t5_finetune/tatoeba_it_15k.tsv"):
+    from os import path
+    with(open(path.join(ds_path), "r", encoding="utf-8")) as f:
+        return f.readlines()
+
+
 if __name__ == '__main__':
     # dataset = parse_parquet_dataset()
     # dataset_to_jsonl(dataset, './data/fineweb-2/data/ita_Latn/ita_Latn.jsonl')
