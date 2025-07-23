@@ -33,10 +33,12 @@ sqlite_db = Database()
 batch_phrases = []
 for i, entry in tqdm(enumerate(train)):
     batch_phrases.append((i, entry['text'], 0, 1))
-    if (i % 1_000) == 0:
+    if (i % 1_000_000) == 0:
         sqlite_db.add_phrase(batch_phrases, None, None)
         sqlite_db.conn.commit()
         batch_phrases = []
+else:
+    end = i + 1
 
 if len(batch_phrases) > 0:
     sqlite_db.add_phrase(batch_phrases, None, None)
@@ -44,7 +46,7 @@ sqlite_db.conn.commit()
 
 batch_phrases.clear()
 
-for i, entry in tqdm(enumerate(validation)):
+for i, entry in tqdm(enumerate(validation, start=end)):
     batch_phrases.append((i, entry['text'], 0, 0))
     if (i % 1_000) == 0:
         sqlite_db.add_phrase(batch_phrases, None, None)
