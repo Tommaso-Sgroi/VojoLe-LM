@@ -23,7 +23,7 @@ class Database:
 
     def open_connection(self):
         return sqlite3.connect(
-            "er-sorianese",
+            "er-sorianese.db",
         )
 
     def get_cursor(self):
