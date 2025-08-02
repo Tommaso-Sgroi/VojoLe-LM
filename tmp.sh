@@ -1,16 +1,16 @@
 #!/bin/bash
 
-#SBATCH --job-name=test_generation
+#SBATCH --job-name=dataset_to_db
 #SBATCH --nodes=1
 #SBATCH --time=01:30:00
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --partition=lrd_all_serial
 #SBATCH --qos=normal
-#SBATCH --mem=16G
+#SBATCH --mem=4G
 #SBATCH --account=try25_sgroi
 
-cd $HOME/Vojollm/VojoLe-LM
+cd $WORK/VojoLe-LM
 # source $WORK/VojoLe-LM/.venv_vllm/bin/activate
 # huggingface-cli download CohereLabs/c4ai-command-a-03-2025 --local-dir $FAST/models/c4ai --repo-type=model --token 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
 # huggingface-cli download --token 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  CohereLabs/c4ai-command-a-03-2025
@@ -24,7 +24,7 @@ export TORCHDYNAMO_VERBOSE=1
 export BATCH_SIZE=5
 
 source $WORK/VojoLe-LM/.venv_vllm/bin/activate
-python3 -m generation1
+python3 -m dataset_maker.download_dataset
 
 
 
