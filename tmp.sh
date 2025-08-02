@@ -23,9 +23,8 @@ export PROMPT_PATH=$WORK/VojoLe-LM/generation_prompt4.txt
 export TORCHDYNAMO_VERBOSE=1
 export BATCH_SIZE=5
 
-
-git add --all
-git commit -m "generation in batch"
+source $WORK/VojoLe-LM/.venv_vllm/bin/activate
+python3 -m generation1
 
 
 

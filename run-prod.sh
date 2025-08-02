@@ -1,10 +1,10 @@
 #!/bin/sh
 #SBATCH --partition=boost_usr_prod
-#SBATCH --qos=boost_qos_dbg
+#SBATCH --qos=boost_qos_lprod
 #SBATCH --account=try25_sgroi ### NOME DEL PROGETTO QUA
 #SBATCH --nodes=1
 #SBATCH --gres=gpu:4
-#SBATCH --time=00:30:00
+#SBATCH --time=01:00:00
 
 module load python/3.11.7
 module load profile/deeplrn
