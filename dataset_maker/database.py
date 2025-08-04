@@ -125,13 +125,11 @@ class DatabaseIta(Database):
             cursor.execute("SELECT sentence_id, sentence_text, train FROM ItaSentence WHERE status=? LIMIT ?;", (0, batch_size))
             results = cursor.fetchall()
             my_results = results.copy()
-            print(results)
             if len(results) == 0:
                 return None
             # results = results.pop()
             sentence_ids = [sid[0] for sid in results]
             self.update_batch_job(sentence_ids, WORK_IN_PROGRESS).commit()
-            print('returning')
             return my_results
 
         except Exception as e:

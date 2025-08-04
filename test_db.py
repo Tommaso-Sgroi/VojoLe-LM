@@ -11,6 +11,7 @@ count = db_ita.get_cursor().execute('SELECT COUNT(sentence_id) FROM ItaSentence 
 count = int(count)
 batch_size = 25
 
+print('Count: ', count, 'Batch size: ', batch_size)
 for _ in tqdm(range(0, count, batch_size)):
     batch = db_ita.get_next_batch_items(batch_size)
     for entry in batch:

@@ -2,12 +2,12 @@
 
 #SBATCH --job-name=dataset_to_db
 #SBATCH --nodes=1
-#SBATCH --time=01:30:00
+#SBATCH --time=04:00:00
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --partition=lrd_all_serial
 #SBATCH --qos=normal
-#SBATCH --mem=4G
+#SBATCH --mem=16G
 #SBATCH --account=try25_sgroi
 
 cd $WORK/VojoLe-LM
@@ -21,10 +21,10 @@ export CUDA=$CUDA_HOME
 export GOLD_DICT=data2/commons/gold_dictionary.jsonl
 export PROMPT_PATH=$WORK/VojoLe-LM/generation_prompt4.txt
 export TORCHDYNAMO_VERBOSE=1
-export BATCH_SIZE=5
+export BATCH_SIZE=25
 
 source $WORK/VojoLe-LM/.venv_vllm/bin/activate
-python3 -m dataset_maker.download_dataset
+python3 -m test_db
 
 
 
