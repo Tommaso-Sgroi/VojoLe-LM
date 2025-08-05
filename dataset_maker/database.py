@@ -22,6 +22,9 @@ class Database(object):
             self.db_path,
         )
 
+    def commit(self):
+        self.conn.commit()
+
     def get_create_tables_stms(self) -> list[str]:
         pass
 
@@ -87,7 +90,7 @@ class DatabaseIta(Database):
     def reset_working_status(self):
         cursor = self.get_cursor()
         try:
-            cursor.execute("UPDATE ItaSentence SET status = 0")
+            cursor.execute("UPDATE ItaSentence SET status = 0 WHERE status=?", (WORK_IN_PROGRESS,))
         finally:
             cursor.close()
         return self.conn
@@ -119,10 +122,14 @@ class DatabaseIta(Database):
             cursor.close()
 
 
-    def get_next_batch_items(self, batch_size: int):
+    def get_next_batch_items(self, batch_size: int, is_train: bool = None):
         cursor = self.get_cursor()
         try:
-            cursor.execute("SELECT sentence_id, sentence_text, train FROM ItaSentence WHERE status=? LIMIT ?;", (0, batch_size))
+            if is_train is None:
+                cursor.execute("SELECT sentence_id, sentence_text, train FROM ItaSentence WHERE status=? LIMIT ?;", (0, batch_size))
+            else:
+                cursor.execute("SELECT sentence_id, sentence_text, train FROM ItaSentence WHERE train=? AND status=? LIMIT ?;", (is_train, 0, batch_size))
+                
             results = cursor.fetchall()
             my_results = results.copy()
             if len(results) == 0:
@@ -151,6 +158,17 @@ class DatabaseIta(Database):
         finally:
             cursor.close()
 
+    def count_entries(self):
+        cursor = self.get_cursor()
+        try:
+            cursor.execute('SELECT COUNT(sentence_id) FROM ItaSentence')
+            count = cursor.fetchall().pop()[0]
+
+            return int(count)
+        except Exception as e:
+            print("Error counting sentences: ", e)
+        finally:
+            cursor.close()
 
     def completion_status(self):
         query = """SELECT
