@@ -70,3 +70,53 @@ INFO 08-06 21:45:25 [shm_broadcast.py:289] vLLM message queue communication hand
 [1;36m(VllmWorker rank=2 pid=3489379)[0;0m INFO 08-06 21:45:57 [cuda.py:305] Using Flash Attention backend on V1 engine.
 [1;36m(VllmWorker rank=1 pid=3489377)[0;0m INFO 08-06 21:45:57 [cuda.py:305] Using Flash Attention backend on V1 engine.
 [1;36m(VllmWorker rank=3 pid=3489381)[0;0m INFO 08-06 21:45:57 [cuda.py:305] Using Flash Attention backend on V1 engine.
+[1;36m(VllmWorker rank=0 pid=3489375)[0;0m INFO 08-06 21:49:31 [default_loader.py:262] Loading weights took 212.57 seconds
+[1;36m(VllmWorker rank=1 pid=3489377)[0;0m INFO 08-06 21:49:31 [default_loader.py:262] Loading weights took 212.60 seconds
+[1;36m(VllmWorker rank=2 pid=3489379)[0;0m INFO 08-06 21:49:31 [default_loader.py:262] Loading weights took 212.64 seconds
+[1;36m(VllmWorker rank=3 pid=3489381)[0;0m INFO 08-06 21:49:31 [default_loader.py:262] Loading weights took 212.65 seconds
+[1;36m(VllmWorker rank=0 pid=3489375)[0;0m INFO 08-06 21:49:34 [gpu_model_runner.py:1978] Model loading took 51.7478 GiB and 215.638586 seconds
+[1;36m(VllmWorker rank=1 pid=3489377)[0;0m INFO 08-06 21:49:34 [gpu_model_runner.py:1978] Model loading took 51.7478 GiB and 215.757878 seconds
+[1;36m(VllmWorker rank=2 pid=3489379)[0;0m INFO 08-06 21:49:34 [gpu_model_runner.py:1978] Model loading took 51.7478 GiB and 215.762025 seconds
+[1;36m(VllmWorker rank=3 pid=3489381)[0;0m INFO 08-06 21:49:34 [gpu_model_runner.py:1978] Model loading took 51.7478 GiB and 215.789557 seconds
+[1;36m(VllmWorker rank=2 pid=3489379)[0;0m INFO 08-06 21:50:58 [backends.py:530] Using cache directory: /leonardo/home/userexternal/tsgroi00/.cache/vllm/torch_compile_cache/a86e17a78e/rank_2_0/backbone for vLLM's torch.compile
+[1;36m(VllmWorker rank=0 pid=3489375)[0;0m INFO 08-06 21:50:58 [backends.py:530] Using cache directory: /leonardo/home/userexternal/tsgroi00/.cache/vllm/torch_compile_cache/a86e17a78e/rank_0_0/backbone for vLLM's torch.compile
+[1;36m(VllmWorker rank=3 pid=3489381)[0;0m INFO 08-06 21:50:58 [backends.py:530] Using cache directory: /leonardo/home/userexternal/tsgroi00/.cache/vllm/torch_compile_cache/a86e17a78e/rank_3_0/backbone for vLLM's torch.compile
+[1;36m(VllmWorker rank=0 pid=3489375)[0;0m INFO 08-06 21:50:58 [backends.py:541] Dynamo bytecode transform time: 82.49 s
+[1;36m(VllmWorker rank=2 pid=3489379)[0;0m INFO 08-06 21:50:58 [backends.py:541] Dynamo bytecode transform time: 82.50 s
+[1;36m(VllmWorker rank=1 pid=3489377)[0;0m INFO 08-06 21:50:58 [backends.py:530] Using cache directory: /leonardo/home/userexternal/tsgroi00/.cache/vllm/torch_compile_cache/a86e17a78e/rank_1_0/backbone for vLLM's torch.compile
+[1;36m(VllmWorker rank=3 pid=3489381)[0;0m INFO 08-06 21:50:58 [backends.py:541] Dynamo bytecode transform time: 82.51 s
+[1;36m(VllmWorker rank=1 pid=3489377)[0;0m INFO 08-06 21:50:58 [backends.py:541] Dynamo bytecode transform time: 82.51 s
+[1;36m(VllmWorker rank=2 pid=3489379)[0;0m INFO 08-06 21:51:19 [backends.py:194] Cache the graph for dynamic shape for later use
+[1;36m(VllmWorker rank=0 pid=3489375)[0;0m INFO 08-06 21:51:19 [backends.py:194] Cache the graph for dynamic shape for later use
+[1;36m(VllmWorker rank=3 pid=3489381)[0;0m INFO 08-06 21:51:19 [backends.py:194] Cache the graph for dynamic shape for later use
+[1;36m(VllmWorker rank=1 pid=3489377)[0;0m INFO 08-06 21:51:19 [backends.py:194] Cache the graph for dynamic shape for later use
+[1;36m(VllmWorker rank=3 pid=3489381)[0;0m INFO 08-06 21:54:27 [backends.py:215] Compiling a graph for dynamic shape takes 206.35 s
+[1;36m(VllmWorker rank=2 pid=3489379)[0;0m INFO 08-06 21:54:27 [backends.py:215] Compiling a graph for dynamic shape takes 206.36 s
+[1;36m(VllmWorker rank=0 pid=3489375)[0;0m INFO 08-06 21:54:28 [backends.py:215] Compiling a graph for dynamic shape takes 206.91 s
+[1;36m(VllmWorker rank=1 pid=3489377)[0;0m INFO 08-06 21:54:28 [backends.py:215] Compiling a graph for dynamic shape takes 207.34 s
+[1;36m(VllmWorker rank=0 pid=3489375)[0;0m INFO 08-06 21:55:02 [monitor.py:34] torch.compile takes 289.41 s in total
+[1;36m(VllmWorker rank=1 pid=3489377)[0;0m INFO 08-06 21:55:02 [monitor.py:34] torch.compile takes 289.85 s in total
+[1;36m(VllmWorker rank=3 pid=3489381)[0;0m INFO 08-06 21:55:02 [monitor.py:34] torch.compile takes 288.86 s in total
+[1;36m(VllmWorker rank=2 pid=3489379)[0;0m INFO 08-06 21:55:02 [monitor.py:34] torch.compile takes 288.86 s in total
+[1;36m(VllmWorker rank=2 pid=3489379)[0;0m INFO 08-06 21:55:12 [gpu_worker.py:276] Available KV cache memory: 2.20 GiB
+[1;36m(VllmWorker rank=0 pid=3489375)[0;0m INFO 08-06 21:55:12 [gpu_worker.py:276] Available KV cache memory: 2.34 GiB
+[1;36m(VllmWorker rank=3 pid=3489381)[0;0m INFO 08-06 21:55:12 [gpu_worker.py:276] Available KV cache memory: 2.34 GiB
+[1;36m(VllmWorker rank=1 pid=3489377)[0;0m INFO 08-06 21:55:12 [gpu_worker.py:276] Available KV cache memory: 2.20 GiB
+INFO 08-06 21:55:14 [kv_cache_utils.py:995] GPU KV cache size: 38,368 tokens
+INFO 08-06 21:55:14 [kv_cache_utils.py:999] Maximum concurrency for 60,000 tokens per request: 1.58x
+INFO 08-06 21:55:14 [kv_cache_utils.py:995] GPU KV cache size: 36,064 tokens
+INFO 08-06 21:55:14 [kv_cache_utils.py:999] Maximum concurrency for 60,000 tokens per request: 1.49x
+INFO 08-06 21:55:14 [kv_cache_utils.py:995] GPU KV cache size: 36,064 tokens
+INFO 08-06 21:55:14 [kv_cache_utils.py:999] Maximum concurrency for 60,000 tokens per request: 1.49x
+INFO 08-06 21:55:14 [kv_cache_utils.py:995] GPU KV cache size: 38,368 tokens
+INFO 08-06 21:55:14 [kv_cache_utils.py:999] Maximum concurrency for 60,000 tokens per request: 1.58x
+[1;36m(VllmWorker rank=2 pid=3489379)[0;0m INFO 08-06 21:55:18 [custom_all_reduce.py:196] Registering 516 cuda graph addresses
+[1;36m(VllmWorker rank=1 pid=3489377)[0;0m INFO 08-06 21:55:18 [custom_all_reduce.py:196] Registering 516 cuda graph addresses
+[1;36m(VllmWorker rank=0 pid=3489375)[0;0m INFO 08-06 21:55:18 [custom_all_reduce.py:196] Registering 516 cuda graph addresses
+[1;36m(VllmWorker rank=3 pid=3489381)[0;0m INFO 08-06 21:55:18 [custom_all_reduce.py:196] Registering 516 cuda graph addresses
+[1;36m(VllmWorker rank=1 pid=3489377)[0;0m INFO 08-06 21:55:19 [gpu_model_runner.py:2583] Graph capturing finished in 5 secs, took 0.28 GiB
+[1;36m(VllmWorker rank=3 pid=3489381)[0;0m INFO 08-06 21:55:19 [gpu_model_runner.py:2583] Graph capturing finished in 5 secs, took 0.28 GiB
+[1;36m(VllmWorker rank=0 pid=3489375)[0;0m INFO 08-06 21:55:19 [gpu_model_runner.py:2583] Graph capturing finished in 5 secs, took 0.28 GiB
+[1;36m(VllmWorker rank=2 pid=3489379)[0;0m INFO 08-06 21:55:19 [gpu_model_runner.py:2583] Graph capturing finished in 5 secs, took 0.28 GiB
+INFO 08-06 21:55:19 [core.py:201] init engine (profile, create kv cache, warmup model) took 344.69 seconds
+INFO 08-06 21:55:24 [llm.py:290] Supported_tasks: ['generate']

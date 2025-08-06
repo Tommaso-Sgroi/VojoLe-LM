@@ -45,3 +45,52 @@
 [1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  69% Completed | 34/49 [02:23<01:07,  4.47s/it]
 [1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  71% Completed | 35/49 [02:28<01:01,  4.36s/it]
 [1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  73% Completed | 36/49 [02:32<00:56,  4.34s/it]
+[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  76% Completed | 37/49 [02:36<00:52,  4.37s/it]
+[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  78% Completed | 38/49 [02:41<00:48,  4.40s/it]
+[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  80% Completed | 39/49 [02:46<00:46,  4.67s/it]
+[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  82% Completed | 40/49 [02:50<00:41,  4.56s/it]
+[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  84% Completed | 41/49 [02:54<00:34,  4.29s/it]
+[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  86% Completed | 42/49 [02:58<00:30,  4.31s/it]
+[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  88% Completed | 43/49 [03:04<00:27,  4.65s/it]
+[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  90% Completed | 44/49 [03:08<00:22,  4.46s/it]
+[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  92% Completed | 45/49 [03:12<00:17,  4.39s/it]
+[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  94% Completed | 46/49 [03:16<00:13,  4.39s/it]
+[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  96% Completed | 47/49 [03:22<00:09,  4.71s/it]
+[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  98% Completed | 48/49 [03:26<00:04,  4.66s/it]
+[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards: 100% Completed | 49/49 [03:32<00:00,  4.91s/it]
+[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards: 100% Completed | 49/49 [03:32<00:00,  4.34s/it]
+[1;36m(VllmWorker rank=0 pid=3489375)[0;0m 
+[1;36m(VllmWorker rank=3 pid=3489381)[0;0m /leonardo_work/try25_sgroi/VojoLe-LM/.venv_vllm/lib/python3.11/site-packages/transformers/models/cohere2/configuration_cohere2.py:235: FutureWarning: The `sliding_window_pattern` attribute is deprecated and will be removed in v4.55.0.
+[1;36m(VllmWorker rank=3 pid=3489381)[0;0m   warnings.warn(
+[1;36m(VllmWorker rank=1 pid=3489377)[0;0m /leonardo_work/try25_sgroi/VojoLe-LM/.venv_vllm/lib/python3.11/site-packages/transformers/models/cohere2/configuration_cohere2.py:235: FutureWarning: The `sliding_window_pattern` attribute is deprecated and will be removed in v4.55.0.
+[1;36m(VllmWorker rank=1 pid=3489377)[0;0m   warnings.warn(
+[1;36m(VllmWorker rank=2 pid=3489379)[0;0m /leonardo_work/try25_sgroi/VojoLe-LM/.venv_vllm/lib/python3.11/site-packages/transformers/models/cohere2/configuration_cohere2.py:235: FutureWarning: The `sliding_window_pattern` attribute is deprecated and will be removed in v4.55.0.
+[1;36m(VllmWorker rank=2 pid=3489379)[0;0m   warnings.warn(
+[1;36m(VllmWorker rank=0 pid=3489375)[0;0m /leonardo_work/try25_sgroi/VojoLe-LM/.venv_vllm/lib/python3.11/site-packages/transformers/models/cohere2/configuration_cohere2.py:235: FutureWarning: The `sliding_window_pattern` attribute is deprecated and will be removed in v4.55.0.
+[1;36m(VllmWorker rank=0 pid=3489375)[0;0m   warnings.warn(
+[1;36m(VllmWorker rank=2 pid=3489379)[0;0m /leonardo_work/try25_sgroi/VojoLe-LM/.venv_vllm/lib/python3.11/site-packages/torch/utils/cpp_extension.py:2356: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1;36m(VllmWorker rank=2 pid=3489379)[0;0m If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].
+[1;36m(VllmWorker rank=2 pid=3489379)[0;0m   warnings.warn(
+[1;36m(VllmWorker rank=1 pid=3489377)[0;0m /leonardo_work/try25_sgroi/VojoLe-LM/.venv_vllm/lib/python3.11/site-packages/torch/utils/cpp_extension.py:2356: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1;36m(VllmWorker rank=1 pid=3489377)[0;0m If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].
+[1;36m(VllmWorker rank=1 pid=3489377)[0;0m   warnings.warn(
+[1;36m(VllmWorker rank=0 pid=3489375)[0;0m /leonardo_work/try25_sgroi/VojoLe-LM/.venv_vllm/lib/python3.11/site-packages/torch/utils/cpp_extension.py:2356: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1;36m(VllmWorker rank=0 pid=3489375)[0;0m If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].
+[1;36m(VllmWorker rank=0 pid=3489375)[0;0m   warnings.warn(
+[1;36m(VllmWorker rank=3 pid=3489381)[0;0m /leonardo_work/try25_sgroi/VojoLe-LM/.venv_vllm/lib/python3.11/site-packages/torch/utils/cpp_extension.py:2356: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+[1;36m(VllmWorker rank=3 pid=3489381)[0;0m If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].
+[1;36m(VllmWorker rank=3 pid=3489381)[0;0m   warnings.warn(
+[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Capturing CUDA graph shapes:   0%|          | 0/4 [00:00<?, ?it/s]Capturing CUDA graph shapes:  25%|██▌       | 1/4 [00:00<00:02,  1.13it/s]Capturing CUDA graph shapes:  50%|█████     | 2/4 [00:01<00:01,  1.33it/s]Capturing CUDA graph shapes:  75%|███████▌  | 3/4 [00:01<00:00,  1.78it/s]Capturing CUDA graph shapes: 100%|██████████| 4/4 [00:02<00:00,  1.95it/s]Capturing CUDA graph shapes: 100%|██████████| 4/4 [00:02<00:00,  1.72it/s]
+
+Adding requests:   0%|          | 0/5 [00:00<?, ?it/s][A
+Adding requests:  20%|██        | 1/5 [00:00<00:03,  1.21it/s][A
+Adding requests:  40%|████      | 2/5 [00:00<00:01,  2.42it/s][A
+Adding requests:  60%|██████    | 3/5 [00:01<00:00,  3.63it/s][A
+Adding requests:  80%|████████  | 4/5 [00:01<00:00,  4.82it/s][A
+Adding requests: 100%|██████████| 5/5 [00:01<00:00,  5.80it/s][AAdding requests: 100%|██████████| 5/5 [00:01<00:00,  3.92it/s]
+
+Processed prompts:   0%|          | 0/5 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:  20%|██        | 1/5 [01:33<06:15, 93.85s/it, est. speed input: 345.55 toks/s, output: 12.67 toks/s][A
+Processed prompts:  40%|████      | 2/5 [01:50<02:25, 48.53s/it, est. speed input: 587.95 toks/s, output: 23.75 toks/s][A
+Processed prompts:  60%|██████    | 3/5 [01:53<00:55, 27.82s/it, est. speed input: 853.40 toks/s, output: 36.16 toks/s][A
+Processed prompts:  80%|████████  | 4/5 [06:08<01:57, 117.55s/it, est. speed input: 355.99 toks/s, output: 25.61 toks/s][Aslurmstepd: error: *** JOB 18579958 ON lrdn1171 CANCELLED AT 2025-08-06T22:16:00 DUE TO TIME LIMIT ***
