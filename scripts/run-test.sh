@@ -28,5 +28,4 @@ source $WORK/VojoLe-LM/.venv_vllm/bin/activate
 # huggingface-cli download CohereLabs/c4ai-command-a-03-2025 --local-dir $FAST/models/c4ai --repo-type=model --token hf_XguuLcefAFZBhBYTikpAQjZPbufNHewNd
 # huggingface-cli download unsloth/Meta-Llama-3.1-8B-Instruct --token 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
 
-python3 -c "import torch; print(torch.cuda.get_device_capability())"
 python3 -m dataset_maker.dataset_converter --run

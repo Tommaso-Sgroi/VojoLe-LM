@@ -24,7 +24,7 @@ export TORCHDYNAMO_VERBOSE=1
 export BATCH_SIZE=25
 
 source $WORK/VojoLe-LM/.venv_vllm/bin/activate
-python3 -m test_db
+python3 -m dataset_maker.download_dataset
 
 
 

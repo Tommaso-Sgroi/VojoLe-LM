@@ -29,8 +29,8 @@ validation = mc4_it_full_stream['validation']
 base_uri = os.path.join('.', 'data', 'clean_mc4_it', 'tiny')
 
 start = time()
-sqlite_db = DatabaseIta('er-italiano.db')
-sqlite_sr_db = DatabaseSor('er-sorianese.db')
+sqlite_db = DatabaseIta(os.path.join(os.getenv('FAST'), 'er-italiano1.db'))
+sqlite_sr_db = DatabaseSor(os.path.join(os.getenv('FAST'), 'er-sorianese1.db'))
 sqlite_db.create_tables()
 sqlite_sr_db.create_tables()
 

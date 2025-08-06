@@ -14,7 +14,7 @@ prompt_path = os.path.join(os.getenv('PROMPT_PATH'))
 database_ita_path = os.path.join(os.getenv('DB_ITA'))
 database_sor_path = os.path.join(os.getenv('DB_SOR'))
 batch_size = int(os.getenv('BATCH_SIZE') or 1) 
-max_context = 80_000
+max_context = 60_000
 
 print(f"""
 ==================== Job Configuration ====================
@@ -51,7 +51,7 @@ def run(llm, db_ita: DatabaseIta, db_sor: DatabaseSor, *, batch_size, prompt, sa
 
     start = time()
     with open(os.path.join(os.getenv('WORK'), 'VojoLe-LM', 'logs', 'tqdm.log'), 'w', encoding='utf-8') as file:
-        for index in tqdm(range(batch_quantity), mininterval=60*10, file=file):
+        for index in tqdm(range(batch_quantity), mininterval=60, file=file):
             batch_sentences = db_ita.get_next_batch_items(batch_size) # [(sentence_id, sentence_text, train), ... , (sentence_id_n, sentence_text_n, train_n)]
             batch_sentences = [{'sentence_id': sentence_id, 'text': sentence_text, 'is_training': train} for sentence_id, sentence_text, train in batch_sentences ]
             
@@ -91,8 +91,9 @@ if __name__ == '__main__':
     llm = LLM(model_path, 
             max_model_len=max_context, # context length 
             tensor_parallel_size=device_count(), # number of GPUs
-            gpu_memory_utilization=0.8,
+            gpu_memory_utilization=0.9,
             dtype="bfloat16",
+            max_num_seqs = batch_size,
             enforce_eager=False, # we optimize model inference using CUDA graphs which take up extra memory in the GPU
             )
     tokenizer = llm.get_tokenizer()
