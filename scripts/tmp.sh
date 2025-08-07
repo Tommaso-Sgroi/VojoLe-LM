@@ -28,6 +28,9 @@ export MAX_CONTEXT=31761
 export DB_ITA="er-italiano.db"
 export DB_SOR="er-sorianese.db"
 
+export DB_ITA="er-italiano.db"
+export DB_SOR="er-sorianere.db"
+
 source $WORK/VojoLe-LM/.venv_vllm/bin/activate
 python3 -m dataset_maker.dataset_converter
 

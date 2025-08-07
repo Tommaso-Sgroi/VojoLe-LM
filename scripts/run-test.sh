@@ -3,7 +3,7 @@
 #SBATCH --qos=boost_qos_dbg
 #SBATCH --account=try25_sgroi ### NOME DEL PROGETTO QUA
 #SBATCH --nodes=1
-#SBATCH --gres=gpu:4
+#SBATCH --gres=gpu:1
 #SBATCH --time=00:30:00
 
 module load python/3.11.7
