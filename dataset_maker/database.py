@@ -82,10 +82,13 @@ class DatabaseIta(Database):
                 sentence_id BIGINT PRIMARY KEY,
                 sentence_text MEDIUMTEXT,
                 status INT DEFAULT 0,
-                train INT DEFAULT 1
+                train INT DEFAULT 1,
+                length INT 
             );""",
             "CREATE INDEX idx_status ON ItaSentence(status);",
             "CREATE INDEX idx_train ON ItaSentence(train);",
+            "CREATE INDEX idx_length ON ItaSentence(length);",
+
         ]
 
     def reset_working_status(self):
@@ -101,8 +104,8 @@ class DatabaseIta(Database):
         cursor = self.get_cursor()
         try:
             cursor.execute(
-                "INSERT INTO ItaSentence (sentence_id, sentence_text, train) VALUES (?, ?, ?);",
-                    (sentence_id, text, type_train_test_val)
+                "INSERT INTO ItaSentence (sentence_id, sentence_text, train, length) VALUES (?, ?, ?, ?);",
+                    (sentence_id, text, type_train_test_val, len(text))
            )
         finally:
             cursor.close()
@@ -123,13 +126,14 @@ class DatabaseIta(Database):
             cursor.close()
 
 
-    def get_next_batch_items(self, batch_size: int, is_train: bool = None, all=False):
+    def get_next_batch_items(self, batch_size: int, is_train: bool = None, order_by_length = True):
         cursor = self.get_cursor()
         try:
+            order_by = 'ORDER BY length' if order_by_length else ''
             if is_train is None:
-                cursor.execute("SELECT sentence_id, sentence_text, train FROM ItaSentence WHERE status=? LIMIT ?;", (0, batch_size))
+                cursor.execute(f"SELECT sentence_id, sentence_text, train FROM ItaSentence WHERE status=? {order_by} LIMIT ?;", (NOT_DONE, batch_size))
             else:
-                cursor.execute("SELECT sentence_id, sentence_text, train FROM ItaSentence WHERE train=? AND status=? LIMIT ?;", (is_train, 0, batch_size))
+                cursor.execute(f"SELECT sentence_id, sentence_text, train FROM ItaSentence WHERE train=? AND status=? {order_by} LIMIT ?;", (is_train, NOT_DONE, batch_size))
                 
             results = cursor.fetchall()
             my_results = results.copy()

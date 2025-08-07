@@ -21,15 +21,17 @@ export CUDA=$CUDA_HOME
 export GOLD_DICT=data2/commons/gold_dictionary.jsonl
 export PROMPT_PATH=$WORK/VojoLe-LM/generation_prompt4.txt
 export TORCHDYNAMO_VERBOSE=1
-export BATCH_SIZE=25
+export BATCH_SIZE=1000
 export MAX_CONTEXT=31761
 
 
 export DB_ITA="er-italiano.db"
-export DB_SOR="er-sorianese.db"
+export DB_SOR="er-sorianesee.db"
+
+rm $FAST/$DB_ITA $FAST/$DB_SOR
 
 source $WORK/VojoLe-LM/.venv_vllm/bin/activate
-python3 -m dataset_maker.dataset_converter
+python3 -m dataset_maker.download_dataset
 
 
 

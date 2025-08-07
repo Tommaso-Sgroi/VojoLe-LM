@@ -30,8 +30,8 @@ fanpage = load_dataset(path=os.path.join(os.getenv('FAST'), 'datasets', 'fanpage
 base_uri = os.path.join('.', 'data', 'clean_mc4_it', 'tiny')
 
 start = time()
-sqlite_db = DatabaseIta(os.path.join(os.getenv('FAST'), 'er-italiano.db'))
-sqlite_sr_db = DatabaseSor(os.path.join(os.getenv('FAST'), 'er-sorianese.db'))
+sqlite_db = DatabaseIta(os.path.join(os.getenv('FAST'), os.getenv('DB_ITA')))
+sqlite_sr_db = DatabaseSor(os.path.join(os.getenv('FAST'), os.getenv('DB_SOR')))
 sqlite_db.create_tables()
 sqlite_sr_db.create_tables()
 
