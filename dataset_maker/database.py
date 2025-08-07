@@ -123,7 +123,7 @@ class DatabaseIta(Database):
             cursor.close()
 
 
-    def get_next_batch_items(self, batch_size: int, is_train: bool = None):
+    def get_next_batch_items(self, batch_size: int, is_train: bool = None, all=False):
         cursor = self.get_cursor()
         try:
             if is_train is None:
@@ -146,6 +146,20 @@ class DatabaseIta(Database):
         finally:
             cursor.close()
 
+    def get_all_items(self):
+        cursor = self.get_cursor()
+        try:
+            cursor.execute("SELECT sentence_id, sentence_text, train FROM ItaSentence")
+            results = cursor.fetchall()
+            if len(results) == 0:
+                return None
+            return results
+
+        except Exception as e:
+            print("Error getting all sentences:", e)
+            self.conn.rollback()  # rollback on error
+        finally:
+            cursor.close()
 
     def update_batch_job(self, sentence_ids, status):
         cursor = self.get_cursor()

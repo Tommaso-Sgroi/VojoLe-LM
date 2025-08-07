@@ -23,8 +23,11 @@ export PROMPT_PATH=$WORK/VojoLe-LM/generation_prompt4.txt
 export TORCHDYNAMO_VERBOSE=1
 export BATCH_SIZE=25
 
+export DB_ITA="er-italiano.db"
+export DB_SOR="er-sorianere.db"
+
 source $WORK/VojoLe-LM/.venv_vllm/bin/activate
-python3 -m dataset_maker.download_dataset
+python3 -m dataset_maker.dataset_converter
 
 
 
