@@ -8,6 +8,7 @@ import sqlite3
 NOT_DONE = 0
 WORK_IN_PROGRESS = 1
 DONE = 1
+TRAIN = 0; TEST = 1; VALIDATION = 2
 
 class Database(object):
     def __init__(self, db_path):
@@ -52,7 +53,7 @@ class DatabaseSor(Database):
             """CREATE TABLE IF NOT EXISTS SorSentence (
                 sentence_id BIGINT PRIMARY KEY,
                 sentence_text MEDIUMTEXT,
-                train BOOL DEFAULT 1
+                train INT DEFAULT 1
             );""",
             "CREATE INDEX idx_train ON SorSentence(train);",
         ]
@@ -96,12 +97,12 @@ class DatabaseIta(Database):
         return self.conn
 
 
-    def add_entry(self, sentence_id, text, is_training):
+    def add_entry(self, sentence_id, text, type_train_test_val):
         cursor = self.get_cursor()
         try:
             cursor.execute(
                 "INSERT INTO ItaSentence (sentence_id, sentence_text, train) VALUES (?, ?, ?);",
-                    (sentence_id, text, is_training)
+                    (sentence_id, text, type_train_test_val)
            )
         finally:
             cursor.close()

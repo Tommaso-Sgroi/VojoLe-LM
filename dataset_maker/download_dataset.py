@@ -17,42 +17,59 @@
 #     return fw
 
 import os.path
-from datasets import load_from_disk
+from datasets import load_from_disk, load_dataset
 from tqdm import tqdm
 from time import time
 from dataset_maker.database import *
+ilpost = load_dataset(path=os.path.join(os.getenv('FAST'), 'datasets', 'ilpost'))
+fanpage = load_dataset(path=os.path.join(os.getenv('FAST'), 'datasets', 'fanpage'))
 
-mc4_it_full_stream = load_from_disk(dataset_path=os.path.join(os.getenv('FAST'), 'datasets', 'mc4_it'))
-train = mc4_it_full_stream['train']
-validation = mc4_it_full_stream['validation']
+
+
 
 base_uri = os.path.join('.', 'data', 'clean_mc4_it', 'tiny')
 
 start = time()
-sqlite_db = DatabaseIta(os.path.join(os.getenv('FAST'), 'er-italiano1.db'))
-sqlite_sr_db = DatabaseSor(os.path.join(os.getenv('FAST'), 'er-sorianese1.db'))
+sqlite_db = DatabaseIta(os.path.join(os.getenv('FAST'), 'er-italiano.db'))
+sqlite_sr_db = DatabaseSor(os.path.join(os.getenv('FAST'), 'er-sorianese.db'))
 sqlite_db.create_tables()
 sqlite_sr_db.create_tables()
 
 # quit()
-batch_phrases = []
-for i, entry in tqdm(enumerate(train)):
-    sqlite_db.add_entry(i, entry['text'], 1)
-    if (i % 1_000_000) == 0:
-        sqlite_db.conn.commit()
-        batch_phrases = []
-else:
-    end = i + 1
-sqlite_db.conn.commit()
+def add_samples_to_dbs(train, test, validation, start_from_index=0):
+    batch_phrases = []
+    for i, entry in tqdm(enumerate(train, start=start_from_index)):
+        sqlite_db.add_entry(i, entry['target'], TRAIN)
+        if (i % 1_000_000) == 0:
+            sqlite_db.conn.commit()
+            batch_phrases = []
+    else:
+        end = i + 1
+    sqlite_db.conn.commit()
 
-batch_phrases.clear()
-for i, entry in tqdm(enumerate(validation, start=end)):
-    sqlite_db.add_entry(i, entry['text'], 0)
-    if (i % 1_000) == 0:
-        sqlite_db.conn.commit()
-        batch_phrases = []
-sqlite_db.conn.commit()
+    batch_phrases.clear()
+    for i, entry in tqdm(enumerate(validation, start=end)):
+        sqlite_db.add_entry(i, entry['target'], VALIDATION)
+        if (i % 1_000) == 0:
+            sqlite_db.conn.commit()
+            batch_phrases = []
+    else:
+        end = i + 1
+    sqlite_db.conn.commit()
 
+    for i, entry in tqdm(enumerate(test, start=end)):
+        sqlite_db.add_entry(i, entry['target'], TEST)
+        if (i % 1_000) == 0:
+            sqlite_db.conn.commit()
+            batch_phrases = []
+    sqlite_db.conn.commit()
+    print('Done in', time() - start, "seconds")
+    return i + 1
+
+start_from = 0
+for ds in [fanpage, ilpost]:
+    start_from = add_samples_to_dbs(ds['train'], ds['test'], ds['validation'], start_from_index=start_from)
+    print('Dataset done')
 sqlite_db.conn.close()
 sqlite_sr_db.conn.close()
-print('Done in', time() - start, "seconds")
+

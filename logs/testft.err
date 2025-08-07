@@ -1,96 +1,12 @@
-/leonardo_work/try25_sgroi/VojoLe-LM/.venv_vllm/lib/python3.11/site-packages/transformers/models/cohere2/configuration_cohere2.py:235: FutureWarning: The `sliding_window_pattern` attribute is deprecated and will be removed in v4.55.0.
-  warnings.warn(
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m /leonardo_work/try25_sgroi/VojoLe-LM/.venv_vllm/lib/python3.11/site-packages/transformers/models/cohere2/configuration_cohere2.py:235: FutureWarning: The `sliding_window_pattern` attribute is deprecated and will be removed in v4.55.0.
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m   warnings.warn(
-[1;36m(VllmWorker rank=2 pid=3489379)[0;0m /leonardo_work/try25_sgroi/VojoLe-LM/.venv_vllm/lib/python3.11/site-packages/transformers/models/cohere2/configuration_cohere2.py:235: FutureWarning: The `sliding_window_pattern` attribute is deprecated and will be removed in v4.55.0.
-[1;36m(VllmWorker rank=2 pid=3489379)[0;0m   warnings.warn(
-[1;36m(VllmWorker rank=1 pid=3489377)[0;0m /leonardo_work/try25_sgroi/VojoLe-LM/.venv_vllm/lib/python3.11/site-packages/transformers/models/cohere2/configuration_cohere2.py:235: FutureWarning: The `sliding_window_pattern` attribute is deprecated and will be removed in v4.55.0.
-[1;36m(VllmWorker rank=1 pid=3489377)[0;0m   warnings.warn(
-[1;36m(VllmWorker rank=3 pid=3489381)[0;0m /leonardo_work/try25_sgroi/VojoLe-LM/.venv_vllm/lib/python3.11/site-packages/transformers/models/cohere2/configuration_cohere2.py:235: FutureWarning: The `sliding_window_pattern` attribute is deprecated and will be removed in v4.55.0.
-[1;36m(VllmWorker rank=3 pid=3489381)[0;0m   warnings.warn(
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:   0% Completed | 0/49 [00:00<?, ?it/s]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:   2% Completed | 1/49 [00:03<02:35,  3.24s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:   4% Completed | 2/49 [00:06<02:22,  3.04s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:   6% Completed | 3/49 [00:09<02:16,  2.97s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:   8% Completed | 4/49 [00:12<02:19,  3.11s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  10% Completed | 5/49 [00:17<02:42,  3.69s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  12% Completed | 6/49 [00:21<02:53,  4.04s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  14% Completed | 7/49 [00:25<02:45,  3.94s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  16% Completed | 8/49 [00:30<02:52,  4.21s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  18% Completed | 9/49 [00:34<02:46,  4.16s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  20% Completed | 10/49 [00:39<02:48,  4.32s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  22% Completed | 11/49 [00:44<03:01,  4.77s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  24% Completed | 12/49 [00:49<02:50,  4.60s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  27% Completed | 13/49 [00:53<02:47,  4.64s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  29% Completed | 14/49 [00:57<02:35,  4.44s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  31% Completed | 15/49 [01:01<02:28,  4.37s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  33% Completed | 16/49 [01:07<02:31,  4.59s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  35% Completed | 17/49 [01:11<02:28,  4.63s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  37% Completed | 18/49 [01:16<02:24,  4.67s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  39% Completed | 19/49 [01:19<02:00,  4.03s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  41% Completed | 20/49 [01:24<02:07,  4.39s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  43% Completed | 21/49 [01:28<02:02,  4.39s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  45% Completed | 22/49 [01:32<01:56,  4.32s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  47% Completed | 23/49 [01:36<01:50,  4.25s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  49% Completed | 24/49 [01:40<01:43,  4.15s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  51% Completed | 25/49 [01:45<01:39,  4.15s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  53% Completed | 26/49 [01:49<01:34,  4.13s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  55% Completed | 27/49 [01:53<01:30,  4.10s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  57% Completed | 28/49 [01:57<01:26,  4.10s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  59% Completed | 29/49 [02:02<01:27,  4.40s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  61% Completed | 30/49 [02:06<01:23,  4.37s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  63% Completed | 31/49 [02:10<01:15,  4.21s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  65% Completed | 32/49 [02:14<01:13,  4.31s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  67% Completed | 33/49 [02:18<01:05,  4.10s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  69% Completed | 34/49 [02:23<01:07,  4.47s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  71% Completed | 35/49 [02:28<01:01,  4.36s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  73% Completed | 36/49 [02:32<00:56,  4.34s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  76% Completed | 37/49 [02:36<00:52,  4.37s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  78% Completed | 38/49 [02:41<00:48,  4.40s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  80% Completed | 39/49 [02:46<00:46,  4.67s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  82% Completed | 40/49 [02:50<00:41,  4.56s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  84% Completed | 41/49 [02:54<00:34,  4.29s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  86% Completed | 42/49 [02:58<00:30,  4.31s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  88% Completed | 43/49 [03:04<00:27,  4.65s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  90% Completed | 44/49 [03:08<00:22,  4.46s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  92% Completed | 45/49 [03:12<00:17,  4.39s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  94% Completed | 46/49 [03:16<00:13,  4.39s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  96% Completed | 47/49 [03:22<00:09,  4.71s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards:  98% Completed | 48/49 [03:26<00:04,  4.66s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards: 100% Completed | 49/49 [03:32<00:00,  4.91s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Loading safetensors checkpoint shards: 100% Completed | 49/49 [03:32<00:00,  4.34s/it]
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m 
-[1;36m(VllmWorker rank=3 pid=3489381)[0;0m /leonardo_work/try25_sgroi/VojoLe-LM/.venv_vllm/lib/python3.11/site-packages/transformers/models/cohere2/configuration_cohere2.py:235: FutureWarning: The `sliding_window_pattern` attribute is deprecated and will be removed in v4.55.0.
-[1;36m(VllmWorker rank=3 pid=3489381)[0;0m   warnings.warn(
-[1;36m(VllmWorker rank=1 pid=3489377)[0;0m /leonardo_work/try25_sgroi/VojoLe-LM/.venv_vllm/lib/python3.11/site-packages/transformers/models/cohere2/configuration_cohere2.py:235: FutureWarning: The `sliding_window_pattern` attribute is deprecated and will be removed in v4.55.0.
-[1;36m(VllmWorker rank=1 pid=3489377)[0;0m   warnings.warn(
-[1;36m(VllmWorker rank=2 pid=3489379)[0;0m /leonardo_work/try25_sgroi/VojoLe-LM/.venv_vllm/lib/python3.11/site-packages/transformers/models/cohere2/configuration_cohere2.py:235: FutureWarning: The `sliding_window_pattern` attribute is deprecated and will be removed in v4.55.0.
-[1;36m(VllmWorker rank=2 pid=3489379)[0;0m   warnings.warn(
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m /leonardo_work/try25_sgroi/VojoLe-LM/.venv_vllm/lib/python3.11/site-packages/transformers/models/cohere2/configuration_cohere2.py:235: FutureWarning: The `sliding_window_pattern` attribute is deprecated and will be removed in v4.55.0.
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m   warnings.warn(
-[1;36m(VllmWorker rank=2 pid=3489379)[0;0m /leonardo_work/try25_sgroi/VojoLe-LM/.venv_vllm/lib/python3.11/site-packages/torch/utils/cpp_extension.py:2356: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
-[1;36m(VllmWorker rank=2 pid=3489379)[0;0m If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].
-[1;36m(VllmWorker rank=2 pid=3489379)[0;0m   warnings.warn(
-[1;36m(VllmWorker rank=1 pid=3489377)[0;0m /leonardo_work/try25_sgroi/VojoLe-LM/.venv_vllm/lib/python3.11/site-packages/torch/utils/cpp_extension.py:2356: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
-[1;36m(VllmWorker rank=1 pid=3489377)[0;0m If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].
-[1;36m(VllmWorker rank=1 pid=3489377)[0;0m   warnings.warn(
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m /leonardo_work/try25_sgroi/VojoLe-LM/.venv_vllm/lib/python3.11/site-packages/torch/utils/cpp_extension.py:2356: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m   warnings.warn(
-[1;36m(VllmWorker rank=3 pid=3489381)[0;0m /leonardo_work/try25_sgroi/VojoLe-LM/.venv_vllm/lib/python3.11/site-packages/torch/utils/cpp_extension.py:2356: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
-[1;36m(VllmWorker rank=3 pid=3489381)[0;0m If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].
-[1;36m(VllmWorker rank=3 pid=3489381)[0;0m   warnings.warn(
-[1;36m(VllmWorker rank=0 pid=3489375)[0;0m Capturing CUDA graph shapes:   0%|          | 0/4 [00:00<?, ?it/s]Capturing CUDA graph shapes:  25%|██▌       | 1/4 [00:00<00:02,  1.13it/s]Capturing CUDA graph shapes:  50%|█████     | 2/4 [00:01<00:01,  1.33it/s]Capturing CUDA graph shapes:  75%|███████▌  | 3/4 [00:01<00:00,  1.78it/s]Capturing CUDA graph shapes: 100%|██████████| 4/4 [00:02<00:00,  1.95it/s]Capturing CUDA graph shapes: 100%|██████████| 4/4 [00:02<00:00,  1.72it/s]
-
-Adding requests:   0%|          | 0/5 [00:00<?, ?it/s][A
-Adding requests:  20%|██        | 1/5 [00:00<00:03,  1.21it/s][A
-Adding requests:  40%|████      | 2/5 [00:00<00:01,  2.42it/s][A
-Adding requests:  60%|██████    | 3/5 [00:01<00:00,  3.63it/s][A
-Adding requests:  80%|████████  | 4/5 [00:01<00:00,  4.82it/s][A
-Adding requests: 100%|██████████| 5/5 [00:01<00:00,  5.80it/s][AAdding requests: 100%|██████████| 5/5 [00:01<00:00,  3.92it/s]
-
-Processed prompts:   0%|          | 0/5 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
-Processed prompts:  20%|██        | 1/5 [01:33<06:15, 93.85s/it, est. speed input: 345.55 toks/s, output: 12.67 toks/s][A
-Processed prompts:  40%|████      | 2/5 [01:50<02:25, 48.53s/it, est. speed input: 587.95 toks/s, output: 23.75 toks/s][A
-Processed prompts:  60%|██████    | 3/5 [01:53<00:55, 27.82s/it, est. speed input: 853.40 toks/s, output: 36.16 toks/s][A
-Processed prompts:  80%|████████  | 4/5 [06:08<01:57, 117.55s/it, est. speed input: 355.99 toks/s, output: 25.61 toks/s][Aslurmstepd: error: *** JOB 18579958 ON lrdn1171 CANCELLED AT 2025-08-06T22:16:00 DUE TO TIME LIMIT ***
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 10000 examples [00:00, 16716.42 examples/s]Generating train split: 20000 examples [00:00, 28982.82 examples/s]Generating train split: 30000 examples [00:00, 38901.72 examples/s]Generating train split: 35201 examples [00:01, 34744.99 examples/s]
+Generating validation split: 0 examples [00:00, ? examples/s]Generating validation split: 4400 examples [00:00, 61946.37 examples/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 4400 examples [00:00, 66467.39 examples/s]
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 10000 examples [00:00, 40099.31 examples/s]Generating train split: 20000 examples [00:00, 38924.76 examples/s]Generating train split: 30000 examples [00:00, 38899.05 examples/s]Generating train split: 40000 examples [00:01, 38437.99 examples/s]Generating train split: 50000 examples [00:01, 38907.92 examples/s]Generating train split: 60000 examples [00:01, 39126.81 examples/s]Generating train split: 67492 examples [00:01, 38402.45 examples/s]Generating train split: 67492 examples [00:01, 38597.87 examples/s]
+Generating validation split: 0 examples [00:00, ? examples/s]Generating validation split: 8436 examples [00:00, 38625.78 examples/s]Generating validation split: 8436 examples [00:00, 37410.50 examples/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 8437 examples [00:00, 38714.25 examples/s]Generating test split: 8437 examples [00:00, 37849.89 examples/s]
+0it [00:00, ?it/s]856it [00:00, 8558.95it/s]4883it [00:00, 27207.15it/s]8402it [00:00, 30848.22it/s]12021it [00:00, 32953.30it/s]15660it [00:00, 34189.16it/s]19291it [00:00, 34908.07it/s]22900it [00:00, 35291.45it/s]26527it [00:00, 35601.88it/s]30152it [00:00, 35802.32it/s]33764it [00:01, 35899.97it/s]37355it [00:01, 35901.66it/s]40960it [00:01, 35945.70it/s]44586it [00:01, 36038.41it/s]48201it [00:01, 36071.35it/s]51829it [00:01, 36133.88it/s]55443it [00:01, 36134.33it/s]59057it [00:01, 36061.13it/s]62665it [00:01, 36066.39it/s]66279it [00:01, 36087.63it/s]67492it [00:01, 34882.71it/s]
+0it [00:00, ?it/s]2599it [00:00, 25988.85it/s]5606it [00:00, 28387.63it/s]8436it [00:00, 29520.32it/s]
+0it [00:00, ?it/s]3019it [00:00, 30184.92it/s]6038it [00:00, 30063.13it/s]8437it [00:00, 29423.13it/s]
+0it [00:00, ?it/s]4099it [00:00, 40987.89it/s]8198it [00:00, 40547.54it/s]12254it [00:00, 39847.09it/s]16240it [00:00, 39511.97it/s]20192it [00:00, 39341.38it/s]24127it [00:00, 39268.47it/s]28055it [00:00, 39150.32it/s]31971it [00:00, 39116.57it/s]35201it [00:00, 39385.98it/s]
+0it [00:00, ?it/s]2861it [00:00, 28604.44it/s]4400it [00:00, 30327.83it/s]
+0it [00:00, ?it/s]3035it [00:00, 29550.52it/s]4400it [00:00, 30374.65it/s]
