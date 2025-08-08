@@ -2,7 +2,7 @@ from vllm import LLM, SamplingParams
 from vllm.sampling_params import GuidedDecodingParams
 import os
 from time import time
-from dataset_maker.database import DatabaseIta, DatabaseSor
+from dataset_maker.database import DatabaseIta, DatabaseSor, DONE, TRAIN, VALIDATION, TEST
 from torch.cuda import device_count
 from tqdm import tqdm
 from math import ceil
@@ -68,8 +68,11 @@ def run(llm, db_ita: DatabaseIta, db_sor: DatabaseSor, *, batch_size, prompt, sa
                 bs = batch_sentences[index]
                 bs['text'] = output.outputs[0].text
                 db_sor.add_translation(**bs)
-            else:
+            else: # ;)
+                # change status to 'done'
+                db_ita.update_batch_job([bs['sentence_id'] for bs in batch_sentences], DONE)
                 db_sor.commit()  # ;)
+                db_ita.commit()
 
             for i, output in enumerate(outputs):
                 prompt_used = output.prompt
@@ -129,8 +132,6 @@ if __name__ == '__main__':
         temperature=0.8,
         top_p=0.95,
         guided_decoding=guided_decoding_json,
-        # max_tokens=int(max_context * 1.2),
-        # truncate_prompt_tokens=max_context,
     )
 
     llm = LLM(model_path,

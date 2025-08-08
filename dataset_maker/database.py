@@ -5,9 +5,7 @@ It simply keeps track of the next sentence.
 import sqlite3
 
 
-NOT_DONE = 0
-WORK_IN_PROGRESS = 1
-DONE = 1
+NOT_DONE = 0; WORK_IN_PROGRESS = 1; DONE = 2
 TRAIN = 0; TEST = 1; VALIDATION = 2
 
 class Database(object):
@@ -78,11 +76,11 @@ class DatabaseIta(Database):
         eseguendo i comandi SQL necessari.
         """
         return [
-            """CREATE TABLE IF NOT EXISTS ItaSentence (
+            f"""CREATE TABLE IF NOT EXISTS ItaSentence (
                 sentence_id BIGINT PRIMARY KEY,
                 sentence_text MEDIUMTEXT,
-                status INT DEFAULT 0,
-                train INT DEFAULT 1,
+                status INT DEFAULT {NOT_DONE},
+                train INT DEFAULT {TRAIN},
                 length INT 
             );""",
             "CREATE INDEX idx_status ON ItaSentence(status);",
@@ -94,7 +92,7 @@ class DatabaseIta(Database):
     def reset_working_status(self):
         cursor = self.get_cursor()
         try:
-            cursor.execute("UPDATE ItaSentence SET status = 0 WHERE status=?", (WORK_IN_PROGRESS,))
+            cursor.execute("UPDATE ItaSentence SET status = ? WHERE status=?;", (NOT_DONE, WORK_IN_PROGRESS))
         finally:
             cursor.close()
         return self.conn
