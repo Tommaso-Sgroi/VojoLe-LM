@@ -20,7 +20,7 @@ export PROMPT_PATH=$WORK/VojoLe-LM/generation_prompt4.txt
 export DB_ITA=$WORK/VojoLe-LM/er-italiano.db
 export DB_SOR=$WORK/VojoLe-LM/er-sorianese.db
 export BATCH_SIZE=5
-
+export MAX_CONTEXT=31761
 
 nvcc --version
 

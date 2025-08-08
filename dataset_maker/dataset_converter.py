@@ -13,7 +13,7 @@ prompt_path = os.path.join(os.getenv('PROMPT_PATH'))
 database_ita_path = os.path.join(os.getenv('DB_ITA'))
 database_sor_path = os.path.join(os.getenv('DB_SOR'))
 batch_size = int(os.getenv('BATCH_SIZE') or 1)
-max_context = 40_000
+max_context = int(os.getenv('MAX_CONTEXT'))
 
 print(f"""
 ==================== Job Configuration ====================
