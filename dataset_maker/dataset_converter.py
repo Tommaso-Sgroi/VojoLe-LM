@@ -40,7 +40,7 @@ def run_batch(llm: LLM, entries, *, prompt, sampling_params: SamplingParams, tok
 
     # calculate max and min tokens
     tokens_length = [len(tokenizer.encode(entry['text'])) for entry in entries]
-    max_tokens = max([ceil(i * 2) for i in tokens_length])
+    max_tokens = max([ceil(i * 3) for i in tokens_length])
     min_tokens = min(tokens_length)
 
     # print('Tokens lengths: ', [len(tokenizer.encode(e)) for e in prompt])
