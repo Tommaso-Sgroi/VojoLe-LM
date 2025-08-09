@@ -26,7 +26,7 @@ export MAX_CONTEXT=31761
 
 
 export DB_ITA="er-italiano.db"
-export DB_SOR="er-sorianesee.db"
+export DB_SOR="er-sorianese.db"
 
 rm $FAST/$DB_ITA $FAST/$DB_SOR
 

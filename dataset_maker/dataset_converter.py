@@ -15,6 +15,7 @@ database_ita_path = os.path.join(os.getenv('DB_ITA'))
 database_sor_path = os.path.join(os.getenv('DB_SOR'))
 batch_size = int(os.getenv('BATCH_SIZE') or 1)
 max_context = int(os.getenv('MAX_CONTEXT'))
+quantization = os.getenv('QUANTIZATION', None)  # Default to 'None' if not set
 
 print(f"""
 ==================== Job Configuration ====================
@@ -26,6 +27,7 @@ SOR DB path        : {database_sor_path}
 Batch size         : {batch_size}
 Max context tokens : {max_context}
 GPUs               : {device_count()}
+Quantization       : {quantization if quantization else 'None'}
 ============================================================
 """)
 
@@ -71,7 +73,7 @@ def run(llm, db_ita: DatabaseIta, db_sor: DatabaseSor, *, batch_size, prompt, sa
             else: # ;)
                 # change status to 'done'
                 db_ita.update_batch_job([bs['sentence_id'] for bs in batch_sentences], DONE)
-                db_sor.commit()  # ;)
+                db_sor.commit()
                 db_ita.commit()
 
             for i, output in enumerate(outputs):
@@ -141,9 +143,8 @@ if __name__ == '__main__':
             dtype="bfloat16",
             max_num_seqs=batch_size,
             enforce_eager=False,
-            quantization="fp8_e4m3", # they load the model at original precision before quantizing down to 8-bits, so you need enough memory to load the whole model
+            quantization=quantization, # they load the model at original precision before quantizing down to 8-bits, so you need enough memory to load the whole model
         )
     tokenizer = llm.get_tokenizer()
-
     run(llm, db_ita, db_sor, batch_size=batch_size, sampling_params=sampling_params, prompt=prompt, tokenizer=tokenizer)
 
