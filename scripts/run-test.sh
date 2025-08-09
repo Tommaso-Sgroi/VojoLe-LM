@@ -18,9 +18,11 @@ export GOLD_DICT=data2/commons/gold_dictionary.jsonl
 export PROMPT_PATH=$WORK/VojoLe-LM/generation_prompt4.txt
 # export DB_ITA=$FAST/er-italiano-fp8.db
 # export DB_SOR=$FAST/er-sorianese-fp8.db
-export DB_ITA=$WORK/VojoLe/er-italiano.db
-export DB_SOR=$WORK/VojoLe/er-sorianese.db
+export DB_ITA=$WORK/VojoLe-LM/er-italiano.db
+export DB_SOR=$WORK/VojoLe-LM/er-sorianese.db
 export BATCH_SIZE=5
+export NUM_GENERATIONS=3
+export TEMPERATURE=0.8
 export MAX_CONTEXT=31800
 # export QUANTIZATION=fp8  # Set to 'fp8' or 'None' as needed
 

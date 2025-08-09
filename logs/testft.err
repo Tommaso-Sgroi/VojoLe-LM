@@ -1,0 +1,14 @@
+/leonardo_work/try25_sgroi/VojoLe-LM/.venv_vllm/lib/python3.11/site-packages/transformers/models/cohere2/configuration_cohere2.py:235: FutureWarning: The `sliding_window_pattern` attribute is deprecated and will be removed in v4.55.0.
+  warnings.warn(
+[1;36m(VllmWorker rank=0 pid=1433284)[0;0m /leonardo_work/try25_sgroi/VojoLe-LM/.venv_vllm/lib/python3.11/site-packages/transformers/models/cohere2/configuration_cohere2.py:235: FutureWarning: The `sliding_window_pattern` attribute is deprecated and will be removed in v4.55.0.
+[1;36m(VllmWorker rank=0 pid=1433284)[0;0m   warnings.warn(
+[1;36m(VllmWorker rank=1 pid=1433285)[0;0m /leonardo_work/try25_sgroi/VojoLe-LM/.venv_vllm/lib/python3.11/site-packages/transformers/models/cohere2/configuration_cohere2.py:235: FutureWarning: The `sliding_window_pattern` attribute is deprecated and will be removed in v4.55.0.
+[1;36m(VllmWorker rank=1 pid=1433285)[0;0m   warnings.warn(
+[1;36m(VllmWorker rank=3 pid=1433290)[0;0m /leonardo_work/try25_sgroi/VojoLe-LM/.venv_vllm/lib/python3.11/site-packages/transformers/models/cohere2/configuration_cohere2.py:235: FutureWarning: The `sliding_window_pattern` attribute is deprecated and will be removed in v4.55.0.
+[1;36m(VllmWorker rank=3 pid=1433290)[0;0m   warnings.warn(
+[1;36m(VllmWorker rank=2 pid=1433286)[0;0m /leonardo_work/try25_sgroi/VojoLe-LM/.venv_vllm/lib/python3.11/site-packages/transformers/models/cohere2/configuration_cohere2.py:235: FutureWarning: The `sliding_window_pattern` attribute is deprecated and will be removed in v4.55.0.
+[1;36m(VllmWorker rank=2 pid=1433286)[0;0m   warnings.warn(
+[1;36m(VllmWorker rank=0 pid=1433284)[0;0m Loading safetensors checkpoint shards:   0% Completed | 0/49 [00:00<?, ?it/s]
+[1;36m(VllmWorker rank=0 pid=1433284)[0;0m Loading safetensors checkpoint shards:   2% Completed | 1/49 [00:03<02:37,  3.28s/it]
+[1;36m(VllmWorker rank=0 pid=1433284)[0;0m Loading safetensors checkpoint shards:   4% Completed | 2/49 [00:06<02:22,  3.04s/it]
+[1;36m(VllmWorker rank=0 pid=1433284)[0;0m Loading safetensors checkpoint shards:   6% Completed | 3/49 [00:09<02:16,  2.96s/it]

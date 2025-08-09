@@ -16,18 +16,21 @@ database_sor_path = os.path.join(os.getenv('DB_SOR'))
 batch_size = int(os.getenv('BATCH_SIZE') or 1)
 max_context = int(os.getenv('MAX_CONTEXT'))
 quantization = os.getenv('QUANTIZATION', None)  # Default to 'None' if not set
+num_generations = int(os.getenv('NUM_GENERATIONS', 1))
+temperature = float(os.getenv('TEMPERATURE', 0.8))
 
 print(f"""
 ==================== Job Configuration ====================
-Model path         : {model_path}
-Dataset path       : {dataset_path}
-Prompt path        : {prompt_path}
-ITA DB path        : {database_ita_path}
-SOR DB path        : {database_sor_path}
-Batch size         : {batch_size}
-Max context tokens : {max_context}
-GPUs               : {device_count()}
-Quantization       : {quantization if quantization else 'None'}
+Model path          : {model_path}
+Dataset path        : {dataset_path}
+Prompt path         : {prompt_path}
+ITA DB path         : {database_ita_path}
+SOR DB path         : {database_sor_path}
+Batch size          : {batch_size}
+Max context tokens  : {max_context}
+GPUs                : {device_count()}
+Generations x prompt: {num_generations}
+Quantization        : {quantization if quantization else 'None'}
 ============================================================
 """)
 
@@ -61,27 +64,26 @@ def run(llm, db_ita: DatabaseIta, db_sor: DatabaseSor, *, batch_size, prompt, sa
     with open(os.path.join(os.getenv('WORK'), 'VojoLe-LM', 'logs', 'tqdm.log'), 'w', encoding='utf-8') as file:
         for index in tqdm(range(batch_quantity), mininterval=60, file=file):
             batch_sentences = db_ita.get_next_batch_items(batch_size)  # [(sentence_id, sentence_text, train), ... , (sentence_id_n, sentence_text_n, train_n)]
-            batch_sentences = [{'sentence_id': sentence_id, 'text': sentence_text, 'is_training': train} for
+            batch_sentences = [{'sentence_id': sentence_id, 'text': sentence_text, 'is_training': train, 'sentence_gen_id':0} for
                                sentence_id, sentence_text, train in batch_sentences]
 
             outputs = run_batch(llm, batch_sentences, prompt=prompt, sampling_params=sampling_params, tokenizer=tokenizer)
 
             for index, output in enumerate(outputs):
                 bs = batch_sentences[index]
-                bs['text'] = output.outputs[0].text
-                db_sor.add_translation(**bs)
+                for i in range(len((output.outputs))):
+                    bs['text'] = output.outputs[i].text
+                    bs['sentence_gen_id'] = i
+                    db_sor.add_translation(**bs)
+                    
+                    generated_text = output.outputs[i].text
+                    print(f"Generated:\n{generated_text}")
+                print('='*1000)
             else: # ;)
                 # change status to 'done'
                 db_ita.update_batch_job([bs['sentence_id'] for bs in batch_sentences], DONE)
                 db_sor.commit()
                 db_ita.commit()
-
-            for i, output in enumerate(outputs):
-                prompt_used = output.prompt
-                generated_text = output.outputs[0].text
-                print(f"Generated:\n{generated_text}\n{'='*1000}")
-            if (index % batch_size) == 0:
-                print(f'\n\n\nELAPSED: Done {index} prompts in {int(ceil((time() - start) / 60))}h\n\n\n')
 
 
 def get_translation_schema():
@@ -131,7 +133,8 @@ if __name__ == '__main__':
     """
     guided_decoding_json = GuidedDecodingParams(json=get_translation_schema())
     sampling_params = SamplingParams(
-        temperature=0.8,
+        n = num_generations,
+        temperature=temperature,
         top_p=0.95,
         guided_decoding=guided_decoding_json,
     )

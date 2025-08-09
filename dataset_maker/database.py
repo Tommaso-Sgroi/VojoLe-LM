@@ -49,19 +49,21 @@ class DatabaseSor(Database):
         """
         return [
             """CREATE TABLE IF NOT EXISTS SorSentence (
-                sentence_id BIGINT PRIMARY KEY,
+                sentence_id BIGINT,
+                sentence_gen_id INT, -- for each sentence, we generate more than one translation, this is the id of the generated sentence
                 sentence_text MEDIUMTEXT,
-                train INT DEFAULT 1
+                train INT DEFAULT 1,
+                PRIMARY KEY (sentence_id, sentence_gen_id)
             );""",
             "CREATE INDEX idx_train ON SorSentence(train);",
         ]
 
-    def add_translation(self, sentence_id, text, is_training):
+    def add_translation(self, sentence_id, text, is_training, sentence_gen_id=0):
         cursor = self.get_cursor()
         try:
             cursor.execute(
-                "INSERT INTO SorSentence (sentence_id, sentence_text, train) VALUES (?, ?, ?);",
-                       (sentence_id, text, is_training)
+                "INSERT INTO SorSentence (sentence_id, sentence_text, train, sentence_gen_id) VALUES (?, ?, ?, ?);",
+                       (sentence_id, text, is_training, sentence_gen_id)
            )
         finally:
             cursor.close()
