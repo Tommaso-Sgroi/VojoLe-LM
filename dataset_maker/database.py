@@ -53,6 +53,7 @@ class DatabaseSor(Database):
                 sentence_gen_id INT, -- for each sentence, we generate more than one translation, this is the id of the generated sentence
                 sentence_text MEDIUMTEXT,
                 train INT DEFAULT 1,
+                evaluated INT DEFAULT 0, -- 0 is not evaluated, then from 1 to 3 is the value of correctness 
                 PRIMARY KEY (sentence_id, sentence_gen_id)
             );""",
             "CREATE INDEX idx_train ON SorSentence(train);",
@@ -65,6 +66,31 @@ class DatabaseSor(Database):
                 "INSERT INTO SorSentence (sentence_id, sentence_text, train, sentence_gen_id) VALUES (?, ?, ?, ?);",
                        (sentence_id, text, is_training, sentence_gen_id)
            )
+        finally:
+            cursor.close()
+        return self.conn
+
+    def get_translations(self, sentence_id):
+        cursor = self.get_cursor()
+        try:
+            cursor.execute(
+                """
+                SELECT * FROM SorSentence WHERE sentence_id = (
+                    SELECT sentence_id FROM SorSentence WHERE evaluated=0 GROUP BY sentence_id LIMIT 1
+                ) ORDER BY sentence_gen_id;
+                """,)
+
+            results = cursor.fetchall()
+            if len(results) == 0:
+                return None
+            return results
+        finally:
+            cursor.close()
+
+    def add_evaluation(self, sentence_id, sentence_gen_id, evaluation: int):
+        cursor = self.get_cursor()
+        try:
+            cursor.execute("UPDATE SorSentence SET evaluated=? WHERE sentence_id=? AND sentence_gen_id=?;", (evaluation, sentence_id, sentence_gen_id))
         finally:
             cursor.close()
         return self.conn
@@ -164,6 +190,21 @@ class DatabaseIta(Database):
             self.conn.rollback()  # rollback on error
         finally:
             cursor.close()
+
+    def get_sentence_by_id(self, sentence_id):
+        cursor = self.get_cursor()
+        try:
+            cursor.execute('SELECT sentence_text FROM ItaSentence WHERE sentence_id=?', (sentence_id,))
+            results = cursor.fetchone()
+            if results is None:
+                return None
+            return results
+        except Exception as e:
+            print("Error getting sentence by id:", e)
+            self.conn.rollback()
+        finally:
+            cursor.close()
+
 
     def update_batch_job(self, sentence_ids, status):
         cursor = self.get_cursor()
