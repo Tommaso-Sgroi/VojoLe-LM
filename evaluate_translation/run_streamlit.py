@@ -145,11 +145,11 @@ if st.session_state.current_sentence_id is None:
 # ----------------------------------------------------------------------
 if st.session_state.translations:
     # ------------------- Source (Italian) -------------------
-    st.subheader("Italian sentence")
+    st.subheader("Frase in Italiano")
     st.write(st.session_state.ita_sentence)
 
     # ------------------- Generated translations -------------------
-    st.subheader("Generated sentences")
+    st.subheader("Frasi Generate")
     for tr in st.session_state.translations:
         gen_id = tr["gen_id"]
         gen_text = tr["text"]
