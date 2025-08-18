@@ -3,7 +3,7 @@ This module simply serve multiple processes of the next text to translate.
 It simply keeps track of the next sentence.
 """
 import sqlite3
-
+from typing import Union, Optional, List, Tuple
 
 NOT_DONE = 0; WORK_IN_PROGRESS = 1; DONE = 2
 TRAIN = 0; TEST = 1; VALIDATION = 2
@@ -57,6 +57,7 @@ class DatabaseSor(Database):
                 PRIMARY KEY (sentence_id, sentence_gen_id)
             );""",
             "CREATE INDEX idx_train ON SorSentence(train);",
+            "CREATE INDEX SorSentence_IsLocked_index ON SorSentence (IsLocked);",
         ]
 
     def add_translation(self, sentence_id, text, is_training, sentence_gen_id=0):
@@ -70,22 +71,70 @@ class DatabaseSor(Database):
             cursor.close()
         return self.conn
 
-    def get_translations(self, sentence_id):
-        cursor = self.get_cursor()
-        try:
-            cursor.execute(
-                """
-                SELECT * FROM SorSentence WHERE sentence_id = (
-                    SELECT sentence_id FROM SorSentence WHERE evaluated=0 GROUP BY sentence_id LIMIT 1
-                ) ORDER BY sentence_gen_id;
-                """,)
+    def get_translations_for_evaluation(self,
+                                        sentence_type: Union[int, str] = None
+                                        ) -> Optional[List[Tuple]]:
+        """
+        Returns *all* rows (different sentence_gen_id) for a single
+        sentence that:
+          • has not been evaluated (evaluated = 0)
+          • is not locked, or the lock is older than 1hour
+        The chosen sentence is locked for the next hour so that no other
+        worker can fetch it at the same time.
+        """
+        # ---------- Normalise the optional «train» filter ----------
+        if sentence_type is None:
+            select_type = ""
+        elif isinstance(sentence_type, int) and 0 <= sentence_type < 3:
+            select_type = f"AND train = {sentence_type}"
+        elif isinstance(sentence_type, str):
+            # you already have VALIDATION, TRAIN, TEST constants somewhere
+            mapping = {"validation": VALIDATION,
+                       "train": TRAIN,
+                       "test": TEST}
+            try:
+                select_type = f"AND train = {mapping[sentence_type.lower()]}"
+            except KeyError:
+                raise ValueError(f"Unknown sentence type: {sentence_type}")
+        else:
+            raise ValueError(f"Invalid sentence_type: {sentence_type!r}")
 
-            results = cursor.fetchall()
-            if len(results) == 0:
+        # ---------- Transaction – atomically pick & lock ----------
+        with self.conn:
+            cur = self.conn.cursor()
+
+            # Find a candidate sentence_id
+            cur.execute(f"""
+                SELECT sentence_id
+                FROM SorSentence
+                WHERE evaluated = 0 {select_type} AND (IsLocked IS NULL OR unixepoch() - IsLocked > 3600)
+                GROUP BY sentence_id
+                ORDER BY sentence_id            -- deterministic
+                LIMIT 1;
+                """)
+            row = cur.fetchone()
+            if row is None:                 # nothing available
                 return None
+
+            chosen_id = row[0]               # sentence_id column
+
+            # Lock **all** rows of that sentence (the lock is per‑sentence)
+            cur.execute("""
+                UPDATE SorSentence
+                SET IsLocked = unixepoch()
+                WHERE sentence_id = ?;
+                """, (chosen_id,))
+
+            # Retrieve every translation for the locked sentence
+            cur.execute("""
+                SELECT *
+                FROM SorSentence
+                WHERE sentence_id = ?
+                ORDER BY sentence_gen_id;
+                """, (chosen_id,))
+
+            results = cur.fetchall()
             return results
-        finally:
-            cursor.close()
 
     def add_evaluation(self, sentence_id, sentence_gen_id, evaluation: int):
         cursor = self.get_cursor()
@@ -94,6 +143,19 @@ class DatabaseSor(Database):
         finally:
             cursor.close()
         return self.conn
+
+    def reset_timestamps(self):
+        cursor = self.get_cursor()
+        try:
+            cursor.execute("""
+            UPDATE SorSentence
+            SET IsLocked = 0
+            WHERE ((unixepoch() - IsLocked) > 3600); 
+            """)
+        finally:
+            cursor.close()
+        return self.conn
+
 
 
 class DatabaseIta(Database):
