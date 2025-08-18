@@ -109,7 +109,7 @@ class DatabaseSor(Database):
                 FROM SorSentence
                 WHERE evaluated = 0 {select_type} AND (IsLocked IS NULL OR unixepoch() - IsLocked > 3600)
                 GROUP BY sentence_id
-                ORDER BY sentence_id            -- deterministic
+                ORDER BY sentence_id
                 LIMIT 1;
                 """)
             row = cur.fetchone()
@@ -129,7 +129,7 @@ class DatabaseSor(Database):
             cur.execute("""
                 SELECT *
                 FROM SorSentence
-                WHERE sentence_id = ?
+                WHERE sentence_id = ? AND evaluated=0
                 ORDER BY sentence_gen_id;
                 """, (chosen_id,))
 

@@ -10,6 +10,7 @@ from dataset_maker.database import DatabaseSor, DatabaseIta, VALIDATION
 from logging import getLogger
 # import pythonmonkey
 
+# jsonrepair = pythonmonkey.require('jsonrepair').jsonrepair
 
 def get_logger():
     logger = getLogger(__name__)
@@ -59,9 +60,11 @@ def _repair_and_unwrap(sentence_json: str):
     """
     try:
         loaded = json_loads(sentence_json)
-    except Exception:                     # malformed → try to repair
+    except Exception as e:                     # malformed → try to repair
         # sentence_json = jsonrepair(sentence_json)
-        loaded = json_loads(sentence_json)
+        # loaded = json_loads(sentence_json)
+        print(e)
+        loaded = sentence_json
 
     if isinstance(loaded, dict):
         return loaded.get("translation")
