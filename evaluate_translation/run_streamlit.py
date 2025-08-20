@@ -160,20 +160,20 @@ if st.session_state.translations:
         # three rating buttons
         col1, col2, col3 = st.columns(3)
         col1.button(
-            "Bad",
+            "Sbagliato",
             key=f"bad_{st.session_state.current_sentence_id}_{gen_id}",
             on_click=on_evaluate,
             args=(st.session_state.current_sentence_id, gen_id, 1),
 
         )
         col2.button(
-            "Acceptable",
+            "Accettabile",
             key=f"ok_{st.session_state.current_sentence_id}_{gen_id}",
             on_click=on_evaluate,
             args=(st.session_state.current_sentence_id, gen_id, 2),
         )
         col3.button(
-            "Good",
+            "Corretto",
             key=f"good_{st.session_state.current_sentence_id}_{gen_id}",
             on_click=on_evaluate,
             args=(st.session_state.current_sentence_id, gen_id, 3),
