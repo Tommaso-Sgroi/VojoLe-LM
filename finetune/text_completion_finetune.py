@@ -215,7 +215,7 @@ print(f"Test Perplexity: {test_perplexity}")
 
 
 ## save the logged stats
-log_path = os.path.join(LOGGED_STATS_PATH, os.path.basename(os.path.normpath(MODEL_PATH)))
+log_path = os.path.join(LOGGED_STATS_PATH, os.path.basename(os.path.normpath(MODEL_PATH))) + '.log'
 with open(log_path, 'w', encoding='utf-8') as f:
     json.dump(logged_stats, f, indent=2)
     print(f"Stats logged at {log_path}")
