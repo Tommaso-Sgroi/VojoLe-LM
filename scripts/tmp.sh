@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=dataset_to_db
+#SBATCH --job-name=tmp
 #SBATCH --nodes=1
 #SBATCH --time=04:00:00
 #SBATCH --ntasks=1
@@ -31,10 +31,16 @@ export DB_SOR="er-sorianese.db"
 export DB_ITA="er-italiano.db"
 export DB_SOR="er-sorianere.db"
 
-source $WORK/VojoLe-LM/.venv_vllm/bin/activate
-python3 -m dataset_maker.dataset_converter
+# source $WORK/VojoLe-LM/.venv_vllm/bin/activate
+# python3 -m dataset_maker.dataset_converter
 
+module load python/3.11.7
 
+python3 -m venv .venv_unsloth
+source $WORK/VojoLe-LM/.venv_unsloth/bin/activate
+python3 --version
+
+pip install unsloth
 
 # singularity exec --bind $WORK/VojoLe-LM:/code vllm.sif "ls /code && python3 -c \"import torch; torch.cuda.is_available(); print(\"CUDA devices\", torch.cuda.device_count())\""
 
