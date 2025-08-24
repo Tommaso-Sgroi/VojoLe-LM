@@ -1,20 +1,55 @@
 # -*- coding: utf-8 -*-
-
-import os, re, json
-
-from unsloth import FastLanguageModel
-import torch
+import unsloth
+import os, json, argparse, numpy as np, torch
+from trl import SFTTrainer
+from transformers import TrainingArguments, EarlyStoppingCallback, EvalPrediction, TrainerCallback
+from unsloth import UnslothTrainer, UnslothTrainingArguments, FastLanguageModel
 import numpy as np
+import torch.nn.functional as F
+from multiprocessing import cpu_count
+
+parser = argparse.ArgumentParser(description="Unsloth model training paths and options")
+
+# Quantization flags
+parser.add_argument("--load_in_4bit", default=False, required=False, action="store_true", help="Use 4bit quantization to reduce memory usage")
+parser.add_argument("--load_in_8bit", default=False, required=False, action="store_true", help="Use 8bit quantization to reduce memory usage")
+parser.add_argument("--run", required=False, action="store_true", help="Leonardo Booster required")
+
+# Model paths
+parser.add_argument("--model_path", type=str, required=False, default=None, help="Path to the pretrained model")
+parser.add_argument("--save_model_path", type=str, default=None, required=False, help="Directory to save fine-tuned models and logs")
+parser.add_argument("--model_name", type=str, default=None, help="Optional model name (defaults to basename of model_path)")
+
+args = parser.parse_args()
+
+# Set quantization options
+load_in_4bit = args.load_in_4bit
+load_in_8bit = args.load_in_8bit
+
+# Model paths
+MODEL_PATH = os.path.join(args.model_path or os.getenv("MODEL_PATH"))
+MODEL_NAME = args.model_name or os.path.basename(os.path.normpath(MODEL_PATH)) 
+MODEL_OUTPUT_PATH = os.path.join(args.save_model_path or os.getenv("SAVE_MODEL_PATH"), "best", MODEL_NAME)
+TMP_MODEL_PATH = os.path.join(args.save_model_path or os.getenv("SAVE_MODEL_PATH"), "tmp", MODEL_NAME)
+LOGGED_STATS_PATH = os.path.join(args.save_model_path or os.getenv("SAVE_MODEL_PATH"), "log", MODEL_NAME)
+
+# Optional: print for verification
+print(f"""
+{'='*100}
+MODEL_PATH = {MODEL_PATH}
+MODEL_NAME = {MODEL_NAME}
+MODEL_OUTPUT_PATH = {MODEL_OUTPUT_PATH}
+TMP_MODEL_PATH = {TMP_MODEL_PATH}
+LOGGED_STATS_PATH = {LOGGED_STATS_PATH}
+load_in_4bit = {load_in_4bit}, load_in_8bit = {load_in_8bit}
+{'='*100}
+""")
 
 max_seq_length = 2048 # Choose any! We auto support RoPE Scaling internally!
 dtype = None # None for auto detection. Float16 for Tesla T4, V100, Bfloat16 for Ampere+
-load_in_4bit = True # Use 4bit quantization to reduce memory usage. Can be False.
 
-#  "unsloth/mistral-7b" for 16bit loading
-MODEL_PATH = os.path.join(os.getenv('MODEL_PATH')) # os.path.join(os.getenv('MODEL_PATH'))
-MODEL_OUTPUT_PATH = os.path.join(os.getenv('SAVE_MODEL_PATH'), "best")
-TMP_MODEL_PATH = os.path.join(os.getenv('SAVE_MODEL_PATH'), "tmp")
-LOGGED_STATS_PATH = os.path.join(os.getenv('SAVE_MODEL_PATH'), "log")
+
+
 logged_stats = {
     'raw_perplexity': -1,
     'train_logs': {},
@@ -36,9 +71,11 @@ fourbit_models = [
 
 model, tokenizer = FastLanguageModel.from_pretrained(
     model_name = MODEL_PATH, #
+    local_files_only=True,
     max_seq_length = max_seq_length,
     dtype = dtype,
     load_in_4bit = load_in_4bit,
+    load_in_8bit=load_in_8bit,
     # token = "hf_...", # use one if using gated models like meta-llama/Llama-2-7b-hf
 )
 
@@ -85,7 +122,7 @@ for row in train_dataset[:5]:
 
 from datasets import Dataset
 
-train_dataset = Dataset.from_list(train_dataset + test_dataset)
+train_dataset = Dataset.from_list(train_dataset [ :5000])
 test_dataset = Dataset.from_list(test_dataset)
 validation_dataset = Dataset.from_list(validation_dataset)
 
@@ -103,52 +140,53 @@ print(test_dataset)
 We prepare the train/validation with Hyperparameters.
 """
 
-from trl import SFTTrainer
-from transformers import TrainingArguments, EarlyStoppingCallback, EvalPrediction, TrainerCallback
-from unsloth import UnslothTrainer, UnslothTrainingArguments
-import numpy as np
-import torch
-import torch.nn.functional as F
 
 trainer = UnslothTrainer(
     model = model,
     tokenizer = tokenizer,
     train_dataset = train_dataset,
-    eval_dataset = validation_dataset,
+    eval_dataset = test_dataset,
     dataset_text_field = "text",
     max_seq_length = max_seq_length,
-    dataset_num_proc = 8,
-    save_total_limit = 1,
-    load_best_model_at_end=True,
+    dataset_num_proc = cpu_count(),
 
     args = UnslothTrainingArguments(
 
-        per_device_train_batch_size = 32,
+        per_device_train_batch_size = 128, # 32,
         gradient_accumulation_steps = 1,
 
         warmup_ratio = 0.1,
-        num_train_epochs = 250,
+        num_train_epochs = 10,
 
         learning_rate = 2e-5, #5e-5,
-        embedding_learning_rate = 2e-5, # 5e-6,
-
-        logging_steps = 1,
+        embedding_learning_rate = 1e-6, # 5e-6,
         optim = "adamw_8bit",
         weight_decay = 0.00,
         lr_scheduler_type = "cosine",
         seed = 42069,
+        
         output_dir = TMP_MODEL_PATH,
+        logging_dir=os.path.join(TMP_MODEL_PATH, "logs"),
         report_to = "none", # Use this for WandB etc
+        
         metric_for_best_model="eval_loss",
         eval_strategy="epoch",
+        save_strategy = "best",
         greater_is_better=False,
-    ),
+        load_best_model_at_end=True,
+        save_total_limit = 2,
 
-    callbacks=[EarlyStoppingCallback(early_stopping_patience=10)],
+        logging_steps = 1,
+
+    ),
+    callbacks=[EarlyStoppingCallback(early_stopping_patience=10, early_stopping_threshold=0.01)],
 )
+
 
 """### Raw Perplexity on Untrained Model"""
 
+"""
+print('-'*200,'\n[PRE-TRAIN EVALUATION]\n',  '-'*200)
 # Evaluate the currently loaded and trained model on the test dataset
 test_results = trainer.evaluate()
 print(test_results)
@@ -160,6 +198,7 @@ print(f"Test Loss: {test_loss}")
 test_perplexity = np.exp(test_loss)
 logged_stats["raw_perplexity"] = test_perplexity
 print(f"Test Perplexity: {test_perplexity}")
+"""
 
 """## Train
 
@@ -173,6 +212,7 @@ max_memory = round(gpu_stats.total_memory / 1024 / 1024 / 1024, 3)
 print(f"GPU = {gpu_stats.name}. Max memory = {max_memory} GB.")
 print(f"{start_gpu_memory} GB of memory reserved.")
 
+print('-'*200,'\n[TRAIN]\n',  '-'*200)
 trainer_stats = trainer.train()
 trainer.save_model(MODEL_OUTPUT_PATH)
 
@@ -193,9 +233,7 @@ used_memory_for_lora = round(used_memory - start_gpu_memory, 3)
 used_percentage = round(used_memory / max_memory * 100, 3)
 lora_percentage = round(used_memory_for_lora / max_memory * 100, 3)
 print(f"{trainer_stats.metrics['train_runtime']} seconds used for training.")
-print(
-    f"{round(trainer_stats.metrics['train_runtime']/60, 2)} minutes used for training."
-)
+print(f"{round(trainer_stats.metrics['train_runtime']/60, 2)} minutes used for training.")
 print(f"Peak reserved memory = {used_memory} GB.")
 print(f"Peak reserved memory for training = {used_memory_for_lora} GB.")
 print(f"Peak reserved memory % of max memory = {used_percentage} %.")
@@ -215,7 +253,8 @@ print(f"Test Perplexity: {test_perplexity}")
 
 
 ## save the logged stats
-log_path = os.path.join(LOGGED_STATS_PATH, os.path.basename(os.path.normpath(MODEL_PATH))) + '.log'
+log_path = LOGGED_STATS_PATH + '.log'
+
 with open(log_path, 'w', encoding='utf-8') as f:
     json.dump(logged_stats, f, indent=2)
-    print(f"Stats logged at {log_path}")
+    print(f"Stats logged at `{log_path}`")

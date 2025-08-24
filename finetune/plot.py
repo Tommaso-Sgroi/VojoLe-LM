@@ -1,6 +1,6 @@
 import json
 from typing import Literal
-from math import exp
+from math import exp, log as ln
 
 import matplotlib.pyplot as plt
 
@@ -56,6 +56,7 @@ def extract_losses(train_logs: dict) -> dict:
 
 
 def plot_losses(data, custom_x_train=None, custom_x_eval=None, mode:Literal["default", "perplexity"] = "default"):
+    global log_file
     mode = mode.lower()
 
     train_series = data["train"]
@@ -86,18 +87,24 @@ def plot_losses(data, custom_x_train=None, custom_x_eval=None, mode:Literal["def
         else:
             raise ValueError(f"Unknown mode {mode}")
 
+    ylabel = "Loss" if mode == 'default' else "Perplexity"
     plt.xlabel("Epochs")
-    plt.ylabel("Loss" if mode == 'default' else "Perplexity")
+    plt.ylabel(ylabel)
     plt.title("Perplexity Curves")
     plt.grid(True, alpha=0.3)
     plt.legend()
     plt.tight_layout()
-    # plt.savefig("loss_plot.png", dpi=150)
-    plt.show()
+    plt.savefig(f'{log_file}_{ylabel}.png', dpi=150)
+    # plt.show()
 
 def main():
     global log_file
     stats = load_logs(log_file)
+    stats["train_logs"].insert(0, {
+        'epoch': 0.0,
+        'step': 0.0,
+        'eval_loss': ln(stats['raw_perplexity']),
+    })
     train_logs = stats["train_logs"]
     losses = extract_losses(train_logs)
 

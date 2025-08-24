@@ -1,7 +1,11 @@
 # unsloth 
 outputs/
 unsloth_compiled_cache/
-
+logs/
+.vscode/
+data/
+data2/
+datasets/*.json
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

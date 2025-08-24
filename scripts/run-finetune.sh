@@ -14,12 +14,14 @@ module load gcc/12.2.0
 
 export CUDA=$CUDA_HOME
 export SAVE_MODEL_PATH=$WORK/VojoLe-LM/finetune_outputs
-export MODEL_PATH=$FAST/models/mistral-7b-4bit
+export MODEL_PATH=$FAST/models/Meta-Llama-31-8B
+export LOAD_IN_4_BITS=0
+export LOAD_IN_8_BITS=1
 
 source $WORK/VojoLe-LM/.venv_unsloth/bin/activate
 cd $WORK/VojoLe-LM
 
-python3 -m finetune.text_completion_finetune --run
-
+# python3 -m finetune.text_completion_finetune --run
+python3 -m finetune.run_multiple_finetunes --run
 
 # sbatch -J prod_generation --output=$WORK/VojoLe-LM/logs/ds_to_db.out --error=$WORK/VojoLe-LM/logs/ds_to_db.err ./tmp.sh
