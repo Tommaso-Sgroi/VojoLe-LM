@@ -16,26 +16,29 @@ runs = [
     {
         "--model_path": os.path.join(os.getenv('FAST', ''), 'models', "Meta-Llama-31-8B"), 
         "--save_model_path": os.path.join(os.getenv('WORK'), "VojoLe-LM", "finetune_outputs"), 
+        "--model_name": "1-Meta-Llama-31-8B",
         # "--load_in_4bit": '', 
-        # "--load_in_8bit": '', 
+        "--load_in_8bit": '', 
     },
-
+   
 ]
+
 """
-    {
+ {
         "--model_path": os.path.join(os.getenv('FAST', ''), 'models', "Minerva-7B-base"), 
         "--save_model_path": os.path.join(os.getenv('WORK'), "VojoLe-LM", "finetune_outputs"), 
+        "--model_name": "1-Minerva-7B-base",
         # "--load_in_4bit": '', 
-        # "--load_in_8bit": '', 
+        "--load_in_8bit": '', 
     },
     {
         "--model_path": os.path.join(os.getenv('FAST', ''), 'models', "Mistral-7B"), 
         "--save_model_path": os.path.join(os.getenv('WORK'), "VojoLe-LM", "finetune_outputs"), 
+        "--model_name": "1-Mistral-7B",
         # "--load_in_4bit": '', 
-        # "--load_in_8bit": '', 
+        "--load_in_8bit": '', 
     },
 """
-
 if __name__ == '__main__':
     script_path = "finetune.text_completion_finetune"
     processes = []

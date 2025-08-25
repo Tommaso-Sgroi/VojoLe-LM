@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import unsloth
 import os, json, argparse, numpy as np, torch
-from trl import SFTTrainer
+# from trl import SFTTrainer
 from transformers import TrainingArguments, EarlyStoppingCallback, EvalPrediction, TrainerCallback
 from unsloth import UnslothTrainer, UnslothTrainingArguments, FastLanguageModel
 import numpy as np
@@ -13,6 +13,7 @@ parser = argparse.ArgumentParser(description="Unsloth model training paths and o
 # Quantization flags
 parser.add_argument("--load_in_4bit", default=False, required=False, action="store_true", help="Use 4bit quantization to reduce memory usage")
 parser.add_argument("--load_in_8bit", default=False, required=False, action="store_true", help="Use 8bit quantization to reduce memory usage")
+parser.add_argument("--tiny_dataset", default=False, required=False, action="store_true", help="Use a tiny dataset for faster training, of size /3 of the original")
 parser.add_argument("--run", required=False, action="store_true", help="Leonardo Booster required")
 
 # Model paths
@@ -32,6 +33,8 @@ MODEL_NAME = args.model_name or os.path.basename(os.path.normpath(MODEL_PATH))
 MODEL_OUTPUT_PATH = os.path.join(args.save_model_path or os.getenv("SAVE_MODEL_PATH"), "best", MODEL_NAME)
 TMP_MODEL_PATH = os.path.join(args.save_model_path or os.getenv("SAVE_MODEL_PATH"), "tmp", MODEL_NAME)
 LOGGED_STATS_PATH = os.path.join(args.save_model_path or os.getenv("SAVE_MODEL_PATH"), "log", MODEL_NAME)
+TINY_DATASET = bool(args.tiny_dataset or os.getenv("TINY_DATASET"))
+
 
 # Optional: print for verification
 print(f"""
@@ -45,7 +48,7 @@ load_in_4bit = {load_in_4bit}, load_in_8bit = {load_in_8bit}
 {'='*100}
 """)
 
-max_seq_length = 2048 # Choose any! We auto support RoPE Scaling internally!
+max_seq_length = 1024 # Choose any! We auto support RoPE Scaling internally!
 dtype = None # None for auto detection. Float16 for Tesla T4, V100, Bfloat16 for Ampere+
 
 
@@ -81,7 +84,7 @@ model, tokenizer = FastLanguageModel.from_pretrained(
 
 model = FastLanguageModel.get_peft_model(
     model,
-    r = 32, # Irrelevant since use_rslora = True; Choose any number > 0 ! Suggested 8, 16, 32, 64, 128
+    r = 16, # Irrelevant since use_rslora = True; Choose any number > 0 ! Suggested 8, 16, 32, 64, 128
     target_modules = ["q_proj", "k_proj", "v_proj", "o_proj",
                       "gate_proj", "up_proj", "down_proj"],
     lora_alpha = 32,
@@ -102,6 +105,12 @@ with open('datasets/dataset_sorianese.json', 'r', encoding='utf-8') as f:
 train_dataset = data['train']
 test_dataset = data['test']
 validation_dataset = data['validation']
+
+if TINY_DATASET:
+    train_dataset = [d for d in train_dataset if d['sentence_gen_id'] == 0]
+    test_dataset = [d for d in test_dataset if d['sentence_gen_id'] == 0]
+    validation_dataset = [d for d in validation_dataset if d['sentence_gen_id'] == 0]
+
 del data
 
 EOS_TOKEN = tokenizer.eos_token
@@ -122,7 +131,7 @@ for row in train_dataset[:5]:
 
 from datasets import Dataset
 
-train_dataset = Dataset.from_list(train_dataset [ :5000])
+train_dataset = Dataset.from_list(train_dataset)
 test_dataset = Dataset.from_list(test_dataset)
 validation_dataset = Dataset.from_list(validation_dataset)
 
@@ -148,15 +157,15 @@ trainer = UnslothTrainer(
     eval_dataset = test_dataset,
     dataset_text_field = "text",
     max_seq_length = max_seq_length,
-    dataset_num_proc = cpu_count(),
+    dataset_num_proc = 8,
 
     args = UnslothTrainingArguments(
 
-        per_device_train_batch_size = 128, # 32,
+        per_device_train_batch_size = 32, # 32,
         gradient_accumulation_steps = 1,
 
         warmup_ratio = 0.1,
-        num_train_epochs = 10,
+        num_train_epochs = 10, # thanks to the early stopping
 
         learning_rate = 2e-5, #5e-5,
         embedding_learning_rate = 1e-6, # 5e-6,
@@ -176,16 +185,15 @@ trainer = UnslothTrainer(
         load_best_model_at_end=True,
         save_total_limit = 2,
 
-        logging_steps = 1,
+        logging_steps = 50,
 
     ),
-    callbacks=[EarlyStoppingCallback(early_stopping_patience=10, early_stopping_threshold=0.01)],
+    callbacks=[EarlyStoppingCallback(early_stopping_patience=3, early_stopping_threshold=0.1)],
 )
 
 
 """### Raw Perplexity on Untrained Model"""
 
-"""
 print('-'*200,'\n[PRE-TRAIN EVALUATION]\n',  '-'*200)
 # Evaluate the currently loaded and trained model on the test dataset
 test_results = trainer.evaluate()
@@ -198,7 +206,6 @@ print(f"Test Loss: {test_loss}")
 test_perplexity = np.exp(test_loss)
 logged_stats["raw_perplexity"] = test_perplexity
 print(f"Test Perplexity: {test_perplexity}")
-"""
 
 """## Train
 
