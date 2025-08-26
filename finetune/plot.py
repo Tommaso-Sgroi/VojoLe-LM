@@ -1,11 +1,13 @@
-import json
+import json, os
 from typing import Literal
 from math import exp, log as ln
 
 import matplotlib.pyplot as plt
 
 # Path to your JSON log file
-log_file = "Meta-Llama-31-8B.log"  # change to your real path
+
+os.listdir(os.path.join(''))
+log_file = "plot-logs/Meta-Llama-31-8B-with-dropout.log"
 
 steps = []
 train_losses = []
