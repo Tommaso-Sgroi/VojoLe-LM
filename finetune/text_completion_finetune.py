@@ -35,6 +35,7 @@ TMP_MODEL_PATH = os.path.join(args.save_model_path or os.getenv("SAVE_MODEL_PATH
 LOGGED_STATS_PATH = os.path.join(args.save_model_path or os.getenv("SAVE_MODEL_PATH"), "log", MODEL_NAME)
 TINY_DATASET = bool(args.tiny_dataset or os.getenv("TINY_DATASET"))
 
+os.makedirs(os.path.join(args.save_model_path or os.getenv("SAVE_MODEL_PATH"), "log"), exist_ok=True)
 
 # Optional: print for verification
 print(f"""

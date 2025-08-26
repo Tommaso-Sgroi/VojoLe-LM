@@ -5,7 +5,7 @@ data/fineweb-2
 .gitignore
 **/*.pyc
 *.db
-databases.zip
+databases/databases.zip
 data/
 data2/
 .vscode/
