@@ -5,7 +5,7 @@ from math import exp, log as ln
 import matplotlib.pyplot as plt
 
 # Path to your JSON log file
-log_file = "mistral-7b-4bit.log.example"  # change to your real path
+log_file = "Meta-Llama-31-8B.log"  # change to your real path
 
 steps = []
 train_losses = []
@@ -88,6 +88,7 @@ def plot_losses(data, custom_x_train=None, custom_x_eval=None, mode:Literal["def
             raise ValueError(f"Unknown mode {mode}")
 
     ylabel = "Loss" if mode == 'default' else "Perplexity"
+    title = f'{ylabel} Curves'
     plt.xlabel("Epochs")
     plt.ylabel(ylabel)
     plt.title("Perplexity Curves")
@@ -95,7 +96,7 @@ def plot_losses(data, custom_x_train=None, custom_x_eval=None, mode:Literal["def
     plt.legend()
     plt.tight_layout()
     plt.savefig(f'{log_file}_{ylabel}.png', dpi=150)
-    # plt.show()
+    plt.show()
 
 def main():
     global log_file
