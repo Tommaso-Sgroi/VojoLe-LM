@@ -6,8 +6,13 @@ import matplotlib.pyplot as plt
 
 # Path to your JSON log file
 
-os.listdir(os.path.join(''))
-log_file = "plot-logs/Meta-Llama-31-8B-with-dropout.log"
+directory = 'models'
+log_files = []
+for root, dirs, files in os.walk(directory):
+    for file in files:
+        if file.endswith('.log'):
+            log_files.append(os.path.join(root, file))
+
 
 steps = []
 train_losses = []
@@ -57,8 +62,7 @@ def extract_losses(train_logs: dict) -> dict:
 
 
 
-def plot_losses(data, custom_x_train=None, custom_x_eval=None, mode:Literal["default", "perplexity"] = "default"):
-    global log_file
+def plot_losses(data, name, custom_x_train=None, custom_x_eval=None, mode:Literal["default", "perplexity"] = "default"):
     mode = mode.lower()
 
     train_series = data["train"]
@@ -93,15 +97,14 @@ def plot_losses(data, custom_x_train=None, custom_x_eval=None, mode:Literal["def
     title = f'{ylabel} Curves'
     plt.xlabel("Epochs")
     plt.ylabel(ylabel)
-    plt.title("Perplexity Curves")
+    plt.title(f"{title} Curves")
     plt.grid(True, alpha=0.3)
     plt.legend()
     plt.tight_layout()
-    plt.savefig(f'{log_file}_{ylabel}.png', dpi=150)
+    plt.savefig(f'plot/{os.path.basename(log_file)}_{ylabel}.png', dpi=150)
     plt.show()
 
-def main():
-    global log_file
+def main(log_file: str):
     stats = load_logs(log_file)
     stats["train_logs"].insert(0, {
         'epoch': 0.0,
@@ -115,10 +118,11 @@ def main():
     if train_steps:
         train_epochs = losses["train"]["epochs"]
         eval_epochs = losses["eval"]["epochs"]
-        plot_losses(losses, custom_x_train=train_epochs, custom_x_eval=eval_epochs, mode="default")
-        plot_losses(losses, custom_x_train=train_epochs, custom_x_eval=eval_epochs, mode='perplexity')
+        plot_losses(losses, log_file, custom_x_train=train_epochs, custom_x_eval=eval_epochs, mode="default")
+        plot_losses(losses, log_file, custom_x_train=train_epochs, custom_x_eval=eval_epochs, mode='perplexity')
     else:
-        plot_losses(losses)
+        plot_losses(losses, log_file)
 
 if __name__ == "__main__":
-    main()
+    for log_file in log_files:
+        main(log_file)
