@@ -1,0 +1,18 @@
+version: "3.9"
+
+services:
+  streamlit:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: streamlit
+    container_name: sorianese-eval
+    ports:
+      - "8501:8501"
+    environment:
+      DB_SOR: /data/er-sorianese.db
+      DB_ITA: /data/er-italiano.db
+    volumes:
+      - ./databases:/data
+    restart: unless-stopped
+
